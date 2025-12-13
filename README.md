@@ -15,6 +15,10 @@ Traduzione in italiano dei manuali di Dragonbane in Foundry VTT e di alcuni modu
 ## Moduli supportati
 * [Dragonbane Core Rules](https://foundryvtt.com/packages/dragonbane-coreset)
 * [Dragonbane Combat Assistant](https://foundryvtt.com/packages/dragonbane-action-rules)
+* [Dragonbane - Item Browser](https://foundryvtt.com/packages/dragonbane-item-browser)
+* [Dragonbane Status Effects](https://foundryvtt.com/packages/dragonbane-status-effects)
+* [Token Action HUD for Dragonbane](https://foundryvtt.com/packages/token-action-hud-dragonbane)
+_Attualmente in lavorazione anche la traduzione dl [Bestiario](https://foundryvtt.com/packages/dragonbane-bestiary)!_
 
 ## Supporto
 Se ti piace questo modulo e vorresti dare un contributo, suggerire l'aggiunta di una traduzione o hai trovato un errore contattami su discord @LuckyFrico o [crea un issue](https://github.com/LuckyFrico/dragonbane-translation-ita/issues) qui su GitHub.
