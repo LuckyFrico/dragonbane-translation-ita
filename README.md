@@ -21,6 +21,9 @@ Traduzione in italiano dei manuali di Dragonbane in Foundry VTT e di alcuni modu
 
 _Attualmente in lavorazione anche la traduzione dl [Bestiario](https://foundryvtt.com/packages/dragonbane-bestiary)!_
 
+### Moduli richiesti
+* [Babele](https://foundryvtt.com/packages/babele/)
+
 ## Supporto
 Se ti piace questo modulo e vorresti dare un contributo, suggerire l'aggiunta di una traduzione o hai trovato un errore contattami su discord @LuckyFrico o [crea un issue](https://github.com/LuckyFrico/dragonbane-translation-ita/issues) qui su GitHub.
 
