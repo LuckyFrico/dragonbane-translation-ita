@@ -1,0 +1,404 @@
+{
+  "tokenActionHud": {
+    "dragonbane": {
+      "helmets": "Copricapi",
+"items": "Oggetti",
+"currency": "Valuta",
+"magicTricks": "Trucchetti Magici",
+"spellRank0": "Trucchetti Magici",
+"spellRank1": "Grado 1",
+"spellRank2": "Grado 2",
+"spellRank3": "Grado 3",
+"attributes": "Attributi",
+"stats": "Statistiche",
+"combatActions": "Azioni di Combattimento (clic destro per regole)",
+"journeyActions": "Azioni di Viaggio (clic destro per regole)",
+"pathfinder": "Esploratore",
+"makeCamp": "Accamparsi",
+"hunt": "Caccia",
+"fish": "Pesca",
+"forage": "Foraggiamento",
+"cook": "Cucina",
+"conditions": "Condizioni",
+"attributeConditions": "Condizioni Attributo",
+"statusEffects": "Effetti di Stato",
+"generalEffects": "Effetti Generali",
+"spellEffects": "Effetti da Incantesimi",
+"heroicAbilities": "Abilità Eroiche",
+"resting": "Riposo",
+"tokenActions": "Azioni Token",
+"other": "Altro",
+"monsterAttacksRandom": "Attacco Casuale",
+"monsterAttacksSpecific": "Attacchi Specifici",
+"monsterWeaponDamage": "Danno Arma",
+"monsterDefend": "Difesa",
+"rest": "Riposo",
+"dodge": "Schivata",
+"firstAid": "Primo Soccorso",
+"skillNames": {
+  "evade": "Schivata",
+  "healing": "Guarigione",
+  "persuasion": "Persuasione",
+  "bushcraft": "Arte dei Boschi",
+  "huntingfishing": "Caccia e Pesca"
+},
+"attributeAbbreviations": {
+  "str": "FOR",
+  "con": "COS",
+  "agl": "AGI",
+  "int": "INT",
+  "wil": "VOL",
+  "cha": "CAR"
+},
+      "rallyOther": "Incitare un Alleato",
+"rallySelf": "Incitare se Stessi",
+"roundRest": "Riposo Breve",
+"stretchRest": "Riposo Esteso",
+"shiftRest": "Riposo Completo",
+"passOneShift": "Passa un Turno di Tempo",
+"lightTest": "Prova di Luce",
+"fearTest": "Prova di Paura",
+"severeInjury": "Ferita Grave",
+"rollSevereInjuryTest": "Tira Prova di Ferita Grave",
+"deathRoll": "Tiro Morte",
+"deathRollStatus": "Tiro Morte ({successes}/{failures})",
+"attackNumber": "Attacco {index}: {name}",
+"tooltips": {
+  "roundRest": "Ripristina 1D6 WP",
+  "stretchRest": "Ripristina 1D6 HP (2D6 con Guarigione), 1D6 WP e rimuove 1 condizione",
+  "shiftRest": "Ripristina tutti gli HP, tutti i WP e rimuove tutte le condizioni",
+  "passOneShift": "Avanza il tempo senza riposare, rendendo di nuovo disponibili le azioni di riposo"
+},
+"actions": {
+  "stats": {
+    "encumbrance": "Ing"
+  },
+  "spell": {
+    "prepared": "⚡ {name}"
+  },
+  "weapon": {
+    "equipped": "⚔ {name}"
+  }
+},
+      "messages": {
+  "weapons": {
+    "weaponBroken": "{weapon} è rotta e non può essere usata!"
+  },
+  "rest": {
+    "alreadyTaken": "{actor} ha già effettuato un {restType}.",
+    "unknownType": "Tipo di riposo sconosciuto: {restType}",
+    "failed": "Impossibile eseguire l’azione di riposo"
+  },
+  "traits": {
+    "onlyForNpcsMonsters": "I tratti sono disponibili solo per PNG e Mostri",
+    "noTraits": "Questo attore non ha tratti.",
+    "failed": "Impossibile mostrare i tratti"
+  },
+  "lightTest": {
+    "notForMonsters": "Le prove di luce non sono disponibili per i mostri",
+    "invalidSource": "Fonte di luce selezionata non valida",
+    "failed": "Impossibile eseguire la prova di luce",
+    "out": "La {lightSource} di {actor} si spegne!",
+    "lit": "La {lightSource} di {actor} rimane accesa."
+  },
+  "fearTest": {
+    "notForMonsters": "Le prove di paura non sono disponibili per i mostri",
+    "failed": "Impossibile eseguire la prova di paura"
+  },
+  "fearEffect": {
+    "instruction": "Se il tiro di <strong>VOL</strong> fallisce, devi tirare sulla tabella della paura:",
+    "rollButton": "Tira Effetto Paura",
+    "rolled": "Effetto Paura tirato",
+    "actorNotFound": "Attore non trovato",
+    "noPermission": "Non hai il permesso di tirare per questo personaggio",
+    "tableNotFound": "Tabella effetti di paura non trovata",
+    "tableFailed": "Impossibile tirare sulla tabella effetti di paura",
+    "rollFailed": "Impossibile tirare l’effetto di paura"
+  },
+  "severeInjury": {
+    "testLabel": "Prova di Ferita Grave",
+    "success": "Successo!",
+    "failure": "Fallimento!",
+    "survivesWithoutInjuries": "{actor} sopravvive senza ferite permanenti.",
+    "survivesWithInjuries": "{actor} sopravvive alla morte, ma rimangono ferite...",
+    "rollSevereInjury": "Tira Ferita Grave",
+    "tableNotFound": "Tabella di tiro Ferita Grave non trovata",
+    "tableFailed": "Impossibile tirare sulla tabella Ferita Grave",
+    "failed": "Impossibile eseguire la prova di Ferita Grave",
+    "onlyForCharacters": "Le prove di Ferita Grave sono disponibili solo per i personaggi",
+    "noConAttribute": "Il personaggio non ha l’attributo COS",
+    "actorNotFound": "Attore non trovato",
+    "noPermission": "Non hai il permesso di tirare per questo personaggio",
+    "rolled": "Ferita Grave tirata"
+  },
+  "conditions": {
+    "failed": "Impossibile attivare/disattivare la condizione"
+  },
+  "skills": {
+    "notFound": "Abilità {skillName} non trovata su {actor}",
+    "testFailed": "Impossibile eseguire la prova di abilità {skillName}"
+  },
+  "deathRoll": {
+    "methodNotAvailable": "Impossibile eseguire il tiro morte - metodo scheda non disponibile",
+    "failed": "Impossibile eseguire il tiro morte"
+  },
+  "monster": {
+    "attacksOnlyForMonsters": "Gli attacchi dei mostri possono essere usati solo dai mostri",
+    "defendOnlyForMonsters": "La difesa dei mostri può essere usata solo dai mostri",
+    "weaponDamageOnlyForMonsters": "Il danno arma dei mostri può essere usato solo dai mostri",
+    "attackNotFound": "Attacco {attackIndex} non trovato nella tabella",
+    "attackFailed": "Impossibile eseguire l’attacco del mostro",
+    "defendFailed": "Impossibile eseguire la difesa del mostro",
+    "weaponDamageFailed": "Impossibile tirare il danno arma"
+  },
+  "general": {
+    "success": "Successo",
+    "failure": "Fallimento"
+  }
+},
+      "speakers": {
+  "combatAction": "Regole {action}",
+  "journeyAction": "Regole {action}"
+},
+"dialog": {
+  "lightTest": {
+    "title": "Prova di Luce",
+    "selectSource": "Seleziona Fonte di Luce:",
+    "note": "Nota: tutte le fonti di luce bruciano fino a un turno di tempo. Un tiro di 1 spegne sempre la luce.",
+    "roll": "Tira Prova di Luce",
+    "cancel": "Annulla",
+    "table": {
+      "source": "Fonte",
+      "radius": "Raggio",
+      "test": "Prova",
+      "whenToRoll": "Quando tirare",
+      "onOne": "Su 1",
+      "afterEachStretch": "Dopo ogni riposo esteso",
+      "afterStretchOrCombat": "Dopo riposo esteso o combattimento",
+      "afterStretchOrWeapon": "Dopo riposo esteso o uso come arma",
+      "refillRelight": "Ricarica e riaccendi (azione)",
+      "goesOut": "Si spegne"
+    }
+  },
+  "severeInjury": {
+    "title": "Prova di Ferita Grave",
+    "boons": "Vantaggi",
+    "banes": "Svantaggi",
+    "roll": "Tira",
+    "cancel": "Annulla",
+    "extra": "Extra"
+  }
+},
+"lightSources": {
+  "lantern": "Lanterna",
+  "oilLamp": "Lampada a Olio",
+  "tallowCandle": "Candela di Sevo",
+  "torch": "Torcia"
+},
+"chat": {
+  "stats": {
+    "hitpoints": "<strong>{name}</strong> ha {current}/{max} PF.",
+    "hitpointsDamaged": "<strong>{name}</strong> ha {current}/{max} PF ({damage} danni subiti).",
+    "willpoints": "<strong>{name}</strong> ha {current}/{max} PV.",
+    "willpointsSpent": "<strong>{name}</strong> ha {current}/{max} PV ({spent} PV spesi).",
+    "movement": "<strong>{name}</strong> ha un Movimento di {movement}.",
+    "encumbrance": "<strong>{name}</strong> trasporta {current}/{max} oggetti.",
+    "overEncumbered": "Sovraccarico!",
+    "ferocity": "<strong>{name}</strong> ha una Ferocia di {ferocity}."
+  },
+  "currency": {
+    "gold": "<strong>{name}</strong> ha {amount} oro.",
+    "silver": "<strong>{name}</strong> ha {amount} argento.",
+    "copper": "<strong>{name}</strong> ha {amount} rame."
+  }
+},
+      "combatActionRules": {
+  "firstAid": {
+    "title": "Primo Soccorso",
+    "skill": "Usa GUARIGIONE per salvare qualcuno a rischio di morte",
+    "target": "Il bersaglio deve avere zero PF (morente/incosciente)",
+    "range": "Devi essere adiacente al bersaglio",
+    "action": "Conta come la tua azione per il turno",
+    "equipment": "Senza bende = svantaggio al tiro",
+    "attempts": "Tentativi multipli consentiti fino al successo o alla morte del bersaglio",
+    "success": "Successo = il bersaglio interrompe i tiri morte + recupera [[/roll 1D6]] PF",
+    "cannotSelfHeal": "Non puoi salvare la tua stessa vita (anche se incitato)",
+    "limitation": "Ulteriore guarigione non ha effetto una volta sopra zero PF (eccetto durante il riposo)"
+  },
+  "dodge": {
+    "title": "Schivata",
+    "skill": "Usa SCHIVATA per evitare un attacco in arrivo",
+    "reaction": "La schivata utilizza la tua azione per il turno (sostituisce il turno normale)",
+    "declaration": "Deve essere dichiarata prima che l’avversario tiri il danno",
+    "roll": "Successo = nessun danno, fallimento = colpito normalmente",
+    "cannotCombine": "Non si può parare e schivare lo stesso attacco",
+    "proneAllowed": "Puoi schivare anche da prono",
+    "successMovement": "Successo = muovi fino a 2 m in qualsiasi direzione (non si attivano attacchi gratuiti)",
+    "monsterAttacks": "Gli attacchi dei mostri possono essere schivati salvo diversa indicazione"
+  },
+  "rallySelf": {
+    "title": "Incitare se Stessi",
+    "skill": "Usa VOL per continuare a combattere nonostante zero PF",
+    "penalty": "Svantaggio automatico al tiro",
+    "target": "Puoi usarlo quando sei a zero PF",
+    "action": "Conta come la tua azione per il turno",
+    "success": "Successo = puoi agire normalmente ma devi comunque effettuare i tiri morte"
+  },
+  "rallyOther": {
+    "title": "Incitare un Alleato",
+    "skill": "Usa PERSUASIONE per aiutare un altro a combattere nonostante zero PF",
+    "target": "Il bersaglio deve avere zero PF",
+    "range": "Devi essere entro 10 m e a portata d’orecchio",
+    "action": "Conta come la tua azione per il turno",
+    "success": "Successo = il bersaglio può agire normalmente ma deve comunque effettuare i tiri morte",
+    "limitation": "Funziona solo sui PG, non su PNG/mostri"
+  },
+  "deathRoll": {
+    "title": "Tiro Morte",
+    "skill": "Usa COS per resistere alla tua imminente fine",
+    "when": "Richiesto quando i PF raggiungono zero (ogni turno finché non risolto)",
+    "roll": "Un tiro morte non può essere forzato",
+    "incapacitated": "Non puoi muoverti o agire eccetto Incitare se Stessi",
+    "successCondition": "3 successi = recupera [[/roll 1D6]] PF e interrompe i tiri morte",
+    "failureCondition": "3 fallimenti = il personaggio muore",
+    "dragonBonus": "Drago = 2 successi",
+    "demonPenalty": "Demone = 2 fallimenti",
+    "additionalDamage": "Qualsiasi danno a zero PF = tiro morte fallito automatico",
+    "combatEnds": "Continua a tirare anche dopo la fine del combattimento finché non risolto",
+    "recovery": "I tiri falliti si azzerano se il personaggio sopravvive"
+  }
+},
+      "journeyActionRules": {
+  "pathfinder": {
+    "title": "Esploratore",
+    "skill": "Usa SOPRAVVIVENZA ogni turno per orientarsi",
+    "whenNeeded": "Richiesto in terreni selvaggi senza sentieri (strade/sentieri chiari = nessun rischio)",
+    "appointment": "Il gruppo deve designare un esploratore per guidare",
+    "spyglass": "Cannocchiale = vantaggio al tiro di SOPRAVVIVENZA",
+    "noMap": "Senza mappa = svantaggio al tiro di SOPRAVVIVENZA",
+    "difficultTerrain": "Terreno difficile = ulteriore svantaggio al tiro",
+    "failure": "Fallimento = il gruppo subisce un imprevisto (tira sulla tabella imprevisti)",
+    "dragonBonus": "Drago = distanza raddoppiata in questo turno (scorciatoia trovata)"
+  },
+  "makeCamp": {
+    "title": "Accamparsi",
+    "skill": "Usa SOPRAVVIVENZA per trovare un luogo adatto al riposo",
+    "sleepRequirement": "Serve un turno di riposo al giorno per evitare privazione del sonno",
+    "equipmentPenalty": "Senza pelliccia da riposo = svantaggio al tiro",
+    "failure": "Fallimento = il turno non conta come sonno o riposo",
+    "tentBonus": "Tenda = vantaggio al tiro di SOPRAVVIVENZA",
+    "tentSharing": "Successo con tenda permette a più persone di usare lo stesso tiro (piccola = 2 persone, grande = 6 persone)",
+    "tentFailure": "Se il montaggio della tenda fallisce, gli altri possono tirare separatamente nello stesso turno",
+    "dangerousAreas": "Non ci si può accampare in luoghi pericolosi (dungeon, territorio nemico)",
+    "coldWeather": "Clima freddo = tiro aggiuntivo di SOPRAVVIVENZA (coperta evita svantaggio, pelliccia garantisce vantaggio)"
+  },
+  "hunt": {
+    "title": "Caccia",
+    "skill": "Usa CACCIA E PESCA per rintracciare animali",
+    "equipment": "Richiede arma a distanza o trappola da caccia",
+    "twoStep": "Processo in due fasi: primo tiro per rintracciare, secondo tiro per uccidere/intrappolare",
+    "animalTable": "Successo nel rintracciare = tira sulla tabella animali",
+    "killTrap": "Secondo tiro con abilità arma per uccidere o CACCIA E PESCA per intrappolare (alcuni animali non possono essere intrappolati)",
+    "yield": "Razionamento variabile in base al tipo di animale",
+    "noTravel": "Non si può avanzare sulla mappa durante il turno di caccia"
+  },
+  "fish": {
+    "title": "Pesca",
+    "skill": "Usa CACCIA E PESCA per catturare pesci",
+    "equipment": "Richiede attrezzatura da pesca",
+    "fishingRod": "Successo con canna da pesca = [[/roll 1D4]] razioni di cibo",
+    "fishingNet": "Successo con rete da pesca = [[/roll 1D6]] razioni di cibo",
+    "noTravel": "Non si può avanzare sulla mappa durante il turno di pesca"
+  },
+  "forage": {
+    "title": "Foraggiamento",
+    "skill": "Usa SOPRAVVIVENZA per cercare piante commestibili",
+    "winterPenalty": "Svantaggio in inverno",
+    "fallBonus": "Vantaggio in autunno",
+    "success": "Successo = trova [[/roll 1D3]] razioni di piante commestibili",
+    "noTravel": "Non si può avanzare sulla mappa durante il turno di foraggiamento"
+  },
+  "cook": {
+    "title": "Cucina",
+    "skill": "Usa SOPRAVVIVENZA per cucinare il cibo",
+    "rawRisk": "Carne/pesce crudo = prova malattia contro virulenza 10",
+    "rawPlants": "Piante crude richiedono 2 razioni invece di 1 per il fabbisogno giornaliero",
+    "capacity": "Un turno cucina fino a 10 razioni",
+    "fieldKitchen": "Cucina da campo = vantaggio al tiro di cucina",
+    "properKitchen": "Cucina attrezzata = vantaggio + capacità illimitata",
+    "failure": "Fallimento = cibo rimane crudo con rischi associati"
+  }
+},
+      "settings": {
+  "showAttributes": {
+    "name": "Mostra Attributi",
+    "hint": "Visualizza le azioni di tiro attributi sull’HUD"
+  },
+  "showInjuries": {
+    "name": "Mostra Ferite",
+    "hint": "Visualizza ferite e condizioni sull’HUD"
+  },
+  "showEquippedWeaponsOnly": {
+    "name": "Mostra solo Armi Equipaggiate",
+    "hint": "Mostra solo le armi equipaggiate/impugnate sull’HUD"
+  },
+  "showDeathRoll": {
+    "name": "Mostra Tiro Morte",
+    "hint": "Mostra automaticamente l’azione di tiro morte quando il personaggio è morente"
+  },
+  "showAllSpells": {
+    "name": "Mostra Tutti gli Incantesimi",
+    "hint": "Mostra tutti gli incantesimi conosciuti invece dei soli preparati. Gli incantesimi preparati saranno contrassegnati con ⚡"
+  },
+  "showWeaponSkills": {
+    "name": "Mostra Abilità Armi",
+    "hint": "Visualizza le abilità delle armi sull’HUD"
+  },
+  "showSecondarySkills": {
+    "name": "Mostra Abilità Secondarie",
+    "hint": "Visualizza le abilità secondarie sull’HUD"
+  },
+  "showUnequippedItems": {
+    "name": "Mostra Oggetti Non Equipaggiati",
+    "hint": "Mostra armature, copricapi e oggetti non equipaggiati sull’HUD"
+  },
+  "showCurrency": {
+    "name": "Mostra Valuta",
+    "hint": "Visualizza i pulsanti delle valute (oro, argento, rame) sull’HUD"
+  },
+  "severeInjuryTableUuid": {
+    "name": "UUID Tabella Ferite Gravi",
+    "hint": "UUID della tabella di tiro Ferite Gravi (es. RollTable.4wZ2sIWqV3tw8eKL). Lascia vuoto per rilevamento automatico tramite nome tabella (inglese o svedese)."
+  },
+  "fearEffectTableUuid": {
+    "name": "UUID Tabella Effetti di Paura",
+    "hint": "UUID della tabella di tiro Effetti di Paura (es. RollTable.wHTr9HuHkpVv7ccX). Lascia vuoto per rilevamento automatico tramite nome tabella (inglese o svedese)."
+  },
+  "hudAboveWindows": {
+    "name": "Mostra HUD Sopra Altre Finestre",
+    "hint": "Opzionale: forza il Token Action HUD a comparire sopra altri elementi di Foundry come voci di diario e schede personaggio. Non è funzionalità core del Token Action HUD e può causare problemi visivi in alcuni casi."
+  },
+  "buttonBackgroundColor": {
+    "name": "Colore Sfondo Pulsanti",
+    "hint": "Codice colore esadecimale per lo sfondo dei pulsanti (es. #00604d)"
+  },
+  "buttonBackgroundOpacity": {
+    "name": "Opacità Sfondo Pulsanti",
+    "hint": "Opacità dello sfondo dei pulsanti (0 = trasparente, 1 = pieno)"
+  },
+  "buttonBorderColor": {
+    "name": "Colore Bordo Pulsanti",
+    "hint": "Codice colore esadecimale per i bordi dei pulsanti (es. #808080)"
+  },
+  "buttonBorderSize": {
+    "name": "Spessore Bordo Pulsanti",
+    "hint": "Larghezza dei bordi dei pulsanti in pixel (0 = nessun bordo, 5 = bordo spesso)"
+  },
+  "buttonBorderOpacity": {
+    "name": "Opacità Bordo Pulsanti",
+    "hint": "Opacità dei bordi dei pulsanti (0 = trasparente, 1 = pieno)"
+  }
+}
+}
+}
+}

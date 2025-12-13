@@ -1,0 +1,94 @@
+{
+  "TYPES": {
+    "Actor": {
+      "dragonbane-item-browser.merchant": "Mercante"
+    }
+  },
+ "DB-IB": {
+    "Any": "Qualsiasi",
+    "addItem": "<strong>{actor}</strong> aggiunge alla scheda del personaggio <strong>{type}</strong> <strong>{item}</strong>",
+    "rollForPrice": "Tira {formula} per definire il costo di {item} in {currency}",
+    "notEnoughMoney": "<strong>{actor}</strong> non ha abbastanza monete per comprare <strong>{item}</strong>.",
+    "spendMoney": "<strong>{actor}</strong> spende <strong>{itemPrice}</strong> per comprare <strong>{item}</strong>",
+    "gainMoney": "<strong>{actor}</strong> ottiene <strong>{itemPrice}</strong> dalla vendita di <strong>{item}</strong>",
+    "manualMonyRemoval": "Definisci con il GM il prezzo di <strong>{item}</strong>. Imposta come <strong>{itemPrice}</strong> e riduci manualmente.",
+    "settings": {
+      "rollForBarter": "Tiro di contrattazione quando si acquista o si vende un oggetto",
+      "hintRollForBarter": "Quando acquisti o vendi un oggetto dal browser degli oggetti, apparirà una finestra che chiede al giocatore se vuole tirare per CONTRATTAZIONE per regolare il prezzo secondo le regole del Manuale.",
+      "nonCoreSkill": "Inserisci il nome di un’abilità non principale per CONTRATTAZIONE",
+      "hintSkillBarter": "Il nome dell’abilità inserito qui sarà cercato nella scheda del personaggio per usarlo nel tiro di contrattazione.",
+      "selling": "Aggiungi icona salvadanaio agli oggetti con costo che possono essere venduti.",
+      "hintSelling": "Permette di vendere gli oggetti di default al 50% del costo. Se l’opzione Contrattazione è attiva, consente anche di tirare per la vendita.",
+      "stash": "Aggiungi casella di controllo per accantonare oggetti.",
+      "hintStash": "Gli oggetti accantonati non verranno conteggiati nel limite di ingombro ma saranno comunque visibili nell’inventario.",
+      "hintSkippedFoldersForBrowser": "Definisci cartelle con oggetti da non mostrare nel Browser degli oggetti",
+      "skippedFoldersForBrowser": "Definisci cartelle da escludere"
+    },
+    "Chat": {
+      "buyItem": "Compra oggetto",
+      "reducePrice": "Riduci il prezzo di {item} del 20%!",
+      "cannotBuy": "Hai offeso il tuo interlocutore, non puoi più comprare {item}",
+      "cannotSell": "Hai offeso il tuo interlocutore, non puoi più vendere {item}",
+      "reducePriceDragon": "Riduci il prezzo di {item} del 50%!",
+      "nochangeInPrice": "Puoi comprare {item} al prezzo normale.",
+      "sellItem": "<b>{actor}</b> vende <b>{item}</b> per <b>{cost} {currency}</b>.",
+      "increasPrice": "Vendi {item} con un 20% in più.",
+      "increasePriceDragon": "Vendi {item} con un 50% in più!",
+      "nochangeInPriceSell": "Puoi vendere {item} al prezzo normale.",
+      "sellItemButton": "Vendi oggetto",
+      "actorSells": "{actor} vende gli oggetti {items} per",
+      "and": "e"
+    },
+    "itemName": "Nome oggetto",
+    "wannaBarter": "Vuoi contrattare?",
+    "pickIfYouWantToRollForBartering": "Scegli se vuoi tirare per contrattare o meno.",
+    "rollForBarter": "Tira per contrattare",
+    "BuyWithoutRoll": "Compra senza tiro",
+    "openItemBrowser": "Apri Browser oggetti",
+    "sellItem": "Vendi oggetto",
+    "addItemToCharacter": "Aggiungi oggetto al personaggio senza spendere monete.",
+    "buyItem": "Compra oggetto. Verrà aggiunto al personaggio e verranno spese le monete.",
+    "stashItem": "Mantieni l’oggetto nella scheda del personaggio, ma il peso non sarà incluso nel limite di ingombro.",
+    "stash": "Accantona",
+    "SellWithoutBarter": "Vendi senza contrattare",
+    "merchant": {
+      "setting": "Impostazioni",
+      "selling": "Oggetti in vendita",
+      "buing": "Il mercante compra da te",
+      "setSellingRate": "Imposta il tasso di vendita del mercante come percentuale del prezzo originale",
+      "setBuingRate": "Imposta il tasso di acquisto del mercante come percentuale del prezzo originale",
+      "allowedSupply": "Fino a che tipo di scorta di oggetto il mercante accetta",
+      "sells": "sta vendendo",
+      "notAcceptSuply": "Questo mercante non accetta questo tipo di scorta.",
+      "nonGMaddItemsToSell": "Non sei un GM, non puoi aggiungere oggetti che il mercante vende.",
+      "youCannotSellTheSameItemTwice": "Non puoi vendere lo stesso oggetto più di una volta!"
+    },
+    "warrning": {
+      "incoretInput": "Inserisci un numero o un numero con simbolo %",
+      "youAreNotOwnerOfDeletedItem": "Hai provato a eliminare oggetti in vendita che non sono tuoi!",
+      "merchantDoNotHaveMoreItem": "Il mercante non ha più {itemName}",
+      "youDoNotSellAnything": "Il tuo personaggio non vende nulla!"
+    },
+    "itemPrice": "Prezzo oggetto",
+    "dialog": {
+      "denfieQuantity": "Definisci quantità da vendere.",
+      "selectSellingQuantity": "Seleziona quanti {item} vuoi vendere",
+      "selectActor": "Seleziona l’attore che compra",
+      "buy": "Compra per attore selezionato",
+      "sell": "Passa oggetto al mercante",
+      "openMerchantSheet": "Apri scheda personaggio mercante",
+      "youAttempToOpenMerchantSheet": "Vuoi aprire la scheda personaggio mercante?"
+    },
+    "title": "Browser oggetti",
+    "Sort": "Ordina per:",
+    "SortByName": "Per nome oggetto",
+    "SortByType": "Per tipo di oggetto",
+    "SortByCost": "Per costo oggetto",
+    "increaseQuantity": "Aumenta quantità oggetto",
+    "decreseQuantity": "Diminuisci quantità oggetto",
+    "buy": "Compra"
+  },
+  "DB_IB": {
+    "selectQuantity": "Seleziona quantità"
+  }
+}

@@ -1,0 +1,4 @@
+{
+    "DoD.SETTINGS.skipYzecInit": "Salta installazione di Year Zero Engine: Combat",
+    "DoD.SETTINGS.skipYzecInitHint": "Se il modulo Year Zero Engine: Combat è attivo, non inizializzare le impostazioni del modulo all’avvio."
+}
