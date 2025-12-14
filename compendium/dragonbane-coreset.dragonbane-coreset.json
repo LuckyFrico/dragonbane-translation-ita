@@ -1,7 +1,10 @@
 {
   "label": "Dragonbane - Manuale Base",
   "mapping": {
-    "actors": {},
+    "actors": {
+      "description": "system.description",
+      "traits": "system.traits"
+    },
     "items": {
         "description": "system.description",
         "requirement": "system.requirement",
@@ -7647,6 +7650,7 @@
         "Demon": {
           "name": "Demone",
           "tokenName": "Demone",
+          "description": "<p>I demoni sono creature misteriose e terrificanti provenienti dal tetro mondo oltre il velo. Come i draghi, sono nati dalla magia antica e sono guidati dalla loro stessa insaziabile e arrogante fame di potere. Considerano i draghi loro mortali nemici e ritengono tutte le altre creature forme di vita inferiori e insignificanti. Hanno un effetto distruttivo sulle strutture del mondo e cercano di sovvertire tutto ciò che è stabile, da relazioni sociali e trattati di pace e amicizie, a nazioni, civiltà e leggi cosmiche.</p><p>Esistono demoni di tutte le forme e dimensioni, ma il loro aspetto è sempre terrificante. Le statistiche riportate sotto sono solo un esempio.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -7656,6 +7660,7 @@
         "Dragon": {
           "name": "Drago",
           "tokenName": "Drago",
+          "description": "<p>I draghi sono feroci rettili che abitano principalmente aree brulle di montagna, dove creano i loro covi in profonde caverne o in miniere naniche abbandonate. Sono esseri antichi, potenti e magici, che si considerano i veri padroni del mondo. I draghi sono astuti e spesso spaventosamente eloquenti, famosi per ingannare le loro vittime con belle parole e infide bugie. D’altro canto, sono vanitosi come pavoni e a loro volta sensibili alle lusinghe raffinate. Un’altra loro debolezza è l’attrazione per l’oro, che spesso causa conflitti con nani, umani e altre creature che condividono la brama draconica per i tesori e gli oggetti luccicanti.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -7665,6 +7670,7 @@
         "Ghost": {
           "name": "Fantasma",
           "tokenName": "Fantasma",
+          "description": "<p>I fantasmi sono gli spiriti inquieti di coloro che non hanno trovato la pace nella morte. Sono non-morti incorporei che si manifestano come figure traslucide, spesso di un blu scintillante e con un volto contorto. Sono sempre vincolati a un certo luogo, spesso collegato ai loro resti fisici o all’evento che ha causato la loro morte prematura. Quasi sempre hanno un problema specifico da risolvere per poter trovare la pace eterna e lasciare in pace i vivi. Può essere una vendetta o un debito da saldare, oppure la mancanza di una degna sepoltura.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -7674,6 +7680,7 @@
         "Giant": {
           "name": "Gigante",
           "tokenName": "Gigante",
+          "description": "<p>I giganti sono colossali umanoidi con una forte, ma misteriosa, connessione con le fondamenta del mondo. Alcuni studiosi credono che siano imparentati con i nani, mentre altri sostengono che siano gli ultimi discendenti di una grande civiltà che molto tempo fa si rivoltò contro i draghi. I giganti si trovano principalmente nelle zone di montagna, dove vivono in solitudine o in piccoli nuclei familiari. Normalmente sono alquanto timidi e solitari, ma alcuni di loro sono estremamente territoriali e attaccano chiunque si avvicini troppo alle loro caverne.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -7690,8 +7697,10 @@
           }
         },
         "Goblin - Scout": {
-          "name": "Goblin - Scout",
-          "tokenName": "Goblin - Scout",
+          "name": "Goblin - Ricognitore",
+          "tokenName": "Goblin - Ricognitore",
+          "description": "<p>I goblin sono i figli della notte e delle ombre. Sono relativamente piccoli e magri, ma hanno lunghe braccia sproporzionate e grandi teste bulbose. Si guadagnano da vivere principalmente cacciando, crescendo funghi e commerciando con altre creature, per lo più orchi e umani, ma ci sono anche tribù più aggressive e bellicose, specializzate nel saccheggio e nella pirateria. Molte gilde di ladri hanno diversi goblin tra i loro membri. Sono creature astute che spesso utilizzano trappole, imboscate e veleni per attaccare le loro vittime. Per questa ragione, in molti li odiano e li vedono come subdoli e disonesti vigliacchi.</p>",
+          "traits":"<p><strong>Non-Mostri</strong>: in combattimento, i goblin noncontano come mostri, ma come normali PNG. </p><p><strong>Notturni</strong>: sotto la luce solare diretta, i goblin subiscono una sciagura a tutti i tiri e D6 danni per intervallo. Uno spesso strato di nuvole o dei vestiti che li coprano completamente sono sufficienti a evitare questo effetto. </p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -7784,10 +7793,10 @@
               "name": "Spade"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Leather": {
               "name": "Leather"
@@ -7795,8 +7804,10 @@
           }
         },
         "Goblin - Warrior": {
-          "name": "Goblin - Warrior",
-          "tokenName": "Goblin - Warrior",
+          "name": "Goblin - Guerriero",
+          "tokenName": "Goblin - Guerriero",
+          "description": "<p>I goblin sono i figli della notte e delle ombre. Sono relativamente piccoli e magri, ma hanno lunghe braccia sproporzionate e grandi teste bulbose. Si guadagnano da vivere principalmente cacciando, crescendo funghi e commerciando con altre creature, per lo più orchi e umani, ma ci sono anche tribù più aggressive e bellicose, specializzate nel saccheggio e nella pirateria. Molte gilde di ladri hanno diversi goblin tra i loro membri. Sono creature astute che spesso utilizzano trappole, imboscate e veleni per attaccare le loro vittime. Per questa ragione, in molti li odiano e li vedono come subdoli e disonesti vigliacchi.</p>",
+          "traits":"<p><strong>Non-Mostri</strong>: in combattimento, i goblin noncontano come mostri, ma come normali PNG. </p><p><strong>Notturni</strong>: sotto la luce solare diretta, i goblin subiscono una sciagura a tutti i tiri e D6 danni per intervallo. Uno spesso strato di nuvole o dei vestiti che li coprano completamente sono sufficienti a evitare questo effetto. </p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -7897,8 +7908,9 @@
           }
         },
         "Griffon": {
-          "name": "Griffon",
-          "tokenName": "Griffon",
+          "name": "Grifone",
+          "tokenName": "Grifone",
+           "description": "<p>I grifoni sono predatori aggressivi, specializzati nella caccia nelle foreste. I loro terreni di caccia si estendono per decine di chilometri dall’alto albero o dalla rupe inaccessibile dove hanno il loro nido. Normalmente i grifoni vivono in coppia e nei loro nidi si trova spesso una manciata di cuccioli, oltre a una pletora di oggetti, per lo più cianfrusaglie arrugginite miste a tesori e artefatti, lasciati dalle vittime sfortunate. Racconti narrano di cavalieri che riuscirono ad ammaestrare i grifoni per usarli come cavalcature alate. Comunque, il fatto che i grifoni amino nutrirsi di cavalli e asini è innegabile, il che spesso li mette nei guai con i proprietari delle cavalcature, come cavalieri e avventurieri.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -7906,8 +7918,9 @@
           }
         },
         "Harpy": {
-          "name": "Harpy",
-          "tokenName": "Harpy",
+          "name": "Arpia",
+          "tokenName": "Arpia",
+          "description": "<p>Le arpie sono dei grandi rapaci simili ai corvi, con volti umanoidi e bocche piene di denti seghettati. Spesso cercano rovine e insediamenti abbandonati dove stabilirsi in colonie di varie dimensioni. Sono afflitte da una fame insaziabile e amano integrare la loro dieta con avventurieri incauti che si imbattono nei loro nidi. Sono codarde ma calcolatrici, attaccano sempre in gruppo e, preferibilmente, con un grande vantaggio numerico. Gli assalti spesso iniziano con le arpie che cercano di innervosire le loro vittime con minacce, risate e insulti striduli, mentre lentamente le circondano facendosi sempre più vicine, con gli artigli estratti e le fauci sbavanti.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -7915,8 +7928,9 @@
           }
         },
         "Manticore": {
-          "name": "Manticore",
-          "tokenName": "Manticore",
+          "name": "Manticora",
+          "tokenName": "Manticora",
+          "description": "<p>Le peculiari manticore sono bestie sanguinarie che portano morte e terrore ovunque vadano. La loro origine è sconosciuta, ma alcuni studiosi ritengono che siano creature magiche scappate dai loro creatori o padroni. Altri le vedono come antiche bestie affamate, gli spietati resti dell’alba dei tempi risvegliati dalle divinità stesse. Hanno volti simili a quelli umani, ma non sembrano in grado di comunicare con loro, forse a causa delle fauci piene zeppe di zanne affilate. Hanno il corpo di un leone e la coda che termina con una protuberanza ricoperta di spine e schifose escrescenze.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -7924,8 +7938,9 @@
           }
         },
         "Minotaur": {
-          "name": "Minotaur",
-          "tokenName": "Minotaur",
+          "name": "Minotauro",
+          "tokenName": "Minotauro",
+          "description": "<p>I minotauri sono potenti bestie semi-intelligenti, ai quali gli dèi hanno donato una testa da toro e un corpo umanoide. Sono temibili in battaglia, e i bardi cantano spesso della loro incredibile forza e del loro inesauribile spirito combattivo. I minotauri, però, sono anche famosi per la loro rabbia interiore che minaccia costantemente di esplodere, rendendoli assassini inarrestabili. Per questa ragione tendono a vivere in solitudine ed esilio, vagando senza sosta per il mondo alla ricerca di cibo, oro e gloria. A volte rivendicano come proprio un piccolo territorio, spesso vicino a un valico, un guado o una strettoia simile, dove chiedono il pedaggio e sfidano a duello i viaggiatori.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -11544,64 +11559,64 @@
           "name": "Surgical Instruments"
         },
         "A beautifully carved pipe": {
-          "name": "A beautifully carved pipe"
+          "name": "Una bella pipa intagliata"
         },
         "A bone whistle": {
-          "name": "A bone whistle"
+          "name": "Un fischietto d’osso"
         },
         "A bracelet": {
-          "name": "A bracelet"
+          "name": "Un bracciale tramandato nella tua famiglia"
         },
         "A copper coin": {
-          "name": "A copper coin"
+          "name": "Una moneta di rame da un tesoro trovato da tua madre o tuo padre"
         },
         "A couple of bone dice": {
-          "name": "A couple of bone dice"
+          "name": "Un paio di semplici dadi d’osso"
         },
         "A fang": {
-          "name": "A fang"
+          "name": "Una zanna presa come trofeo da una bestia"
         },
         "A griffin feather": {
-          "name": "A griffin feather"
+          "name": "Una piuma di grifone"
         },
         "A map": {
-          "name": "A map"
+          "name": "Una mappa disegnata a mano che hai ereditato"
         },
         "A horn": {
-          "name": "A horn"
+          "name": "Un corno preso come trofeo da un mostro "
         },
         "A letter": {
-          "name": "A letter"
+          "name": "Una lettera da un vecchio amico o da un parente"
         },
         "A locket": {
-          "name": "A locket"
+          "name": "Un ciondolo contenente una ciocca di capelli"
         },
         "A ragged old journal": {
-          "name": "A ragged old journal"
+          "name": "Un vecchio diario sgualcito"
         },
         "A ring with an inscription": {
-          "name": "A ring with an inscription"
+          "name": "Un anello con un’iscrizione"
         },
         "A simple silver medallion": {
-          "name": "A simple silver medallion"
+          "name": "Un semplice medaglione d’argento"
         },
         "A strangely shaped stone": {
-          "name": "A strangely shaped stone"
+          "name": "Un sasso dalla forma peculiare"
         },
         "A wooden figurine": {
-          "name": "A wooden figurine"
+          "name": "Una statuina di legno che ti è stata donata da bambino"
         },
         "An old pewter tankard": {
-          "name": "An old pewter tankard"
+          "name": "Un vecchio boccale di peltro"
         },
         "An ornate key": {
-          "name": "An ornate key"
+          "name": "Una chiave decorata"
         },
         "A ragged old hat": {
-          "name": "A ragged old hat"
+          "name": "Un vecchio cappello lacero di tua madre o tuo padre"
         },
         "Your trusty old shoes": {
-          "name": "Your trusty old shoes"
+          "name": "Le tue vecchie fidate scarpe"
         },
         "Bagpipe": {
           "name": "Bagpipe"
@@ -12615,119 +12630,199 @@
           }
         },
         "Monster Attacks - Gnome (1)": {
-          "name": "Monster Attacks - Gnomo (1)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Gnomo (lv.1)",
+          "results": {
+            "1-1":"<p><strong>Pugno di roccia.</strong>  In mischia colpisce automaticamente (ma può essere schivato o parato) e infligge [[/damage D6 bludgeoning]].</p>"
+          }
         },
         "Monster Attacks - Gnome (2)": {
-          "name": "Monster Attacks - Gnomo (2)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Gnomo (lv.2)",
+          "results": {
+            "1-1":"<p><strong>Pugno di roccia.</strong>  In mischia colpisce automaticamente (ma può essere schivato o parato) e infligge [[/damage 2D6 bludgeoning]].</p>"
+          }
         },
         "Monster Attacks - Gnome (3)": {
-          "name": "Monster Attacks - Gnomo (3)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Gnomo (lv.3)",
+          "results": {
+            "1-1":"<p><strong>Pugno di roccia.</strong>  In mischia colpisce automaticamente (ma può essere schivato o parato) e infligge [[/damage 3D6 bludgeoning]].</p>"
+          }
         },
         "Monster Attacks - Griffon": {
-          "name": "Monster Attacks - Griffon",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Grifone",
+          "results": {
+            "1-1": "Becco Squarciante! La bestia attacca un personaggio con il suo becco appuntito, infliggendo [[/damage 2D8 piercing]].",
+            "2-2": "Assalto Rampante! Il grifone si impenna davanti a un PG e tenta di sventrarlo con [[/roll D6]] rapidi attacchi. Ogni attacco infligge [[/damage D8 slashing]] e può essere schivato o parato, ma soltanto uno per volta.",
+            "3-3": "Spazzata con Artigli! Il grifone agita una delle sue artigliate zampe anteriori in un ampio arco, attaccando tutti i personaggi entro 2 metri, ognuno dei quali subisce [[/damage D8 slashing]] e cade a terra.",
+            "4-4": "Lancio Rapace! La bestia afferra un personaggio con il suo becco e lo getta lontano con un movimento del capo, infliggendo [[/damage 2D6 piercing]]. La vittima viene scagliata allo stesso numero di metri ([[/roll 2D6]]) e atterra prona.",
+            "5-5": "Raffica! Il grifone usa le sue potenti ali per creare un turbine d’aria che spazza via tutti i personaggi entro 10 metri. Le vittime atterrano a [[/roll D6]] metri e subiscono lo stesso ammontare di [[/damage D6 bludgeoning]].",
+            "6-6": "Caduta Libera! Il grifone stringe un personaggio tra i suoi artigli e spicca il volo. A meno che la vittima non schivi l’attacco, il grifone la afferra e si alza di [[/roll 2D6+6]] metri in aria. Nel suo turno successivo, la lascia cadere (invece che eseguire un nuovo attacco mostruoso), facendogli subire il danno della caduta."
+          }
         },
         "Monster Attacks - Harpy": {
-          "name": "Monster Attacks - Harpy",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Arpia",
+          "results": {
+            "1-1": "Risata Minacciosa! Le arpie inondano gli avventurieri con orribili descrizioni di cosa faranno loro. Chiunque si trovi entro 10 metri deve eseguire un tiro di VOL per resistere alla paura.",
+            "2-2": "Attacco Coordinato! Le arpie si riuniscono e attaccano il personaggio che ha addosso più metallo. L’attacco infligge [[/damage 2D6 slashing]]. Se va a segno, la vittima viene anche sollevata in aria e fatta cadere da [[/roll D3+3]] metri.",
+            "3-3": "Morte dall’Alto! Le arpie scagliano rocce e altre cianfrusaglie da lontano. Chiunque si trovi entro 10 metri subisce [[/damage D6 bludgeoning]].",
+            "4-4": "Cavare gli Occhi! Le creature prendono di mira uno sfortunato personaggio e cercano di cavargli gli occhi con i loro artigli affilati. L’attacco infligge [[/damage 2D6 piercing]], la vittima viene accecata e agisce come se fosse nell’oscurità totale per un intervallo.",
+            "5-5": "Attacco in Massa! Le arpie si dividono e attaccano un numero di personaggi entro 10 metri pari al numero di singole arpie, infliggendo [[/damage D8 slashing]] per ogni attacco.",
+            "6-6": "Getto di Escrementi! Le arpie aprono le loro bocche e cloache rilasciando una pioggia di vomito ed escrementi sui personaggi. Chiunque si trovi entro 10 metri deve scegliere una condizione. L’attacco può essere parato con uno scudo."
+          }
         },
         "Monster Attacks - Giant": {
-          "name": "Monster Attacks - Giant",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Giant",
+          "results": {
+            "1-1": "Colpo Devastante! Il gigante agita la sua arma sopra la sua testa e colpisce un personaggio con tutta la sua potenza. L’attacco infligge [[/damage 4D10 bludgeoning]] e getta a terra la vittima.",
+            "2-2": "Ruggito! Il gigante lancia un urlo che rizza i peli sulle braccia degli avventurieri. Tutti i personaggi entro 10 metri subiscono un attacco di paura.",
+            "3-3": "Pestone! Il gigante prende la mira e cerca di calpestare due personaggi che si trovano entro 4 metri l’uno dall’altro. Chi viene colpito subisce [[/damage 4D6 bludgeoning]] e cade a terra.",
+            "4-4": "Colpo a Spazzata! Il gigante spazza via con la sua arma tutti gli avventurieri entro 10 metri. Chi viene colpito subisce [[/damage 2D10 bludgeoning]] e cade a terra.",
+            "5-5": "Lancio Lungo! Il gigante è stufo di un personaggio, quindi lo afferra e cerca di lanciarlo via. L’attacco infligge [[/damage 4D8 bludgeoning]] e la vittima viene scagliata per lo stesso numero di metri ([[/roll 4D8]]) in una direzione casuale, atterrando prona.",
+            "6-6": "Spaccare! Il gigante, infuriato, colpisce i personaggi con i piedi, i pugni e la sua arma, in una furia di rapidi colpi. Tutti entro 2 metri subiscono [[/damage 3D6 bludgeoning]] e cadono a terra."
+          }
         },
         "Monster Attacks - Giant Spider": {
-          "name": "Monster Attacks - Giant Spider",
+          "name": "Attacchi Mostruosi - Ragno Gigante",
           "description": "",
-          "results": {}
+          "results": {
+            "1-1": "Cheliceri! I cheliceri seghettati del ragno gigante fendono l’aria come scimitarre. L’attacco infligge [[/damage 2D8 slashing]].",
+            "2-2": "Squarcio! L’affamato ragno gigante si lancia addosso ai personaggi, attaccando freneticamente con le sue pelose zampe acuminate. Chiunque si trovi entro 2 metri subisce [[/damage D8 piercing]].",
+            "3-3": "Occhi Ipnotici! L’aracnide mostruoso fissa i personaggi con la sua terrificante moltitudine di occhi. Tutte le vittime entro 10 metri devono eseguire un tiro di VOL per resistere alla paura.",
+            "4-4": "Pungiglione Velenoso! L’orrore a otto zampe alza il suo posteriore e attacca un personaggio sparando dal corpo ripugnante un pungiglione velenoso, che infligge [[/damage D10 piercing]] e, se la vittima subisce almeno 1 danno, inietta un veleno paralizzante di potenza 16. L’attacco può essere parato.",
+            "5-5": "Ragnatela! I numerosi occhi della bestia si concentrano sul personaggio con FOR maggiore. Successivamente, sputa una tela appiccicosa sulla vittima, che deve superare un tiro di SFUGGIRE (non è un’azione) o venire intrappolato in essa, senza potersi muovere. Liberarsi richiede di superare un tiro di FOR con una sciagura (azione). Gli altri possono aiutare.",
+            "6-6": "Sfondamento! Con un enorme balzo, il ragno gigante scaglia il suo grosso corpo contro un personaggio. L’attacco infligge [[/damage 2D6 bludgeoning]] e getta a terra la vittima."
+          }
         },
         "Monster Attacks - Manticore": {
-          "name": "Monster Attacks - Manticore",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Manticora",
+          "results": {
+            "1-1": "Codata! La manticora punta la sua orribile coda verso un personaggio entro 20 metri, attaccando a distanza con le sue spine. L’attacco infligge [[/damage D12 piercing]] e inietta alla vittima un veleno paralizzante di potenza 12. L’attacco può essere parato con uno scudo.",
+            "2-2": "Zanne Affilate! La manticora morde un personaggio con la sua moltitudine di zanne, infliggendo [[/damage 3D8 slashing]].",
+            "3-3": "Artigli! La bestia scatta verso un personaggio, lo getta a terra e lo dilania con i suoi artigli affilati. L’attacco infligge [[/damage 2D8 slashing]], più altri [[/damage D6]] dato che la vittima è prona.",
+            "4-4": "Spazzata! La manticora frusta con la coda due personaggi, che subiscono [[/damage 2D6 slashing]] ciascuno e cadono a terra.",
+            "5-5": "Carica Devastante! Con tutta la sua forza, la bestia carica il personaggio entro 10 metri che ha FOR maggiore. La vittima subisce [[/damage 3D6 bludgeoning]] e cade a terra.",
+            "6-6": "Pioggia di Spine! La manticora spara una pioggia di spine mortali dalla coda. Tutti gli avventurieri entro 10 metri subiscono [[/damage D10 piercing]], oltre agli effetti di un veleno paralizzante di potenza 12."
+          }
         },
         "Monster Attacks - Minotaur": {
-          "name": "Monster Attacks - Minotaur",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Minotaur",
+          "results": {
+            "1-1": "Pugno Taurino! Un pugno peloso colpisce un PG con una forza devastante. L’attacco infligge [[/damage 2D6 bludgeoning]] e lascia la vittima Disorientata, anche se l’armatura blocca tutto il danno.",
+            "2-2": "Colpo di Zoccolo! Contando sulle sue zampe possenti, il minotauro calcia la vittima con gli zoccoli. La forza dell’attacco lancia la vittima a [[/roll 2D6]] metri e le infligge lo stesso ammontare di [[/damage 2D6 bludgeoning]], facendola poi cadere prona.",
+            "3-3": "Incornata! Il minotauro abbassa la testa e corre contro due avventurieri entro 2 metri l’uno dall’altro, provando a impalarli con le sue corna appuntite. Entrambe le vittime subiscono [[/damage 2D8 piercing]] e cadono a terra.",
+            "4-4": "Fendente dall’Alto! La bestia agita la sua arma sopra la testa e la abbatte con tutta la sua forza. L’attacco infligge i danni dell’arma, più [[/damage D10]] aggiuntivi, e può essere parato.",
+            "5-5": "Spazzata! Il minotauro ruggisce e agita la sua arma in un ampio arco, colpendo chiunque si trovi entro 2 metri. L’attacco infligge i danni dell’arma.",
+            "6-6": "Pestone! Il minotauro salta in alto e si schianta su un avventuriero, che subisce [[/damage 2D10 bludgeoning]] e cade a terra."
+          }
         },
         "Monster Attacks - Salamander(1)": {
-          "name": "Monster Attacks - Salamandra(1)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Salamandra (lv.1)",
+          "results": {
+            "1-1":"<p><strong>Stretta infuocata.</strong>In mischia colpisce automaticamente (ma può essere schivata) e infligge [[/damage D6]]. L’armatura non ha effetto.</p>"
+          }
         },
         "Monster Attacks - Salamander(2)": {
-          "name": "Monster Attacks - Salamandra(2)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Salamandra (lv.2)",
+          "results": {
+            "1-1":"<p><strong>Stretta infuocata.</strong>In mischia colpisce automaticamente (ma può essere schivata) e infligge [[/damage 2D6]]. L’armatura non ha effetto.</p>"
+          }
         },
         "Monster Attacks - Salamander(3)": {
-          "name": "Monster Attacks - Salamandra(3)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Salamandra (lv.3)",
+          "results": {
+            "1-1":"<p><strong>Stretta infuocata.</strong>In mischia colpisce automaticamente (ma può essere schivata) e infligge [[/damage 3D6]]. L’armatura non ha effetto.</p>"
+          }
         },
         "Monster Attacks - Ghost": {
-          "name": "Monster Attacks - Ghost",
+          "name": "Attacchi Mostruosi - Fantasma",
           "description": "",
-          "results": {}
+          "results": {
+            "1-1": "Colpo Fantasma! Il fantasma si scaglia contro un personaggio entro 10 metri e colpisce con un’enorme forza. La vittima viene spinta per [[/roll 2D6]] metri, subisce lo stesso ammontare di [[/damage 2D6 bludgeoning]] e cade a terra prona.",
+            "2-2": "Tocco della Morte! Il fantasma infila la sua mano traslucida nel petto di uno sfortunato personaggio e afferra il suo cuore. La vittima subisce [[/damage 2D10 necrotic]] e diventa Spaventata. L’armatura non ha effetto.",
+            "3-3": "Grido Spettrale! Il volto del fantasma si contorce in un’orribile smorfia, mentre lancia un grido che fa rabbrividire le anime di tutti gli avventurieri entro 10 metri, che subiscono un attacco di @Table[RollTable.wHTr9HuHkpVv7ccX]{paura}.",
+            "4-4": "Sguardo Mortale! Il fantasma sovrasta uno dei personaggi e fissa la sua anima con occhi morti. La vittima diventa Spaventata, subisce un attacco di @Table[RollTable.wHTr9HuHkpVv7ccX]{paura} con una sciagura al tiro di VOL.",
+            "5-5": "Abbraccio Spettrale! Con un sibilo innaturale, il fantasma appare improvvisamente davanti a un avventuriero entro 10 metri, avvolgendolo in un abbraccio mortale che mira a estinguere la sua scintilla vitale. L’attacco infligge [[/damage 3D6 bludgeoning]] e lascia la vittima Disorientata.",
+            "6-6": "Colpo Gelido! Il fantasma afferra una vittima e lascia che il suo freddo letale le scorra in corpo. Il personaggio subisce [[/damage 2D8 cold]] e non può recuperare PF o PV finché non passa un periodo completo in un luogo caldo. L’armatura non ha effetto."
+          }
         },
         "Monster Attacks - Sylph(1)": {
-          "name": "Monster Attacks - Silfide(1)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Silfide (lv.1)",
+          "results": {
+            "1-1":"<p><strong>Vento ululante.</strong>In mischia colpisce automaticamente (ma può essere schivato). L’attacco scaglia la vittima a [[/roll D4]] metri e infligge lo stesso ammontare di danni contundenti.</p>"
+          }
         },
         "Monster Attacks - Sylph(2)": {
-          "name": "Monster Attacks - Silfide(2)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Silfide (lv.2)",
+          "results": {
+            "1-1":"<p><strong>Vento ululante.</strong>In mischia colpisce automaticamente (ma può essere schivato). L’attacco scaglia la vittima a [[/roll 2D4]] metri e infligge lo stesso ammontare di danni contundenti.</p>"
+          }
         },
         "Monster Attacks - Sylph(3)": {
-          "name": "Monster Attacks - Silfide(3)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Silfide (lv.3)",
+          "results": {
+            "1-1":"<p><strong>Vento ululante.</strong>In mischia colpisce automaticamente (ma può essere schivato). L’attacco scaglia la vittima a [[/roll 3D4]] metri e infligge lo stesso ammontare di danni contundenti.</p>"
+          }
         },
         "Monster Attacks - Troll": {
-          "name": "Monster Attacks - Troll",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Troll",
+          "results": {
+            "1-1": "Vomito di Troll! Il troll schiarisce la gola con un suono tonante, tossisce in modo cavernoso e vomita un nauseante getto di bile e acqua paludosa. Tutti gli avventurieri entro 6 metri subiscono una condizione a loro scelta.",
+            "2-2": "Attacco Lacerante! Il troll lacera il corpo di un personaggio con le sue schifose unghie verdastre. L’attacco infligge [[/damage D10 slashing]] ma può essere parato. Una vittima che subisce danno contrae anche una malattia di virulenza 10.",
+            "3-3": "Morso Stomachevole! Il troll spalanca la sua bocca maleodorante e morde un personaggio con un insieme di zanne, ghiaia e vecchi frammenti d’osso, infliggendo [[/damage 2D8 piercing]]. Il personaggio rimane bloccato nella bocca del troll e deve eseguire un tiro di FOR (azione) a ogni round per potersi liberare. Se fallisce, subisce altri [[/damage 2D8 piercing]].",
+            "4-4": "Lancio Troll! Il troll alza un personaggio sopra la sua testa e lo lancia come una bambola di pezza a [[/roll 2D6]] metri in una direzione casuale, infliggendogli lo stesso ammontare di [[/damage 2D6 bludgeoning]] e facendolo cadere prono.",
+            "5-5": "Colpo a Spazzata! Il troll agita le lunghe braccia nodose, colpendo tutti i personaggi entro 2 metri e infliggendo a ciascuno [[/damage 2D6 bludgeoning]].",
+            "6-6": "Impatto Maciullante! Il troll afferra il personaggio più vicino e lo usa come arma per colpire una seconda vittima. Entrambi gli avventurieri subiscono [[/damage 2D8 bludgeoning]] e cadono a terra."
+          }
         },
         "Monster Attacks - Undine(1)": {
-          "name": "Monster Attacks - Ondina(1)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Ondina (lv.1)",
+          "results": {
+            "1-1":"<p><strong>Abbraccio annegante.</strong>In mischia colpisce automaticamente (ma può essere schivato) e infligge [[/damage D6]]. L’armatura non ha effetto.</p>"
+          }
         },
         "Monster Attacks - Undine(2)": {
-          "name": "Monster Attacks - Ondina(2)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Ondina (lv.2)",
+          "results": {
+             "1-1":"<p><strong>Abbraccio annegante.</strong>In mischia colpisce automaticamente (ma può essere schivato) e infligge [[/damage 2D6]]. L’armatura non ha effetto.</p>"
+          }
         },
         "Monster Attacks - Undine(3)": {
-          "name": "Monster Attacks - Ondina(3)",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Ondina (lv.3)",
+          "results": {
+             "1-1":"<p><strong>Abbraccio annegante.</strong>In mischia colpisce automaticamente (ma può essere schivato) e infligge [[/damage 3D6]]. L’armatura non ha effetto.</p>"
+          }
         },
         "Monster Attacks - Vampiric Bats": {
-          "name": "Monster Attacks - Vampiric Bats",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Pipistrello Vampiro",
+          "results": {
+            "1-2": "Orrore Vorticoso! I pipistrelli vorticano freneticamente attorno alle vittime. Tutti i personaggi entro 10 metri subiscono un attacco di @Table[RollTable.wHTr9HuHkpVv7ccX]{paura}.",
+            "3-4": "Attacco Coordinato! I pipistrelli assaltano in gruppo il personaggio con più COS. L’attacco infligge [[/damage 2D6 slashing]] e la vittima subisce un attacco di @Table[RollTable.wHTr9HuHkpVv7ccX]{paura}, mentre lo sciame recupera lo stesso numero di PF, bevendo il sangue della vittima.",
+            "5-6": "Attacco in Massa! I pipistrelli si dividono e attaccano tutti i personaggi entro 10 metri. Ogni vittima subisce [[/damage D8 slashing]], mentre lo sciame recupera lo stesso numero di PF, bevendo il sangue delle vittime."
+          }
         },
         "Mishap - Magic": {
           "name": "Imprevisti Magici",
           "description": "",
           "results": {
-            "1-1":"<p>I poteri magici ti lasciano Disorientato.</p>",
-            "2-2":"<p>Il lancio dell’incantesimo ti rende improvvisamente Esausto.</p>",
-            "3-3":"<p>Le energie impattano sul tuo corpo, rendendoti Malaticcio.</p>",
-            "4-4":"<p>Perdi il controllo dell’incantesimo, il che ti rende molto Arrabbiato.</p>",
-            "5-5":"<p>L’incantesimo ti procura delle visioni demoniache, che ti lasciano Spaventato.</p>"
+            "1-1": "I poteri magici ti lasciano Disorientato.",
+            "2-2": "Il lancio dell’incantesimo ti rende improvvisamente Esausto.",
+            "3-3": "Le energie impattano sul tuo corpo, rendendoti Malaticcio.",
+            "4-4": "Perdi il controllo dell’incantesimo, il che ti rende molto Arrabbiato.",
+            "5-5": "L’incantesimo ti procura delle visioni demoniache, che ti lasciano Spaventato.",
+            "6-6": "Vedi il mondo al di là del velo e comprendi quanto sei insignificante. Ti senti Scoraggiato.",
+            "7-7": "L’incantesimo devasta il tuo corpo, infliggendoti [[/damage D6]] per livello di potere.",
+            "8-8": "L’incantesimo consuma la tua volontà e perdi [[/damage D6]] PV per livello di potere.",
+            "9-9": "L’incantesimo dà origine a una malattia magica con virulenza [[/roll 3D6]]. Tu e tutti coloro con cui vieni a contatto durante il prossimo periodo siete esposti alla malattia.",
+            "10-10": "Un altro tuo incantesimo casuale si attiva al posto di quello che stai lanciando, con lo stesso bersaglio e livello di potere.",
+            "11-11": "Vomiti una rana nel momento in cui dici una bugia. [[/roll D4]] ogni mattina. Con un 1, l’effetto svanisce. Può anche essere rimosso con DISPERDERE.",
+            "12-12": "Tutto l’oro e l’argento che tocchi si dissolve in polvere. [[/roll D4]] ogni mattina. Con un 1, l’effetto svanisce. Può anche essere rimosso con DISPERDERE.",
+            "13-13": "L’incantesimo ti acceca e agisci come se fossi nell’oscurità totale. [[/roll D4]] ogni mattina. Con un 1, l’effetto svanisce. Può anche essere rimosso con DISPERDERE.",
+            "14-14": "Soffri di amnesia e dimentichi chi sei e chi sono gli altri personaggi. Devi interpretare l’effetto. [[/roll D4]] ogni mattina. Con un 1, ti ritorna la memoria.",
+            "15-15": "L’incantesimo affligge anche un tuo compagno o una vittima non intenzionale. Un incantesimo di guarigione o di aiuto colpisce un nemico.",
+            "16-16": "L’incantesimo ti si ritorce contro: se era offensivo, colpisce te al posto del tuo bersaglio; se era protettivo o di guarigione, infligge danni.",
+            "17-17": "Ti trasformi in un animale. [[/roll D6]]: 1 gatto, 2 volpe, 3 capra, 4 lupo, 5 cervo, 6 orso. Le tue statistiche sono quelle di un @UUID[JournalEntry.RSi75ZLYMyFhBqPi.JournalEntryPage.9gOpHO89C6YKsgH1]{Animale Comune} e non puoi parlare, ma mantieni la tua acutezza mentale. [[/roll D4]] ogni mattina. Con un 1, torni alla tua forma normale.",
+            "18-18": "Ringiovanisci di una categoria, per esempio da adulto a giovane. I tuoi attributi e valori derivati cambiano in base alla tabella di pag. 24, mentre i livelli delle tue abilità restano gli stessi. Se eri già giovane, diventi un bambino con –2 FOR e COS, fino a un minimo di 3. L’effetto è permanente e invecchi normalmente a partire dalla tua nuova età.",
+            "19-19": "Invecchi di una categoria, per esempio da adulto a vecchio. I tuoi attributi e valori derivati cambiano in base alla tabella di pag. 24, mentre i livelli delle tue abilità restano gli stessi. Se eri già anziano, diventi molto fragile con –2 FOR e COS. L’effetto è permanente e invecchi normalmente a partire dalla tua nuova età.",
+            "20-20": "Il tuo incantesimo attrae un demone da un’altra dimensione, che appare entro il prossimo periodo e attacca o causa problemi. Sta al GM decidere i dettagli."
           }
         },
         "Memento": {
@@ -13431,12 +13526,18 @@
           }
         },
         "Monster Attacks - The Robber Knight": {
-          "name": "Monster Attacks - The Robber Knight",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Il Cavaliere Brigante",
+          "results": {
+            "1-1": "Empio Ruggito! Un urlo agghiacciante fuoriesce dal collo senza testa del wight, fendendo le anime dei personaggi come una lama arrugginita. Chiunque si trovi entro 10 metri subisce un attacco di @Table[RollTable.wHTr9HuHkpVv7ccX]{paura}.",
+            "2-2": "Orribili Minacce! Il wight si rivolge a uno sfortunato PG entro 10 metri e sussurra minacce orribili dalla gola. La vittima diventa Spaventata e subisce un attacco di @Table[RollTable.wHTr9HuHkpVv7ccX]{paura} con una sciagura al tiro di VOL.",
+            "3-3": "Mano di Morto! Il wight alza la mano indicando un personaggio entro 10 metri, che viene lanciato in aria e atterra prono [[/roll 2D4]] metri più in là. L’attacco infligge lo stesso ammontare di [[/damage 2D4 bludgeoning]] e non può essere schivato.",
+            "4-4": "Spazzata! Con una velocità sorprendente, il wight esegue una spazzata mortale con la sua mazza chiodata. Tutti i personaggi entro 2 metri subiscono [[/damage 2D8 bludgeoning]]. L’attacco può essere parato.",
+            "5-5": "Freddo Paralizzante! Il wight afferra uno sfortunato personaggio, che sente il gelo della morte propagarsi nel suo corpo. La vittima subisce [[/damage D6 cold]] (l’armatura non ha effetto) e, nel suo prossimo turno, deve eseguire un tiro di SFUGGIRE (non è un’azione) per poter agire. Se fallisce, un nuovo tentativo può essere fatto nel turno successivo. La vittima subisce anche l’effetto del freddo e non può recuperare PF o PV finché non si scalda.",
+            "6-6": "Colpo Potente! Con le articolazioni scricchiolanti, il wight agita la sua mazza chiodata in un terrificante attacco contro un PG. La vittima subisce [[/damage 4D8 bludgeoning]] e cade a terra. L’attacco può essere parato."
+          }
         },
         "Random Events - The Castle of the Robber Knight": {
-          "name": "Random Events - The Castle of the Robber Knight",
+          "name": "Eventi Casuali - Il Castello del Cavaliere Brigante",
           "description": "",
           "results": {}
         }
