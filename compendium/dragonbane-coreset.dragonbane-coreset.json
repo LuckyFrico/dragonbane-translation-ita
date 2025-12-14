@@ -12508,68 +12508,111 @@
           "name": "Silver Ring"
         },
         "Amnesia": {
-          "name": "Amnesia"
+          "name": "Amnesia",
+          "description": "Non riesci a ricordarti chi sei o chi siano gli altri personaggi. Devi interpretare l’effetto."
         },
         "Broken arm": {
-          "name": "Broken arm"
+          "name": "Braccio Rotto",
+          "description": "Non puoi usare armi a due mani o due armi a una mano, e subisci una sciagura su tutte le azioni che normalmente richiederebbero due braccia, come arrampicarsi."
         },
         "Broken leg": {
-          "name": "Broken leg"
+          "name": "Gamba Rotta",
+          "description": "Il tuo valore di movimento si dimezza."
         },
         "Broken nose": {
-          "name": "Broken nose"
+          "name": "Naso Rotto",
+          "banes": "CONSAPEVOLEZZA",
+          "description": "Sciagura a tutti i tiri di CONSAPEVOLEZZA."
         },
         "Broken ribs": {
-          "name": "Broken ribs"
+          "name": "Costole Rotte",
+          "banes": "FOR, AGI",
+          "description": "Sciagura a tutti i tiri di abilità basate su FOR o AGI."
         },
         "Changed personality": {
-          "name": "Changed personality"
+          "name": "Carattere Cambiato",
+          "description":"<p>Genera casualmente una nuova @UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.s50NVvywvWgYmiH6#weakness]{debolezza}.</p>"
         },
         "Concussion": {
-          "name": "Concussion"
+          "name": "Concussione",
+          "banes": "INT",
+          "description": "Sciagura a tutti i tiri di abilità basate su INT."
         },
         "Deep wounds": {
-          "name": "Deep wounds"
+          "name": "Ferite profonde",
+          "banes": "FOR, AGI",
+          "description": "Sciagura a tutti i tiri di abilità basate su FOR o AGI, ognuno dei quali infligge [[/damage D6]]."
         },
         "Gouged eye": {
-          "name": "Gouged eye"
+          "name": "Occhio cavato",
+          "description": "<p>Il livello di abilità di LOCALIZZARE si riduce permanentemente di 2 (fino a un minimo di 3).</p><p><em>Foundry VTT: i livelli delle abilità devono essere ridotti manualmente.</em></p>"
         },
         "Nightmares": {
-          "name": "Nightmares"
+          "name": "Incubi",
+          "description":"<p>Tira per resistere alla @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#fear]{paura} a ogni periodo di sonno. Se fallisci, il periodo non conta come sonno.</p>"
         },
         "Scarred face": {
-          "name": "Scarred face"
+          "name": "Volto Sfregiato",
+          "banes": "ESIBIRSI e PERSUADERE",
+          "description": "Sciagura a tutti i tiri di ESIBIRSI e PERSUADERE."
         },
         "Severed finger": {
-          "name": "Severed finger"
+          "name": "Dito della mano mozzato",
+          "description": "<p>Il livello di abilità di LOCALIZZARE si riduce permanentemente di 2 (fino a un minimo di 3).</p><p><em>Foundry VTT: i livelli delle abilità devono essere ridotti manualmente.</em></p>"
         },
         "Severed toe": {
-          "name": "Severed toe"
+          "name": "Dito del piede mozzato",
+          "description": "Valore di movimento permanentemente ridotto di 2 (fino a un minimo di 4)."
         },
         "Teeth knocked out": {
-          "name": "Teeth knocked out"
+          "name": "Denti Persi",
+          "banes": "ESIBIRSI e PERSUADERE",
+          "description": "<p>I livelli delle abilità ESIBIRSI e PERSUADERE si riducono permanentemente di 2 (fino a un minimo di 3).</p><p><em>Foundry VTT: i livelli delle abilità devono essere ridotti manualmente.</em></p>"
         }
       },
       "tables": {
         "Monster Attacks - Demon": {
-          "name": "Monster Attacks - Demon",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Demone",
+          "results": {
+            "1-1": "Terrore Demoniaco! Il demone sibila terrificanti minacce in un’orribile lingua antica. Tutti i personaggi entro 10 metri subiscono un attacco di paura.",
+            "2-2": "Artigli! Il demone sorride e squarcia un personaggio con i suoi artigli affilati. L’attacco infligge 2D10 danni taglienti. Può essere parato.",
+            "4-4": "Forza Invisibile! Il demone indica una vittima entro 10 metri, che viene scagliata 2D8 metri all’indietro con una forza spaventosa, subendo lo stesso ammontare di danni contundenti e cadendo prona.",
+            "5-5": "Puntura dello Scorpione! La bestia alza la sua coda da scorpione e punge rapidamente la sua vittima. L’attacco infligge D12 danni perforanti e, se il bersaglio subisce almeno 1 danno, inietta un veleno paralizzante di potenza 16. L’attacco può essere parato.",
+            "6-6": "Possessione! Il demone volge lo sguardo verso un personaggio entro 10 metri e prende il completo controllo del suo corpo. Il personaggio deve eseguire un tiro di VOL con una sciagura (non è un’azione). Se fallisce, la vittima deve eseguire subito un movimento e un’azione a scelta del demone, eccetto una che richieda di spendere PV. La vittima, inoltre, perde il suo turno successivo."
+          }
         },
         "Monster Attacks - Demon - Curse": {
-          "name": "Monster Attacks - Demon - Curse",
-          "description": "<b>Curse!</b> The demon points at an unfortunate player character within 10 meters and chants an ancient curse.\nThe attack cannot be dodged.",
-          "results": {}
+          "name": "Attacchi Mostruosi - Demone - Maledizione",
+          "description": "<b>Maledizione!</b> Il demone indica uno sfortunato personaggio entro 10 metri mentre cantilena un’antica maledizione. L’attacco non può essere schivato, ma tutte le maledizioni, eccetto la #6, possono essere rimosse con DISPERDERE (livello di potere 1).",
+          "results": {
+            "1-1": "La vittima vomita una rana ogni volta che dice una bugia. [[/roll D4]] ogni mattina. Con un 1, l’effetto svanisce.",
+            "2-2": "Tutto l’oro o l’argento che la vittima tocca si riduce in polvere. [[/roll D4]] ogni mattina. Con un 1, l’effetto svanisce.",
+            "3-3": "La vittima è accecata e agisce come se fosse nell’oscurità totale. [[/roll D4]] a ogni periodo. Con un 1, l’effetto svanisce.",
+            "4-4": "La vittima soffre di amnesia e dimentica il suo nome e chi siano gli altri personaggi. Deve interpretare l’effetto. [[/roll D4]] ogni mattina. Con un 1, la vittima recupera la memoria.",
+            "5-5": "La vittima si trasforma in un animale. [[/roll D6]]: 1 gatto, 2 volpe, 3 capra, 4 lupo, 5 cervo, 6 orso. Le sue statistiche sono quelle riportate nella tabella @UUID[JournalEntry.RSi75ZLYMyFhBqPi.JournalEntryPage.9gOpHO89C6YKsgH1]{Animali Comuni} e non può parlare. [[/roll D4]] a ogni periodo. Con un 1, l’effetto svanisce.",
+            "6-6": "La vittima invecchia di una categoria, per esempio da adulto a vecchio. I suoi attributi e valori derivati cambiano in base alla tabella di pag. 24, mentre i livelli delle sue abilità restano gli stessi. L’effetto è permanente e la vittima invecchia normalmente a partire dalla sua nuova età. Una persona già vecchia diventa molto fragile e subisce –2 FOR e COS."}
         },
         "Monster Attacks - Dragon": {
-          "name": "Monster Attacks - Dragon",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Drago",
+          "results": {
+            "1-1": "Ruggito del Drago! Il drago spalanca la bocca e lancia uno spaventoso ruggito. Tutti i personaggi entro 20 metri subiscono un attacco di paura, con una sciagura al tiro di VOL.",
+            "2-2": "Artigli! Il drago lacera con i suoi artigli due personaggi, ognuno dei quali subisce [[/damage 2D10 slashing]].",
+            "3-3": "Vento Draconico! Il drago sbatte le sue enormi ali e crea una potente burrasca che colpisce tutti gli avventurieri entro 10 metri. Qualunque oggetto e creatura fino a taglia umana non ancorati al terreno vengono scagliati a [[/roll 2D6]] metri, subendo lo stesso ammontare di [[/damage 2D6 bludgeoning]] e cadendo proni.",
+            "4-4": "Codata! Il drago scaglia la sua coda spinosa contro le sue vittime. Tutti i personaggi entro 6 metri subiscono [[/damage 2D8 bludgeoning]] e cadono a terra.",
+            "5-5": "Morso di Drago! Con una velocità spaventosa, la bestia spalanca le fauci e divora una vittima. L’attacco infligge [[/damage 4D10 slashing]].",
+            "6-6": "Soffio Infuocato! Il drago torreggia sui personaggi in tutto il suo splendore, prima di rilasciare dalla bocca una devastante tempesta di fuoco. Il fuoco forma un cono lungo 10 metri, la cui larghezza è pari alla distanza dalla sua bocca. Chi viene colpito dalle fiamme subisce [[/damage 3D10]]. L’armatura non ha effetto."
+          }
         },
         "Monster Attacks - Wight": {
-          "name": "Monster Attacks - Wight",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Wight",
+          "results": {
+            "1-1": "Empio Ruggito! Il cranio decomposto della creatura si torce emettendo un orribile urlo disumano che fende le anime dei personaggi come una lama arrugginita. Chiunque si trovi entro 10 metri subisce un attacco di @Table[RollTable.wHTr9HuHkpVv7ccX]{paura}.",
+            "2-2": "Sguardo Terrificante! Uno sfortunato personaggio guarda il wight dritto negli occhi, mentre si sente un rantolo fuoriuscire dalla gola della creatura. La vittima diventa Spaventata e subisce un attacco di paura con una sciagura al tiro di VOL.",
+            "3-3": "Mano di Morto! Il wight alza la mano indicando un personaggio entro 10 metri, che viene lanciato in aria e atterra prono [[/roll 2D4]] metri più in là. L’attacco infligge lo stesso ammontare di [[/damage 2D4 bludgeoning]] e non può essere schivato.",
+            "4-4": "Spazzata! Con una velocità sorprendente, il wight esegue una spazzata mortale con la sua arma. Tutti i personaggi entro 2 metri subiscono il danno dell’arma. L’attacco può essere parato.",
+            "5-5": "Freddo Paralizzante! Il wight afferra uno sfortunato personaggio, che sente il gelo della morte propagarsi nel suo corpo. La vittima subisce [[/damage 1D6 cold]] (l’armatura non ha effetto) e, nel suo prossimo turno, deve eseguire un tiro di SFUGGIRE (non è un’azione) per poter agire. Se il tiro fallisce, un nuovo tentativo può essere fatto nel turno successivo. La vittima subisce anche l’effetto del freddo e non può recuperare PF o PV finché non si scalda.",
+            "6-6": "Colpo Potente! Con le articolazioni scricchiolanti, il wight agita la sua arma in un terrificante attacco contro un personaggio. Il danno viene calcolato tirando il doppio dei normali dadi dell’arma e la vittima cade a terra. L’attacco può essere parato."
+          }
         },
         "Monster Attacks - Gnome (1)": {
           "name": "Monster Attacks - Gnomo (1)",
@@ -12688,126 +12731,261 @@
           }
         },
         "Memento": {
-          "name": "Memento",
-          "description": "",
-          "results": {}
+          "name": "Cimelio"
         },
         "Name - Elf": {
-          "name": "Name - Elf",
-          "description": "",
-          "results": {}
+          "name": "Nome - Elfo",
+          "results": {
+            "1-1": "Arasin",
+            "2-2": "Illyriana",
+            "3-3": "Galvander",
+            "4-4": "Tyrindelia",
+            "5-5": "Erwilnor",
+            "6-6": "Andremone"
+          }
         },
         "Name - Mallard": {
-          "name": "Name - Mallard",
-          "description": "",
-          "results": {}
+          "name": "Nome - Mallardo",
+          "results": {
+            "1-1": "Qwacksum",
+            "2-2": "Splats",
+            "3-3": "Mogghi",
+            "4-4": "Groddy",
+            "5-5": "Blisandina",
+            "6-6": "Gonfiapiume"
+          }
         },
         "Name - Dwarf": {
-          "name": "Name - Dwarf",
-          "description": "",
-          "results": {}
+          "name": "Nome - Nano",
+          "results": {
+            "1-1": "Tinderrock",
+            "2-2": "Halwyld",
+            "3-3": "Tymolana",
+            "4-4": "Traut",
+            "5-5": "Urd",
+            "6-6": "Fermer"
+          }
         },
         "Name - Halfling": {
-          "name": "Name - Halfling",
-          "description": "",
-          "results": {}
+          "name": "Nome - Halfling",
+          "results": {
+            "1-1": "Schiocco",
+            "2-2": "Brina",
+            "3-3": "Casaletto",
+            "4-4": "Bombo",
+            "5-5": "Pervinca",
+            "6-6": "Teolina"
+          }
         },
         "Name - Human": {
-          "name": "Name - Human",
-          "description": "",
-          "results": {}
+          "name": "Nome - Umano",
+          "results": {
+            "1-1": "Joruna",
+            "2-2": "Tym",
+            "3-3": "Halvelda",
+            "4-4": "Garmander",
+            "5-5": "Verolun",
+            "6-6": "Lothar"
+          }
         },
         "Name - Wolfkin": {
-          "name": "Name - Wolfkin",
-          "description": "",
-          "results": {}
+          "name": "Nome - Lupinide",
+          "results": {
+            "1-1": "Wyld",
+            "2-2": "Ombralupo",
+            "3-3": "Lunariem",
+            "4-4": "Obdurian",
+            "5-5": "Mordigelo",
+            "6-6": "Wuldenhall"
+          }
         },
         "Kin": {
-          "name": "Kin",
-          "description": "",
-          "results": {}
+          "name": "Stirpe"
         },
         "Weakness": {
-          "name": "Weakness",
-          "description": "",
-          "results": {}
+          "name": "Debolezza",
+          "results": {
+            "1-1": "Credulone. Credo a tutto ciò che mi viene detto.",
+            "2-2": "Avido. Voglio la parte più grande del bottino.",
+            "3-3": "Permaloso. Non sopporto le provocazioni.",
+            "4-4": "Avventato. Sono sempre il primo a gettarsi nel pericolo.",
+            "5-5": "Codardo. Mi nascondo sempre in fondo al gruppo.",
+            "6-6": "Ammazzamostri. Tutti i mostri sono malvagi e vanno uccisi.",
+            "7-7": "Intollerante. Le stirpi notturne, come orchi e goblin, sono malvagie e vanno combattute.",
+            "8-8": "Pigro. Ogni occasione è buona per riposare.",
+            "9-9": "Goloso. Approfitto di ogni occasione per mangiarmi qualcosa di succulento.",
+            "10-10": "Cleptomane. Non posso trattenermi dal rubare oggetti di valore.",
+            "11-11": "Vanitoso. Aiuto chiunque mi ricopra di lodi e complimenti.",
+            "12-12": "Spericolato. Corro sempre grossi rischi senza pensare alle conseguenze.",
+            "13-13": "Timoroso della Magia. La magia è una forza malvagia e non ci si può fidare dei maghi.",
+            "14-14": "Desideroso di Conoscenza. La ricerca della conoscenza è più importante dei miei amici.",
+            "15-15": "Selvatico. Non dormo mai al chiuso.",
+            "16-16": "Spaccone. Esagero sempre parlando dei miei risultati.",
+            "17-17": "Violento. Uso la violenza per superare ogni ostacolo.",
+            "18-18": "Prepotente. Dico sempre agli altri cosa fare.",
+            "19-19": "Pessimista. Penso sempre che le cose andranno nel peggiore dei modi.",
+            "20-20": "Altezzoso. Guardo dall’alto in basso chi incontro."
+          }
         },
         "Nickname - Bard": {
-          "name": "Nickname - Bard",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Bardo",
+          "results": {
+            "1-1": "Tessilodi",
+            "2-2": "Filastorie",
+            "3-3": "Voceargentea",
+            "4-4": "Dolcechiave",
+            "5-5": "Mielingua",
+            "6-6": "Forgiarime" 
+          }
         },
         "Nickname - Artisan": {
-          "name": "Nickname - Artisan",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Artigiano",
+          "results": {
+            "1-1": "Battiroccia",
+            "2-2": "Abbattialberi",
+            "3-3": "Granpugno",
+            "4-4": "Barilaio",
+            "5-5": "Gettaponti",
+            "6-6": "Ferromastro"
+          }
         },
         "Nickname - Hunter": {
-          "name": "Nickname - Hunter",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Cacciatore",
+          "results": {
+            "1-1": "Volpebosco",
+            "2-2": "Flagellalupi",
+            "3-3": "Trovavia",
+            "4-4": "Lo Stagionato",
+            "5-5": "Sanguinario",
+            "6-6": "Dardo Ombra"
+          }
         },
         "Nickname - Fighter": {
-          "name": "Nickname - Fighter",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Guerriero",
+          "results": {
+            "1-1": "Il Becchino",
+            "2-2": "Faucetetra",
+            "3-3": "Scaldavento",
+            "4-4": "Ferrofreddo",
+            "5-5": "L’Intrepido",
+            "6-6": "Il Macellaio"
+          }
         },
         "Nickname - Scholar": {
-          "name": "Nickname - Scholar",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Studioso",
+          "results": {
+            "1-1": "Mentechiara",
+            "2-2": "Polmone Impolverato",
+            "3-3": "Il Lungimirante",
+            "4-4": "Il Dotto",
+            "5-5": "L’Onnisciente",
+            "6-6": "Il Colto Paffuto"
+          }
         },
         "Nickname - Mage": {
-          "name": "Nickname - Mage",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Mago",
+          "results": {
+            "1-1": "Cuor di Radice",
+            "2-2": "Il Gobbo",
+            "3-3": "Cappagrigia",
+            "4-4": "Manditempesta",
+            "5-5": "Tregambe",
+            "6-6": "Chiamaombre"
+          }
         },
         "Nickname - Merchant": {
-          "name": "Nickname - Merchant",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Mercante",
+          "results": {
+            "1-1": "Sorriso d’Argento",
+            "2-2": "Dente d’Oro",
+            "3-3": "Lingua di Seta",
+            "4-4": "Il Bleso Leale",
+            "5-5": "Pancia di Lardo",
+            "6-6": "Il Tirchio"
+          }
         },
         "Nickname - Knight": {
-          "name": "Nickname - Knight",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Cavaliere",
+          "results": {
+            "1-1": "Cuore di Drago",
+            "2-2": "Lancia d’Oro",
+            "3-3": "Grifoartiglio",
+            "4-4": "Il Nobile",
+            "5-5": "Scintielmo",
+            "6-6": "Ammantalutto"
+          }
         },
         "Nickname - Mariner": {
-          "name": "Nickname - Mariner",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Marinaio",
+          "results": {
+            "1-1": "Acquabianca",
+            "2-2": "Cavalcaonde",
+            "3-3": "Nato dalla Spuma",
+            "4-4": "Spruzzo di Sale",
+            "5-5": "Lupo di Mare",
+            "6-6": "Navigatempesta"
+          }
         },
         "Nickname - Thief": {
-          "name": "Nickname - Thief",
-          "description": "",
-          "results": {}
+          "name": "Soprannome - Ladro",
+          "results": {
+            "1-1": "Mezzodito",
+            "2-2": "Rattonero",
+            "3-3": "Occhiorosso",
+            "4-4": "Piedelesto",
+            "5-5": "Lingua Forcuta",
+            "6-6": "Slamanotte"
+          }
         },
         "Appearance": {
-          "name": "Appearance",
-          "description": "",
-          "results": {}
+          "name": "Aspetto",
+          "results": {
+            "1-1":"Una brutta cicatrice sulla guancia",
+            "2-2":"Uno strano copricapo",
+            "3-3":"Stranamente pallido e slavato",
+            "4-4":"Sempre sorridente",
+            "5-5":"Sguardo gelido e penetrante",
+            "6-6":"Un po’ in carne",
+            "7-7":"Fisico magro e scolpito",
+            "8-8":"Quantità anormali di peli del corpo (a seconda della stirpe)",
+            "9-9":"Calvizie incipiente (a seconda della stirpe)",
+            "10-10":"Tatuaggio vistoso",
+            "11-11":"Puzza nauseante",
+            "12-12":"Pettinatura magnifica",
+            "13-13":"Zoppo",
+            "14-14":"Lercio",
+            "15-15":"Onesti occhi azzurri",
+            "16-16":"Dente d’argento",
+            "17-17":"Troppo profumato",
+            "18-18":"Eterocromia",
+            "19-19":"Voce sibilante",
+            "20-20":"Volto invecchiato"
+          }
         },
         "Profession": {
-          "name": "Profession",
-          "description": "",
-          "results": {}
+          "name": "Professione",
+          "results": {
+            "6":"Mago. Scegli tra @UUID[Item.xsMWmMEDLOtF4pDg]{Animista}, @UUID[Item.5qFrwNTam2KA98jh]{Elementalista} and @UUID[Item.fLYDNkiglRRrOcdx]{MentaMentalista}"
+          }
         },
         "Profession - Mage": {
-          "name": "Profession - Mage",
-          "description": "",
-          "results": {}
+          "name": "Professione - Mago"
         },
         "Age": {
-          "name": "Age",
-          "description": "",
+          "name": "Età",
           "results": {
-            "1-3": "Giovane"
+            "1-3": "Giovane",
+            "4-5": "Adulto",
+            "6-6": "Vecchio"
           }
         },
         "Gear - Bard": {
-          "name": "Gear - Bard",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Bardo",
+          "results": {
+            "1-2":"@UUID[Item.D2U19D7Y88lhqoC7]{Lira}, @UUID[Item.otNTdw5ukG97slmA]{Coltello}, @UUID[Item.q1QjsGqlJAfvyloU]{Lampada a Olio}, @UUID[Item.BtTyGxh7u1BjJ0n7]{Olio per Lampade}, @UUID[Item.Cxwz560f52T07ktk]{Pietra Focaia e Acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razioni di Cibo}, [[/roll D8]] argento",
+            "3-4":"@UUID[Item.j6L1uJD8bkRUaPsa]{Flauto}, @UUID[Item.iaw4A60DRS2GRzU0]{Pugnale}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D8]] argento",
+            "5-6":"@UUID[Item.Sm35JzJe9ggzEVKo]{Corno}, @UUID[Item.otNTdw5ukG97slmA]{Coltello}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D8]] argento"
+          }
         },
         "Gear - Artisan": {
           "name": "Gear - Artisan",
@@ -12855,9 +13033,15 @@
           "results": {}
         },
         "Mishap - Ranged": {
-          "name": "Mishap - Ranged",
-          "description": "",
-          "results": {}
+          "name": "Imprevisto - A Distanza",
+          "results": {
+            "1-1": "L’arma cade ai tuoi piedi. Raccoglierla costa un’azione.",
+            "2-2": "Finisci le frecce e devi procurartene altre prima di poter usare nuovamente l’arma. Ritira sulla tabella se hai usato una frombola o delle armi da lancio.",
+            "3-3": "Colpisci un oggetto importante o di valore nelle vicinanze, a scelta del GM.",
+            "4-4": "La tua arma si rompe. Usarla infligge una sciagura finché non viene riparata da un artigiano.",
+            "5-5": "Colpisci accidentalmente un personaggio o un PNG amichevole casuale. Tira il danno normalmente, incluso il danno bonus.",
+            "6-6": "Ti colpisci per errore. Tira il danno normalmente, ma senza contare il danno bonus."
+          }
         },
         "Mishap - Melee": {
           "name": "Mishap - Melee",
@@ -12865,84 +13049,237 @@
           "results": {}
         },
         "Fear": {
-          "name": "Fear",
-          "description": "",
-          "results": {}
+          "name": "Paura",
+          "results": {
+            "1-1": "Indebolito. La paura consuma la tua energia e determinazione. Perdi [[/damage 2D6]] PV (fino a un minimo di zero) e diventi Scoraggiato.",
+            "2-2": "Scosso. Subisci la condizione Spaventato.",
+            "3-3": "Affannato. La paura intensa ti lascia senza fiato e ti rende Esausto.",
+            "4-4": "Impallidito. Il tuo volto diventa bianco come un lenzuolo. Tu e tutti i personaggi entro 10 metri che ti vedono diventate Spaventati.",
+            "5-5": "Urlante. Urli in preda al terrore, il che causa uno spavento immediato a tutti i personaggi che ti possono sentire. Ognuno deve eseguire un tiro di VOL per resistere allo stesso attacco di paura.",
+            "6-6": "Furioso. La tua paura diventa rabbia e sei obbligato a attaccarne la fonte nel tuo prossimo turno, con un attacco in mischia se possibile. Inoltre, diventi Arrabbiato.",
+            "7-7": "Paralizzato. Sei pietrificato dal terrore e non puoi muoverti. Non puoi eseguire azioni o movimenti nel tuo prossimo turno. Esegui un tiro di VOL a ogni turno successivo (non è un’azione) per interrompere la paralisi.",
+            "8-8": "Panico Selvaggio. In preda al panico, scappi dalla scena il più velocemente possibile. Nel tuo prossimo turno devi scattare lontano dalla fonte della tua paura. Esegui un tiro di VOL a ogni turno successivo (non è un’azione) per smettere di correre e agire di nuovo normalmente."
+          }
         },
         "Severe Injury": {
-          "name": "Severe Injury",
-          "description": "",
-          "results": {}
+          "name": "Lesioni Gravi"
         },
         "Leaving the Adventure Site": {
-          "name": "Leaving the Adventure Site",
-          "description": "",
-          "results": {}
+          "name": "Lasciare il Luogo d'Avventura",
+          "results": {
+            "1-1": "I nemici presenti nel luogo d’avventura seguono i personaggi e li attaccano al momento più opportuno.",
+            "2-2": "I nemici presenti nel luogo d’avventura chiamano rinforzi. I nemici caduti sono sostituiti e raddoppiati.",
+            "3-3": "Qualcun altro arriva al luogo d’avventura e ruba i tesori prima del ritorno dei personaggi.",
+            "4-6": "Non succede nulla."
+          }
         },
         "Mishap - Journey": {
-          "name": "Mishap - Journey",
-          "description": "",
-          "results": {}
+          "name": "Imprevisti di Viaggio",
+          "results": {
+            "1-1": "Nebbia. I personaggi vengono colti alla sprovvista da una fitta nebbia. La distanza percorsa in questo periodo è dimezzata.",
+            "2-2": "Passaggio Bloccato. La via è bloccata da massi, alberi caduti, folti arbusti o un’inondazione. Ogni personaggio deve eseguire un tiro di ACROBAZIA per poter continuare. Chi ha successo può aiutare gli altri. Se un personaggio fallisce, non procede in questo periodo.",
+            "3-3": "Abiti Strappati. L’apripista guida il gruppo in un boschetto di rovi, in una gola rocciosa o in una palude melmosa. I vestiti di un personaggio casuale si rovinano e ora contano come stracci.",
+            "4-4": "Persi. I personaggi si rendono conto di star camminando in cerchio e non procedono in questo periodo. L’apripista deve eseguire un tiro di SOPRAVVIVENZA per ritrovare la strada giusta, e gli altri non possono aiutarlo.",
+            "5-5": "Oggetto Caduto. A un personaggio casuale cade o si rompe un oggetto a tua scelta.",
+            "6-6": "Sciame di Zanzare. Un grande sciame di zanzare o moscerini attacca il gruppo, facendo impazzire tutti per il ronzio e le punture. Tutti i personaggi senza mantello diventano Arrabbiati.",
+            "7-7": "Caviglia Slogata. Un personaggio casuale cade o appoggia male un piede e subisce [[/damage 1D6]]. L’armatura non ha effetto, ma gli stivali riducono il danno di 2.",
+            "8-8": "Temporale. Un forte acquazzone o tormenta (in base alla stagione) coglie il gruppo impreparato. Tutti i personaggi senza mantello devono tirare per resistere al freddo. Devono anche cercare rifugio finché il temporale non passa e non possono proseguire in questo periodo.",
+            "9-9": "Vespe. L’apripista finisce dritto in un nido di vespe. Lo sciame, infuriato, attacca tutto il gruppo. Tutti i personaggi devono superare un tiro di SFUGGIRE o subire [[/damage 1D6]] ciascuno e una condizione a loro scelta.",
+            "10-10": "Frana. I personaggi camminano su un terreno impervio, che improvvisamente cede sotto i loro piedi. Tutti devono superare un tiro di SFUGGIRE o subire [[/damage 1D10]] ciascuno.",
+            "11-11": "Animale Selvatico. Un lupo, un orso o un altro animale selvatico si sente minacciato e attacca gli avventurieri. Scegli l’animale dalla tabella @UUID[JournalEntry.RSi75ZLYMyFhBqPi.JournalEntryPage.9gOpHO89C6YKsgH1]{Animali Comuni}",
+            "12-12": "Sabbie Mobili. Il terreno crolla! Ogni personaggio deve superare un tiro di SOPRAVVIVENZA o subire una condizione e tirare nuovamente. Se un personaggio che ha già tutte le condizioni fallisce il tiro, viene inghiottito dalle sabbie mobili e scompare per sempre. Chi è libero può aiutare chi è bloccato."
+          }
         },
         "The Journey - 1. The journey is": {
-          "name": "The Journey - 1. The journey is",
-          "description": "The journey is",
-          "results": {}
+          "name": "Il Viaggio - 1. Il Viaggio è",
+          "description": "Il Viaggio è",
+          "results": {
+            "1-1": "Semplice, con molto tempo per cantare e fare squadra",
+            "2-2": "Movimentato, con sfide e incontri inaspettati",
+            "3-3": "Arduo, con condizioni atmosferiche imprevedibili e strade inaccessibili",
+            "4-4": "Difficile e avvilente"
+          }
         },
         "The Journey - 2. and ends": {
-          "name": "The Journey - 2. and ends",
-          "description": "and ends",
-          "results": {}
+          "name": "Il Viaggio - 2. e termina",
+          "description": "e termina",
+          "results": {
+            "1-1": "All’ombra di una montagna",
+            "2-2": "Nell’oscurità di una foresta",
+            "3-3": "In un’umida palude",
+            "4-4": "Nei pressi di un lago nero",
+            "5-5": "Ai piedi di una collina",
+            "6-6": "Sulla sponda di un fiume"
+          }
         },
         "The Journey - 3. There is an": {
-          "name": "The Journey - 3. There is an",
-          "description": "There is",
-          "results": {}
+          "name": "Il Viaggio - 3. dove c’è",
+          "description": "dove c’è un/una",
+          "results": {
+            "1-1": "antico",
+            "2-2": "abbandonato",
+            "3-3": "dimenticato",
+            "4-4": "incolto",
+            "5-5": "cadente",
+            "6-6": "nascosto",
+            "7-7": "con una strana forma",
+            "8-8": "distrutto"
+          }
         },
         "The Journey - 4. place": {
-          "name": "The Journey - 4. place",
-          "description": "",
-          "results": {}
+          "name": "Il Viaggio - 4. posto",
+          "results": {
+            "1-1": "rudere di una torre",
+            "2-2": "catacomba",
+            "3-3": "tomba",
+            "4-4": "villaggio",
+            "5-5": "caverna",
+            "6-6": "rudere di un castello",
+            "7-7": "fattoria",
+            "8-8": "collina",
+            "9-9": "stagno",
+            "10-10": "baratro"
+          }
         },
         "The Journey - 5. surrounded by": {
-          "name": "The Journey - 5. surrounded by",
-          "description": "surrounded by",
-          "results": {}
+          "name": "Il Viaggio - 5. circondato da",
+          "description": "circondato/a da",
+          "results": {
+            "1-1": "Una palude",
+            "2-2": "Una fitta nebbia",
+            "3-3": "Scuri alberi contorti",
+            "4-4": "Nuvole cariche di pioggia",
+            "5-5": "Forti venti gelidi",
+            "6-6": "Un fetore persistente",
+            "7-7": "Resti di animali morti",
+            "8-8": "Una terra bruciata",
+            "9-9": "Monoliti",
+            "10-10": "Strani simboli",
+            "11-11": "Un campo di rovine",
+            "12-12": "Canne ondeggianti"
+          }
         },
         "The Journey - 6. The place is called": {
-          "name": "The Journey - 6. The place is called",
-          "description": "The place is called",
-          "results": {}
+          "name": "Il Viaggio - 6. Il posto è chiamato",
+          "description": "Il posto è chiamato",
+          "results": {
+            "1-1": "Sangue di Barko",
+            "2-2": "Roccia Arida",
+            "3-3": "Fossa Atra",
+            "4-4": "Dono di Melka",
+            "5-5": "Covo di Gurge",
+            "6-6": "Avamposto di Mano Rocciosa",
+            "7-7": "Vidergard",
+            "8-8": "Sfera del Gelo",
+            "9-9": "Mano di Quercia",
+            "10-10": "Acqua di Erode",
+            "11-11": "Riva di Kil",
+            "12-12": "Caduta di Feris",
+            "13-13": "Il Ponte del Saar",
+            "14-14": "Birchholm",
+            "15-15": "Landa Appassita",
+            "16-16": "Ululato del Castoro",
+            "17-17": "Cancelrame",
+            "18-18": "Boschetto di Barra",
+            "19-19": "Fenditura Cinerea",
+            "20-20": "Rifugio Tempesta"
+          }
         },
         "Create NPC - 1. Attitude": {
-          "name": "Create NPC - 1. Attitude",
-          "description": "Attitude",
-          "results": {}
+          "name": "Creare un PNG - 1. Comportamento",
+          "description": "Comportamento",
+          "results": {
+            "1-1": "Ostile",
+            "2-2": "Elusivo",
+            "3-3": "Indifferente",
+            "4-4": "Amichevole"
+          }
         },
         "Create NPC - 5. Trait": {
-          "name": "Create NPC - 5. Trait",
-          "description": "Trait",
-          "results": {}
+          "name": "Creare un PNG - 5. Tratto",
+          "description": "Tratto",
+          "results": {
+            "1-1": "Parla troppo",
+            "2-2": "Vestiti strani",
+            "3-3": "Stralunato",
+            "4-4": "Puzza",
+            "5-5": "Burlone",
+            "6-6": "Cultista",
+            "7-7": "Infantile",
+            "8-8": "Silenzioso e difficile",
+            "9-9": "Adoratore di demoni",
+            "10-10": "Ostinato",
+            "11-11": "Molto permaloso",
+            "12-12": "Estremamente romantico"
+          }
         },
         "Create NPC - 4. Motivation": {
-          "name": "Create NPC - 4. Motivation",
-          "description": "Motivation",
-          "results": {}
+          "name": "Creare un PNG - 4. Motivazione",
+          "description": "Motivazione",
+          "results": {
+            "1-1": "Dolce oro scintillante",
+            "2-2": "Conoscenza del mondo",
+            "3-3": "Amore imperituro",
+            "4-4": "Un giuramento per la vita",
+            "5-5": "cadenUn torto che esige vendettate",
+            "6-6": "Una vita di gioie e musicasto",
+            "7-7": "Legami di sangue che non possono essere spezzati",
+            "8-8": "Scappare da un passato oscuro"
+          }
         },
         "Create NPC - 6. Name": {
-          "name": "Create NPC - 6. Name",
-          "description": "Name (Choose)",
-          "results": {}
+          "name": "Creare un PNG - 6. Nome",
+          "description": "Nome (scegli uno)",
+          "results": {
+            "1-1": "Agnar, Jorid, Dareios",
+            "2-2": "Ragnfast, Ask, Euanthe",
+            "3-3": "Arnulf, Tyra, Xanthos",
+            "4-4": "Atle, Liv, Athalia",
+            "5-5": "Guthorm, Embla, Kleitos",
+            "6-6": "Botvid, Ragna, Astara",
+            "7-7": "Kale, Turid, Priamus",
+            "8-8": "Egil, Jorunn, Galyna",
+            "9-9": "Ingemund, Borghild, Taras",
+            "10-10": "Gudmund, Gylla, Zenais",
+            "11-11": "Grim, Tora, Hesiod",
+            "12-12": "Brand, Edda, Liene",
+            "13-13": "Folkvid, Sigrun, Eupraxia",
+            "14-14": "Germund, Dagrun, Taras",
+            "15-15": "Algot, Bolla, Lysandra",
+            "16-16": "Tolir, Yrsa, Kallias",
+            "17-17": "Hjorvald, Estrid, Isidora",
+            "18-18": "Ambjorn, Signe, Athos",
+            "19-19": "Grunn, Tilde, Larysa",
+            "20-20": "Olgrid, Idun, Nikias" 
+          }
         },
         "Create NPC - 2. Kin": {
-          "name": "Create NPC - 2. Kin",
-          "description": "Kin",
-          "results": {}
+          "name": "Creare un PNG - 2. Stirpe",
+          "description": "Stirpe",
+          "results": {
+            "1-1": "Umano",
+            "2-2": "Nano",
+            "3-3": "Elfo",
+            "4-4": "Halfling",
+            "5-5": "Lupinide",
+            "6-6": "Mallardo"
+          }
         },
         "Create NPC - 3. Profession": {
-          "name": "Create NPC - 3. Profession",
-          "description": "Profession",
-          "results": {}
+          "name": "Creare un PNG - 3. Professione",
+          "description": "Professione",
+          "results": {
+            "1-1": "Bardo",
+            "2-2": "Artigiano",
+            "3-3": "Cacciatore",
+            "4-4": "Guerriero",
+            "5-5": "Studioso",
+            "6-6": "Mago",
+            "7-7": "Mercante",
+            "8-8": "Cavaliere",
+            "9-9": "Marinaio",
+            "10-10": "Ladro"
+          }
         },
         "The Quest - 1. One day": {
           "name": "The Quest - 1. One day",
@@ -13005,74 +13342,93 @@
           "results": {}
         },
         "Treasure": {
-          "name": "Treasure",
-          "description": "",
-          "results": {}
+          "name": "Tesoro",
+          "results": {
+            "1-1":"[[d6]] monete di rame",
+            "2-2":"[[2D6]] monete di rame",
+            "3-3":"[[4d6]] monete di rame",
+            "4-4":"[[2d6*10]] monete di rame",
+            "5-5":"[[4d6*10]] monete di rame",
+            "6-6":"[[d6]] monete d'argento",
+            "7-7":"[[3d6]] monete d'argento",
+            "8-8":"[[d6*5]] monete d'argento",
+            "9-9":"[[d6*10]] monete d'argento",
+            "10-10":"[[2d6*10]] monete d'argento",
+            "11-11":"[[3d6*10]] monete d'argento",
+            "12-12":"[[d6]] monete d'oro",
+            "13-13":"[[2d6]] monete d'oro",
+            "14-14":"[[4d6]] monete d'oro",
+            "15-15":"[[d6*10]] monete d'oro",
+            "16-16":"[[2d6*10]] monete d'oro",
+            "32-32":"@UUID[Item.2PlS8RZ11HbJxOhf]{Pugnale Avvelenato}. Tira su SFUGGIRE. Se fallisci, ti tagli da solo, subendo un veleno di potenza 12. Tira un [[/roll D3]] per il tipo. 1: letale, 2: paralizzante, 3: soporifero.",
+            "33-33":"<p><strong>Chiodo Arrugginito.</strong> Tira su SFUGGIRE. Se fallisci, subisci [[/damage D6]]. L’armatura non ha effetto.</p>", 
+            "34-34":"@UUID[Item.brwS719az0E1uM4V]{Grimorio} Tira un [[/roll D4]] per la scuola. 1: Animismo, 2: Elementalismo, 3: Mentalismo, 4: magia comune. Tira un [[/roll D4−1]] per il grado dell’incantesimo (0 indica i trucchetti magici) e un [[/roll D4]] er il numero. Il GM sceglie o tira gli incantesimi esatti.",
+            "35-35":"@UUID[Item.4euiW6ItX0zTca9i]{Bottihlia} Un tiro di GUARIRE ne rivela il contenuto. Se fallisci, il GM tira in segreto. Tira un [[/roll D6]]. 1: veleno letale (potenza 12), 2: veleno soporifero (potenza 14), 3: alcolico, 4: mistura di erbe, 5: pozione di cura (2D6 PF), 6: pozione di cura (3D6 PF).",
+            "39-39":"<p><strong>Ratto.</strong> Tira su SFUGGIRE. Se fallisci, subisci [[/damage D4]]. L’armatura non ha effetto.</p>"    
+          }
         },
         "Treasure - Armor": {
-          "name": "Treasure - Armor",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Armatura"
         },
         "Treasure - Book": {
-          "name": "Treasure - Book",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Libro",
+          "results": {
+            "1-1": "@UUID[Item.csHy2MVcDDH6yuKa]{Libro}: Mangiare o Essere Mangiati – Piante della Foresta",
+            "2-2": "@UUID[Item.csHy2MVcDDH6yuKa]{Libro}: Grammatica del Draconico",
+            "3-3": "@UUID[Item.csHy2MVcDDH6yuKa]{Libro}: Antichi Eroi e Malvagi",
+            "4-4": "@UUID[Item.csHy2MVcDDH6yuKa]{Libro}: Manuale del Mastro Carpentiere",
+            "5-5": "@UUID[Item.csHy2MVcDDH6yuKa]{Libro}: Bestie delle Caverne – Un’Enciclopedia",
+            "6-6": "@UUID[Item.csHy2MVcDDH6yuKa]{Libro}: Sangue, Muco e Bile – Padroneggia i Tuoi Fluidi Corporei"
+          }
         },
         "Treasure - Clothing": {
-          "name": "Treasure - Clothing",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Vestiti"
         },
         "Treasure - Instrument": {
-          "name": "Treasure - Instrument",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Strumento musicale"
         },
         "Treasure - Mastercrafted Weapon": {
-          "name": "Treasure - Mastercrafted Weapon",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Arma di Fattura Magistrale"
         },
         "Treasure - Melee 1": {
-          "name": "Treasure - Melee 1",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Arma da Mischia 1"
         },
         "Treasure - Melee 2": {
-          "name": "Treasure - Melee 2",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Arma da Mischia 2"
         },
         "Treasure - Ranged": {
-          "name": "Treasure - Ranged",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Arma a Distanza"
         },
         "Treasure - Trade Goods": {
-          "name": "Treasure - Trade Goods",
-          "description": "",
-          "results": {}
+          "name": "Tesoro - Beni Commerciali"
         },
         "Improvised Weapons - Cave": {
-          "name": "Improvised Weapons - Cave",
-          "description": "",
-          "results": {}
+          "name": "Armi Improvvisate - Grotta"
         },
         "Improvised Weapons - Forest": {
-          "name": "Improvised Weapons - Forest",
-          "description": "",
-          "results": {}
+          "name": "Armi Improvvisate - Foresta",
+          "results": {
+            "1-1": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.k3kUQhPLtcfAxXGM]{Ramo Basso}",
+            "2-2": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.iJuIT5r2qTJTpbr5]{Nido di Vespe}",
+            "3-3": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.Jo1mCjIB16qmpmPy]{Radici Nodose}",
+            "4-4": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.YYzepkv92wUay1xO]{Macigno}",
+            "5-5": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.76q7GmaujNag2Bxr]{Vipera}",
+            "6-6": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.PoTq63Kx7NHNPDdA]{Manciata di Terra}"
+          }
         },
         "Improvised Weapons - Inn": {
-          "name": "Improvised Weapons - Inn",
-          "description": "",
-          "results": {}
+          "name": "Armi Improvvisate - Locanda"
         },
         "Hunting": {
-          "name": "Hunting",
-          "description": "",
-          "results": {}
+          "name": "Cacciare",
+          "results": {
+            "1-1": "<p><strong>Animale:</strong> Scoiattolo<br><strong>Requisito:</strong> Arma o trappola<br><strong>Razioni: </strong>1</p>",
+            "2-2": "<p><strong>Animale:</strong> Corvo<br><strong>Requisito:</strong> Arma<br><strong>Razioni: </strong>1</p>",
+            "3-3": "<p><strong>Animale:</strong> Coniglio<br><strong>Requisito:</strong> Arma o trappola<br><strong>Razioni: </strong>[[/roll D3]]</p>",
+            "4-4": "<p><strong>Animale:</strong> Volpe<br><strong>Requisito:</strong> Arma o trappola<br><strong>Razioni: </strong>[[/roll D4]]</p>",
+            "5-5": "<p><strong>Animale:</strong> Cinghiale<br><strong>Requisito:</strong> Arma <br><strong>Razioni: </strong>[[/roll 2D6]]<br>Se il secondo tiro (quello legato all’arma del cacciatore, oppure di CACCIA E PESCA se si usa una trappola) fallisce, il cinghiale attacca.</p></p>",
+            "6-6": "<p><strong>Animale:</strong> Cervo<br><strong>Requisito:</strong> Arma<br><strong>Razioni: </strong>[[/roll 2D8]]</p>"
+          }
         },
         "Monster Attacks - The Robber Knight": {
           "name": "Monster Attacks - The Robber Knight",
@@ -13522,11 +13878,11 @@
           }
         },
         "Improvised Weapons": {
-          "name": "Improvised Weapons",
+          "name": "Armi Imporvvisate",
           "pages": {
             "Boiling Cauldron": {
-              "name": "Boiling Cauldron",
-              "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-1.webp"
+              "name": "Calderone Bollente",
+              "text": "<p><ul><li>Lancia acqua bollente in un cono di 4 metri di lunghezza e larghezza.</li><li>Tutti all’interno del cono subiscono [[//damage 2D6]].</li><li>L’attacco può essere schivato, ma non parato.</li><li>L’armatura non ha effetto.</li></ul></p>"
             },
             "Bucket of Soapy Water": {
               "name": "Bucket of Soapy Water",
@@ -13542,7 +13898,7 @@
             },
             "Tables": {
               "name": "Tables",
-              "text": "<p>@DisplayTable[RollTable.XQdcL9Y1q9oRgdym]{Inn}</p><p>@DisplayTable[RollTable.mBATgizfrTCqh2vw]{Cave}</p><p>@DisplayTable[RollTable.IDBJdj1nB4Sy8z6U]{Forest}</p>"
+              "text": "<p>@DisplayTable[RollTable.XQdcL9Y1q9oRgdym]{Taverna}</p><p>@DisplayTable[RollTable.mBATgizfrTCqh2vw]{Grotta}</p><p>@DisplayTable[RollTable.IDBJdj1nB4Sy8z6U]{Foresta}</p>"
             },
             "Wine Bottle": {
               "name": "Wine Bottle",
