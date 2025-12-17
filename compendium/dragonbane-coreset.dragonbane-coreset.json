@@ -17,7 +17,8 @@
         "cost": "system.cost",
         "prerequisite": "system.prerequisite",
         "school": "system.school",
-        "banes": "system.banes"
+        "banes": "system.banes",
+        "range": "system.range"
     }
   },
   "folders": {},
@@ -220,7 +221,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -232,7 +233,7 @@
               "name": "Ladle"
             },
             "Fetch": {
-              "name": "Fetch"
+              "name": "Acchiappare"
             },
             "Light": {
               "name": "Luce"
@@ -367,7 +368,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -385,10 +386,10 @@
               "name": "Robust"
             },
             "Longsword": {
-              "name": "Longsword"
+              "name": "Spada Lunga"
             },
             "Large Shield": {
-              "name": "Large Shield"
+              "name": "Scudo Grande"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -481,7 +482,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -490,7 +491,7 @@
               "name": "Spade"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             }
           }
         },
@@ -580,7 +581,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -589,10 +590,10 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Leather": {
               "name": "Leather"
@@ -697,7 +698,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -793,7 +794,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -802,10 +803,10 @@
               "name": "Spade"
             },
             "Heavy Crossbow": {
-              "name": "Heavy Crossbow"
+              "name": "Balestra Pesante"
             },
             "Broadsword": {
-              "name": "Broadsword"
+              "name": "Spada"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -901,7 +902,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -910,10 +911,10 @@
               "name": "Spade"
             },
             "Long Spear": {
-              "name": "Long Spear"
+              "name": "Lancia Lunga"
             },
             "Longbow": {
-              "name": "Longbow"
+              "name": "Arco Lungo"
             }
           }
         },
@@ -1003,7 +1004,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1012,10 +1013,10 @@
               "name": "Spade"
             },
             "Handaxe": {
-              "name": "Handaxe"
+              "name": "Accetta"
             },
             "Light Crossbow": {
-              "name": "Light Crossbow"
+              "name": "Balestra Leggera"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -1111,7 +1112,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1120,10 +1121,10 @@
               "name": "Spade"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Battleaxe": {
-              "name": "Battleaxe"
+              "name": "Ascia da Battaglia"
             }
           }
         },
@@ -1213,7 +1214,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1309,7 +1310,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1318,10 +1319,10 @@
               "name": "Spade"
             },
             "Longsword": {
-              "name": "Longsword"
+              "name": "Spada Lunga"
             },
             "Large Shield": {
-              "name": "Large Shield"
+              "name": "Scudo Grande"
             },
             "Sleeping Fur": {
               "name": "Sleeping Fur"
@@ -1426,7 +1427,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1441,7 +1442,7 @@
               "name": "Veteran"
             },
             "Heavy Warhammer": {
-              "name": "Heavy Warhammer"
+              "name": "Martello d'Arme Pesante"
             },
             "Plate Armor": {
               "name": "Plate Armor"
@@ -1537,7 +1538,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1546,7 +1547,7 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Sleeping Fur": {
               "name": "Sleeping Fur"
@@ -1642,7 +1643,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1651,7 +1652,7 @@
               "name": "Spade"
             },
             "Knife": {
-              "name": "Knife"
+              "name": "Coltello"
             },
             "Books": {
               "name": "Books"
@@ -1750,7 +1751,7 @@
               "name": "Nuotare"
             },
             "Elementalism": {
-              "name": "Elementalism"
+              "name": "Elementalismo"
             },
             "Mentalism": {
               "name": "Mentalism"
@@ -1777,7 +1778,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1786,13 +1787,13 @@
               "name": "Spade"
             },
             "Staff": {
-              "name": "Staff"
+              "name": "Bastone"
             },
             "Fetch": {
-              "name": "Fetch"
+              "name": "Acchiappare"
             },
             "Dispel": {
-              "name": "Dispel"
+              "name": "Disperdere"
             },
             "Ignite": {
               "name": "Infiamma"
@@ -1897,7 +1898,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -1906,7 +1907,7 @@
               "name": "Spade"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -1999,7 +2000,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2008,7 +2009,7 @@
               "name": "Spade"
             },
             "Light Blunt Object": {
-              "name": "Light Blunt Object"
+              "name": "Oggetto Contundente Leggero"
             }
           }
         },
@@ -2026,7 +2027,7 @@
           "tokenName": "Helemi",
           "items": {
             "Light Blunt Object": {
-              "name": "Light Blunt Object"
+              "name": "Oggetto Contundente Leggero"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -2110,7 +2111,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2215,7 +2216,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2224,7 +2225,7 @@
               "name": "Spade"
             },
             "Light Blunt Object": {
-              "name": "Light Blunt Object"
+              "name": "Oggetto Contundente Leggero"
             }
           }
         },
@@ -2341,7 +2342,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2449,7 +2450,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2563,7 +2564,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2572,7 +2573,7 @@
               "name": "Spade"
             },
             "Broadsword": {
-              "name": "Broadsword"
+              "name": "Spada"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -2674,7 +2675,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2776,7 +2777,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2785,10 +2786,10 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Leather": {
               "name": "Leather"
@@ -2803,10 +2804,10 @@
               "name": "Sfuggire"
             },
             "Long Spear": {
-              "name": "Long Spear"
+              "name": "Lancia Lunga"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             }
           }
         },
@@ -2896,7 +2897,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -2905,10 +2906,10 @@
               "name": "Spade"
             },
             "Small Shield": {
-              "name": "Small Shield"
+              "name": "Scudo Piccolo"
             },
             "Morningstar": {
-              "name": "Morningstar"
+              "name": "Mazza Chiodata"
             },
             "Plate Armor": {
               "name": "Plate Armor"
@@ -3007,7 +3008,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3016,7 +3017,7 @@
               "name": "Spade"
             },
             "Short Spear": {
-              "name": "Short Spear"
+              "name": "Lancia Corta"
             },
             "Leather": {
               "name": "Leather"
@@ -3109,7 +3110,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3118,10 +3119,10 @@
               "name": "Spade"
             },
             "Battleaxe": {
-              "name": "Battleaxe"
+              "name": "Ascia da Battaglia"
             },
             "Light Crossbow": {
-              "name": "Light Crossbow"
+              "name": "Balestra Leggera"
             },
             "Master Blacksmith": {
               "name": "Master Blacksmith"
@@ -3217,7 +3218,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3226,7 +3227,7 @@
               "name": "Spade"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Pugnale"
             }
           }
         },
@@ -3316,7 +3317,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3328,10 +3329,10 @@
               "name": "Animism"
             },
             "Staff": {
-              "name": "Staff"
+              "name": "Bastone"
             },
             "Dispel": {
-              "name": "Dispel"
+              "name": "Disperdere"
             },
             "Magic Shield": {
               "name": "Magic Shield"
@@ -3352,10 +3353,10 @@
               "name": "Purificare"
             },
             "Sense Magic": {
-              "name": "Sense Magic"
+              "name": "Percepire la Magia"
             },
             "Protector": {
-              "name": "Protector"
+              "name": "Protezione"
             },
             "Heal Wound": {
               "name": "Guarire Ferite"
@@ -3451,7 +3452,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3466,13 +3467,13 @@
               "name": "Veteran"
             },
             "Broadsword": {
-              "name": "Broadsword"
+              "name": "Spada"
             },
             "Heavy Crossbow": {
-              "name": "Heavy Crossbow"
+              "name": "Balestra Pesante"
             },
             "Large Shield": {
-              "name": "Large Shield"
+              "name": "Scudo Grande"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -3568,7 +3569,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3577,10 +3578,10 @@
               "name": "Spade"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Broadsword": {
-              "name": "Broadsword"
+              "name": "Spada"
             },
             "Leather": {
               "name": "Leather"
@@ -3592,7 +3593,7 @@
           "tokenName": "Leanara / Annabella",
           "items": {
             "Dagger": {
-              "name": "Dagger"
+              "name": "Pugnale"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -3676,7 +3677,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3784,7 +3785,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3793,7 +3794,7 @@
               "name": "Spade"
             },
             "Long Spear": {
-              "name": "Long Spear"
+              "name": "Lancia Lunga"
             }
           }
         },
@@ -3883,7 +3884,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -3892,7 +3893,7 @@
               "name": "Spade"
             },
             "Handaxe": {
-              "name": "Handaxe"
+              "name": "Accetta"
             },
             "Leather": {
               "name": "Leather"
@@ -3985,7 +3986,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4003,10 +4004,10 @@
               "name": "Weasel"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             },
             "Light Crossbow": {
-              "name": "Light Crossbow"
+              "name": "Balestra Leggera"
             },
             "Leather": {
               "name": "Leather"
@@ -4099,7 +4100,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4108,10 +4109,10 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Sling": {
-              "name": "Sling"
+              "name": "Frombola"
             }
           }
         },
@@ -4201,7 +4202,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4210,7 +4211,7 @@
               "name": "Spade"
             },
             "Small Wooden Club": {
-              "name": "Small Wooden Club"
+              "name": "Clava Piccola"
             },
             "Leather": {
               "name": "Leather"
@@ -4303,7 +4304,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4312,7 +4313,7 @@
               "name": "Spade"
             },
             "Light Warhammer": {
-              "name": "Light Warhammer"
+              "name": "Martello d'Arme Leggero"
             },
             "Leather": {
               "name": "Leather"
@@ -4405,7 +4406,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4414,7 +4415,7 @@
               "name": "Spade"
             },
             "Longbow": {
-              "name": "Longbow"
+              "name": "Arco Lungo"
             },
             "Leather": {
               "name": "Leather"
@@ -4429,7 +4430,7 @@
               "name": "Leather"
             },
             "Longbow": {
-              "name": "Longbow"
+              "name": "Arco Lungo"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -4513,7 +4514,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4537,10 +4538,10 @@
               "name": "Plate Armor"
             },
             "Large Shield": {
-              "name": "Large Shield"
+              "name": "Scudo Grande"
             },
             "Longsword": {
-              "name": "Longsword"
+              "name": "Spada Lunga"
             },
             "Defensive": {
               "name": "Defensive"
@@ -4633,7 +4634,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4729,7 +4730,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4738,7 +4739,7 @@
               "name": "Spade"
             },
             "Short Spear": {
-              "name": "Short Spear"
+              "name": "Lancia Corta"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -4831,7 +4832,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4840,10 +4841,10 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Leather": {
               "name": "Leather"
@@ -4867,7 +4868,7 @@
               "name": "Sfuggire"
             },
             "Morningstar": {
-              "name": "Morningstar"
+              "name": "Mazza Chiodata"
             },
             "Plate Armor": {
               "name": "Plate Armor"
@@ -4975,7 +4976,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -4984,7 +4985,7 @@
               "name": "Spade"
             },
             "Long Spear": {
-              "name": "Long Spear"
+              "name": "Lancia Lunga"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -5086,7 +5087,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -5095,10 +5096,10 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Leather": {
               "name": "Leather"
@@ -5209,7 +5210,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -5218,10 +5219,10 @@
               "name": "Spade"
             },
             "Sling": {
-              "name": "Sling"
+              "name": "Frombola"
             },
             "Handaxe": {
-              "name": "Handaxe"
+              "name": "Accetta"
             }
           }
         },
@@ -5317,7 +5318,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -5326,10 +5327,10 @@
               "name": "Spade"
             },
             "Staff": {
-              "name": "Staff"
+              "name": "Bastone"
             },
             "Flick": {
-              "name": "Flick"
+              "name": "Schicchera"
             },
             "Birdsong": {
               "name": "Birdsong"
@@ -5338,7 +5339,7 @@
               "name": "Caduta Lenta"
             },
             "Dispel": {
-              "name": "Dispel"
+              "name": "Disperdere"
             },
             "Animal Whisperer": {
               "name": "Sussurri Animali"
@@ -5356,7 +5357,7 @@
               "name": "Telepatia"
             },
             "Sense Magic": {
-              "name": "Sense Magic"
+              "name": "Percepire la Magia"
             },
             "Treat Wound": {
               "name": "Trattare Ferite"
@@ -5458,7 +5459,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -5569,7 +5570,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -5578,7 +5579,7 @@
               "name": "Spade"
             },
             "Battleaxe": {
-              "name": "Battleaxe"
+              "name": "Ascia da Battaglia"
             }
           }
         },
@@ -5668,7 +5669,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -5677,10 +5678,10 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Leather": {
               "name": "Leather"
@@ -5704,7 +5705,7 @@
               "name": "Leather"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -5788,7 +5789,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -5797,7 +5798,7 @@
               "name": "Spade"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             }
           }
         },
@@ -5887,7 +5888,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -5896,10 +5897,10 @@
               "name": "Spade"
             },
             "Light Crossbow": {
-              "name": "Light Crossbow"
+              "name": "Balestra Leggera"
             },
             "Broadsword": {
-              "name": "Broadsword"
+              "name": "Spada"
             },
             "Leather": {
               "name": "Leather"
@@ -6001,7 +6002,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -6010,10 +6011,10 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Leather": {
               "name": "Leather"
@@ -6106,7 +6107,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -6115,7 +6116,7 @@
               "name": "Spade"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -6208,7 +6209,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -6217,7 +6218,7 @@
               "name": "Spade"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -6337,7 +6338,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -6346,7 +6347,7 @@
               "name": "Spade"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -7690,6 +7691,7 @@
         "Giant Spider": {
           "name": "Ragno Gigante",
           "tokenName": "Ragno Gigante",
+          "description": "<p>I ragni giganti sono ingordi predatori che, sfortunatamente, si possono trovare ovunque nel mondo. Sono attratti dai luoghi bui e umidi, ma sono sempre a caccia di carne viva nelle foreste e nelle caverne, come anche sulle montagne e nelle città in rovina. Esemplari particolarmente subdoli possono fare il loro nido sotto locande famose o vicino a biblioteche sotterranee e camere del tesoro. Le femmine più anziane possono diventare grandi quanto una casa, ma la maggior parte di loro ha circa la stazza di una mucca ben nutrita. I ragni giganti sono più intelligenti di quanto sembrino e, in certe parti del mondo, le femmine più vecchie possono ottenere lo status di oracolo o semidio.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -7784,7 +7786,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -7891,7 +7893,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -7903,7 +7905,7 @@
               "name": "Studded Leather"
             },
             "Long Spear": {
-              "name": "Long Spear"
+              "name": "Lancia Lunga"
             }
           }
         },
@@ -7946,7 +7948,7 @@
               "name": "Sfuggire"
             },
             "Two-Handed Axe": {
-              "name": "Two-Handed Axe"
+              "name": "Ascia a Due Mani"
             }
           }
         },
@@ -8036,7 +8038,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -8045,7 +8047,7 @@
               "name": "Spade"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -8150,7 +8152,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -8162,7 +8164,7 @@
               "name": "Animism"
             },
             "Staff": {
-              "name": "Staff"
+              "name": "Bastone"
             },
             "Ensnaring Roots": {
               "name": "Trappola di Radici"
@@ -8261,7 +8263,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -8270,7 +8272,7 @@
               "name": "Spade"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -8363,7 +8365,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -8375,10 +8377,10 @@
               "name": "Leather"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Pugnale"
             },
             "Light Crossbow": {
-              "name": "Light Crossbow"
+              "name": "Balestra Leggera"
             }
           }
         },
@@ -8387,10 +8389,10 @@
           "tokenName": "Skeleton - Champion",
           "items": {
             "Longsword": {
-              "name": "Longsword"
+              "name": "Spada Lunga"
             },
             "Large Shield": {
-              "name": "Large Shield"
+              "name": "Scudo Grande"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -8477,7 +8479,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -8585,7 +8587,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -8594,7 +8596,7 @@
               "name": "Spade"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -8627,7 +8629,7 @@
               "name": "Sfuggire"
             },
             "Morningstar": {
-              "name": "Morningstar"
+              "name": "Mazza Chiodata"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -8638,11 +8640,11 @@
           }
         },
         "Bear": {
-          "name": "Bear",
-          "tokenName": "Bear",
+          "name": "Orso",
+          "tokenName": "Orso",
           "items": {
             "Bite": {
-              "name": "Bite"
+              "name": "Morso"
             },
             "Evade": {
               "name": "Sfuggire"
@@ -8653,11 +8655,11 @@
           }
         },
         "Cat": {
-          "name": "Cat",
-          "tokenName": "Cat",
+          "name": "Gatto",
+          "tokenName": "Gatto",
           "items": {
             "Bite": {
-              "name": "Bite"
+              "name": "Morso"
             },
             "Awareness": {
               "name": "Consapevolezza"
@@ -8671,11 +8673,11 @@
           }
         },
         "Deer": {
-          "name": "Deer",
-          "tokenName": "Deer",
+          "name": "Cervo",
+          "tokenName": "Cervo",
           "items": {
             "Horns": {
-              "name": "Horns"
+              "name": "Incornata"
             },
             "Evade": {
               "name": "Sfuggire"
@@ -8686,11 +8688,11 @@
           }
         },
         "Dog": {
-          "name": "Dog",
-          "tokenName": "Dog",
+          "name": "Cane",
+          "tokenName": "Cane",
           "items": {
             "Bite": {
-              "name": "Bite"
+              "name": "Morso"
             },
             "Awareness": {
               "name": "Consapevolezza"
@@ -8704,11 +8706,11 @@
           }
         },
         "Donkey": {
-          "name": "Donkey",
-          "tokenName": "Donkey",
+          "name": "Asino",
+          "tokenName": "Asino",
           "items": {
             "Kick": {
-              "name": "Kick"
+              "name": "Calcio"
             },
             "Awareness": {
               "name": "Consapevolezza"
@@ -8719,11 +8721,11 @@
           }
         },
         "Fox": {
-          "name": "Fox",
-          "tokenName": "Fox",
+          "name": "Volpe",
+          "tokenName": "Volpe",
           "items": {
             "Bite": {
-              "name": "Bite"
+              "name": "Morso"
             },
             "Awareness": {
               "name": "Consapevolezza"
@@ -8737,11 +8739,11 @@
           }
         },
         "Goat": {
-          "name": "Goat",
-          "tokenName": "Goat",
+          "name": "Capra",
+          "tokenName": "Capra",
           "items": {
             "Horns": {
-              "name": "Horns"
+              "name": "Incornata"
             },
             "Awareness": {
               "name": "Consapevolezza"
@@ -8752,11 +8754,11 @@
           }
         },
         "Horse": {
-          "name": "Horse",
-          "tokenName": "Horse",
+          "name": "Cavallo",
+          "tokenName": "Cavallo",
           "items": {
             "Kick": {
-              "name": "Kick"
+              "name": "Calcio"
             },
             "Evade": {
               "name": "Sfuggire"
@@ -8767,11 +8769,11 @@
           }
         },
         "Moose": {
-          "name": "Moose",
-          "tokenName": "Moose",
+          "name": "Alce",
+          "tokenName": "Alce",
           "items": {
             "Horns": {
-              "name": "Horns"
+              "name": "Incornata"
             },
             "Awareness": {
               "name": "Consapevolezza"
@@ -8782,11 +8784,11 @@
           }
         },
         "Wild Boar": {
-          "name": "Wild Boar",
-          "tokenName": "Wild Boar",
+          "name": "Cinghiale",
+          "tokenName": "Cinghiale",
           "items": {
             "Tusks": {
-              "name": "Tusks"
+              "name": "Zanne"
             },
             "Awareness": {
               "name": "Consapevolezza"
@@ -8797,11 +8799,11 @@
           }
         },
         "Wolf": {
-          "name": "Wolf",
-          "tokenName": "Wolf",
+          "name": "Lupo",
+          "tokenName": "Lupo",
           "items": {
             "Bite": {
-              "name": "Bite"
+              "name": "Morso"
             },
             "Awareness": {
               "name": "Consapevolezza"
@@ -8972,7 +8974,7 @@
               "name": "Elementalist"
             },
             "Elementalism": {
-              "name": "Elementalism"
+              "name": "Elementalismo"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -9056,7 +9058,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -9065,7 +9067,7 @@
               "name": "Spade"
             },
             "Staff": {
-              "name": "Staff"
+              "name": "Bastone"
             },
             "Fireball": {
               "name": "Palla di Fuoco"
@@ -9089,13 +9091,13 @@
               "name": "Grimoire"
             },
             "Flint & Tinder": {
-              "name": "Flint & Tinder"
+              "name": "Pietra Focaia e Acciarino"
             },
             "Worn diary": {
               "name": "Worn diary"
             },
             "Torch": {
-              "name": "Torch"
+              "name": "Torcia"
             }
           }
         },
@@ -9197,7 +9199,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -9206,13 +9208,13 @@
               "name": "Spade"
             },
             "Flint & Tinder": {
-              "name": "Flint & Tinder"
+              "name": "Pietra Focaia e Acciarino"
             },
             "Long Spear": {
-              "name": "Long Spear"
+              "name": "Lancia Lunga"
             },
             "Short Spear": {
-              "name": "Short Spear"
+              "name": "Lancia Corta"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -9221,7 +9223,7 @@
               "name": "Blue bottle of perfume"
             },
             "Torch": {
-              "name": "Torch"
+              "name": "Torcia"
             }
           }
         },
@@ -9311,7 +9313,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -9335,13 +9337,13 @@
               "name": "Lockpicks (Simple)"
             },
             "Flint & Tinder": {
-              "name": "Flint & Tinder"
+              "name": "Pietra Focaia e Acciarino"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Pugnale"
             },
             "Knife": {
-              "name": "Knife"
+              "name": "Coltello"
             },
             "Leather": {
               "name": "Leather"
@@ -9353,7 +9355,7 @@
               "name": "Rope (Hemp, 10 meters)"
             },
             "Torch": {
-              "name": "Torch"
+              "name": "Torcia"
             }
           }
         },
@@ -9443,7 +9445,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -9467,16 +9469,16 @@
               "name": "Guardian"
             },
             "Flint & Tinder": {
-              "name": "Flint & Tinder"
+              "name": "Pietra Focaia e Acciarino"
             },
             "Battleaxe": {
-              "name": "Battleaxe"
+              "name": "Ascia da Battaglia"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Small Shield": {
-              "name": "Small Shield"
+              "name": "Scudo Piccolo"
             },
             "Plate Armor": {
               "name": "Plate Armor"
@@ -9485,7 +9487,7 @@
               "name": "A fine pipe"
             },
             "Torch": {
-              "name": "Torch"
+              "name": "Torcia"
             }
           }
         },
@@ -9575,7 +9577,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -9599,7 +9601,7 @@
               "name": "Quiver of Arrows (Iron Head)"
             },
             "Flint & Tinder": {
-              "name": "Flint & Tinder"
+              "name": "Pietra Focaia e Acciarino"
             },
             "Fang from a troll": {
               "name": "Fang from a troll"
@@ -9608,16 +9610,16 @@
               "name": "Leather"
             },
             "Longbow": {
-              "name": "Longbow"
+              "name": "Arco Lungo"
             },
             "Knife": {
-              "name": "Knife"
+              "name": "Coltello"
             },
             "Rope (Hemp, 10 meters)": {
               "name": "Rope (Hemp, 10 meters)"
             },
             "Torch": {
-              "name": "Torch"
+              "name": "Torcia"
             }
           }
         },
@@ -9707,7 +9709,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -9716,7 +9718,7 @@
               "name": "Spade"
             },
             "Broadsword": {
-              "name": "Broadsword"
+              "name": "Spada"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -9809,7 +9811,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -9818,7 +9820,7 @@
               "name": "Spade"
             },
             "Elementalism": {
-              "name": "Elementalism"
+              "name": "Elementalismo"
             },
             "Focused": {
               "name": "Focused"
@@ -9830,7 +9832,7 @@
               "name": "Robust"
             },
             "Staff": {
-              "name": "Staff"
+              "name": "Bastone"
             },
             "Grimoire": {
               "name": "Grimoire"
@@ -9923,7 +9925,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -9932,10 +9934,10 @@
               "name": "Spade"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             }
           }
         },
@@ -10025,7 +10027,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10043,7 +10045,7 @@
               "name": "Robust"
             },
             "Heavy Warhammer": {
-              "name": "Heavy Warhammer"
+              "name": "Martello d'Arme Pesante"
             },
             "Chainmail": {
               "name": "Chainmail"
@@ -10139,7 +10141,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10148,7 +10150,7 @@
               "name": "Spade"
             },
             "Dagger": {
-              "name": "Dagger"
+              "name": "Pugnale"
             }
           }
         },
@@ -10238,7 +10240,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10247,7 +10249,7 @@
               "name": "Spade"
             },
             "Broadsword": {
-              "name": "Broadsword"
+              "name": "Spada"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -10340,7 +10342,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10349,7 +10351,7 @@
               "name": "Spade"
             },
             "Longbow": {
-              "name": "Longbow"
+              "name": "Arco Lungo"
             },
             "Leather": {
               "name": "Leather"
@@ -10442,7 +10444,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10451,10 +10453,10 @@
               "name": "Spade"
             },
             "Large Shield": {
-              "name": "Large Shield"
+              "name": "Scudo Grande"
             },
             "Longsword": {
-              "name": "Longsword"
+              "name": "Spada Lunga"
             },
             "Plate Armor": {
               "name": "Plate Armor"
@@ -10562,7 +10564,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10580,7 +10582,7 @@
           "tokenName": "Thief",
           "items": {
             "Knife": {
-              "name": "Knife"
+              "name": "Coltello"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -10664,7 +10666,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10679,7 +10681,7 @@
           "tokenName": "Villager",
           "items": {
             "Light Blunt Object": {
-              "name": "Light Blunt Object"
+              "name": "Oggetto Contundente Leggero"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -10763,7 +10765,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10859,7 +10861,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10868,10 +10870,10 @@
               "name": "Spade"
             },
             "Short Bow": {
-              "name": "Short Bow"
+              "name": "Arco Corto"
             },
             "Short Sword": {
-              "name": "Short Sword"
+              "name": "Spada Corta"
             },
             "Leather": {
               "name": "Leather"
@@ -10964,7 +10966,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -10973,7 +10975,7 @@
               "name": "Spade"
             },
             "Small Wooden Club": {
-              "name": "Small Wooden Club"
+              "name": "Clava Piccola"
             }
           }
         },
@@ -11063,7 +11065,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -11072,7 +11074,7 @@
               "name": "Spade"
             },
             "Scimitar": {
-              "name": "Scimitar"
+              "name": "Scimitarra"
             },
             "Studded Leather": {
               "name": "Studded Leather"
@@ -11090,7 +11092,7 @@
               "name": "Sfuggire"
             },
             "Morningstar": {
-              "name": "Morningstar"
+              "name": "Mazza Chiodata"
             }
           }
         }
@@ -11493,70 +11495,116 @@
           "description": "Aumenta il peso trasportabile di un animale di 2. Un animale non può portare più di due bisacce."
         },
         "Bear Trap": {
-          "name": "Bear Trap"
+          "name": "Tagliola",
+          "cost": "3 oro",
+          "description": "Può essere usata per cacciare."
         },
         "Fishing Net": {
-          "name": "Fishing Net"
+          "name": "Rete da Pesca",
+          "cost": "2 oro",
+          "description": "Fornisce D6 razioni di cibo quando peschi."
         },
         "Fishing Rod": {
-          "name": "Fishing Rod"
+          "name": "Canna da Pesca",
+          "cost": "8 arg.",
+          "description": "Fornisce D4 razioni di cibo quando peschi."
         },
         "Snare": {
-          "name": "Snare"
+          "name": "Trappola",
+          "cost": "5 rame",
+          "description": "Può essere usata per cacciare. Uso singolo."
         },
         "Flint & Tinder": {
-          "name": "Flint & Tinder"
+          "name": "Pietra Focaia e Acciarino",
+          "cost": "5 arg",
+          "description": "Richiesti per accendere torce, candele, lanterne e fuochi."
         },
         "Lamp Oil": {
-          "name": "Lamp Oil"
+          "name": "Lampada a Olio",
+          "cost": "1 oro",
+          "description": "Illumina fino a 10 metri. Brucia fino  l termine del periodo, ma tira un D6 dopo ogni intervallo. Con un 1, la lampada si spegne e deve  essere riempita e riaccesa (azione)."
         },
         "Lantern": {
-          "name": "Lantern"
+          "name": "Lanterna",
+          "cost": "10 oro",
+          "description": "Illumina fino a 10 metri. Brucia fino al termine del periodo, ma tira un D8 dopo ogni  intervallo. Con un 1, la lanterna si spegne e deve  essere riempita e riaccesa (azione)."
         },
         "Oil Lamp": {
-          "name": "Oil Lamp"
+          "name": "Olio per Lampade",
+          "cost": "3 arg.",
+          "description": "Contiene dieci dosi. Ogni dose permette a una lampada a olio o lanterna di bruciare fino al termine del periodo."
         },
         "Tallow Candle": {
-          "name": "Tallow Candle"
+          "name": "Candela di Sego",
+          "cost": "1 rame",
+          "description": "Illumina fino a 4 metri. Brucia fino al termine del periodo, ma va tirato un D4 dopo ogni intervallo, o se il portatore attacca o viene attaccato. Con un 1, la candela si spegne."
         },
         "Torch": {
-          "name": "Torch"
+          "name": "Torcia",
+          "cost": "5 rame",
+          "description": "Illumina fino a 10 metri. Brucia fino al termine del periodo, ma tira un D6 dopo ogni intervallo, o se la torcia viene usata come arma. Con un 1, la torcia si spegne."
         },
         "Canoe": {
-          "name": "Canoe"
+          "name": "Canoa",
+          "cost": "6 oro",
+          "description": "Trasporta fino a due persone e 10 unità di peso."
         },
         "Cart": {
-          "name": "Cart"
+          "name": "Carretto",
+          "cost": "15 oro",
+          "description": "Trainato da un cavallo o da un asino. Trasporta fino a due persone e 50 unità di peso."
         },
         "Rowing Boat": {
-          "name": "Rowing Boat"
+          "name": "Barca a Remi",
+          "cost": "15 oro",
+          "description": "Trasporta fino a quattro persone e 50 unità di peso."
         },
         "Sailing Boat": {
-          "name": "Sailing Boat"
+          "name": "Barca a Vela",
+          "cost": "40 oro",
+          "description": "Trasporta fino a sei persone e 100 unità di peso."
         },
         "Wagon": {
-          "name": "Wagon"
+          "name": "Carro",
+          "cost": "30 oro",
+          "description": "Trainato da due cavalli o asini. Trasporta fino a quattro persone e 100 unità di peso."
         },
         "Bandages (10)": {
-          "name": "Bandages (10)"
+          "name": "Bende (10)",
+          "cost": "5 arg.",
+          "description": "Richieste per evitare una sciagura ai tiri di GUARIRE per salvare una vita. Ogni tentativo consuma una benda."
         },
         "Healing Potion (dose)": {
-          "name": "Healing Potion (dose)"
+          "name": "Pozione di Cura (dose)",
+          "cost": "50 oro",
+          "description": "Cura immediatamente 2D6 PF. Pozioni più potenti guariscono più PF, ma sono più costose."
         },
         "Herbal Concoction (dose)": {
-          "name": "Herbal Concoction (dose)"
+          "name": "Mistura di Erbe (dose)",
+          "cost": "1 oro",
+          "description": "Favore ai tiri di GUARIRE per resistere alle malattie.",
+          "boons": "GUARIRE"
         },
         "Lethal Poison (dose)": {
-          "name": "Lethal Poison (dose)"
+          "name": "Veleno Letale (dose)",
+          "cost": "2 oro × potenza",
+          "description": "Vedi @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#lethal-poison]{Veleno Letale}."
         },
         "Paralyzing Poison (dose)": {
-          "name": "Paralyzing Poison (dose)"
+          "name": "Veleno Paralizzante (dose)",
+          "cost": "12 arg. × potenza",
+          "description": "Vedi @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#paralyzing-poison]{Veleno Paralizzante}."
         },
         "Sleeping Poison (dose)": {
-          "name": "Sleeping Poison (dose)"
+          "name": "Veleno Soporifero (dose)",
+          "cost": "6 arg. × potenza",
+          "description": "Vedi @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#sleeping-poison]{Veleno Soporifero}."
         },
         "Surgical Instruments": {
-          "name": "Surgical Instruments"
+          "name": "Strumenti Chirurgici",
+          "cost": "15 oro",
+          "description": "Favore ai tiri di GUARIRE per salvare una vita.",
+          "boons": "GUARIRE"
         },
         "A beautifully carved pipe": {
           "name": "Una bella pipa intagliata"
@@ -11619,217 +11667,365 @@
           "name": "Le tue vecchie fidate scarpe"
         },
         "Bagpipe": {
-          "name": "Bagpipe"
+          "name": "Cornamusa",
+          "cost": "30 oro",
+          "description": "Riduce a 1 il costo in PV della capacità eroica Musicista e ne aumenta la portata a 50 metri."
         },
         "Drum": {
-          "name": "Drum"
+          "name": "Tamburo",
+          "cost": "4 oro",
+          "description": "Aumenta la portata della capacità eroica Musicista a 20 metri."
         },
         "Flute": {
-          "name": "Flute"
+          "name": "Flauto",
+          "cost": "2 oro",
+          "description": "Riduce a 2 il costo in PV della capacità eroica Musicista."
         },
         "Harp": {
-          "name": "Harp"
+          "name": "Arpa",
+          "cost": "8 oro",
+          "description": "Riduce a 1 il costo in PV della capacità eroica Musicista."
         },
         "Horn": {
-          "name": "Horn"
+          "name": "Corno",
+          "cost": "6 oro",
+          "description": "Aumenta la portata della capacità eroica Musicista a 100 metri."
         },
         "Lyre": {
-          "name": "Lyre"
+          "name": "Lira",
+          "cost": "20 oro",
+          "description": "Riduce a 1 il costo in PV della capacità eroica Musicista."
         },
         "Bath at an Inn": {
-          "name": "Bath at an Inn"
+          "name": "Bagno in Locanda",
+          "cost": "6 rame",
+          "description": "In un intervallo, guarisce una condizione a tua scelta, ma solo un bagno al giorno ha questo effetto."
         },
         "Bodyguard": {
-          "name": "Bodyguard"
+          "name": "Guardia del Corpo",
+          "cost": "2 oro/giorno",
+          "description": "Statistiche di una @UUID[Actor.c6ngJuHkGiVMJ3AQ]{guardia} tipica"
         },
         "Bowl of Stew": {
-          "name": "Bowl of Stew"
+          "name": "Scodella di Stufato",
+          "cost": "5 rame",
+          "description": "Copre il fabbisogno giornaliero di cibo."
         },
         "Clothes Repair": {
-          "name": "Clothes Repair"
+          "name": "Rammendatura",
+          "cost": "5 arg.",
+          "description": "Elimina gli effetti degli abiti sgualciti."
         },
         "Courier": {
-          "name": "Courier"
+          "name": "Corriere",
+          "cost": "1 arg./km",
+          "description": "Consegna un messaggio al destinatario."
         },
         "Feast": {
-          "name": "Feast"
+          "name": "Banchetto",
+          "cost": "2 oro",
+          "description": "Copre il fabbisogno giornaliero di cibo."
         },
         "Goblet of Wine": {
-          "name": "Goblet of Wine"
+          "name": "Calice di Vino",
+          "cost": "2 arg.",
+          "description": "Dopo aver bevuto due calici in un singolo periodo, ogni calice aggiuntivo causa una condizione a tua scelta."
         },
         "Haircut": {
-          "name": "Haircut"
+          "name": "Taglio di Capelli",
+          "cost": "2 arg.",
+          "description": "Guarisce una condizione a scelta in un Intervallo, ma può essere eseguito solo una volta alla settimana."
         },
         "Healing": {
-          "name": "Guarire"
+          "name": "Cure Mediche",
+          "cost": "5 oro",
+          "description": "I tiri di GUARIRE hanno successo automatico."
         },
         "Lodging at Inn, Dormitory": {
-          "name": "Lodging at Inn, Dormitory"
+          "name": "Alloggio in Locanda, Dormitorio",
+          "cost": "1 arg.",
+          "description": "Si può eseguire un periodo di riposo senza tiro di SOPRAVVIVENZA, ma tira un D4 a ogni periodo. Con un 1, il russare di qualcuno impedisce agli altri nella stanza di dormire."
         },
         "Lodging at Inn, Luxury Suite": {
-          "name": "Lodging at Inn, Luxury Suite"
+          "name": "Alloggio in Locanda, Stanza Lussuosa",
+          "cost": "2 oro",
+          "description": "Si può eseguire un periodo di riposo senza tiro di SOPRAVVIVENZA."
         },
         "Lodging at Inn, Separate Room": {
-          "name": "Lodging at Inn, Separate Room"
+          "name": "Alloggio in Locanda, Stanza Singola",
+          "cost": "5 arg.",
+          "description": "Si può eseguire un periodo di riposo senza tiro di SOPRAVVIVENZA."
         },
         "Meal at an Inn": {
-          "name": "Meal at an Inn"
+          "name": "Pasto in Locanda",
+          "cost": "3 arg.",
+          "description": "Copre il fabbisogno giornaliero di cibo."
         },
         "Road Toll": {
-          "name": "Road Toll"
+          "name": "Pedaggio Stradale",
+          "cost": "2 rame",
+          "description": "Permette il passaggio."
         },
         "Stagecoach": {
-          "name": "Stagecoach"
+          "name": "Diligenza",
+          "cost": "3 rame/km",
+          "description": "Trasporta fino a una destinazione specifica."
         },
         "Tankard of Mead": {
-          "name": "Tankard of Mead"
+          "name": "Boccale di Idromele",
+          "cost": "4 rame",
+          "description": "Dopo aver bevuto tre boccali in un singolo periodo, ogni boccale aggiuntivo causa una condizione a tua scelta."
         },
         "Teacher": {
-          "name": "Teacher"
+          "name": "Istruttore",
+          "cost": "5 oro (o più)/periodo",
+          "description": "Un periodo completo di studio conferisce un @UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.8oP09yp6neygtjVn]{tiro di avanzamento} aggiuntivo"
         },
         "Amulet": {
-          "name": "Amulet"
+          "name": "Amuleto",
+          "cost": "3 oro",
+          "description": "Può essere usato come tramite per gli incantesimi."
         },
         "Book": {
-          "name": "Book"
+          "name": "Libro",
+          "cost": "25 oro",
+          "description": "Favore ai tiri di abilità in una materia specifica. Il costo varia in base alla materia."
         },
         "Brooch": {
-          "name": "Brooch"
+          "name": "Spilla",
+          "cost": "5 oro",
+          "description": "Può essere usata come tramite per gli incantesimi."
         },
         "Chalk": {
-          "name": "Chalk"
+          "name": "Gessetto",
+          "cost": "1 rame",
+          "description": "Può essere usato come tramite per gli incantesimi."
         },
         "Grimoire": {
-          "name": "Grimoire"
+          "name": "Grimorio",
+          "cost": "50 oro",
+          "description": "Può essere usato come tramite per gli incantesimi."
         },
         "Hourglass": {
-          "name": "Hourglass"
+          "name": "Clessidra",
+          "cost": "25 oro",
+          "description": "Può essere usato come tramite per gli incantesimi."
         },
         "Notebook": {
-          "name": "Notebook"
+          "name": "Tacquino",
+          "cost": "5 oro",
+          "description": "Vuoto, può essere usato come grimorio."
         },
         "Orbuculum": {
-          "name": "Orbuculum"
+          "name": "Sfera di Cristallo",
+          "cost": "18 oro",
+          "description": "Può essere usata come tramite per gli incantesimi."
         },
         "Paper (sheet)": {
-          "name": "Paper (sheet)"
+          "name": "Carta (foglio)",
+          "cost": "2 arg.",
+          "description": "Può essere usata per scrivere gli incantesimi."
         },
         "Parchment (sheet)": {
-          "name": "Parchment (sheet)"
+          "name": "Pergamena (foglio)",
+          "cost": "1 arg.",
+          "description": "Può essere usata per scrivere gli incantesimi."
         },
         "Quill & Ink": {
-          "name": "Quill & Ink"
+          "name": "Calamo e Inchiostro",
+          "cost": "10 oro",
+          "description": "Posssono essere usati per scrivere gli incantesimi."
         },
         "Reliquary": {
-          "name": "Reliquary"
+          "name": "Reliquiario",
+          "cost": "5 oro",
+          "description": "Può essere usato come tramite per gli incantesimi."
         },
         "Wand": {
-          "name": "Wand"
+          "name": "Bacchetta",
+          "cost": "10 oro",
+          "description": "Può essere usata come tramite per gli incantesimi."
         },
         "Blacksmithing Tools": {
-          "name": "Blacksmithing Tools"
+          "name": "Attrezzi da Fabbro",
+          "cost": "20 oro",
+          "description": "Usati per ARTIGIANATO."
         },
         "Carpentry Tools": {
-          "name": "Carpentry Tools"
+          "name": "Attrezzi da Carpentiere",
+          "cost": "8 oro",
+          "description": "Usati per ARTIGIANATO."
         },
         "Crowbar": {
-          "name": "Crowbar"
+          "name": "Piede di Porco",
+          "cost": "2 oro",
+          "description": "2D6 danni contro una porta o un muro, senza il rischio di danneggiarsi. Colpisce automaticamente."
         },
         "Hammer": {
-          "name": "Hammer"
+          "name": "Martello",
+          "cost": "1 oro",
+          "description": "2D4 danni contro una porta o un muro, senza il rischio di danneggiarsi. Colpisce automaticamente."
         },
         "Needle & Thread": {
-          "name": "Needle & Thread"
+          "name": "Ago e Filo",
+          "cost": "3 arg.",
+          "description": "Riparano vestiti con un tiro di ARTIGIANATO."
         },
         "Pickaxe": {
-          "name": "Pickaxe"
+          "name": "Piccone",
+          "cost": "3 oro",
+          "description": "2D8 danni contro una porta o un muro, senza il rischio di danneggiarsi. Colpisce automaticamente."
         },
         "Saw": {
-          "name": "Saw"
+          "name": "Sega",
+          "cost": "5 oro",
+          "description": "Taglia il metallo o il legno in un intervallo."
         },
         "Shovel": {
-          "name": "Shovel"
+          "name": "Pala",
+          "cost": "2 oro",
+          "description": "Dimezza il tempo impiegato a scavare."
         },
         "Sledgehammer": {
-          "name": "Sledgehammer"
+          "name": "Maglio",
+          "cost": "3 oro",
+          "description": "2D10 danni contro una porta o un muro, senza il rischio di danneggiarsi. Colpisce automaticamente."
         },
         "Tanning Tools": {
-          "name": "Tanning Tools"
+          "name": "Attrezzi da Conciatore",
+          "cost": "5 oro",
+          "description": "Usati per ARTIGIANATO."
         },
         "Abacus": {
-          "name": "Abacus"
+          "name": "Abaco",
+          "cost": "2 oro",
+          "description": "Favore ai tiri di INT per risolvere problemi matematici."
         },
         "Blanket": {
-          "name": "Blanket"
+          "name": "Coperta",
+          "cost": "5 arg.",
+          "description": "Richiesta per non subire una sciagura ai tiri per evitare gli effetti del freddo."
         },
         "Chess Set": {
-          "name": "Chess Set"
+          "name": "Scacchi",
+          "cost": "1 oro",
+          "description": "Un tiro contrapposto di INT determina chi vince."
         },
         "Dice": {
-          "name": "Dice"
+          "name": "Dadi",
+          "cost": "1 arg.",
+          "description": "La fortuna determina chi vince."
         },
         "Field Kitchen": {
-          "name": "Field Kitchen"
+          "name": "Cucina da Campo",
+          "cost": "4 oro",
+          "description": "Favore ai tiri di SOPRAVVIVENZA per cucinare.",
+          "boons": "SOPRAVVIVENZA"
         },
         "Field Ration": {
-          "name": "Field Ration"
+          "name": "Razione da Campo",
+          "cost": "1 arg.",
+          "description": "Va consumata una razione al giorno per non subire gli effetti della fame."
         },
         "Grappling Hook": {
-          "name": "Grappling Hook"
+          "name": "Rampino",
+          "cost": "3 oro",
+          "description": "Può essere usato per fissare una corda. Può essere lanciato e fissato con un tiro di ACROBAZIA fino a FOR metri (FOR × 2 con una sciagura)."
         },
         "Lockpicks (Advanced)": {
-          "name": "Lockpicks (Advanced)"
+          "name": "Grimaldelli, Avanzati",
+          "cost": "20 oro",
+          "description": "Favore ai tiri di RAPIDITÀ DI MANO per scassinare le serrature.",
+          "boons": "RAPIDITÀ DI MANO"
         },
         "Lockpicks (Simple)": {
-          "name": "Lockpicks (Simple)"
+          "name": "Grimaldelli, Semplici",
+          "cost": "1 oro",
+          "description": "Richiesti per evitare una sciagura ai tiri di RAPIDITÀ DI MANO per scassinare le serrature."
         },
         "Magnifying Glass": {
-          "name": "Magnifying Glass"
+          "name": "Lente d’Ingrandimento",
+          "cost": "30 oro",
+          "description": "Favore ai tiri di LOCALIZZARE.",
+          "boons": "LOCALIZZARE"
         },
         "Map": {
-          "name": "Map"
+          "name": "Mappa",
+          "cost": "5 oro",
+          "description": "Richiesta per evitare una sciagura ai tiri di SOPRAVVIVENZA per fare strada durante i viaggi."
         },
         "Marbles": {
-          "name": "Marbles"
+          "name": "Biglie",
+          "cost": "1 oro",
+          "description": "Come azione, possono essere lanciate contro un nemico umanoide entro 10 metri. Nel turno successivo il bersaglio deve eseguire un tiro di SFUGGIRE (non è un’azione) per potersi muovere."
         },
         "Padlock": {
-          "name": "Padlock"
+          "name": "Lucchetto",
+          "cost": "10 oro",
+          "description": "Può chiudere una cassa o una porta. Può subire 20 danni, con un valore di armatura di 5."
         },
         "Perfume (10 doses)": {
-          "name": "Perfume (10 doses)"
+          "name": "Profumo (10 dosi)",
+          "cost": "5 oro",
+          "description": "Favore ai tiri basati su CAR quando il GM lo ritiene ragionevole.",
+          "boons": "tiri basati su CAR"
         },
         "Playing Cards": {
-          "name": "Playing Cards"
+          "name": "Carte da Gioco",
+          "cost": "5 arg.",
+          "description": "Un tiro contrapposto di IMBROGLIARE determina chi vince."
         },
         "Quiver of Arrows (Iron Head)": {
-          "name": "Quiver of Arrows (Iron Head)"
+          "name": "Faretra con Frecce, Punte di Ferro",
+          "cost": "2 oro",
+          "description": "Richiesta per poter usare archi e balestre."
         },
         "Quiver of Arrows (Wooden Head)": {
-          "name": "Quiver of Arrows (Wooden Head)"
+          "name": "Faretra con Frecce,Punte di Legno",
+          "cost": "5 arg.",
+          "description": "Richiesta per poter usare archi e balestre. L’efficacia dell’armatura raddoppia"
         },
         "Rope (Hemp, 10 meters)": {
-          "name": "Rope (Hemp, 10 meters)"
+          "name": "Corda, Canapa (10 metri)",
+          "cost": "1 oro",
+          "description": "Favore ai tiri di ACROBAZIA per arrampicarsi, ma la corda deve essere fissata a qualcosa.",
+          "boons": "ACROBAZIA"
         },
         "Rope (Silk, 10 meters)": {
-          "name": "Rope (Silk, 10 meters)"
+          "name": "Corda, Seta (10 metri)",
+          "cost": "10 oro",
+          "description": "Favore ai tiri di ACROBAZIA per arrampicarsi, ma la corda deve essere fissata a qualcosa.",
+          "boons": "ACROBAZIA"
         },
         "Saddle": {
-          "name": "Saddle"
+          "name": "Sella",
+          "cost": "10 oro",
+          "description": "Richiesta per evitare una sciagura quando si combatte a cavallo."
         },
         "Sleeping Fur": {
-          "name": "Sleeping Fur"
+          "name": "Sacco a Pelo",
+          "cost": "1 oro",
+          "description": "Richiesto per evitare una sciagura ai tiri di SOPRAVVIVENZA per accamparsi."
         },
         "Spyglass": {
-          "name": "Spyglass"
+          "name": "Cannocchiale",
+          "cost": "50 oro",
+          "description": "Favore ai tiri di SOPRAVVIVENZA per fare da guida durante i viaggi."
         },
         "Large Tent": {
-          "name": "Large Tent"
+          "name": "Tenda, Grande",
+          "cost": "4 oro",
+          "description": "Può ospitare fino a sei persone. Fornisce un favore ai tiri di  SOPRAVVIVENZA quando ci si accampa. Tira solo una persona, ma gli altri possono aiutare."
         },
         "Small Tent": {
-          "name": "Small Tent"
+          "name": "Tenda, Piccola",
+          "cost": "2 oro",
+          "description": "Può ospitare fino a due persone. Fornisce un favore ai tiri di  SOPRAVVIVENZA quando ci si accampa. Tira solo una persona, ma gli altri possono aiutare."
         },
         "Whistle": {
-          "name": "Whistle"
+          "name": "Fischietto",
+          "cost": "5 arg.",
+          "description": "Può essere sentito fino a 100 metri di distanza."
         },
         "Dwarf": {
           "name": "Nano",
@@ -12038,7 +12234,7 @@
           "description":"Usa questa abilità quando attacchi con una frombola."
         },
         "Spears": {
-          "name": "Lance",
+          "name": "Lancia da Cavalleria",
           "description":"Un’abilità usata per combattere con lance e tridenti, anche quando vengono lanciate. Comprende anche le lance da cavalleria."
         },
         "Staves": {
@@ -12253,274 +12449,515 @@
           "description": "<p>Un notevole sbuffo di fumo compare attorno a te. Molto popolare per ingressi drammatici, può fornire un favore ai tiri di SGATTAIOLARE in situazioni specifiche determinate dal GM.</p>"
         },
         "Salamander": {
-          "name": "Salamandra"
+          "name": "Salamandra",
+          "prerequisite": "GETTO DI FUOCO",
+          "requirement": "Parola, gesto, ingrediente (fuoco vivo)",
+          "school": "Elementalismo",
+          "description": "<p>L’incantesimo evoca un elementale di fuoco. La salamandra prende la forma di una lucertola di fuoco e in combattimento conta come un mostro. Segue i comandi del suo creatore (azione gratuita) e può agire indipendentemente nel proprio turno di iniziativa, ma deve restare entro il campo visivo del mago.</p><p>@UUID[Actor.RFi3Lu3dbG3HVYv9]{Salamandra (livello di potere 1)}</p><p>@UUID[Actor.F7bt4H0zxA0aMCmt]{Salamandra (livello di potere 2)}</p><p>@UUID[Actor.yAz7uAlI054wAHsS]{Salamandra (livello di potere 3)}</p>"
         },
         "Shatter": {
-          "name": "Infrangere"
+          "name": "Infrangere",
+          "prerequisite": "Elementalismo",
+          "requirement": "Parola",
+          "school": "Elementalismo",
+          "description": "<p>Rompendo il legame invisibile che tiene unita la materia, puoi infrangere oggetti fisici. Con questo incantesimo infliggi 2D10 a un oggetto inanimato e non magico, igno￾randone il valore di armatura. Ogni livello di potere dopo il primo aumenta il danno di D10.</p>"
         },
         "Stone Shield": {
-          "name": "Scudo di Roccia"
+          "name": "Scudo di Roccia",
+          "prerequisite": "COLONNA",
+          "requirement": "Gesto, ingrediente (ciottoli)",
+          "school": "Elementalismo",
+          "description": "<p>Evochi all’istante uno scudo di roccia che riduce di 2D6 il danno di un attacco in arrivo. Ogni livello di potere aggiun￾tivo diminuisce il danno di D6. Puoi lanciare l’incantesimo dopo il tiro per colpire, ma prima del tiro dei danni. Questo incantesimo può essere combinato con l’armatura.</p>"
         },
         "Stone Skin": {
-          "name": "Pelle di Pietra"
+          "name": "Pelle di Pietra",
+          "prerequisite": "Mentalismo",
+          "requirement": "Parola, gesto, ingrediente (pietra)",
+          "school": "Mentalismo",
+          "description": "<p>La pelle del bersaglio diventa grigia e dura, facendogli otte￾nere un valore di armatura di 4. Puoi lanciare l’incantesimo su te stesso. Ogni livello di potere dopo il primo aumenta il valore di armatura di 2. Se indossi un’armatura, conta solo il valore di armatura più alto.</p>"
         },
         "Stonewall": {
-          "name": "Muro di Roccia"
+          "name": "Muro di Roccia",
+          "prerequisite": "COLONNA",
+          "requirement": "Parola, gesto",
+          "school": "Elementalismo",
+          "description": "<p>L’incantesimo innalza un muro, spesso 1 metro, alto 2 e lungo 3, dal terreno o da un pavimento di pietra. Ogni livello di potere aggiuntivo crea un altro muro delle stesse dimensioni. Se qualcuno si trova in quel punto, deve eseguire un tiro di ACROBAZIA (non è un’azione) per evitare di cadere giù. Se il muro viene creato in un luogo con il soffitto basso e il tiro fallisce, la vittima subisce invece [[/damage 2D6 bludgeoning]].</p>"
         },
         "Sylph": {
-          "name": "Silfide"
+          "name": "Silfide",
+          "prerequisite": "TURBINE",
+          "requirement": "Parola, gesto",
+          "school": "Elementalismo",
+          "description": "<p>L’incantesimo evoca un elementale d’aria. La silfide sembra una nuvola temporalesca a forma d’uccello. In combattimento conta come un mostro, segue i comandi del suo creatore (azione gratuita) e può agire indipendentemente nel proprio turno di iniziativa, ma deve restare entro il campo visivo di chi l’ha evocata.</p><p>@UUID[Actor.WhNHgwFhU3OSQkja]{Silfide (livello di potere 1)}</p><p>@UUID[Actor.2DzCgkWh5nkFmx3d]{Silfide (livello di potere 2)}</p><p>@UUID[Actor.St34PziRUZzhZdVo]{Silfide (livello di potere 3)}</p>"
         },
         "Tidal Wave": {
-          "name": "Ondata"
+          "name": "Ondata",
+          "prerequisite": "GELATA",
+          "requirement": "Parola, gesto, ingrediente (fonte d’acqua)",
+          "school": "Elementalismo",
+          "description": "<p>Evochi una grande onda la cui area d’effetto si estende non a partire da te, ma da una fonte d’acqua entro portata. Tutti gli oggetti e le creature all’interno dell’area d’effetto e non ancorati al terreno vengono spinti di [[//roll 2D6]] metri lontano dalla fonte d’acqua e subiscono lo stesso ammontare di danni contundenti. Ogni livello di potere aggiuntivo aumenta i danni di un dado.</p>"
         },
         "Undine": {
-          "name": "Ondina"
+          "name": "Ondina",
+          "prerequisite": "ONDATA",
+          "requirement": "Parola, gesto, ingrediente (acqua)",
+          "school": "Elementalismo",
+          "description": "<p>L’incantesimo evoca un elementale d’acqua. L’ondina sembra un’onda anomala la cui cresta ha la forma di una donna fatta interamente di acqua. In combattimento conta come un mostro, segue i comandi del suo creatore (azione gratuita) e può agire indipendentemente nel proprio turno di iniziativa, ma deve restare entro il campo visivo di chi l’ha evocata.</p><p>@UUID[Actor.pQLu25P4QkWwYOPV]{Ondina (livello di potere 1)}</p><p>@UUID[Actor.I49kyM6sJRIQm6Xd]{Ondina (livello di potere 2)}</p><p>@UUID[Actor.O0CPjtA0Bal0sP8e]{Ondina (livello di potere 3)}</p>"
         },
         "Whirlwind": {
-          "name": "Turbine"
+          "name": "Turbine",
+          "prerequisite": "RAFFICA DI VENTO",
+          "requirement": "Parola, gesto",
+          "school": "Elementalismo",
+          "description": "<p>L’incantesimo crea una potente tromba d’aria attorno a chi lo lancia. Tutti gli oggetti e le creature fino a taglia umana all’interno dell’area d’effetto e non ancorati al terreno vengono scagliati a 2D4 metri, subendo lo stesso ammontare di danni contundenti e atterrando proni. Ogni livello di potere aggiuntivo aumenta la portata di 4 metri e infligge altri D4 danni.</p><p>Se decidi disubire una sciagura al tiro, puoi decidere di scagliare una persona entro portata verso un punto a tua scelta. Sei tu a decidere se il bersaglio subisce i danni e se atterra prono.</p>"
         },
         "Charge": {
-          "name": "Charge"
+          "name": "Ricarica",
+          "prerequisite": "TRASFERIRE",
+          "requirement": "Parola, gesto",
+          "school": "Generale",
+          "description": "<p>Trasferisci i tuoi PV in un oggetto inanimato a tua scelta, che funge da batteria. Ogni livello di potere ti permette di trasferire fino a 10 PV, che possono essere spesi da chiunque sia in contatto con l’oggetto al posto dei propri. I PV ricaricati svaniscono al termine del periodo, a meno che l’incantesimo non venga combinato con PERMANENZA. RICARICA può anche essere combinato con SIGILLO MAGICO</p>"
         },
         "Dispel": {
-          "name": "Dispel"
+          "name": "Disperdere",
+          "prerequisite": "Qualunque Scuola di Magia",
+          "requirement": "Parola, gesto",
+          "school": "Generale",
+          "description": "<p>Puoi cancellare un incantesimo in corso di livello di potere pari o inferiore. DISPERDERE può anche essere usato per terminare effetti magici, se l’avventura o il GM lo permettono.</p>"
         },
         "Fetch": {
-          "name": "Fetch"
+          "name": "Acchiappare",
+          "prerequisite": "Qualunque Scuola di Magia",
+          "requirement": "Gesto",
+          "school": "Generale",
+          "description": "<p>Fai fluttuare verso di te un oggetto non bloccato (di peso non superiore a 1) entro 10 metri.</p>"
         },
         "Flick": {
-          "name": "Flick"
+          "name": "Schicchera",
+          "prerequisite": "Qualunque Scuola di Magia",
+          "requirement": "Gesto",
+          "school": "Generale",
+          "description": "<p>Dai una schicchera magica a una creatura o ad un oggetto entro 10 metri. Questo trucchetto magico infligge 1 danno e può, per esempio, frantumare del vetro.</p>"
         },
         "Light": {
-          "name": "Light"
+          "name": "Luce",
+          "prerequisite": "Qualunque Scuola di Magia",
+          "requirement": "Gesto",
+          "school": "Generale",
+          "description": "<p>Crei una luce brillante che splende da un tramite a tua scelta e illumina un’area di10 metri attorno all’oggetto. Dura fino al termine di un periodo, ma sispegne se scendi a zero PF.</p>"
         },
         "Magic Seal": {
-          "name": "Magic Seal"
+          "name": "Sigillo Magico",
+          "prerequisite": "TRASFERIRE",
+          "requirement": "Parola, gesto",
+          "school": "Generale",
+          "description": "<p>Vincoli un incantesimo a un oggetto inanimato a tua scelta.Il livello di potere di SIGILLO MAGICO determina il livello di potere dell’incantesimo vincolato. Peri trucchetti magici basta un livello di potere 1. Quando lanci SIGILLO MAGICO, decidi anche come verrà attivato l’incantesimo vincolato, che userà i PV della persona che lo attiva. Se la persona non potrà o non vorrà spendere isuoi PV, l’incantesimo non si attiverà. SIGILLO MAGICO può essere combinato con RICARICA per dare all’oggetto i PV da spendere.I due rituali devono essere eseguiti consecutivamente.Attivare un incantesimo vincolato dissolve SIGILLO MAGICO, a meno che questo non venga combinato con PERMANENZA.</p>"
         },
         "Magic Shield": {
-          "name": "Magic Shield"
+          "name": "Scudo Magico",
+          "prerequisite": "PROTEZIONE o DISPERDERE",
+          "requirement": "Gesto",
+          "school": "Generale",
+          "description": "<p>Interferisci con un incantesimo lanciato da un altro mago. Questa reazione rompe l’ordine di iniziativa del combattimento, ma non sostituisce la tua azione nel round. Lancia questo incantesimo dopo che il tuo avversario ha tirato con successo, ma prima dei tiri per i danni o altri effetti. Se hai successo, il livello di potere dell’incantesimo dell’avversario è ridotto del livello di potere del tuo SCUDO MAGICO. Se il risultato è zero o inferiore, lo rendi inefficace. Puoi usare questo incantesimo anche per bloccare attacchi magici di mostri: in questo caso ogni livello di potere riduce di uno il numero di dadi del danno.</p>"
         },
         "Open/Close": {
-          "name": "Open/Close"
+          "name": "Apri/Chiudi",
+          "prerequisite": "Qualunque Scuola di Magia",
+          "requirement": "Gesto",
+          "school": "Generale",
+          "description": "<p>Apri o chiudi una porta che non è chiusa a chiave entro 10 metri e che puoi vedere.</p>"
         },
         "Permanence": {
-          "name": "Permanence"
+          "name": "Permanenza",
+          "prerequisite": "SIGILLO MAGICO",
+          "requirement": "Parola, gesto",
+          "school": "Generale",
+          "description": "<p>Questo rituale si combina con altri incantesimi per renderli permanenti. Chi lo lancia perde definitivamente un punto di VOL (e il massimo dei suoi PV si riduce di 1). Il livello di potere di PERMANENZA deve essere pari a quello dell’incantesimo che diverrà permanente. PERMANENZA non può essere usato con incantesimi di durata istantanea. Se combinato con SIGILLO MAGICO, quest’ultimo diventa permanente e l’incantesimo vincolato può essere attivato un numero qualsiasi di volte.</p>"
         },
         "Protector": {
-          "name": "Protector"
+          "name": "Protezione",
+          "prerequisite": "Qualunque Scuola di Magia",
+          "requirement": "Gesto, ingrediente (qualcosa con cui disegnare)",
+          "school": "Generale",
+          "description": "<p>Proteggi dalla magia una persona o un luogo (non più grande di un umano). Puoi lanciare l’incantesimo su te stesso. Il livello di potere di tutti gli incantesimi lanciati contro questa persona o luogo sono ridotti dal livello di potere di PROTEZIONE. Puoi anche usare questo incantesimo per proteggere dagli attacchi magici eseguiti dai mostri. In questo caso, ogni livello di potere riduce di uno il numero di dadi del danno.</p>"
         },
         "Repair Clothes": {
-          "name": "Repair Clothes"
+          "name": "Ripara Abiti",
+          "prerequisite": "Qualunque Scuola di Magia",
+          "requirement": "Gesto",
+          "school": "Generale",
+          "description": "<p>Gli abiti entro 10 metri che appartengono a te o a qualcun altro vengono immediatamente riparati e puliti.</p>"
         },
         "Sense Magic": {
-          "name": "Sense Magic"
+          "name": "Percepire la Magia",
+          "prerequisite": "Qualunque Scuola di Magia",
+          "requirement": "Gesto",
+          "school": "Generale",
+          "description": "<p>Puoi percepire se il luogo in cui ti trovi o un oggetto che hai in mano siano toccati dalla magia e comprenderne la scuola.</p>"
         },
         "Transfer": {
-          "name": "Transfer"
+          "name": "Trasferire",
+          "prerequisite": "SCUDO MAGICO",
+          "requirement": "Gesto",
+          "school": "Generale",
+          "description": "<p>Puoi rubare PV da una creatura umanoide o trasferire i tuoi PV a qualcun altro. Puoi prendere o dare un numero di PV fino al doppio del costo di lancio di questo incantesimo, per esempio quattro al livello di potere 1, otto al livello di potere 2 e dodici al livello di potere 3. I PV usati per lanciare l’incantesimo sono persi nel trasferimento. Non puoi superare il tuo limite massimo di PV o scendere sotto zero. Lo stesso vale per il tuo bersaglio. Se rifiuta il trasferimento, subisci una sciagura al tiro.</p>"
         },
         "Divination": {
-          "name": "Divinazione"
+          "name": "Divinazione",
+          "prerequisite": "LUNGOSGUARDO",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Specifica un oggetto (“arma”,“spada”),sostanza (“oro”,“aria”, “acqua”), creatura o tipo di creatura (“Zot il mago”,“non-morto”, “orchi”) o fenomeno (“magia”). L’incantesimo ti mostrerà la direzione verso il bersaglio più vicino del tipo specificato, entro portata. Ogni livello di potere aggiuntivo raddoppia la portata, rispettivamente a 200 e 400 metri.</p>"
         },
         "Dominate": {
-          "name": "Dominare"
+          "name": "Dominare",
+          "prerequisite": "TELEPATIA",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Puoi ottenere il completo controllo delle azioni di un’altra persona. Per lanciare l’incantesimo, esegui un tiro contrapposto contro VOL della vittima. I PNG tirano contro il loro valore massimo di PV se specificato, ridotto di 2 per ogni livello della capacità eroica Concentrato. Se i PNG non possiedono il valore massimo di PV, tirano contro 10. Al livello di potere 1 subisci una sciagura, al livello di potere 2 tiri normalmente, mentre al livello di potere 3 ottieni un favore. Se vinci il tiro, la vittima deve immediatamente muoversi ed eseguire un’azione a tua scelta, eccetto quelle che costano PV. Inoltre, la vittima perde il suo turno successivo. Questo incantesimo non ha effetto sui mostri.</p>"
         },
         "Enchant Weapon": {
-          "name": "Incanta Arma"
+          "name": "Incanta Arma",
+          "prerequisite": "FORTEPUGNO",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>L’incantesimo incanta un’arma facendo in modo che i risultati 1 e 2 contino come un drago quando attacchi o pari con essa. Inoltre, l’arma conta come magica. Ogni livello di potere aggiuntivo aumenta di 1 la possibilità di ottenere un drago: da 1 a 3 al livello di potere 2 e da 1 a 4 al livello di potere 3.</p>"
         },
         "Farsight": {
-          "name": "Lungosguardo"
+          "name": "Lungosguardo",
+          "prerequisite": "Mentalismo",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Questo incantesimo ti permette di vedere e sentire cosa sta succedendo in un luogo fino a 1 chilometro di distanza come se fossi lì di persona. Devi poter vedere quel luogo o esserci stato in precedenza. Ogni livello di potere aggiuntivo aumenta di dieci volte la portata: 10 chilometri al livello di potere 2 e 100 al livello di potere 3. Questo incantesimo non può essere usato per scrutare in altre dimensioni.</p>"
         },
         "Flight": {
-          "name": "Volo"
+          "name": "Volo",
+          "prerequisite": "LEVITARE",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Concedi a te stesso o ad un’altra creatura, non più grande di un umano, la capacità di volare liberamente con un valore di movimento di 6. Con un livello di potere 2, il valore raddoppia fino a 12 e, con un livello di potere 3, raddoppia di nuovo, fino a 24. Chi vola può ignorare tutti gli ostacoli e il tipo di terreno non lo influenza.</p>"
         },
         "Levitate": {
-          "name": "Levitare"
+          "name": "Levitare",
+          "prerequisite": "Mentalismo",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Fai levitare te stesso o un’altra persona o oggetto, fino a taglia umana, lasciandolo galleggiare fino a 6 metri in qualsiasi direzione, dopo i quali atterra gentilmente o cade a terra (a tua scelta). Ogni livello di potere aggiuntivo permette di far levitare il bersaglio per altri 2 metri o di far levitare una seconda persona o oggetto. Subisci una sciagura al tiro se provi a lanciare LEVITARE su un bersaglio non consenziente.</p>"
         },
         "Lock/Unlock": {
-          "name": "Blocca/Sblocca"
+          "name": "Blocca/Sblocca",
+          "prerequisite": "Mentalismo",
+          "requirement": "Gesto",
+          "school": "Mentalismo",
+          "description": "<p>Il tuo tocco può bloccare o sbloccare una serratura non magica.</p>"
         },
         "Longstrider": {
-          "name": "Passolungo"
+          "name": "Passolungo",
+          "prerequisite": "Mentalismo",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Il valore di movimento del bersaglio è raddoppiato per la durata dell’effetto. Puoi lanciare questo incantesimo su te stesso. Ogni livello di potere aggiuntivo permette di lanciare l’incantesimo su una seconda persona.</p>"
         },
         "Magic Stool": {
-          "name": "Sgabello Magico"
+          "name": "Sgabello Magico",
+          "prerequisite": "Mentalismo",
+          "requirement": "Gesto",
+          "school": "Mentalismo",
+          "description": "<p>Crei una superficie rotonda, a un’altezza e con un diametro di circa mezzo metro, sulla quale ti puoi sedere o appoggiare oggetti. L’effetto dura finché non te ne vai.</p>"
         },
         "Mental Strike": {
-          "name": "Colpo Mentale"
+          "name": "Colpo Mentale",
+          "prerequisite": "FORTEPUGNO",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Puoi convertire il tuo potere mentale in un poderoso colpo fisico. L’attacco scaglia la vittima 2D6 metri lontano da te e infligge lo stesso ammontare di danni. Ogni livello di potere aggiuntivo aumenta di un D6 i dadi da tirare. L’incantesimo può essere schivato o parato come un attacco a distanza.</p>"
         },
         "Power Fist": {
-          "name": "Fortepugno"
+          "name": "Fortepugno",
+          "prerequisite": "Mentalismo",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Il danno dei tuoi attacchi a mani nude aumenta di D6 per ogni livello di potere</p>"
         },
         "Scrying": {
-          "name": "Scrutare"
+          "name": "Scrutare",
+          "prerequisite": "LUNGOSGUARDO",
+          "requirement": "Gesto",
+          "school": "Mentalismo",
+          "description": "<p>Ottieni la conoscenza degli eventi passati avvenuti nel luogo in cui ti trovi, anche se nessuno di vivo li ricorda. Scruti fino a un giorno indietro nel passato al livello del potere 1, fino a un anno al livello del potere 2 e fino a un secolo al livello del potere 3. Le tue visioni sono spesso criptiche e frammentate: è il GM a decidere cosa vedi nello specifico.</p>"
         },
         "Slow Fall": {
-          "name": "Caduta Lenta"
+          "name": "Caduta Lenta",
+          "prerequisite": "Mentalismo",
+          "requirement": "Gesto",
+          "school": "Mentalismo",
+          "description": "<p>Rallenti la tua caduta e atterri leggero come una piuma, a prescindere dall’altezza.</p>"
         },
         "Telepathy": {
-          "name": "Telepatia"
+          "name": "Telepatia",
+          "prerequisite": "LUNGOSGUARDO",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Puoi leggere i pensieri superficiali di un’altra persona. Accedere ai ricordi più profondi richiede un livello di potere 2 o superiore, in base a quanto sono recenti. Il GM ha l’ultima parola. Puoi anche usare questo incantesimo per trasmettere i tuoi pensieri a un’altra persona.</p>"
         },
         "Teleport": {
-          "name": "Teletrasporto"
+          "name": "Teletrasporto",
+          "prerequisite": "LUNGOSGUARDO",
+          "requirement": "Parola, gesto",
+          "school": "Mentalismo",
+          "description": "<p>Con questo incantesimo puoi teletrasportare te stesso fino a 100 metri. Devi poter vedere la destinazione o averla visitata in precedenza. Per ogni livello di potere dopo il primo, puoi portare con te un’altra creatura di taglia umana che tocchi, oppure raddoppiare la portata. L’incantesimo non può essere usato per viaggiare tra dimensioni.</p>"
         },
         "Broadsword": {
-          "name": "Broadsword"
+          "name": "Spada",
+          "cost": "12 oro",
+          "abilities": "Spade"
         },
         "Dagger": {
-          "name": "Dagger"
+          "name": "Pugnale",
+          "cost": "1 oro",
+          "abilities": "Coltelli",
+          "range": "FOR"
         },
         "Handaxe": {
-          "name": "Handaxe"
+          "name": "Accetta",
+          "cost": "2 oro",
+          "abilities": "Asce",
+          "range": "FOR"
         },
         "Halberd": {
-          "name": "Halberd"
+          "name": "Alabarda",
+          "cost": "20 oro",
+          "abilities": "Lance"
         },
         "Knife": {
-          "name": "Knife"
+          "name": "Coltello",
+          "cost": "5 arg.",
+          "abilities": "Coltelli",
+          "range": "FOR"
         },
         "Short Spear": {
-          "name": "Short Spear"
+          "name": "Lancia Corta",
+          "cost": "5 arg.",
+          "abilities": "Lance",
+          "range": "FOR×2"
         },
         "Short Sword": {
-          "name": "Short Sword"
+          "name": "Spada Corta",
+          "cost": "8 oro",
+          "abilities": "Spade"
         },
         "Scimitar": {
-          "name": "Scimitar"
+          "name": "Scimitarra",
+          "cost": "10 oro",
+          "abilities": "Spade"
         },
         "Lance": {
-          "name": "Lance"
+          "name": "Lancia da Cavalleria",
+          "cost": "12 oro",
+          "abilities": "Lance"
         },
         "Long Spear": {
-          "name": "Long Spear"
+          "name": "Lancia Lunga",
+          "cost": "1 oro",
+          "abilities": "Lance"
         },
         "Morningstar": {
-          "name": "Morningstar"
+          "name": "Mazza Chiodata",
+          "cost": "14 oro",
+          "abilities": "Martelli"
         },
         "Unarmed": {
-          "name": "Unarmed"
+          "name": "Mani Nude",
+          "abilities": "Rissa"
         },
         "Parrying Dagger": {
-          "name": "Parrying Dagger"
+          "name": "Manosinistra",
+          "cost": "2 oro",
+          "abilities": "Coltelli"
         },
         "Small Shield": {
-          "name": "Small Shield"
+          "name": "Scudo Piccolo",
+          "cost": "4 oro"
         },
         "Large Shield": {
-          "name": "Large Shield"
+          "name": "Scudo Grande",
+          "cost": "12 oro"
         },
         "Longsword": {
-          "name": "Longsword"
+          "name": "Spada Lunga",
+          "cost": "25 oro",
+          "abilities": "Spade"
         },
         "Flail": {
-          "name": "Flail"
+          "name": "Flagello",
+          "cost": "16 oro",
+          "abilities": "Martelli"
         },
         "Light Warhammer": {
-          "name": "Light Warhammer"
+          "name": "Martello d'Arme Leggero",
+          "cost": "10 oro",
+          "abilities": "Martelli"
         },
         "Heavy Warhammer": {
-          "name": "Heavy Warhammer"
+          "name": "Martello d'Arme Pesante",
+          "cost": "20 oro",
+          "abilities": "Martelli"
         },
         "Mace": {
-          "name": "Mazza"
+          "name": "Mazza",
+          "cost": "8 oro",
+          "abilities": "Martelli"
         },
         "Battleaxe": {
-          "name": "Battleaxe"
+          "name": "Ascia da Battaglia",
+          "cost": "10 oro",
+          "abilities": "Asce"
         },
         "Light Blunt Object": {
-          "name": "Light Blunt Object"
+          "name": "Oggetto Contundente Leggero",
+          "abilities": "Rissa",
+          "range": "FOR"
         },
         "Heavy Blunt Object": {
-          "name": "Heavy Blunt Object"
+          "name": "Oggetto Contundente Pesante",
+          "abilities": "Rissa"
         },
         "Trident": {
-          "name": "Trident"
+          "name": "Tridente",
+          "cost": "5 oro",
+          "abilities": "Lance",
+          "range": "FOR"
         },
         "Small Wooden Club": {
-          "name": "Small Wooden Club"
+          "name": "Clava Piccola",
+          "cost": "1 arg.",
+          "abilities": "Martelli"
         },
         "Large Wooden Club": {
-          "name": "Large Wooden Club"
+          "name": "Clava Grande",
+          "cost": "2 arg.",
+          "abilities": "Martelli"
         },
         "Staff": {
-          "name": "Staff"
+          "name": "Bastone",
+          "cost": "2 arg.",
+          "abilities": "Bastoni"
         },
         "Greatsword": {
-          "name": "Greatsword"
+          "name": "Spadone",
+          "cost": "50 oro",
+          "abilities": "Spade"
         },
         "Two-Handed Axe": {
-          "name": "Two-Handed Axe"
+          "name": "Ascia a Due Mani",
+          "cost": "25 oro",
+          "abilities": "Asce"
         },
         "Hand Crossbow": {
-          "name": "Hand Crossbow"
+          "name": "Balestrino",
+          "cost": "90 oro",
+          "abilities": "Balestre"
         },
         "Light Crossbow": {
-          "name": "Light Crossbow"
+          "name": "Balestra Leggera",
+          "cost": "75 oro",
+          "abilities": "Balestre"
         },
         "Heavy Crossbow": {
-          "name": "Heavy Crossbow"
+          "name": "Balestra Pesante",
+          "cost": "200 oro",
+          "abilities": "Balestre"
         },
         "Short Bow": {
-          "name": "Short Bow"
+          "name": "Arco Corto",
+          "cost": "25 oro",
+          "abilities": "Archi"
         },
         "Longbow": {
-          "name": "Longbow"
+          "name": "Arco Lungo",
+          "cost": "50 oro",
+          "abilities": "Archi"
         },
         "Sling": {
-          "name": "Sling"
+          "name": "Frombola",
+          "cost": "1 arg.",
+          "abilities": "Frombole"
         },
         "Mentalist": {
-          "name": "Mentalist"
+          "name": "Mentalista",
+          "abilities": "Mentalismo, Acrobazia, Consapevolezza, Guarire, Linguaggi, Miti e Leggende, Rissa, Sfuggire",
+          "description":"@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mage]{Mago}"
         },
         "Chalice": {
-          "name": "Chalice"
+          "name": "Calice",
+          "cost": "2D6 x 5 oro"
         },
         "Gemstone": {
-          "name": "Gemstone"
+          "name": "Pietra Preziosa",
+          "cost": "Variabile"
         },
         "Gold Amulet": {
-          "name": "Gold Amulet"
+          "name": "Amuleto d’Oro",
+          "cost": "2D6 x 5 oro"
         },
         "Gold Bracelet": {
-          "name": "Gold Bracelet"
+          "name": "Bracciale d’Oro",
+          "cost": "2D6 x 10 oro"
         },
         "Gold Necklace": {
-          "name": "Gold Necklace"
+          "name": "Collana d’Oro",
+          "cost": "2D6 oro"
         },
         "Gold Ring": {
-          "name": "Gold Ring"
+          "name": "Anello d’Oro",
+          "cost": "4D6 oro"
         },
         "Mastercrafted Battleaxe": {
-          "name": "Mastercrafted Battleaxe"
+          "name": "Ascia da Battaglia di Fattura Magistrale",
+          "cost": "100 oro"
         },
         "Mastercrafted Broadsword": {
-          "name": "Mastercrafted Broadsword"
+          "name": "Spada di Fattura Magistrale",
+          "cost": "120 oro"
         },
         "Mastercrafted Dagger": {
-          "name": "Mastercrafted Dagger"
+          "name": "Pugnale di Fattura Magistrale",
+          "cost": "10 oro"
         },
         "Mastercrafted Heavy Warhammer": {
-          "name": "Mastercrafted Heavy Warhammer"
+          "name": "Martello d'Arme Pesante di Fattura Magistrale",
+          "cost": "200 oro"
         },
         "Mastercrafted Longsword": {
-          "name": "Mastercrafted Longsword"
+          "name": "Spada Lunga di Fattura Magistrale",
+          "cost": "240 oro"
         },
         "Mastercrafted Short Sword": {
-          "name": "Mastercrafted Short Sword"
+          "name": "Spada Corta di Fattura Magistrale",
+          "cost": "80 oro"
         },
         "Poison Dagger": {
-          "name": "Poison Dagger"
+          "name": "Pugnale Avvelenato",
+          "cost": "1 oro",
+          "abilities": "Coltelli",
+          "range": "FOR",
+          "description": "<p>Tira su SFUGGIRE. Se fallisci, ti tagli da solo, subendo un veleno di potenza 12. Tira un [[/roll D3]] per il tipo.</p><ol><li><p>letale</p></li><li><p>paralizzante</p></li><li><p>soporifero</p></li></ol>"
         },
         "Silver Bracelet": {
-          "name": "Silver Bracelet"
+          "name": "Bracciale d’Argento",
+          "cost": "2D6 x 10 arg."
         },
         "Silver Brooch": {
-          "name": "Silver Brooch"
+          "name": "Fermaglio d’Argento",
+          "cost": "2D6 x 5 arg."
         },
         "Silver Necklace": {
-          "name": "Silver Necklace"
+          "name": "Collana d’Argento",
+          "cost": "2D6 x 5 arg."
         },
         "Silver Ring": {
-          "name": "Silver Ring"
+          "name": "Anello d'Argento",
+          "cost": "2D6 arg."
         },
         "Amnesia": {
           "name": "Amnesia",
@@ -13083,49 +13520,76 @@
           }
         },
         "Gear - Artisan": {
-          "name": "Gear - Artisan",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Artigiano",
+          "results": {
+            "1-2":"@UUID[Item.ApOJDT5NOkTGUITX]{Martello d’arme (leggero)}, @UUID[Item.UtY5xcQPBJZuuj7F]{Armatura di cuoio}, @UUID[Item.88nXOQKWHA52n0dC]{Attrezzi da fabbro}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D8]] argento",
+            "3-4":"@UUID[Item.HJQSyTC2Aqpn1g0x]{Accetta}, @UUID[Item.UtY5xcQPBJZuuj7F]{Armatura di cuoio}, @UUID[Item.0SJ0txMLS1BOt15y]{Attrezzi da carpentiere}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D8]] argento",
+            "5-6":"@UUID[Item.otNTdw5ukG97slmA]{Coltello}, @UUID[Item.UtY5xcQPBJZuuj7F]{Armatura di cuoio}, @UUID[Item.ZOqv90IYuiOzSSGz]{Attrezzi da conciatore}, @UUID[Item.Sdzg1HSXUqhmnjGq]{Lanterna}, @UUID[Item.BtTyGxh7u1BjJ0n7]{Olio per lampade}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D8]] argento"
+          }
         },
         "Gear - Hunter": {
-          "name": "Gear - Hunter",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Cacciatore",
+          "results": {
+            "1-2":"@UUID[Item.iaw4A60DRS2GRzU0]{Pugnale}, @UUID[Item.JrIyYWUpCA7eRnKH]{Arco corto}, @UUID[Item.N3NiUj3YyV0yjJDm]{Faretra di frecce con punta di ferro}, @UUID[Item.UtY5xcQPBJZuuj7F]{Armatura di cuoio}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.nbKvfDqFtg1ALX5x]{Trappola}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D6]] argento",
+            "3-4":"@UUID[Item.otNTdw5ukG97slmA]{Coltello}, @UUID[Item.eETPMPPF8LQhTdy6]{Arco lungo}, @UUID[Item.N3NiUj3YyV0yjJDm]{Faretra di frecce con punta di ferro}, @UUID[Item.UtY5xcQPBJZuuj7F]{Armatura di cuoio}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.5XxiSXI3CQJtEdBZ]{Canna da pesca}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D6]] argento",
+            "5-6":"@UUID[Item.iaw4A60DRS2GRzU0]{Pugnale}, @UUID[Item.2aoEHGjOgRkDpNNy]{Frombola}, @UUID[Item.UtY5xcQPBJZuuj7F]{Armatura di cuoio}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.nbKvfDqFtg1ALX5x]{Trappola}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D6]] argento"
+          }
         },
         "Gear - Fighter": {
-          "name": "Gear - Fighter",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Guerriero",
+          "results": {
+            "1-2":"@UUID[Item.sefGmdXkWF8GzAPH]{Spada lunga} o @UUID[Item.rECfZ03SIfAktrLm]{Ascia da battaglia} o @UUID[Item.H0cmKKiRTN0feKBB]{Mazza chiodata}, @UUID[Item.EvriVpr9y7NNxw2q]{Scudo (piccolo)}, @UUID[Item.mipOQqpdwapgMuOe]{Cotta di maglia}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D6]] argento",
+            "3-4":"@UUID[Item.Ovcu7ZmJPWdeBvg5]{Spada corta} o @UUID[Item.HJQSyTC2Aqpn1g0x]{Accetta} o @UUID[Item.9DGwM3eAKYXv54nx]{Lancia corta}, @UUID[Item.qaCcThI64S5lRMGa]{Balestra leggera}, @UUID[Item.N3NiUj3YyV0yjJDm]{Faretra di frecce con punta di ferro}, @UUID[Item.UtY5xcQPBJZuuj7F]{Armatura di cuoio}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D6]] argento",
+            "5-6":"@UUID[Item.khOSAZVzs9GMdnB1]{Lancia lunga}, @UUID[Item.Vv01rIiqPieMYx5v]{Armatura di cuoio borchiato}, @UUID[Item.c0JttpFm82gW6uSy]{Celata}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D6]] argento"
+          }
         },
         "Gear - Scholar": {
-          "name": "Gear - Scholar",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Studioso",
+          "results": {
+            "1-2":"@UUID[Item.lL2NDjJbCRygTBYt]{Bastone}, @UUID[Item.BSZ8IUXZSdRNDpOq]{Taccuino}, @UUID[Item.LCQq5edI2CYZi19X]{Calamo e inchiostro}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento",
+            "3-4":"@UUID[Item.otNTdw5ukG97slmA]{Coltello}, @UUID[Item.csHy2MVcDDH6yuKa]{Libro (qualsiasi materia)}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.q1QjsGqlJAfvyloU]{Lampada a olio}, @UUID[Item.BtTyGxh7u1BjJ0n7]{Olio per lampade}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento",
+            "5-6":"@UUID[Item.Ovcu7ZmJPWdeBvg5]{Spada corta}, @UUID[Item.301gf2jCfhxwyQD7]{Bende (10)}, @UUID[Item.xsgSXYq1sdkH8eyl]{Veleno soporifero (1 dose)}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.Sdzg1HSXUqhmnjGq]{Lanterna}, @UUID[Item.BtTyGxh7u1BjJ0n7]{Olio per lampade}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento"
+          }
         },
         "Gear - Mage": {
-          "name": "Gear - Mage",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Mago",
+          "results": {
+            "1-2":"@UUID[Item.lL2NDjJbCRygTBYt]{Bastone}, @UUID[Item.SkfAuURGWldr0KIL]{Sfera di cristallo}, @UUID[Item.brwS719az0E1uM4V]{Grimorio}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D8]] argento",
+            "3-4":"@UUID[Item.otNTdw5ukG97slmA]{Coltello}, @UUID[Item.hL26ji4ndIhQtHui]{Bacchetta}, @UUID[Item.brwS719az0E1uM4V]{Grimorio}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D8]] argento",
+            "5-6":"@UUID[Item.H7m2kJF4iBCmgddj]{Amuleto}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.brwS719az0E1uM4V]{Grimorio}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D8]] argento"
+          }
         },
         "Gear - Merchant": {
-          "name": "Gear - Merchant",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Mercante",
+          "results": {
+            "1-2":"@UUID[Item.iaw4A60DRS2GRzU0]{Pugnale}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.NPz7PXpMtnu9Tn2j]{Asino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D12]] argento",
+            "3-4":"@UUID[Item.otNTdw5ukG97slmA]{Coltello}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.Sdzg1HSXUqhmnjGq]{Lanterna}, @UUID[Item.BtTyGxh7u1BjJ0n7]{Olio per lampade}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, @UUID[Item.M88coetAVdy4LQoq]{Cucina da campo}, @UUID[Item.NPz7PXpMtnu9Tn2j]{Asino}, @UUID[Item.fukAHy82ZlonaOYl]{Carretto}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D12]] argento",
+            "5-6":"@UUID[Item.iaw4A60DRS2GRzU0]{Pugnale}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.41hsVJL8psHosZNH]{Tenda grande}, @UUID[Item.q1QjsGqlJAfvyloU]{Lampada a olio}, @UUID[Item.BtTyGxh7u1BjJ0n7]{Olio per lampade}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, @UUID[Item.BdVjXmrMTUw2KsnT]{Zaino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D12]] argento"
+          }
         },
         "Gear - Knight": {
-          "name": "Gear - Knight",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Cavaliere",
+          "results": {
+            "1-2":"@UUID[Item.sefGmdXkWF8GzAPH]{Spada lunga} o @UUID[Item.H0cmKKiRTN0feKBB]{Mazza chiodata}, @UUID[Item.EvriVpr9y7NNxw2q]{Scudo (piccolo)}, @UUID[Item.WipvbzHAA5vBHbPL]{Armatura a piastre}, @UUID[Item.8mC6FZefZPZOEzJo]{Grande elmo}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D12]] argento",
+            "3-4":"@UUID[Item.DjqqaipPzRML3sxL]{Flagello} o @UUID[Item.ApOJDT5NOkTGUITX]{Martello d’arme (leggero)}, @UUID[Item.EvriVpr9y7NNxw2q]{Scudo (piccolo)}, @UUID[Item.mipOQqpdwapgMuOe]{Cotta di maglia}, @UUID[Item.c0JttpFm82gW6uSy]{Celata}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D12]] argento",
+            "5-6":"@UUID[Item.Ovcu7ZmJPWdeBvg5]{Spada corta}, @UUID[Item.duUrw7keFmaINU3U]{Lancia da cavalleria}, @UUID[Item.EvriVpr9y7NNxw2q]{Scudo (piccolo)}, @UUID[Item.mipOQqpdwapgMuOe]{Cotta di maglia}, @UUID[Item.c0JttpFm82gW6uSy]{Celata}, @UUID[Item.Oc53ih4rp9nMSuZE]{Cavallo da guerra}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D12]] argento"
+          }
         },
         "Gear - Mariner": {
-          "name": "Gear - Mariner",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Marinaio",
+          "results": {
+            "1-2":"@UUID[Item.iaw4A60DRS2GRzU0]{Pugnale}, @UUID[Item.JrIyYWUpCA7eRnKH]{Arco corto}, @UUID[Item.N3NiUj3YyV0yjJDm]{Faretra di frecce con punta di ferro}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.1LVGlgHHVSewU8n4]{Rampino}, @UUID[Item.Pv49mKzwvjvQvvZ1]{Sacco a pelo}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento",
+            "3-4":"@UUID[Item.7izBI8cBzeN3aPIP]{Scimitarra}, @UUID[Item.UtY5xcQPBJZuuj7F]{Armatura di cuoio}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.1LVGlgHHVSewU8n4]{Rampino}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento",
+            "5-6":"@UUID[Item.bpzJF14FyIBazsLE]{Tridente}, @UUID[Item.IUD6Qu5Z4ZTnjKgL]{Cannocchiale}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.1LVGlgHHVSewU8n4]{Rampino}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento"
+          }
         },
         "Gear - Thief": {
-          "name": "Gear - Thief",
-          "description": "",
-          "results": {}
+          "name": "Attrezzatura - Ladro",
+          "results": {
+            "1-2":"@UUID[Item.iaw4A60DRS2GRzU0]{Pugnale}, @UUID[Item.2aoEHGjOgRkDpNNy]{Frombola}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.1LVGlgHHVSewU8n4]{Rampino}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento",
+            "3-4":"@UUID[Item.otNTdw5ukG97slmA]{Coltello}, @UUID[Item.amV4mEwPw0yltFrX]{Grimaldelli (semplici)}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento",
+            "5-6":"2x@UUID[Item.iaw4A60DRS2GRzU0]{Pugnale}, @UUID[Item.CctvEneNpQrpDZs2]{Biglie}, @UUID[Item.MbOxZVTvXbiHc399]{Corda (canapa, 10 metri)}, @UUID[Item.9pnujo2YnAkyWGYz]{Torcia}, @UUID[Item.Cxwz560f52T07ktk]{Pietra focaia e acciarino}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{Razione di cibo}, [[/roll D10]] argento"
+          }
         },
         "Mishap - Ranged": {
           "name": "Imprevisto - A Distanza",
@@ -13139,9 +13603,16 @@
           }
         },
         "Mishap - Melee": {
-          "name": "Mishap - Melee",
-          "description": "",
-          "results": {}
+          "name": "Imprevisto - In mischia",
+          "results": {
+            "1-1": "L’arma cade ai tuoi piedi. Raccoglierla costa un’azione.",
+            "2-2": "Ti esponi al nemico, che ottiene un attacco gratuito che non può essere schivato o parato.",
+            "3-3": "La tua arma taglia così a fondo un oggetto che si incastra. Liberarla richiede un tiro di FOR (azione).",
+            "4-4": "Getti accidentalmente la tua arma a [[/roll D3+3]] metri di distanza. Per raccoglierla devi muoverti ed eseguire un’azione.",
+            "5-5": "Schianti la tua arma su qualcosa di duro, danneggiandola. Usarla infligge una sciagura finché non viene riparata da un artigiano.",
+            "6-6": "Ti colpisci per errore. Tira il danno normalmente ([[/damage weapon]]) ma senza contare il danno bonus."
+
+          }
         },
         "Fear": {
           "name": "Paura",
@@ -13377,64 +13848,196 @@
           }
         },
         "The Quest - 1. One day": {
-          "name": "The Quest - 1. One day",
-          "description": "One day",
-          "results": {}
+          "name": "La Missione - 1. Un giorno",
+          "description": "Un giorno,",
+          "results": {
+            "1-1": "nel buio di una taverna",
+            "2-2": "alle prime luci dell’alba",
+            "3-3": "attorno a un caldo falò",
+            "4-4": "nel trambusto del mercato"
+          }
         },
         "The Quest - 2. the characters come across": {
-          "name": "The Quest - 2. the characters come across",
-          "description": "the characters come across",
-          "results": {}
+          "name": "La Missione - 2. I peronsaggi si imbattono",
+          "description": "i peronsaggi si imbattono in",
+          "results": {
+            "1-1": "un messaggero",
+            "2-2": "una lettera",
+            "3-3": "una diceria",
+            "4-4": "un pettegolezzo",
+            "5-5": "un incontro",
+            "6-6": "un presagio"
+          }
         },
         "The Quest - 3. from/about/with": {
-          "name": "The Quest - 3. from/about/with",
-          "description": "",
-          "results": {}
+          "name": "La Missione - 3. da/a proposito di/con",
+          "description": "da/a proposito di/con",
+          "results": {
+            "1-1": "Karvago, un mago misterioso",
+            "2-2": "Bode, un guerriero con un occhio solo ",
+            "3-3": "Smolla, un misero bardo halfling",
+            "4-4": "Malkar, un curioso marinaio lupinide",
+            "5-5": "Rudbul, un avido ma spiritoso mercante mallardo",
+            "6-6": "Davanor, un riservato cacciatore elfico",
+            "7-7": "Veruna, una studiosa nana preoccupata",
+            "8-8": "Roena della Vallata, un’arrogante cavaliere"
+          }
         },
         "The Quest - 4. who wants to": {
-          "name": "The Quest - 4. who wants to",
-          "description": "who wants to",
-          "results": {}
+          "name": "La Missione - 4. che vuole",
+          "description": "che vuole",
+          "results": {
+            "1-1": "esaminare",
+            "2-2": "cercare vendetta per",
+            "3-3": "nascondere",
+            "4-4": "distruggere",
+            "5-5": "restituire",
+            "6-6": "reclamare",
+            "7-7": "sostituire",
+            "8-8": "proteggere",
+            "9-9": "rubare",
+            "10-10": "trovare"
+          }
         },
         "The Quest - 5. a": {
-          "name": "The Quest - 5. a",
-          "description": "a",
-          "results": {}
+          "name": "La Missione - 5. un/una",
+          "description": "un/una",
+          "results": {
+            "1-1": "artefatto magico",
+            "2-2": "cimelio di famiglia",
+            "3-3": "spada",
+            "4-4": "tesoro",
+            "5-5": "gioiello",
+            "6-6": "anello",
+            "7-7": "pietra",
+            "8-8": "scatola",
+            "9-9": "copricapo",
+            "10-10": "libro",
+            "11-11": "grimorio",
+            "12-12": "animale domestico"
+          }
         },
         "The Quest - 6. called": {
-          "name": "The Quest - 6. called",
-          "description": "called",
-          "results": {}
+          "name": "La Missione - 6. chiamato/a",
+          "description": "chiamato/a",
+          "results": {
+            "1-1": "lo Zurak Blu.",
+            "2-2": "l’Occhio di Kalmander.",
+            "3-3": "il Tradimento di Sylrod.",
+            "4-4": "il Cuore di Ardana.",
+            "5-5": "Stretta d’Oro.",
+            "6-6": "Occhio Notturno.",
+            "7-7": "Fratello Grigio.",
+            "8-8": "l’Enigma di Sira.",
+            "9-9": "la Corona di Hjalti.",
+            "10-10": "l’Ingannatore.",
+            "11-11": "il Segreto di Gringul.",
+            "12-12": "Domavento.",
+            "13-13": "la Cote di Helox.",
+            "14-14": "Stoltzenkranz.",
+            "15-15": "Luninverno.",
+            "16-16": "Flagello Vuoto.",
+            "17-17": "Jommelkund.",
+            "18-18": "la Stella d’Argento.",
+            "19-19": "Furia di Malkor.",
+            "20-20": "la Corazza." 
+          }
         },
         "The Adventure Site - 1. The way in is": {
-          "name": "The Adventure Site - 1. The way in is",
-          "description": "The way in is",
-          "results": {}
+          "name": "Il Luogo d'Avventura - 1. L'ingresso è",
+          "description": "L'ingresso è",
+          "results": {
+            "1-1": "semplice, nessuno ha chiuso a chiave la porta.",
+            "2-2": "nascosto e difficile da trovare.",
+            "3-3": "impegnativo, qualcosa è in agguato da quelle parti.",
+            "4-4": "pericoloso, c’è una trappola."
+          }
         },
         "The Adventure Site - 2. There is": {
-          "name": "The Adventure Site - 2. There is",
-          "description": "There is",
-          "results": {}
+          "name": "Il Luogo d'Avventura - 2. C’è",
+          "description": "C’è",
+          "results": {
+            "1-1": "una camera allagata",
+            "2-2": "un blocco di macerie",
+            "3-3": "una scala a chiocciola che scende nell’oscurità",
+            "4-4": "una tomba austera",
+            "5-5": "una statua notevole",
+            "6-6": "uno strano graffito"
+          }
         },
         "The Adventure Site - 3. but also unexpected guests in the form of": {
-          "name": "The Adventure Site - 3. but also unexpected guests in the form of",
-          "description": "but also unexpected guests in the form of",
-          "results": {}
+          "name": "Il Luogo d'Avventura - 3. ma anche ospiti inattesi sotto forma di",
+          "description": "ma anche ospiti inattesi sotto forma di",
+          "results": {
+            "1-1": "[[//roll 2D8]] goblin",
+            "2-2": "[[//roll D6]] avventurieri",
+            "3-3": "[[//roll D6]] lupinidi",
+            "4-4": "[[//roll D8]] banditi",
+            "5-5": "[[//roll 2D6]] orchi",
+            "6-6": "[[//roll D8]] cultisti",
+            "7-7": "[[//roll D6]] nani",
+            "8-8": "[[//roll D4]] elfi"
+          }
         },
         "The Adventure Site - 4. and": {
-          "name": "The Adventure Site - 4. and",
-          "description": "and",
-          "results": {}
+          "name": "Il Luogo d'Avventura - 4. e",
+          "description": "e",
+          "results": {
+            "1-1": "un famelico ragno gigante",
+            "2-2": "una strana manticora.",
+            "3-3": "un gigante scorbutico.",
+            "4-4": "[[//roll D6]] arpie beffarde.",
+            "5-5": "[[//roll 2D6]] scheletri di pattuglia",
+            "6-6": "un demone enigmatico.",
+            "7-7": "un nugolo di pipistrelli vampiro.",
+            "8-8": "un fantasma irrequieto.",
+            "9-9": "un troll arrabbiato.",
+            "10-10": "un grosso minotauro."
+          }
         },
         "The Adventure Site - 5. There is a deadly challenge in the form of": {
-          "name": "The Adventure Site - 5. There is a deadly challenge in the form of",
-          "description": "There is a deadly challenge in the form of",
-          "results": {}
+          "name": "Il Luogo d'Avventura - 5. C’è una sfida mortale che consiste in",
+          "description": "C’è una sfida mortale che consiste in",
+          "results": {
+            "1-1": "una botola.",
+            "2-2": "un potente veleno.",
+            "3-3": "un crollo.",
+            "4-4": "una trappola di dardi.",
+            "5-5": "un indovinello impegnativo.",
+            "6-6": "una maledizione da spezzare.",
+            "7-7": "una giara di gas tossici.",
+            "8-8": "acqua che sale.",
+            "9-9": "un masso gigante.",
+            "10-10": "muri che schiacciano.",
+            "11-11": "un furioso incendio.",
+            "12-12": "uno specchio magico."
+          }
         },
         "The Adventure Site - 6. Finally, the player characters must defeat": {
-          "name": "The Adventure Site - 6. Finally, the player characters must defeat",
-          "description": "Finally, the player characters must defeat",
-          "results": {}
+          "name": "Il Luogo d'Avventura - 6. Alla fine, i personaggi dovranno sconfiggere",
+          "description": "Alla fine, i personaggi dovranno sconfiggere",
+          "results": {
+            "1-1": "Kazan Murg, un mago folle.",
+            "2-2": "il Devastatore, un potente minotauro.",
+            "3-3": "la Principessa Nadilara, una terribile wraith.",
+            "4-4": "Zurgush il Rosso, un imponente capoguerra orco.",
+            "5-5": "Artiglio Notturno, un malvagio guerriero elfico.",
+            "6-6": "Frosch, un cavaliere mallardo non-morto.",
+            "7-7": "Vinjia, un fantasma antico.",
+            "8-8": "Burgos Dente di Sangue, uno squilibrato re dei ladri",
+            "9-9": "Lanja Strettanera, un’astuta goblin generale.",
+            "10-10": "Gamba Verde, un troll maleodorante.",
+            "11-11": "Laval Scettro Blu, un misterioso stregone.",
+            "12-12": "Crag Largabarba, un violento nano guerriero.",
+            "13-13": "Belsor Spaccaossa, un cavaliere malvagio.",
+            "14-14": "Orgog il Profanatore, un gigante permaloso.",
+            "15-15": "Lord Aleyn, un nobile sanguinario.",
+            "16-16": "Hugo dalla Valle, un cavaliere disertore.",
+            "17-17": "Ala di Sangue, un grifone assassino.",
+            "18-18": "la Bestia Spinata, una manticora sanguinaria.",
+            "19-19": "Haxenflaugrsten, un demone corruttore.",
+            "20-20": "Orlaugr il Rosso, un avido drago." 
+          }
         },
         "Treasure": {
           "name": "Tesoro",
@@ -13498,7 +14101,15 @@
           "name": "Tesoro - Beni Commerciali"
         },
         "Improvised Weapons - Cave": {
-          "name": "Armi Improvvisate - Grotta"
+          "name": "Armi Improvvisate - Grotta",
+          "results": {
+            "1-1": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.VmiQSdcaEWSputDp]{Stalattite}",
+            "2-2": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.0N0p3iiR0Tk1nWvp]{Torica}",
+            "3-3": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.d4WOAmIIekOtaD7S]{Stalagmite}",
+            "4-4": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.f5TM9uQXswYTNx3x]{Pozzanghera}",
+            "5-5": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.WgJ4bZafzzFSpPum]{Fessura}",
+            "6-6": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.z8MsME6LKUJ8MhrD]{Pipistrelli}"
+          }
         },
         "Improvised Weapons - Forest": {
           "name": "Armi Improvvisate - Foresta",
@@ -13512,7 +14123,15 @@
           }
         },
         "Improvised Weapons - Inn": {
-          "name": "Armi Improvvisate - Locanda"
+          "name": "Armi Improvvisate - Locanda",
+          "results": {
+            "1-1": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.3M2i0ZRmAmHh9Mm4]{Calderone Bollente}",
+            "2-2": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.iBS8gQRrQudthmTa]{Secchio di Acqua Saponata}",
+            "3-3": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.GISaGxqnfmp4kWnW]{Legna Ardente}",
+            "4-4": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.CV5hdwW1B8Sttnjb]{Maiale Grufolante}",
+            "5-5": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.b9dL2iSWi92U6FPg]{Bottiglia di Vino}",
+            "6-6": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.rFi65szeM4puAHUY]{Lampadario}"
+          }
         },
         "Hunting": {
           "name": "Cacciare",
@@ -13539,7 +14158,14 @@
         "Random Events - The Castle of the Robber Knight": {
           "name": "Eventi Casuali - Il Castello del Cavaliere Brigante",
           "description": "",
-          "results": {}
+          "results": {
+            "1-1": "Goblin. Due @UUID[Actor.2KCyP8JCLYVAcMig]{goblin} compaiono all’improvviso. Dopo un momento di confusione, estraggono le loro spade corte e attaccano urlando.",
+            "2-2": "Maiale Spaventato. Merle il maiale grugnisce felicemente in un angolo. Quando nota i personaggi, si blocca con un verso sorpreso e scappa verso l’uscita più vicina. Se il gruppo fa del male a Merle, si sarà inimicato a vita l’orchessa @UUID[Actor.O2DMIklgs5hkbv57]{Grunta} (vedi Sotterraneo, @UUID[JournalEntry.jqQB7UWf8t4ktuxs.JournalEntryPage.u0UKdabOkp3vUdhk]{luogo #5}).",
+            "3-3": "Spiriti Maligni. All’improvviso, l’aria inizia a vibrare e un vortice freddo si avvolge attorno ai personaggi. I contorni di tre guerrieri, morti da tempo e con delle cotte di maglia, appaiono nel vento ululante e tendono le mani verso il gruppo come a volerlo trascinare nel regno dei morti. Tutti devono eseguire un tiro di VOL per resistere alla @Table[RollTable.wHTr9HuHkpVv7ccX]{paura} prima che i wraith scompaiano.",
+            "4-4": "Tempesta. Nubi scure si addensano sopra il castello. All’improvviso, dal cielo scendono torrenti di pioggia e i tuoni rimbombano per la valle. Per il resto dell’avventura, tutti gli attacchi a distanza eseguiti all’esterno subiscono una sciagura.",
+            "5-5": "Corvi. Uno stormo di corvi sbuca da una crepa e si scaglia contro i personaggi. Tutti devono superare un tiro di SFUGGIRE o subire [[/damage D3 piercing]] dai becchi e dagli artigli dei corvi. Infine, lo stormo gracchiante vola verso la cima della torre.",
+            "6-6": "Trappola! I goblin hanno piazzato come trappola un martello d’arme sospeso, che viene rilasciato quando un personaggio (quello con AGI inferiore) pesta accidentalmente una pietra o un’asse del pavimento allentate. Questi deve superare un tiro di SFUGGIRE o subire [[/damage 2D6 bludgeoning]]."
+          }
         }
       },
       "folders": {
@@ -13636,78 +14262,77 @@
           }
         },
         "7. Bestiary": {
-          "name": "7. Bestiary",
+          "name": "7. Bestiario",
           "pages": {
             "Illustration": {
-              "name": "Illustration",
-              "src": "modules/dragonbane-coreset/assets/artwork/chapter-7.webp"
+              "name": "Illustrazione"
             },
             "Introduction": {
-              "name": "Introduction",
-              "text": "<div><p>This game features not only dragons and demons, but all kinds of deadly beasts. A monster is a crea­ture of unnatural origin, a terrible beast that strikes terror in all and defies the natural order. This chapter pres­ents a range of monsters and several humanoid creatures the player characters can encounter on their journeys. At the end of the chapter, a number of common animals are listed as well.</p><p>Monsters are controlled by the GM and act largely in the same way as player characters and NPCs in combat. But there are some significant differences, which are described below.</p></div><h2>FEROCITY</h2><p>Some monsters are so powerful that they can act multiple times in the same round. This is indicated by their Ferocity score. At the start of each round, the GM draws one initiative card for each point of Ferocity. The monster gets one turn per card, with one action and one movement on each turn.</p><p><strong>Waiting</strong>: If a player character swaps initiative cards with a monster (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.tam5tRVd2vHO5YhM#waiting]{optional rule}), the player character can choose any one of the monster’s cards. Monsters them­selves never wait.</p><h2>SIZE</h2><p>Monsters come in all sizes. The game divides them into the following categories, which affect how large an area the monster can @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KrSXg7HKmfo7xRcI#movement]{block} and how narrow a passage it can move through.</p><p><strong>Small</strong>: A small monster is less than a meter tall and cannot block any area. It can easily pass through tiny passages.</p><p><strong>Normal</strong>: A normal-sized monster is roughly the size of a human. It can block an area of 2×2 meters (one square on a combat map) and pass through a passage half a meter wide.</p><p><strong>Large</strong>: A large monster can block an area of 4×4 meters and pass through a 1-meter-wide passage.</p><p><strong>Huge</strong>: A huge monster can block an area of 8×8 meters and pass through a 2-meter-wide passage.</p><p><strong>Swarm</strong>: A swarm can range in size from Normal to Huge, but never blocks the area it is in, and can pass through tiny passages.</p><h2>MOVEMENT</h2><p>Just like player characters, monsters have a Movement score and can move before or after their attack or divide their movement before and after the attack. Note that this score refers to movement per turn for monsters, not per round.</p><p>Some monsters have different movement rates on land, in water, and in the air. Taking flight or landing are free actions.</p><h2>MONSTER ATTACKS</h2><p>A monster always uses a <em>monster attack</em> when it attacks. Each monster has a unique set of monster attacks, which are summarized in a table. The GM rolls or chooses an attack from this table when it is the monster’s turn to attack. Monsters never roll dice to hit their target – <em>monster attacks succeed automatically</em>.</p><p>Performing a monster attack counts as an action. Unless otherwise specified, monster attacks have the same range as melee attacks, i.e. 2 meters (an adjacent square if you are using grid maps).</p><p><strong>Dodging &amp; Parrying</strong>: As a rule, a monster attack can be @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KAxnhLbO8N7kcvMl#dodging]{dodged} but not parried. This applies to attacks with an area of effect as well, but not fear attacks. Exceptions to this rule are stated in the monster attack description.</p><p><strong>Conditions</strong>: Monster attacks can inflict @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.mgCdV8jpP8hZyxOD]{conditions} on player characters. If a character gains a condition they already have, the player must choose another condition instead.</p><p><strong>Repeated Attacks</strong>: A monster never makes the same attack twice in a row. If the GM rolls the same monster attack two consecutive times, the second roll changes into the next attack on the table. The 6 result becomes a 1.</p><blockquote class=\"info\"><h3>More Dangerous Monsters</h3><p>The monsters in this chapter are typical speci­mens. There are legends of dreadful beasts that are even more dangerous. The GM can make monsters more – or less – dangerous to suit the player characters’ competence. The easiest way to do this is to increase or decrease its Ferocity, but HP can be adjusted as well.</p></blockquote><p></p><div><h2>SKILLS</h2><p>Monsters can have skills, but they are mainly used outside of combat or for opposed rolls – not for attacks. They only attack using their monster attacks.</p><h2>FIGHTING MONSTERS</h2><p><strong>Dodging &amp; Parrying</strong>: All monsters can dodge, and mon­sters carrying weapons can also parry. Each dodge or parry uses up one of the monster’s actions in the round (flip an initiative card of your choice). Roll against a default skill level of 15 for all dodges and parries by monsters.</p><p><strong>Natural Armor</strong>: Many monsters have some form of natu­ral armor. This works just like ordinary @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.CJjqkHzpow39ViUi#armor]{armor}.</p><p><strong>Weak Spots</strong>: A piercing attack can find a gap or weak spot in the monster’s natural armor, just like on humanoid opponents (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KAxnhLbO8N7kcvMl#special-attacks]{optional rule}).</p><p><strong>Toppling</strong>: A player character can try to topple a monster (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KAxnhLbO8N7kcvMl#special-attacks]{optional rule}), rolling against a default EVADE skill level of 15 for all monsters. If the monster has four legs or more, the attacker gets a bane on the roll.</p><p><strong>Disarm &amp; Grapple</strong>: Monsters cannot be disarmed or grappled by player characters (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KAxnhLbO8N7kcvMl#special-attacks]{optional rules}).</p><p><strong>Darkness</strong>: Unless otherwise stated, monsters can see in darkness and don’t suffer the effects in @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#darkness]{DARKNESS}.</p><h2>RESISTANCE &amp; IMMUNITY</h2></div><p>Some monsters are <em>resistant</em> to certain damage types. This means that all damage of this type is halved (rounded up). Some monsters can even be <em>immune</em> to certain types of damage, and therefore take no damage at all from such attacks.</p><h2>FEAR &amp; PERSUASION</h2><p>Monsters are too terrifying to get scared themselves, but many of them can certainly instill terror in the player characters. Monsters are also immune to the PERSUASION skill unless otherwise stated.</p>"
+              "name": "Introduzione",
+              "text": "<div><p>Questo gioco non tratta soltanto di draghi e demoni, ma di tutti i tipi di bestie assassine. Un mostro è una creatura di origini innaturali, un’orribile bestia che incute terrore e sfida l’ordine naturale. Questo capitolo presenta una varietà di mostri e diverse creature umanoidi che i personaggi possono incontrare durante i loro viaggi. Alla fine del capitolo, sono elencati anche alcuni animali comuni.</p><p>I mostri sono controllati dal GM e in combattimento agiscono all’incirca come i personaggi e i PNG. Ci sono, però, anche delle notevoli differenze, che sono descritte qui sotto.</p></div><h2>FEROCIA</h2><p>Alcuni mostri sono talmente potenti da poter agire più volte nello stesso round. Questo è indicato dal loro valore di Ferocia. All’inizio di ogni round, il GM pesca una carta iniziativa per ogni punto di Ferocia. Il mostro ottiene un turno per carta, con un’azione e un movimento a ogni turno.</p><p><strong>Attendere</strong>: se un personaggio scambia la carta iniziativa con un mostro (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.tam5tRVd2vHO5YhM#waiting]{regola opzionale}), sceglie una tra le carte disponibili. I mostri non attendono mai.</p><h2>TAGLIA</h2><p>Ci sono mostri di tutte le taglie. Il gioco li suddivide nelle seguenti categorie, che determinano l’ampiezza dell’area che il mostro può @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KrSXg7HKmfo7xRcI#movement]{bloccare} e quanto può essere stretto il passaggio che può attraversare.</p><p><strong>Piccolo</strong>: un mostro piccolo è alto meno di 1 metro e non può bloccare nessuna zona. Può percorrere facilmente passaggi minuscoli.</p><p><strong>Normale</strong>: un mostro di taglia normale è all’incirca della grandezza di un umano. Può bloccare un’area di 2×2 metri (un riquadro della mappa di combattimento) e percorrere passaggi ampi mezzo metro.</p><p><strong>Grande</strong>: un mostro grande può bloccare un’area di 4×4 metri e percorrere passaggi larghi 1 metro.</p><p><strong>Enorme</strong>: un mostro enorme può bloccare un’area di 8×8 metri e percorrere passaggi larghi 2 metri.</p><p><strong>Sciame</strong>: la taglia di uno sciame può variare da normale a enorme, ma non blocca mai l’area in cui si trova e può percorrere passaggi minuscoli.</p><h2>MOVIMENTO</h2><p>Proprio come i personaggi, i mostri hanno un valore di movimento e possono muoversi prima o dopo aver attaccato, oppure dividere il movimento tra prima e dopo l’attacco. Nota che questo valore si riferisce al movimento per turno del mostro, non per round.</p><p>Alcuni mostri hanno un valore di movimento diverso a terra, in acqua e in aria. Spiccare il volo o atterrare sono azioni gratuite.</p><h2>ATTACCHI MOSTRUOSI</h2><p>Un mostro usa sempre un attacco mostruoso per attaccare. Ogni mostro ha una serie di attacchi unici, riassunti in una tabella. Durante il turno di attacco del mostro, il GM tira un dado o sceglie un attacco tra quelli elencati. I mostri non tirano mai per colpire il loro bersaglio: gli attacchi mostruosi colpiscono automaticamente.</p><p>Eseguire un attacco mostruoso conta come un’azione. Eccetto quando specificato diversamente, questi attacchi hanno la stessa portata degli attacchi in mischia, ovvero 2 metri (un riquadro adiacente, se si usa la mappa con griglia).</p><p><strong>Schivare e Parare</strong>: da regolamento, gli attacchi mostruosi possono essere @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KAxnhLbO8N7kcvMl#dodging]{schivati} ma non parati. Questa regola si applica anche agli attacchi ad area, ma non a quelli di paura. Le eccezioni a questa regola sono specificate nella descrizione dell’attacco mostruoso.</p><p><strong>Condizioni</strong>: gli attacchi mostruosi possono infliggere @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.mgCdV8jpP8hZyxOD]{condizioni} ai personaggi. Se un personaggio subisce una condizione che già lo affligge, ne deve scegliere un’altra.</p><p><strong>Attacchi Ripetuti</strong>: un mostro non esegue mai lo stesso attacco due volte di seguito. Se dai tiri il GM ottiene lo stesso attacco mostruoso per due volte di fila, il secondo tiro diventa l’attacco successivo riportato nella tabella. Un risultato di 6 diventa un 1.</p><blockquote class=\"info\"><h3>MOSTRI PIÙ PERICOLOSI</h3><p>I mostri presenti in questo capitolo sono esemplari tipici. Ci sono leggende che narrano di orribili bestie ancora più pericolose. Il GM può rendere i mostri più (o meno) pericolosi per adattarli meglio alle competenze dei personaggi. Il modo più facile per farlo è aumentare o diminuire la Ferocia, ma anche i PF possono essere adattati.</p></blockquote><p></p><div><h2>ABILITÀ</h2><p>I mostri possono avere abilità, ma le usano principalmente fuori dal combattimento o per tiri contrapposti, non per attacchi. Attaccano soltanto con gli attacchi mostruosi.</p><h2>COMBATTERE I MOSTRI</h2><p><strong>Schivare e Parare</strong>: tutti i mostri possono schivare e, se possiedono un’arma, persino parare. Ogni schivata o parata consuma una delle loro azioni nel round (gira una carta iniziativa a tua scelta). Devi superare un tiro contro un livello di abilità predefinito di 15 per tutte le schivate e parate dei mostri.</p><p><strong>Armatura Naturale</strong>: molti mostri hanno diverse forme di armatura naturale, che funzionano come una normale @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.CJjqkHzpow39ViUi#armor]{armatura}.</p><p><strong>Punto Debole</strong>: un attacco perforante può trovare un’apertura o un punto debole nell’armatura naturale di un mostro, proprio come su un nemico umanoide (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KAxnhLbO8N7kcvMl#special-attacks]{regola opzionale}).</p><p><strong>Intralciare</strong>: un personaggio può provare a far cadere un mostro (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KAxnhLbO8N7kcvMl#special-attacks]{regola opzionale}), tirando su SFUGGIRE con un livello di abilità predefinito di 15 per tutti i mostri. Se il mostro ha quattro o più zampe, il tiro subisce una sciagura.</p><p><strong>Disarmare e Chiudere in una Presa</strong>: i mostri non possono essere disarmati o chiusi in una presa dai personaggi (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KAxnhLbO8N7kcvMl#special-attacks]{regole opzionali}).</p><p><strong>Oscurità</strong>: a meno che non sia specificato diversamente, i mostri possono vedere nell’oscurità e non soffrono gli effetti descritti in @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#darkness]{OSCURITÀ}.</p><h2>RESISTENZA E IMMUNITÀ</h2></div><p>Alcuni mostri sono <em>resistenti</em> a certi tipi di danno. Questo significa che tutti i danni di quel tipo vengono dimezzati (arrotondando per eccesso). Possono persino esserne <em>immuni</em> e quindi non subire alcun danno da questi attacchi.</p><h2>PAURA E PERSUASIONE</h2><p>I mostri sono troppo terrificanti per potersi spaventare, ma molti di loro possono instillare paura nei personaggi. I mostri sono anche immuni all’abilità PERSUADERE, a meno che non sia specificato diversamente.</p>"
             },
             "Demon": {
-              "name": "Demon",
+              "name": "Demone",
               "text": "<p>@DisplayMonster[Actor.fvWV6boEXbPPSYdr]{Demone}</p><p>@DisplayTable[RollTable.Np51jqG8SYczcWiE]{Attacchi Mostruosi - Demone}</p>"
             },
             "Dragon": {
-              "name": "Dragon",
-              "text": "<p>@DisplayMonster[Actor.O2aRQIXmoEf8JQJh]{Dragon}</p><p>@DisplayTable[RollTable.ojkfxkJrhOJS1K5j]{Monster Attacks - Dragon}</p>"
+              "name": "Drago",
+              "text": "<p>@DisplayMonster[Actor.O2aRQIXmoEf8JQJh]{Drago}</p><p>@DisplayTable[RollTable.ojkfxkJrhOJS1K5j]{Attacchi Mostruosi - Drago}</p>"
             },
             "Wight": {
               "name": "Wight",
-              "text": "<p>@DisplayMonster[Actor.g5ppc2snTtjPBFju]{Wight}</p><p>@DisplayTable[RollTable.2Jgi75Py4SCLE7Z3]{Monster Attacks - Wight}</p>"
+              "text": "<p>@DisplayMonster[Actor.g5ppc2snTtjPBFju]{Wight}</p><p>@DisplayTable[RollTable.2Jgi75Py4SCLE7Z3]{Attacchi Mostruosi - Wight}</p>"
             },
             "Griffon": {
-              "name": "Griffon",
-              "text": "<p>@DisplayMonster[Actor.g6IcDV9k0hEYqeUg]{Griffon}</p><p>@DisplayTable[RollTable.PP4GFneFLHys3hOL]{Monster Attacks - Griffon}</p>"
+              "name": "Grifone",
+              "text": "<p>@DisplayMonster[Actor.g6IcDV9k0hEYqeUg]{Grifone}</p><p>@DisplayTable[RollTable.PP4GFneFLHys3hOL]{Attacchi Mostruosi - Grifone}</p>"
             },
             "Harpy": {
-              "name": "Harpy",
-              "text": "<p>@DisplayMonster[Actor.GryS92ogNleGTjpF]{Harpy}</p><p>@DisplayTable[RollTable.bAavpGWiz57vHJHf]{Monster Attacks - Harpy}</p>"
+              "name": "Arpia",
+              "text": "<p>@DisplayMonster[Actor.GryS92ogNleGTjpF]{Arpia}</p><p>@DisplayTable[RollTable.bAavpGWiz57vHJHf]{Attacchi Mostruosi - Arpia}</p>"
             },
             "Giant": {
-              "name": "Giant",
-              "text": "<p>@DisplayMonster[Actor.mO8hZ1PJzBI0dgvV]{Giant}</p><p>@DisplayTable[RollTable.i9gmEwka3bke9R2r]{Monster Attacks - Giant}</p>"
+              "name": "Gigante",
+              "text": "<p>@DisplayMonster[Actor.mO8hZ1PJzBI0dgvV]{Gigante}</p><p>@DisplayTable[RollTable.i9gmEwka3bke9R2r]{Attacchi Mostruosi - Gigante}</p>"
             },
             "Giant Spider": {
-              "name": "Giant Spider",
-              "text": "<p>@DisplayMonster[Actor.yqvaDFsdDOKuEtmL]{Giant Spider}</p><p>@DisplayTable[RollTable.aKcY8k2Ud4XFSaWh]{Monster Attacks - Giant Spider}</p>"
+              "name": "Ragno Gigante",
+              "text": "<p>@DisplayMonster[Actor.yqvaDFsdDOKuEtmL]{Ragno Gigante}</p><p>@DisplayTable[RollTable.aKcY8k2Ud4XFSaWh]{Attacchi Mostruosi - Ragno Gigante}</p>"
             },
             "Manticore": {
-              "name": "Manticore",
-              "text": "<p>@DisplayMonster[Actor.TPqR08Hk5sh4MTmY]{Manticore}</p><p>@DisplayTable[RollTable.TrZDvWqOyZ3xVmdh]{Monster Attacks - Manticore}</p>"
+              "name": "Manticora",
+              "text": "<p>@DisplayMonster[Actor.TPqR08Hk5sh4MTmY]{Manticora}</p><p>@DisplayTable[RollTable.TrZDvWqOyZ3xVmdh]{Attacchi Mostruosi - Manticora}</p>"
             },
             "Minotaur": {
-              "name": "Minotaur",
-              "text": "<p>@DisplayMonster[Actor.pAWLSb6bUU2USpuS]{Minotaur}</p><p>@DisplayTable[RollTable.FbjEJ2kNCkKz6mhl]{Monster Attacks - Minotaur}</p>"
+              "name": "Minotauro",
+              "text": "<p>@DisplayMonster[Actor.pAWLSb6bUU2USpuS]{Minotauro}</p><p>@DisplayTable[RollTable.FbjEJ2kNCkKz6mhl]{Attacchi Mostruosi - Minotauro}</p>"
             },
             "Orc": {
               "name": "Orc",
-              "text": "<img src=\"modules/dragonbane-coreset/assets/actors/bestiary/orc.webp\" /><p>@DisplayNpcDescription[Actor.fQqAOZoHW7oi39cS]{Orc - Warrior}</p><p>@DisplayNpcCard[Actor.fQqAOZoHW7oi39cS]{Orc - Warrior}</p><p>@DisplayNpcCard[Actor.8r07N2EgzHUIJmZz]{Orc - Shaman}</p><p>@DisplayNpcCard[Actor.QUwJZWarOtYmAmN2]{Orc - Chieftain}</p>"
+              "text": "<img src=\"modules/dragonbane-coreset/assets/actors/bestiary/orc.webp\" /><p>@DisplayNpcDescription[Actor.fQqAOZoHW7oi39cS]{Orco - Guerriero}</p><p>@DisplayNpcCard[Actor.fQqAOZoHW7oi39cS]{Orco - Guerriero}</p><p>@DisplayNpcCard[Actor.8r07N2EgzHUIJmZz]{Orco - Sciamano}</p><p>@DisplayNpcCard[Actor.QUwJZWarOtYmAmN2]{Orco - Capoguerra}</p>"
             },
             "Skeleton": {
-              "name": "Skeleton",
-              "text": "<img src=\"modules/dragonbane-coreset/assets/actors/bestiary/skeleton.webp\" /><p>@DisplayNpcDescription[Actor.QE4KNkZw8aym9rEY]{Skeleton - Warrior}</p><p>@DisplayNpcCard[Actor.QE4KNkZw8aym9rEY]{Skeleton - Warrior}</p><p>@DisplayNpcCard[Actor.EP7B3cN6lRexkAAj]{Skeleton - Archer}</p><p>@DisplayNpcCard[Actor.Alen03tQyhYY5yLe]{Skeleton - Champion}</p><p></p><p></p>"
+              "name": "Scheletro",
+              "text": "<img src=\"modules/dragonbane-coreset/assets/actors/bestiary/skeleton.webp\" /><p>@DisplayNpcDescription[Actor.QE4KNkZw8aym9rEY]{Scheletro - Guerriero}</p><p>@DisplayNpcCard[Actor.QE4KNkZw8aym9rEY]{Scheletro - Guerriero}</p><p>@DisplayNpcCard[Actor.EP7B3cN6lRexkAAj]{Scheletro - Arcere}</p><p>@DisplayNpcCard[Actor.Alen03tQyhYY5yLe]{Scheletro - Campione}</p><p></p><p></p>"
             },
             "Ghost": {
-              "name": "Ghost",
-              "text": "<p>@DisplayMonster[Actor.g288DDIk59a0E2Xe]{Ghost}</p><p>@DisplayTable[RollTable.GYJcdWpvyhQnARIj]{Monster Attacks - Ghost}</p>"
+              "name": "Fantasma",
+              "text": "<p>@DisplayMonster[Actor.g288DDIk59a0E2Xe]{Fantasma}</p><p>@DisplayTable[RollTable.GYJcdWpvyhQnARIj]{Attacchi Mostruosi - Fantasma}</p>"
             },
             "Goblin": {
               "name": "Goblin",
-              "text": "<img src=\"modules/dragonbane-coreset/assets/actors/bestiary/goblin.webp\" /><p>@DisplayNpcDescription[Actor.1etayg5XJhNzCjdC]{Goblin - Scout}</p><p>@DisplayNpcCard[Actor.1etayg5XJhNzCjdC]{Goblin - Scout}</p><p>@DisplayNpcCard[Actor.R5jxv1dlriIkcxwD]{Goblin - Warrior}</p>"
+              "text": "<img src=\"modules/dragonbane-coreset/assets/actors/bestiary/goblin.webp\" /><p>@DisplayNpcDescription[Actor.1etayg5XJhNzCjdC]{Goblin - Ricognitore}</p><p>@DisplayNpcCard[Actor.1etayg5XJhNzCjdC]{Goblin - Ricognitore}</p><p>@DisplayNpcCard[Actor.R5jxv1dlriIkcxwD]{Goblin - Guerriero}</p>"
             },
             "Troll": {
               "name": "Troll",
-              "text": "<p>@DisplayMonster[Actor.9hXYTV2fbOckrKRy]{Troll}</p><p>@DisplayTable[RollTable.j6NrtkIXQUlsg8AK]{Monster Attacks - Troll}</p>"
+              "text": "<p>@DisplayMonster[Actor.9hXYTV2fbOckrKRy]{Troll}</p><p>@DisplayTable[RollTable.j6NrtkIXQUlsg8AK]{Attacchi Mostruosi - Troll}</p>"
             },
             "Vampiric Bats": {
-              "name": "Vampiric Bats",
-              "text": "<p>@DisplayMonster[Actor.JfeVLwNhN71OpERw]{Vampiric Bats}</p><p>@DisplayTable[RollTable.fuopgLavCIhtwjXk]{Monster Attacks - Vampiric Bats}</p>"
+              "name": "Pipistrello Vampiro",
+              "text": "<p>@DisplayMonster[Actor.JfeVLwNhN71OpERw]{Pipistrello Vampiro}</p><p>@DisplayTable[RollTable.fuopgLavCIhtwjXk]{Attacchi Mostruosi - Pipistrello Vampiro}</p>"
             },
             "Common Animals": {
-              "name": "Common Animals",
+              "name": "Animali Comuni",
               "text": "<div class=\"flexrow\"><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.YZ02H7bBiahmkNFM]</p></div><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.d4O9pDdzQcmxWVpY]</p></div></div><div class=\"flexrow\"><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.a9JQFpWkws8AojBx]</p></div><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.6zxQn1F3zEFADZAL]</p></div></div><div class=\"flexrow\"><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.Iz6Hhz4ZONKCebqb]</p></div><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.ZY4Z4Pwp0nivxfvA]</p></div></div><div class=\"flexrow\"><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.cema0kPOR7lzdFHD]</p></div><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.mzZLbfdO9d8M1xKa]</p></div></div><div class=\"flexrow\"><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.L34nNiHLATOmHoiI]</p></div><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.C2yXdc0ZaoQlEkIM]</p></div></div><div class=\"flexrow\"><div style=\"width:50%\"><p>@DisplayNpcCard[Actor.IlMY6SQMDfR2IQvf]</p></div><div><p></p></div></div>"
             }
           }
@@ -14014,7 +14639,7 @@
               "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-cave-1.webp"
             },
             "Torch": {
-              "name": "Torch",
+              "name": "Torcia",
               "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-cave-2.webp"
             },
             "Stalagmite": {
@@ -15486,7 +16111,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -15498,7 +16123,7 @@
               "name": "Chainmail"
             },
             "Longsword": {
-              "name": "Longsword"
+              "name": "Spada Lunga"
             }
           }
         },
@@ -15591,7 +16216,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
@@ -15612,7 +16237,7 @@
           "tokenName": "Minion",
           "items": {
             "Broadsword": {
-              "name": "Broadsword"
+              "name": "Spada"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -15696,7 +16321,7 @@
               "name": "Frombole"
             },
             "Spears": {
-              "name": "Lance"
+              "name": "Lancia da Cavalleria"
             },
             "Staves": {
               "name": "Bastoni"
