@@ -596,7 +596,7 @@
               "name": "Arco Corto"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -2792,7 +2792,7 @@
               "name": "Arco Corto"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -3020,7 +3020,7 @@
               "name": "Lancia Corta"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -3128,7 +3128,7 @@
               "name": "Master Blacksmith"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -3584,7 +3584,7 @@
               "name": "Spada"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -3896,7 +3896,7 @@
               "name": "Accetta"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -4010,7 +4010,7 @@
               "name": "Balestra Leggera"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -4214,7 +4214,7 @@
               "name": "Clava Piccola"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -4316,7 +4316,7 @@
               "name": "Martello d'Arme Leggero"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -4418,7 +4418,7 @@
               "name": "Arco Lungo"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -4427,7 +4427,7 @@
           "tokenName": "Orifin",
           "items": {
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             },
             "Longbow": {
               "name": "Arco Lungo"
@@ -4847,7 +4847,7 @@
               "name": "Arco Corto"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -5102,7 +5102,7 @@
               "name": "Arco Corto"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -5684,7 +5684,7 @@
               "name": "Arco Corto"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -5702,7 +5702,7 @@
           "tokenName": "Rilke",
           "items": {
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             },
             "Short Sword": {
               "name": "Spada Corta"
@@ -5903,7 +5903,7 @@
               "name": "Spada"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             },
             "Berserker": {
               "name": "Berserker"
@@ -6017,7 +6017,7 @@
               "name": "Arco Corto"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -7608,25 +7608,31 @@
           "name": "Mostro - Difesa"
         },
         "Reset Treasure Cards": {
-          "name": "Reset Carte Tesoro"
+          "name": "Reset Carte Tesoro",
+          "command": "const table = game.tables.getName(\"Tesoro\");\nif (!table)\n{ \n  ui.notifications.error(\"Impossibile trovare la tabella Tesoro\");\n  return;\n}\n\nawait table.resetResults();\nChatMessage.create({content: \"Reset Treasure table\"});"
         },
         "Draw Treasure Card": {
           "name": "Pesca Carta Tesoro"
         },
         "Draw Treasure Card (no reset)": {
-          "name": "Pesca Carta Tesoro (senza reset)"
+          "name": "Pesca Carta Tesoro (senza reset)",
+          "command": "const table = game.tables.getName(\"Tesoro\");\nif (!table)\n{ \n  ui.notifications.error(\"Impossibile trovare la tabella Tesoro\");\n  return;\n}\nawait table.draw();"
         },
         "Create NPC": {
-          "name": "Crea PNG"
+          "name": "Crea PNG",
+          "command": "const tables = game.tables.filter(e => e.name.startsWith(\"Creare un PNG - \")).sort((a, b) => {\n  if (a.name < b.name) return -1;\n  if (a.name > b.name) return 1;\n  return 0;\n});\n\nlet msg = \"\";\nlet paragraph = true;\nfor (const table of tables) {\n  msg += \"<p>\" + table.description + \": \";\n\n  const draw = await table.draw({displayChat: false});\n  msg += \" <b>\" + draw.results[0].text + \"</b></p>\";\n\n}\nChatMessage.create({content: msg});"
         },
         "The Quest": {
-          "name": "La Missione"
+          "name": "La Missione",
+          "command": "const tables = game.tables.filter(e => e.name.startsWith(\"La Missione - \")).sort((a, b) => {\n  if (a.name < b.name) return -1;\n  if (a.name > b.name) return 1;\n  return 0;\n});\n\nlet msg = \"\";\nlet paragraph = true;\nfor (const table of tables) {\n  if (paragraph) {\n    msg += \"<p>\";\n    paragraph = false;\n  }\n  msg += table.description;\n\n  const draw = await table.draw({displayChat: false});\n  const text = draw.results[0].text;\n  msg += \" <b>\" + draw.results[0].text + \"</b> \";\n\n  if (text.charAt(text.length-1) == \".\") {\n    msg += \"</p>\";\n    paragraph = true;\n  }\n}\nChatMessage.create({content: msg});"
         },
         "The Journey": {
-          "name": "Il Viaggio"
+          "name": "Il Viaggio",
+          "command": "const tables = game.tables.filter(e => e.name.startsWith(\"Il Viaggio - \")).sort((a, b) => {\n  if (a.name < b.name) return -1;\n  if (a.name > b.name) return 1;\n  return 0;\n});\n\nlet msg = \"\";\nlet paragraph = true;\nfor (const table of tables) {\n  if (paragraph) {\n    msg += \"<p>\";\n    paragraph = false;\n  }\n  msg += table.description;\n\n  const draw = await table.draw({displayChat: false});\n  const text = draw.results[0].text;\n  msg += \" <b>\" + draw.results[0].text + \"</b> \";\n  if (text.charAt(text.length-1) == \".\") {\n    msg += \"</p>\";\n    paragraph = true;\n  }\n\n}\nconsole.log(msg);\nChatMessage.create({content: msg});"
         },
         "The Adventure Site": {
-          "name": "Il Luogo d'Avventura"
+          "name": "Il Luogo d'Avventura",
+          "command": "const tables = game.tables.filter(e => e.name.startsWith(\"Il Luogo d'Avventura - \")).sort((a, b) => {\n  if (a.name < b.name) return -1;\n  if (a.name > b.name) return 1;\n  return 0;\n});\n\nlet msg = \"\";\nlet paragraph = true;\nfor (const table of tables) {\n  if (paragraph) {\n    msg += \"<p>\";\n    paragraph = false;\n  }\n  msg += table.description;\n\n  const draw = await table.draw({displayChat: false});\n  const text = draw.results[0].text;\n  msg += \" <b>\" + draw.results[0].text + \"</b> \";\n\n  if (text.charAt(text.length-1) == \".\") {\n    msg += \"</p>\";\n    paragraph = true;\n  }\n}\nChatMessage.create({content: msg});"
         },
         "Roll CON": {
           "name": "Tira COS"
@@ -7801,7 +7807,7 @@
               "name": "Spada Corta"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -8374,7 +8380,7 @@
               "name": "Spade"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             },
             "Dagger": {
               "name": "Pugnale"
@@ -9346,7 +9352,7 @@
               "name": "Coltello"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             },
             "A treasure map": {
               "name": "A treasure map"
@@ -9607,7 +9613,7 @@
               "name": "Fang from a troll"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             },
             "Longbow": {
               "name": "Arco Lungo"
@@ -10354,7 +10360,7 @@
               "name": "Arco Lungo"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -10876,7 +10882,7 @@
               "name": "Spada Corta"
             },
             "Leather": {
-              "name": "Leather"
+              "name": "Cuoio"
             }
           }
         },
@@ -16022,7 +16028,7 @@
       }
     },
     "Dragonbane - Solo Adventure": {
-      "name": "Dragonbane - Solo Adventure",
+      "name": "Dragonbane - Avventura in solitario",
       "description": "<img style=\"display:block;margin:auto;border:0px solid transparent\" src=\"systems/dragonbane/art/ui/logo-en.webp\" /><p>This will import the solo adventure book into your world.</p><p>Note that existing versions of the content will be overwritten!</p><p>If you want to keep ownership settings on existing content, go to Game Settings &gt; Configure Settings and check the corresponding checkbox.</p><p></p><hr /><p style=\"font-size:smaller\">No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher.</p><p>Dragonbane is a registered trademark by Fria Ligan AB.</p><p>©2023 Fria Ligan AB</p><hr /><p>Published by: <a href=\"http://freeleaguepublishing.com/\">Fria Ligan AB</a></p><p>Foundry VTT version by: <a href=\"http://patrikp.com/\">Patrik Påfvelsson (PatrikP)</a></p><p><a href=\"mailto:info@frialigan.se\">info@frialigan.se</a></p>",
       "actors": {
         "Boss": {
@@ -16468,7 +16474,7 @@
         }
       },
       "folders": {
-        "Dragonbane - Solo Adventure": "Dragonbane - Solo Adventure"
+        "Dragonbane - Solo Adventure": "Dragonbane - Avventura in solitario"
       },
       "journals": {
         "Alone in Deepfall Breach": {
