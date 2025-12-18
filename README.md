@@ -35,3 +35,34 @@ Con la partecipazione ed il supporto di [Academy GDR](https://discord.gg/gEvHQ2P
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FLuckyFrico%2Fdragonbane-translation-ita%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=compatibility.verified&style=for-the-badge&logo=foundryvirtualtabletop&label=Fondry%20Verified%20Version&color=orange)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/LuckyFrico/dragonbane-translation-ita/total?style=for-the-badge&logo=github&color=teal)
 ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/LuckyFrico/dragonbane-translation-ita/latest/total?style=for-the-badge&logo=github&label=Downloads%20Latest&color=teal)
+
+## Stato avanzamento traduzione
+### Dragonbane Core Rules
+**Totale voci completate: _628 su 851_**
+| Voci                | Rules | Adventures | Solo Adventure |
+|:----------|:---:|:---:|:----:|
+| Scenes              | 🟢 100%       | 🟢 100%                 | -                           |
+| Actors              | 🟡 54%             | 🔴 2%                   | 🔴 0%                       |
+| Items               | 🟢 100%            | 🔴 0%                   | 🔴 0%                       |
+| Tables              | 🟢 100%            | 🔴 0%                   | 🔴 0%                       |
+| Journals            | 🟡 38%             | 🔴 0%                   | 🔴 0%                       |
+| Cards               | 🔴 0%              | 🔴 0%                   | -                           |
+| Macros              | 🟢 100%            | -                       | -                           |
+| Folders             | 🟢 100%            | 🟢 100%                 | 🟢 100%                     |
+|||||
+| **Totale completamento** | 🟡 **93%**        | 🔴 **21%**              | 🔴 **3%**                   |
+
+
+### Bestiary
+**Totale voci completate: _0 su 195_**
+| Voci                | Bestiary | 
+|:----------|:---:|
+| Scenes              | 🔴 0%        | 
+| Actors              | 🔴 0%             | 
+| Items               | 🔴 0%            | 
+| Tables              | 🔴 0%             | 
+| Journals            | 🔴 0%            | 
+| Folders             | 🔴 0%           | 
+|||
+| **Totale completamento** | 🔴 **0%**        | 
+
