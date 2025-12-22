@@ -43,7 +43,7 @@ Hooks.once("ready", async () => {
                 <p><em>Attualmente in lavorazione la traduzione del <a href="https://foundryvtt.com/packages/dragonbane-bestiary" target="_blank">Bestiario</a>!</em></p><p></p>
                 <p>Percentuale di completamento traduzioni:</p>
                 <ul>
-                <li> Dragonbane Core Rules: 72% </li>
+                <li> Dragonbane Core Rules: 79% </li>
                 <li> Dragonbane Bestiary: 0% </li>
                 </ul>`
     });
