@@ -38,19 +38,19 @@ Con la partecipazione ed il supporto di [Academy GDR](https://discord.gg/gEvHQ2P
 
 ## Stato avanzamento traduzione
 ### Dragonbane Core Rules
-**Totale voci completate: _628 su 851_**
+**Totale voci completate: _670 su 851_**
 | Voci                | Rules | Adventures | Solo Adventure |
 |:----------|:---:|:---:|:----:|
 | Scenes              | 🟢 100%       | 🟢 100%                 | -                           |
-| Actors              | 🟡 54%             | 🔴 2%                   | 🔴 0%                       |
+| Actors              | 🟢 100%             | 🔴 2%                   | 🔴 0%                       |
 | Items               | 🟢 100%            | 🔴 0%                   | 🔴 0%                       |
 | Tables              | 🟢 100%            | 🔴 0%                   | 🔴 0%                       |
-| Journals            | 🟡 38%             | 🔴 0%                   | 🔴 0%                       |
-| Cards               | 🔴 0%              | 🔴 0%                   | -                           |
+| Journals            | 🟢 100%             | 🔴 0%                   | 🔴 0%                       |
+| Cards               | 🟢 100%              | 🔴 0%                   | -                           |
 | Macros              | 🟢 100%            | -                       | -                           |
 | Folders             | 🟢 100%            | 🟢 100%                 | 🟢 100%                     |
 |||||
-| **Totale completamento** | 🟡 **93%**        | 🔴 **21%**              | 🔴 **3%**                   |
+| **Totale completamento** | 🟢 **100%**        | 🔴 **21%**              | 🔴 **3%**                   |
 
 
 ### Bestiary
