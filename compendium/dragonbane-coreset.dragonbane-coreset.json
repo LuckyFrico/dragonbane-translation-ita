@@ -14650,19 +14650,19 @@
           "pages": {
             "Boiling Cauldron": {
               "name": "Calderone Bollente",
-              "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-1.webp"
+              "src": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-1.webp"
             },
             "Bucket of Soapy Water": {
               "name": "Secchio di Acqua Saponata",
-              "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-2.webp"
+              "src": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-2.webp"
             },
             "Burning Firewood": {
               "name": "Legna Ardente",
-              "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-3.webp"
+              "src": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-3.webp"
             },
             "Rummaging Pig": {
               "name": "Maiale Grufolante",
-              "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-4.webp"
+              "src": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-4.webp"
             },
             "Tables": {
               "name": "Tabelle",
@@ -14670,11 +14670,11 @@
             },
             "Wine Bottle": {
               "name": "Bottiglia di Vino",
-              "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-5.webp"
+              "src": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-5.webp"
             },
             "Chandelier": {
               "name": "Lampadario",
-              "src": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-6.webp"
+              "src": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-6.webp"
             },
             "Stalactite": {
               "name": "Stalattite",
@@ -14801,37 +14801,30 @@
       "cards": {
         "Treasure": {
           "name": "Tesoro",
-          "description": "",
+          "img": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-back.webp",
           "cards": {
             "1": {
               "name": "1",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
                   "name": "1",
-                  "img": "modules/dragonbane-coreset/assets/decks/treasure-1.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/treasure-1.webp"
                 }
               ]
             },
             "2": {
               "name": "2",
-              "description": "",
+              "img": "modules/dragonbane-coreset/assets/decks/treasure-back.webp",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
                   "name": "2",
-                  "img": "modules/dragonbane-coreset/assets/decks/treasure-2.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/treasure-2.webp"
                 }
               ]
             },
@@ -15756,7 +15749,7 @@
           }
         },
         "Improvised Weapon - Inn": {
-          "name": "Improvised Weapon - Inn",
+          "name": "Armi Improvvisate - Locanda",
           "description": "",
           "cards": {
             "1": {
@@ -15770,7 +15763,7 @@
               "faces": [
                 {
                   "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-1.webp",
+                  "img": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-1.webp",
                   "text": ""
                 }
               ]
@@ -15786,7 +15779,7 @@
               "faces": [
                 {
                   "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-2.webp",
+                  "img": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-2.webp",
                   "text": ""
                 }
               ]
@@ -15802,7 +15795,7 @@
               "faces": [
                 {
                   "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-3.webp",
+                  "img": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-3.webp",
                   "text": ""
                 }
               ]
@@ -15818,7 +15811,7 @@
               "faces": [
                 {
                   "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-5.webp",
+                  "img": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-5.webp",
                   "text": ""
                 }
               ]
@@ -15834,7 +15827,7 @@
               "faces": [
                 {
                   "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-5.webp",
+                  "img": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-5.webp",
                   "text": ""
                 }
               ]
@@ -15850,7 +15843,7 @@
               "faces": [
                 {
                   "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/improvised-weapon-inn-6.webp",
+                  "img": "modules/dragonbane-translation-ita/assets/decks/arma-improvvisata-locanda-6.webp",
                   "text": ""
                 }
               ]
@@ -15858,7 +15851,7 @@
           }
         },
         "Improvised Weapon - Forest": {
-          "name": "Improvised Weapon - Forest",
+          "name": "Armi Improvvisate - Foresta",
           "description": "",
           "cards": {
             "1": {
@@ -15960,7 +15953,7 @@
           }
         },
         "Improvised Weapon - Cave": {
-          "name": "Improvised Weapon - Cave",
+          "name": "Armi Improvvisate - Grotta",
           "description": "",
           "cards": {
             "1": {
