@@ -126,6 +126,8 @@
         "Ambrosius the Toad": {
           "name": "Ambrosius il Rospo",
           "tokenName": "Ambrosius il Rospo",
+          "description": "<p>Ambrosius, un rospo cornuto grande quanto un cane, è il risultato degli esperimenti di Harga. Fa la guardia contro gli intrusi, ma tiene anche lontane le mosche che interferiscono con la ricerca magica della troll. Resta fermo e silenzioso; solo dopo aver mangiato lo si sente gracidare allegramente.</p>",
+          "traits":"<p><strong>Ferocia</strong>: Num. di PG − 1 (min. 1)</p><p><strong>Fingersi Morto</strong>: Se Ambrosius perde metà dei suoi PF, si gira sulla schiena e si finge morto. Attacca di nuovo quando se ne presenta l’occasione.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -135,6 +137,7 @@
         "Harga": {
           "name": "Harga",
           "tokenName": "Harga",
+          "description": "<p>Harga è una vecchia troll minuta, che puzza di fumo e indossa un fazzoletto sulla testa e una tunica di stoffa a più strati. Non usa attacchi mostruosi, ma è un normale PNG. Può vendere pozioni ai personaggi al prezzo indicato nel Manuale Base e, se ben pagata, può anche insegnare loro le sue abilità e magie.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -200,7 +203,7 @@
               "name": "Animism"
             },
             "Mentalism": {
-              "name": "Mentalism"
+              "name": "Mentalismo"
             },
             "Axes": {
               "name": "Asce"
@@ -233,7 +236,7 @@
               "name": "Spade"
             },
             "Ladle": {
-              "name": "Ladle"
+              "name": "Mestolo"
             },
             "Fetch": {
               "name": "Acchiappare"
@@ -277,8 +280,10 @@
           }
         },
         "Thistle, Prickle and Thorn": {
-          "name": "Thistle, Prickle and Thorn",
-          "tokenName": "Thistle, Prickle and Thorn",
+          "name": "Cardo, Aculeo e Spina",
+          "tokenName": "Cardo, Aculeo e Spina",
+          "description": "<p>Le arpie annidate in cima alla torre sono le tre sorelle Cardo, Aculeo e Spina, astute creature che usano la loro casa come punto di vedetta per cercare prede. Vivono al sicuro tra i cespugli di rose, lavandosi allegramente nella pozza di acqua piovana e profumandosi con il nettare dei fiori. Sono immuni al loro odore. Se due di loro vengono uccise, l’ultima si ritira sul punto più alto della torre e potrebbe attaccare ancora.</p>",
+          "traits": "<p><strong>Ferocia</strong>: 1 per arpia</p><p><strong>Punti Ferita</strong>: 12 per arpia</p><p><strong>Stormo</strong>: Le arpie combattono insieme e i loro attacchi mostruosi vengono eseguiti da più arpie come gruppo. Questi attacchi consumano comunque solo il turno di una singola arpia nel round. Quando metà dello stormo viene uccisa, le altre fuggono. Possono tornare più tardi se si presenta un’occasione favorevole.</p><p><strong>Ali</strong>: Le arpie attaccano dall’aria e possono essere ingaggiate solo con armi a distanza o armi da mischia lunghe.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -286,8 +291,9 @@
           }
         },
         "Undead Guardians": {
-          "name": "Undead Guardians",
-          "tokenName": "Undead Guardians",
+          "name": "Guardiano Non-Morto",
+          "tokenName": "Guardiano Non-Morto",
+          "traits": "<p><strong>Resistenza</strong>: Tutti i danni perforanti sono ridotti della metà (arrotondando per eccesso).</p><p><strong>Immunità</strong>: Gli scheletri sono immuni alla paura e a PERSUADERE.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -400,8 +406,9 @@
           }
         },
         "Demon Cultists (Dead Eyes Cave)": {
-          "name": "Demon Cultists (Dead Eyes Cave)",
-          "tokenName": "Demon Cultists (Dead Eyes Cave)",
+          "name": "Cultista Demoniaco (La Caverna degli Occhi Morti)",
+          "tokenName": "Cultista Demoniaco (La Caverna degli Occhi Morti)",
+          "description": "<p>Per proteggersi dal basilisco, i cultisti si sono bendati e quindi agiscono come se fossero nell’oscurità totale (@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#darkness]{oscurità}) e devono tirare su CONSAPEVOLEZZA prima di ogni attacco. Hanno già perso un membro del loro gruppo e sono spaventati, ma non osano fuggire: fallire la missione attirerebbe l’ira di Azrahel Koth, che temono più della bestia stessa. Ora stanno valutando la loro prossima mossa. Sanno di star affrontando un letale basilisco e potrebbero rivelarlo ai personaggi se messi sotto pressione. Indossano tutti tuniche nere.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -501,6 +508,7 @@
         "Gunhill": {
           "name": "Gunhill",
           "tokenName": "Gunhill",
+          "description": "<p>La nipote di Hildi è venuta fin qui nella speranza di fermare il mostro. I lunghi capelli sono sporchi di terra maleodorante e il suo corpo è pieno di graffi. È testarda e assetata di vendetta, e farà tutto il necessario per uccidere il basilisco. Ha gli occhi coperti da una benda e sussurra quando parla.</p><p>Gunhill ha visto il basilisco e può descriverlo se i personaggi si guadagnano la sua fiducia. Indossa la benda perché ha visto il cultista all’@UUID[JournalEntry.zJNusgTGLKDBi6za.JournalEntryPage.jjoGXZUZdGLkWzMk]{Ingresso della Caverna} cadere a terra morto dopo aver guardato la creatura negli occhi. Ha anche visto un altro cultista spaventare la bestia usando un pollo. Dopo aver parlato con Gunhill, i personaggi possono capire che la bestia è un basilisco superando un tiro di SAPIENZA ANIMALE. Gunhill può anche mostrare loro il passaggio segreto tra le rocce.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -604,8 +612,10 @@
           }
         },
         "The Basilisk": {
-          "name": "The Basilisk",
-          "tokenName": "The Basilisk",
+          "name": "Basilisco",
+          "tokenName": "Basilisco",
+          "description": "<p>Il basilisco della Caverna degli Occhi Morti è insolita￾mente grande, una bestia terrificante con il corpo da serpente, la testa da gallo e degli enormi artigli assassini.</p>",
+          "traits": "<p><strong>Ferocia</strong>: Num. di PG − 1 (min. 1)</p><p><strong>Paura dei Polli</strong>: I basilischi hanno il terrore dei polli. La loro Ferocia diminuisce di uno (minimo 1) se questi pennuti si trovano entro 10 metri, e non osano attaccare una persona che trasporta una gallina o un gallo. I personaggi possono ricordarsi di questa debolezza superando un tiro di SAPIENZA ANIMALE.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -615,6 +625,8 @@
         "Viper": {
           "name": "Vipera",
           "tokenName": "Vipera",
+          "description": "<p>Una grossa vipera, lunga quasi due metri, è avvolta nel suo nido dentro la parete rocciosa. Ha macchie nere, luminosi occhi gialli e zanne che gocciolano veleno. Il serpente usa le stesse meccaniche degli animali, non dei mostri.</p>",
+          "traits": "<p><strong>Veleno</strong>: L’attacco Morso infligge un veleno letale con potenza 15.</p>",
           "items": {
             "Bite": {
               "name": "Morso"
@@ -712,8 +724,9 @@
           }
         },
         "Adventurer 1": {
-          "name": "Adventurer 1",
-          "tokenName": "Adventurer 1",
+          "name": "Avventuriero 1",
+          "tokenName": "Avventuriero 1",
+          "description": "<p>I cavalieri del drago hanno assoldato una banda di avventurieri per aiutare negli scavi e sorvegliare la fortezza. Forse sarebbe più corretto definirli predoni, e per di più spietati. È stato promesso loro un quinto del presunto ricco bottino, e non se ne andranno senza! Le guardie sono tante quanti i personaggi, ma almeno due e non più di quattro.</p><p>Ognuno porta con sé [[/roll D8]] monete d’argento.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -817,8 +830,9 @@
           }
         },
         "Adventurer 2": {
-          "name": "Adventurer 2",
-          "tokenName": "Adventurer 2",
+          "name": "Avventuriero 2",
+          "tokenName": "Avventuriero 2",
+          "description": "<p>I cavalieri del drago hanno assoldato una banda di avventurieri per aiutare negli scavi e sorvegliare la fortezza. Forse sarebbe più corretto definirli predoni, e per di più spietati. È stato promesso loro un quinto del presunto ricco bottino, e non se ne andranno senza! Le guardie sono tante quanti i personaggi, ma almeno due e non più di quattro.</p><p>Ognuno porta con sé [[/roll D8]] monete d’argento.</p>",
           "items": {
             "Studded Leather": {
               "name": "Cuoio Borchiato"
@@ -922,8 +936,9 @@
           }
         },
         "Adventurer 3": {
-          "name": "Adventurer 3",
-          "tokenName": "Adventurer 3",
+          "name": "Avventuriero 3",
+          "tokenName": "Avventuriero 3",
+          "description": "<p>I cavalieri del drago hanno assoldato una banda di avventurieri per aiutare negli scavi e sorvegliare la fortezza. Forse sarebbe più corretto definirli predoni, e per di più spietati. È stato promesso loro un quinto del presunto ricco bottino, e non se ne andranno senza! Le guardie sono tante quanti i personaggi, ma almeno due e non più di quattro.</p><p>Ognuno porta con sé [[/roll D8]] monete d’argento.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -1027,8 +1042,9 @@
           }
         },
         "Adventurer 4": {
-          "name": "Adventurer 4",
-          "tokenName": "Adventurer 4",
+          "name": "Avventuriero 4",
+          "tokenName": "Avventuriero 4",
+          "description": "<p>I cavalieri del drago hanno assoldato una banda di avventurieri per aiutare negli scavi e sorvegliare la fortezza. Forse sarebbe più corretto definirli predoni, e per di più spietati. È stato promesso loro un quinto del presunto ricco bottino, e non se ne andranno senza! Le guardie sono tante quanti i personaggi, ma almeno due e non più di quattro.</p><p>Ognuno porta con sé [[/roll D8]] monete d’argento.</p>",
           "items": {
             "Studded Leather": {
               "name": "Cuoio Borchiato"
@@ -1134,6 +1150,7 @@
         "Iliel": {
           "name": "Iliel",
           "tokenName": "Iliel",
+          "description": "<p>Se i personaggi la liberano, Iliel spiega che è stata portata a Forte Malus contro la sua volontà da quelli che crede essere cavalieri drago. Vogliono che traduca un’antica scritta su una porta all’interno della fortezza. C’era un altro prigioniero nel capanno adiacente: non sa chi fosse, ma, a giudicare dai suoni, dagli odori e dalle urla agonizzanti di qualche ora prima, presume che sia morto.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -1230,6 +1247,7 @@
         "Isadelia": {
           "name": "Isadelia",
           "tokenName": "Isadelia",
+          "description": "<p>I giovani e ambiziosi cavalieri Isadelia e Niklion stanno esplorando Forte Malus di loro iniziativa. Vogliono ristabilire l’impero di Eledain e sperano di trovare dell’oro da offrire ai draghi sui Picchi Zanna del Drago. Il loro obiettivo è l’unica cosa che conta: se i personaggi sembrano più abili delle attuali guardie, Isadelia offrirà il lavoro al gruppo.</p><p><strong>I Cristalli</strong>: I cavalieri portano con sé quattro dei cristalli necessari per aprire la porta verso il sotterraneo della fortezza (tutti tranne quello giallo). Decidi tu quale dei due li trasporta, in base a ciò che è più appropriato.</p><p>Ognuno porta con sé [[/roll D8]] monete d’oro.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -1328,7 +1346,7 @@
               "name": "Scudo Grande"
             },
             "Sleeping Fur": {
-              "name": "Sleeping Fur"
+              "name": "Sacco a Pelo"
             },
             "Defensive": {
               "name": "Difensivo"
@@ -1347,6 +1365,7 @@
         "Niklion": {
           "name": "Niklion",
           "tokenName": "Niklion",
+          "description": "<p>I giovani e ambiziosi cavalieri Isadelia e Niklion stanno esplorando Forte Malus di loro iniziativa. Vogliono ristabilire l’impero di Eledain e sperano di trovare dell’oro da offrire ai draghi sui Picchi Zanna del Drago. Il loro obiettivo è l’unica cosa che conta: se i personaggi sembrano più abili delle attuali guardie, Isadelia offrirà il lavoro al gruppo.</p><p><strong>I Cristalli</strong>: I cavalieri portano con sé quattro dei cristalli necessari per aprire la porta verso il sotterraneo della fortezza (tutti tranne quello giallo). Decidi tu quale dei due li trasporta, in base a ciò che è più appropriato.</p><p>Ognuno porta con sé [[/roll D8]] monete d’oro.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -1451,13 +1470,14 @@
               "name": "Piastre"
             },
             "Sleeping Fur": {
-              "name": "Sleeping Fur"
+              "name": "Sacco a Pelo"
             }
           }
         },
         "Ossiar": {
           "name": "Ossiar",
           "tokenName": "Ossiar",
+          "description": "<p>Ossiar si comporta da timido esploratore, ma è un fanatico seguace di Sathmog. Il suo unico scopo è liberare Blutuld, con o senza l’aiuto dei personaggi. Ha il marchio dei cultisti tatuato sull’avambraccio e, se i personaggi lo interrogano a riguardo, tenta di scappare.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -1553,16 +1573,17 @@
               "name": "Spada Corta"
             },
             "Sleeping Fur": {
-              "name": "Sleeping Fur"
+              "name": "Sacco a Pelo"
             },
             "Field Ration": {
-              "name": "Field Ration"
+              "name": "Razione da Campo"
             }
           }
         },
         "Canutus Boetii": {
           "name": "Canutus Boetii",
           "tokenName": "Canutus Boetii",
+          "description": "<p>Canutus Boetii è un accademico che ha condotto esperimenti sul punto di non ritorno. Oltre ad aiutare i personaggi, può insegnar loro le sue abilità, al giusto prezzo.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -1658,22 +1679,24 @@
               "name": "Coltello"
             },
             "Books": {
-              "name": "Books"
+              "name": "Libri"
             },
             "Backpack": {
-              "name": "Backpack"
+              "name": "Zaino"
             },
             "Field Kitchen": {
-              "name": "Field Kitchen"
+              "name": "Cucina da Campo"
             },
             "Sleeping Fur": {
-              "name": "Sleeping Fur"
+              "name": "Sacco a Pelo"
             }
           }
         },
         "Gorm": {
           "name": "Gorm",
           "tokenName": "Gorm",
+          "description": "<p>Gorm è un vecchio troll di caverna che indossa una livrea di velluto nero e scarlatto. La sua cintura è piena di scalpelli, mani e gambe recise, teste e altri trofei di ospiti inattesi che hanno disturbato la sua pace. Ha le statistiche di un troll.</p>",
+          "traits": "<p><strong>Rigenerazione</strong>: Un troll recupera automaticamente [[/roll D6]] PF a ogni suo turno in combattimento.</p><p><strong>Sensibile alla Luce Solare</strong>: I troll subiscono [[/damage D6]] a round sotto la luce solare diretta e non possono rigenerare. Un troll che raggiunge zero PF per questo motivo si trasforma in pietra. Uno spesso strato di nuvole o indumenti che coprono tutto il corpo sono sufficienti a evitare l’effetto.</p><p><strong>Persuadibile</strong>: A differenza di altri mostri, i troll possono di solito essere PERSUASI, sebbene con una penalità al tiro.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -1681,8 +1704,9 @@
           }
         },
         "The Demon Ix": {
-          "name": "The Demon Ix",
-          "tokenName": "The Demon Ix",
+          "name": "Il Demone Ix",
+          "tokenName": "Il Demone Ix",
+          "traits": "<p><strong>Ferocia</strong>: Num. di PG − 1 (min. 1)</p><p><strong>Immunità</strong>: Ix non subisce danno dal fuoco, nemmeno quello magico.</p><p><strong>Vulnerabilità</strong>: Ix odia il freddo e il bagnato, quindi subisce danni doppi da incantesimi come GELATA e ONDATA.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -1757,7 +1781,7 @@
               "name": "Elementalismo"
             },
             "Mentalism": {
-              "name": "Mentalism"
+              "name": "Mentalismo"
             },
             "Axes": {
               "name": "Asce"
@@ -4535,7 +4559,7 @@
               "name": "Combat Trained Horse"
             },
             "Sleeping Fur": {
-              "name": "Sleeping Fur"
+              "name": "Sacco a Pelo"
             },
             "Plate Armor": {
               "name": "Piastre"
@@ -5297,7 +5321,7 @@
               "name": "Animism"
             },
             "Mentalism": {
-              "name": "Mentalism"
+              "name": "Mentalismo"
             },
             "Axes": {
               "name": "Asce"
@@ -6360,16 +6384,24 @@
       },
       "items": {
         "Cadal's Ring": {
-          "name": "Anello di Cadal"
+          "name": "Anello di Cadal",
+          "descritpion": "<p>Conferisce la capacità di vedere nel buio (il portatore può ignorare tutti gli effetti di @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#darkness]{OSCURITÀ}) e protegge dalla nebbia maligna dell’isola, a patto che il portatore riceva prima la benedizione di Eledain. @UUID[Actor.sKqlbQLQ2ntcgvIR]{Cadal} può concederla, ma solo se i personaggi accettano la sua richiesta.</p>"
         },
         "Bothild’s Broadaxe": {
-          "name": "Bothild’s Broadaxe"
+          "name": "Ascia Larga di Bothild",
+          "cost": "100 oro",
+          "abilities": "Asce",
+          "description": "<p>L’ascia da battaglia magistrale di Bothild è adornata da rune che narrano le imprese del suo proprietario.</p>"
         },
         "Fiendcrusher": {
-          "name": "Fiendcrusher"
+          "name": "Spaccademoni",
+          "abilities": "Martelli",
+          "description": "<p>Un magnifico maglio leggero tempestato di gemme. L’arma è magica e brilla di rosso quando il portatore si trova entro 10 metri da un demone.</p>"
         },
         "Um-Durman": {
-          "name": "Um-Durman"
+          "name": "Um-Durman",
+          "abilities": "Spade",
+          "description": "<p><span style=\"font-family: QTFrizQuad\">Un’arma magistrale con splendidi ornamenti e un’elsa tempestata di gemme.</span></p><section class=\"secret\" id=\"secret-jXkSu03dRCvI2Sec\"><p><span style=\"font-family: QTFrizQuad\">Um-Durman è una spada a due mani con una versione speciale di INCANTARE ARMA con PERMANENZA – ogni volta che colpisce un drago o un demone, l’attacco conta automaticamente come un DRAGO.</span></p></section><img src=\"modules/dragonbane-coreset/assets/artwork/adventure/um-durman-horizontal.webp\">"
         },
         "Gilded Chainmail": {
           "name": "Gilded Chainmail"
@@ -6381,7 +6413,7 @@
           "name": "Curved Goblin Dagger"
         },
         "Map": {
-          "name": "Map"
+          "name": "Mappa"
         },
         "Statuette Piece #1": {
           "name": "Statuette Piece #1"
@@ -6431,14 +6463,26 @@
           "results": {}
         },
         "Monster Attacks - The Basilisk": {
-          "name": "Monster Attacks - The Basilisk",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Basilisco",
+          "results": {
+            "1-1": "Taglio! Il basilisco graffia due personaggi con i suoi terribili artigli. Ogni attacco infligge [[/damage 2D8 slashing]].",
+            "2-2": "Beccata! La bestia fa scattare in avanti la sua malvagia testa d’uccello e colpisce un personaggio con il suo becco appuntito, infliggendo [[/damage 3D8 piercing]].",
+            "3-3": "Chicchirichì! Il basilisco emette un canto cacofonico che trafigge i personaggi e fa sanguinare loro le orecchie. Chiunque si trovi entro 10 metri deve superare un tiro di COS (non è un’azione) o cadere a terra, diventare Disorientato e perdere il suo prossimo turno.",
+            "4-4": "Frustata! Il basilisco usa la sua coda da serpente per frustare tutti gli avventurieri entro 4 metri. Ogni attacco infligge [[/damage D10 bludgeoning]] e getta a terra chi viene colpito.",
+            "5-5": "Nuvola Velenosa! Il basilisco sputa una nuvola giallo-verdastra che puzza di veleno e succhi gastrici corrosivi. Chiunque si trovi entro 10 metri è colpito da un veleno letale di potenza 15.",
+            "6-6": "Sguardo Pietrificante! Il basilisco dirige il suo sguardo dal luccichio azzurro verso il personaggio che ha più PF al momento. Se la vittima può vedere, deve tirare su VOL (non è un’azione). Se fallisce, il suo corpo diventa di pietra e non può più muoversi o eseguire azioni, ma non può nemmeno subire danno. Una vittima pietrificata muore dopo [[/roll 2D6]] round, ma l’effetto può essere invertito superando un tiro di VOL. Finché è viva, può tirare una volta per turno. Anche DISPERDERE (livello di potere 1) può annullare la pietrificazione, ma solo se la vittima è viva."
+          }
         },
         "Monster Attacks - The Demon Akrae": {
-          "name": "Monster Attacks - The Demon Akrae",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Il Demone Akrae",
+          "results": {
+            "1-1": "Stretta di Chela! Il demone afferra un personaggio con una chela e lo schiaccia, infliggendo [[/damage 2D8 slashing]]. Scaglia poi la vittima a [[/roll D6]] metri nell’acqua.",
+            "2-2": "Sputo Salato! Un personaggio entro 4 metri che non ha ancora agito nel round in corso viene colpito da un getto di melma puzzolente e perde il suo turno nel round.",
+            "3-3": "Ruggito Raggelante! Un ruggito demoniaco obbliga tutti entro 10 metri a superare un tiro di VOL o subire un attacco di @Table[RollTable.wHTr9HuHkpVv7ccX]{paura}.",
+            "4-4": "Pizzico al Braccio! Con una chela, per poco il demone non stacca il braccio a un personaggio. L’attacco infligge [[/damage 2D8 slashing]] ma può essere parato. Con la regola delle lesioni gravi, con almeno 1 danno inflitto la vittima subisce anche un braccio rotto.",
+            "5-5": "Cascata! Il demone crea una tromba d’acqua magica che colpisce tutti i personaggi entro 6 metri e li scaglia nell’acqua gelida, a meno che non schivino l’attacco.",
+            "6-6": "Morso alla Testa! Il demone morde la testa di un personaggio, infliggendo [[/damage 3D8 slashing]]. L’attacco può essere parato."
+          }
         },
         "Monster Attacks - The Demon Ix": {
           "name": "Monster Attacks - The Demon Ix",
@@ -6451,9 +6495,15 @@
           "results": {}
         },
         "Monster Attacks - Khaa the Fire Demon": {
-          "name": "Monster Attacks - Khaa the Fire Demon",
-          "description": "",
-          "results": {}
+          "name": "Attacchi Mostruosi - Khaa, il Demone del Fuoco",
+          "results": {
+            "1-1": "Ruggito Ustionante! Il demone ruggisce ferocemente contro un personaggio entro 10 metri, infliggendo [[/damage D8 fire]]. La vittima deve tirare su VOL per resistere alla paura. L’armatura non ha effetto.",
+            "2-2": "Artigli Ardenti! Il demone lacera un personaggio con due attacchi separati, i quali infliggono [[/damage D10 slashing]] ciascuno. Gli attacchi possono essere parati.",
+            "3-3": "Raggio di Lava! Khaa spara un raggio di fuoco concentrato contro un personaggio entro 20 metri, infliggendo [[/damage 2D8 fire]]. L’attacco può essere parato con uno scudo.",
+            "4-4": "Onda di Fuoco! Un’onda di fuoco erutta dal demone, infliggendo [[/damage D8 fire]] a tutti entro 10 metri.",
+            "5-5": "Catene Brucianti! Il demone evoca un fuoco che lega e brucia un personaggio. La vittima subisce immediatamente [[/damage D8 fire]], più [[/damage D8 fire]] aggiuntivi per turno finché non si libera, il che richiede un tiro di FOR (azione). Una vittima incatenata non può muoversi o eseguire azioni che richiedono di muovere il corpo, eccetto provare a liberarsi.",
+            "6-6": "Abbraccio Infernale! Il demone stringe un personaggio. Il calore è così intenso che la vittima subisce [[/damage 3D8 fire]]. L’armatura non ha effetto."
+          }
         },
         "Monster Attacks - Bone Shambler": {
           "name": "Monster Attacks - Bone Shambler",
@@ -6614,26 +6664,26 @@
       },
       "journals": {
         "15. The Isle of Mist": {
-          "name": "15. L'Isoola della Nebbia",
+          "name": "15. L'Isola della Nebbia",
           "pages": {
             "The Isle of Mist": {
-              "name": "L'Isoola della Nebbia",
+              "name": "L'Isola della Nebbia",
               "text": "<p>Sull’isola ammantata dalla nebbia nel mezzo del Lago Specchiato, si trova l’ingresso del labirinto sotterraneo dove Azrahel Koth attende notizie della spada Um-Durman. L’antico stregone demoniaco non può lasciare la sua tomba senza avere la spada in mano sua. Avventurarsi nella nebbia e scendere nell’oscurità è il solo modo per fermare i suoi piani ed evitare che l’influenza demoniaca di Sathmog si diffonda per la Valle Nebbiosa.</p>"
             },
             "The Situation": {
               "name": "La Situazione",
-              "text": "<img src=\"modules/dragonbane-coreset/assets/artwork/adventure/isle-of-mist-en.webp\" /><p>The player characters can hear about the Isle of Mist in Outskirt (see @UUID[JournalEntry.EobTKNtJU1ScMlAa]{Rumors}) or elsewhere. Alfilia Shadowleaf, the mystic Dranath, and Maladûk’s orcs all know the place. They also learn about the deadly mist that surrounds the island – without the sword Um-Durman, the player characters will likely not survive a visit.</p><p>The cave complex beneath the Isle of Mist was origi­nally built as a treasure chamber at the time of Sathmog’s demonic empire (see @UUID[JournalEntry.PAMgObFsFBOGo4qb.JournalEntryPage.yE7OK3MZiLyBd6KM]{History}). Catacombs were dug under the natural cave system that already existed on the island. Once Sathmog had been banished from the world, the dragon emperor Eledain used the Isle of Mist as a prison for the demon’s immortal herald Azrahel Koth.</p><p>Eledain’s mages granted a band of warriors eternal undeath to guard Azrahel Koth until the end of time. The entire island was then shrouded in a corrosive, everlasting mist. For eight hundred years, not a single intruder could break through the Isle of Mist’s defenses – instead, the threat came from within. Strengthened by Sathmog’s grow­ing anger outside the world, Azrahel Koth finally awoke from his cursed sleep.</p><p>Still trapped in the crypt because of the corrosive fog, he enslaved the undead warriors who were supposed to guard him, as well as the bats that lived in the caves. And so, the Isle of Mist was transformed into Azrahel Koth’s stronghold from which his demonic influence spread across the Misty Vale. He also summoned several demons to further strengthen the island’s defenses.</p><p>Once the player characters have found @UUID[JournalEntry.yH1sWCu0QoWEsZyS.JournalEntryPage.9vCFOyIPEcfC8IKD]{Um-Durman}, Azrahel Koth soon learns of this from his spies. The demon sorcerer knows that the sword is the only weapon in this world that can slay him – but also the key to his freedom. It therefore fills him with both dread and elation. Azrahel Koth senses that the player characters are on their way and looks forward to the final showdown.</p><h2>THE CROSSING</h2><p>The journey across Mirror Lake is uneventful and particu­larly easy if the player characters have access to a boat or a float of some sort. Building a raft takes a shift and requires a CRAFTING roll. Without a boat or raft they will have to @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#swimming-and-drowning]{SWIM} across.</p><p>The island is veiled in yellowish mist, but occasionally the shape of a gloomy tower reaching for the heavens at the southern end of the island can be glimpsed through the haze (#1). The player characters also notice a flock of bats behind a cliff at the northern end.</p><p>As the player characters step ashore on the rocky beach, they find the place devoid of life – there are no plants, animals, or intelligent creatures in sight. The disfigured remains of Maladuk’s orcs lie scattered among the rocks, wiped out by the demonic mist.</p><p>The Isle of Mist is exceedingly barren and inhospitable. Apart from the @UUID[.Grtbd6APCYYzp2S5]{tower} and the many dead orcs, the only eye-catching feature is a pond in the middle of the island. This is the @UUID[.PGu6zNu4qZp0a3lE]{entrance} to the caves.</p><p><strong>Bats</strong>: At the northern tip of the island is a massif with a series of narrow, natural tunnels leading all the way to Azrahel Koth’s @UUID[.2cgXTAYdBOmtRxKK]{mausoleum}. It is through these that Azrahel Koth sends his demonic bats across the Misty Vale. The player characters can find the passages with a SPOT HIDDEN roll, but only a person with the heroic ability Contortionist can pass through them.</p><p></p><blockquote class=\"info\"><h3>Leaving the Isle of Mist?</h3><p>There is no place on the Isle of Mist where the player characters can take a shift rest. If the player characters leave the island to rest up, roll D6 per shift on @UUID[RollTable.BU27Xp8XL0b1g4Yh]{Leaving the Adventure Site}.</p></blockquote><p></p><blockquote class=\"info\"><h3>Corrosive Mist</h3><p>The locals avoid the Isle of Mist as the thick magical mist that covers it eats away at all living things. It is extremely painful, and anyone traversing the surface of the island suffers D6 damage per stretch – only the undead are immune. No natural healing can occur here.</p><p>The mist was created to hold Azrahel Koth, who is particularly vulnerable to it – he takes D6 damage per round if he enters it without Um-Durman.</p><p>Neither armor nor spells can protect against the mist. However, the sword Um-Durman or @UUID[.5WxpTqqktQlgsFDK]{Cadal’s ring} keeps the mist at a distance of 10 meters, thus creating a bubble that allows the bearer to move unharmed on the island.</p><p>The mist only exists on the surface of the island, not in the cave complex below. It also does not reach the cliff with the bat tunnels.</p></blockquote><p></p><h3>Random Events</h3><p>For each full stretch the player characters spend in certain places, perhaps searching a room or taking a stretch rest, you can roll on the table below or select a suitable event. The room descriptions indicate where random events can occur, and which dice you should roll.</p><p>@DisplayTable[RollTable.IfUMhQTx1PqEY7Xc]{Random Events}</p><h3>Undead Guards</h3><p>@DisplayNpc[Actor.2h6fcvFNg6CCsH8A named]{Undead Guards}</p>"
+              "text": "<img src=\"modules/dragonbane-coreset/assets/artwork/adventure/isle-of-mist-en.webp\" /><p>I personaggi possono sentir parlare dell’Isola della Nebbia a Orlo (vedi @UUID[JournalEntry.EobTKNtJU1ScMlAa]{Voci}) o altrove. Alfilia Fogliombrosa, il mistico Dranath e gli orchi di Maladûk conoscono bene questo luogo. Il gruppo apprende anche che la nebbia letale che circonda l’isola rende impossibile sopravvivere senza la spada Um-Durman.</p><p>Durante il regno demoniaco di Sathmog, il complesso di gallerie sotto l’isola venne costruito come camera del tesoro (vedi @UUID[JournalEntry.PAMgObFsFBOGo4qb.JournalEntryPage.yE7OK3MZiLyBd6KM]{Storia}). Furono poi scavate catacombe sotto il sistema di caverne naturali già esistente. Quando Sathmog venne bandito dal mondo, l’imperatore drago Eledain usò l’Isola della Nebbia come prigione per l’araldo immortale del demone, Azrahel Koth.</p><p>I maghi di Eledain concessero un’eterna non-morte a una banda di guerrieri affinché sorvegliassero Azrahel Koth fino alla fine dei tempi. L’intera isola venne quindi avvolta da una nebbia corrosiva perenne. Per ottocento anni nessun intruso riuscì a superare le difese dell’isola — finché la minaccia non giunse dall’interno. Rafforzato dalla crescente rabbia di Sathmog, Azrahel Koth si risvegliò dal suo sonno maledetto.</p><p>Ancora intrappolato nella cripta a causa della nebbia, schiavizzò i guerrieri non morti che avrebbero dovuto custodirlo e i pipistrelli che abitavano le caverne. L’Isola della Nebbia divenne così la sua fortezza, da cui la sua influenza demoniaca si diffuse nella Valle Nebbiosa. Evocò inoltre diversi demoni per rafforzarne ulteriormente le difese.</p><p>Quando i personaggi trovano @UUID[JournalEntry.yH1sWCu0QoWEsZyS.JournalEntryPage.9vCFOyIPEcfC8IKD]{Um-Durman}, Azrahel Koth lo scopre rapidamente grazie alle sue spie. Sa che la spada è l’unica arma in grado di ucciderlo, ma anche la chiave della sua libertà. Questo lo riempie di terrore ed euforia. Percepisce l’arrivo dei personaggi e attende con impazienza lo scontro finale.</p><h2>LA TRAVERSATA</h2><p>Il viaggio attraverso il Lago Specchiato è tranquillo e semplice se i personaggi dispongono di una barca o di un qualsiasi mezzo galleggiante. Costruire una zattera richiede un periodo e un tiro di ARTIGIANATO. Senza un mezzo, dovranno @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#swimming-and-drowning]{NUOTARE} fino all’isola.</p><p>L’isola è avvolta da una nebbia giallastra, ma a tratti emerge dalla foschia la sagoma di una torre tetra che si innalza verso il cielo nella parte meridionale (#1). I personaggi notano anche un nugolo di pipistrelli dietro una scogliera a nord.</p><p>Sbarcando sulla spiaggia rocciosa, trovano un luogo privo di vita: nessuna pianta, animale o creatura intelligente. I resti sfigurati degli orchi di Maladûk giacciono tra i sassi, annientati dalla nebbia demoniaca.</p><p>L’Isola della Nebbia è arida e inospitale. Oltre alla @UUID[.Grtbd6APCYYzp2S5]{torre} e ai molti orchi morti, l’unico elemento rilevante è un laghetto al centro dell’isola: l’@UUID[.PGu6zNu4qZp0a3lE]{ingresso} alle caverne.</p><p><strong>Pipistrelli</strong>: All’estremità settentrionale dell’isola si trova un massiccio con una serie di strette gallerie naturali che conducono direttamente al @UUID[.2cgXTAYdBOmtRxKK]{mausoleo} di Azrahel Koth. Da qui lo stregone invia i suoi pipistrelli demoniaci nella Valle Nebbiosa. I personaggi possono trovare i passaggi con un tiro su LOCALIZZARE, ma solo chi possiede la capacità eroica Contorsionista può attraversarli.</p><blockquote class=\"info\"><h3>Lasciare l’Isola della Nebbia?</h3><p>Sull’isola non esiste alcun luogo dove i personaggi possano effettuare un riposo lungo. Se decidono di lasciarla per riposare, tira un D6 per ogni periodo sulla tabella @UUID[RollTable.BU27Xp8XL0b1g4Yh]{Lasciare il Sito d’Avventura}.</p></blockquote><blockquote class=\"info\"><h3>Nebbia Corrosiva</h3><p>Gli abitanti evitano l’Isola della Nebbia perché la fitta nebbia magica divora ogni forma di vita. Chiunque attraversi la superficie dell’isola subisce D6 danni per intervallo; solo i non morti ne sono immuni. Non è possibile alcuna guarigione naturale.</p><p>La nebbia è stata creata per contenere Azrahel Koth, che ne è particolarmente vulnerabile: subisce D6 danni per round se vi entra senza Um-Durman.</p><p>Né armature né incantesimi possono proteggere dalla nebbia. Tuttavia, la spada Um-Durman o l’@UUID[.5WxpTqqktQlgsFDK]{anello di Cadal} la respingono fino a 10 metri, creando una sfera che permette al portatore di muoversi senza danni.</p><p>La nebbia ricopre solo la superficie dell’isola: non è presente nel complesso di caverne sottostante e non raggiunge la scogliera con le gallerie dei pipistrelli.</p></blockquote><h3>Eventi Casuali</h3><p>Per ogni intervallo trascorso in determinate aree — per esempio per cercare una stanza o per un riposo breve — puoi tirare sulla tabella seguente o scegliere un evento appropriato. Le descrizioni delle stanze indicano dove possono verificarsi eventi casuali e quali dadi utilizzare.</p><p>@DisplayTable[RollTable.IfUMhQTx1PqEY7Xc]{Eventi Casuali}</p><h3>Guardie Non Morte</h3><p>@DisplayNpc[Actor.2h6fcvFNg6CCsH8A named]{Guardie Non Morte}</p>"
             },
             "Locations": {
               "name": "Luoghi",
-              "text": "<p>The complex on the Isle of Mist consists of two levels.</p><h2>The Caves</h2><p>The first level is mainly made up of natural caves. Unless the room description says otherwise, it is pitch black down here.</p><p>@UUID[.PGu6zNu4qZp0a3lE]{Entrance}</p><p>@UUID[.PCngZYBKScK2wJwP]{The Demon Chamber}</p><p>@UUID[.5WxpTqqktQlgsFDK]{Ghost Room}</p><p>@UUID[.wbvOhrhpebNA585g]{Three-Way Room}</p><p>@UUID[.VgdG5mJaRtrg5OoG]{Rockfall}</p><p>@UUID[.icLPlaxmgCPgvsGq]{Okvid's Den}</p><p>@UUID[.UBFtd1FOgSWL7HQW]{The Descent}</p><h2>The Labyrinth</h2><p>The labyrinth on the lower level was created by the demon worshipers of old, and now serves as Azrahel Koth’s headquarters. Here the rooms are lit by torches on the walls, unless otherwise stated.</p><p>@UUID[.tUGrzxGhzwFC2hpL]{Four-Way Room}</p><p>@UUID[.dYvKQORLttjO9d9J]{Cells}</p><p>@UUID[.UPTHMjkCcPZjlMSP]{The Skeletal Guard}</p><p>@UUID[.GE7mJx8G7c1l3fLl]{Bolt Trap}</p><p>@UUID[.JXyXcWLV6E37GDbe]{Circular Hall}</p><p>@UUID[.QZkhHk4ow3Ibj6ti]{Water Trap}</p><p>@UUID[.MWtcCBv4BPatucBD]{Library}</p><p>@UUID[.YZvyUihjLMMpv39d]{Skeleton Trap}</p><p>@UUID[.97KLrPcX5DyuxMK7]{Mirror Chamber}</p><p>@UUID[.mMmd8CfpRfOVLcKO]{Treasure Chamber}</p><p>@UUID[.ste3uNYDbF0srzZp]{Statue Room}</p><p>@UUID[.2cgXTAYdBOmtRxKK]{Mausoleum}</p>"
+              "text": "<p>Il complesso nell’Isola della Nebbia consiste di due livelli.</p><h2>Le Caverne</h2><p> Il primo è composto principalmente da caverne naturali. A meno che la descrizione non dica diversamente, sono completamente buie. </p><p>@UUID[.PGu6zNu4qZp0a3lE]{Entrata}</p><p>@UUID[.PCngZYBKScK2wJwP]{Camera del Demone}</p><p>@UUID[.5WxpTqqktQlgsFDK]{Stanza del Fantasma}</p><p>@UUID[.wbvOhrhpebNA585g]{Stanza a Tre Accessi}</p><p>@UUID[.VgdG5mJaRtrg5OoG]{Crollo}</p><p>@UUID[.icLPlaxmgCPgvsGq]{Covo di Okvid}</p><p>@UUID[.UBFtd1FOgSWL7HQW]{Discesa}</p><h2>Il Labirinto</h2><p> Il labirinto nel livello inferiore fu creato dagli antichi adoratori demoniaci e ora funge da quar￾tier generale di Azrahel Koth. Le stanze qui sono illuminate da torce appese ai muri, a meno che non sia scritto diversamente.</p><p>@UUID[.tUGrzxGhzwFC2hpL]{Stanza a Quattro Accessi}</p><p>@UUID[.dYvKQORLttjO9d9J]{Cells}</p><p>@UUID[.UPTHMjkCcPZjlMSP]{Guardia Scheletrica}</p><p>@UUID[.GE7mJx8G7c1l3fLl]{Trappola di Dardi}</p><p>@UUID[.JXyXcWLV6E37GDbe]{Sala Circolare}</p><p>@UUID[.QZkhHk4ow3Ibj6ti]{Trappola d'Acqua}</p><p>@UUID[.MWtcCBv4BPatucBD]{Biblioteca}</p><p>@UUID[.YZvyUihjLMMpv39d]{Trappola Scheletrica}</p><p>@UUID[.97KLrPcX5DyuxMK7]{Sala dello Specchio}</p><p>@UUID[.mMmd8CfpRfOVLcKO]{Sala del Tesoro}</p><p>@UUID[.ste3uNYDbF0srzZp]{Sala della Statua}</p><p>@UUID[.2cgXTAYdBOmtRxKK]{Mausoleo}</p>"
             },
             "The Tower of Sacrifice": {
               "name": "The Tower of Sacrifice",
-              "text": "<blockquote class=\"info\"><p><em>On a hilltop stands a column of white marble so tall it rises above the yellowish mist. A narrow staircase winds its way up the column. Five arms support a wide stone slab at the top of the tower.</em></p></blockquote><ul><li><p><strong>Altar</strong>: At the top of the tower is an altar with strange inscriptions. Shackles on the altar suggest that sacri­fices were performed here, as does a burnt skeleton on the scorched surface.</p></li><li><p><strong>Medallion</strong>: The dead body wears a medallion with the black @UUID[JournalEntry.PAMgObFsFBOGo4qb.JournalEntryPage.R2aO3v0kURd5DGk2#the-demon-cultists]{mark of Sathmog} on it. Whoever touches the medallion summons the ghost of a demon worshiper named @UUID[Actor.EkWgFdttnDPR1PWT]{Verkon}, who immediately attacks. The medallion is CHARGED with 20 WP which the wearer can use.</p></li></ul><div class=\"flexrow\"><div><p>@DisplayMonsterDescription[Actor.EkWgFdttnDPR1PWT named]{Verkon's Ghost}</p></div><div><img src=\"modules/dragonbane-coreset/assets/actors/adventure/verkons-ghost.webp\" /></div></div>"
+              "text": "<blockquote class=\"info\"><p><em>Su una collina si innalza una colonna di marmo bianco, talmente alta da superare la nebbia giallastra. Una stretta scalinata sale intorno alla colonna. In cima, cinque braccia sorreggono un’ampia lastra di pietra.</em></p></blockquote><ul><li><p><strong>Altare</strong>: In cima alla torre c’è un altare con strane iscrizioni. Delle catene suggeriscono che sia stato usato per sacrifici, come dimostra uno scheletro bruciato sulla superficie annerita.</p></li><li><p><strong>Medaglione</strong>: Il corpo indossa un medaglione con il @UUID[JournalEntry.PAMgObFsFBOGo4qb.JournalEntryPage.R2aO3v0kURd5DGk2#the-demon-cultists]{marchio nero di Sathmog}. Chiunque lo tocchi evoca il fantasma di un adoratore demoniaco di nome @UUID[Actor.EkWgFdttnDPR1PWT]{Verkon}, che attacca immediatamente. Il medaglione è RICARICATO con 20 PV che il portatore può usare.</p></li></ul><div class=\"flexrow\"><div><p>@DisplayMonsterDescription[Actor.EkWgFdttnDPR1PWT named]{Fantasma di Verkon}</p></div></div><div><img src=\"modules/dragonbane-coreset/assets/actors/adventure/verkons-ghost.webp\" /></div></div>"
             },
             "Entrance": {
-              "name": "Entrance",
+              "name": "Ingresso",
               "text": "<blockquote class=\"info\"><p><em>In a hollow surrounded by barren hills is a pond. At its edge lies the corpse of an orc, seemingly burned to death by acid. The water is clear and utterly devoid of life. A staircase can be seen at the bottom, leading upwards into the mountain.</em></p></blockquote><ul><li style=\"color:red\"><p style=\"color:black\"><em><strong style=\"color:red\">Footprints:</strong> Anyone who examines the ground around the pond and succeeds with SPOT HIDDEN can see footprints leading both into and out of the water. These were left by Azrahel Koth’s @UUID[Actor.2h6fcvFNg6CCsH8A]{undead guards}.</em></p></li><li><p><strong>Diving</strong>: To reach the caves, the player characters must dive into the pond and succeed with a SWIMMING roll. Anyone who fails starts to @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#swimming-and-drowning]{drown}. The stairs into the mountain lead upwards, to the upper level which is above the surface of the water.</p></li><li><p><strong>Wet Torches</strong>: It is pitch black inside the cave. Lighting a torch that has been under water requires a BUSH­CRAFT roll. Only one attempt is allowed per stretch.</p></li><li><p><strong>Random Event</strong>: Roll [[/roll D8]] on the @UUID[.Hv28lpNXoZEuzvMV#random-events]{Random Events} table for each full stretch the player characters spend in the cave.</p></li><li><p><strong>EAST</strong>: Low-ceilinged passage to the @UUID[.wbvOhrhpebNA585g]{three-way room}.</p></li><li><p><strong>WEST</strong>: Rough-floored passage to @UUID[.PCngZYBKScK2wJwP]{the demon chamber} and the @UUID[.5WxpTqqktQlgsFDK]{ghost room}.</p></li></ul><p></p>"
             },
             "The Demon Chamber": {
@@ -7402,182 +7452,126 @@
       },
       "cards": {
         "Adventures": {
-          "name": "Adventures",
-          "description": "",
+          "name": "Avventure",
           "cards": {
             "1": {
               "name": "1",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-1.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-1.webp"
                 }
               ]
             },
             "2": {
               "name": "2",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-2.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-2.webp"
                 }
               ]
             },
             "3": {
               "name": "3",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-3.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-3.webp"
                 }
               ]
             },
             "4": {
               "name": "4",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-4.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-4.webp"
                 }
               ]
             },
             "5": {
               "name": "5",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-5.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-5.webp"
                 }
               ]
             },
             "6": {
               "name": "6",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-6.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-6.webp"
                 }
               ]
             },
             "7": {
               "name": "7",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-7.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-7.webp"
                 }
               ]
             },
             "8": {
               "name": "8",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-8.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-8.webp"
                 }
               ]
             },
             "9": {
               "name": "9",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-9.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-9.webp"
                 }
               ]
             },
             "10": {
               "name": "10",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-10.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-10.webp"
                 }
               ]
             },
             "11": {
               "name": "11",
-              "description": "",
               "back": {
-                "name": "",
-                "text": "",
                 "img": null
               },
               "faces": [
                 {
-                  "name": "",
-                  "img": "modules/dragonbane-coreset/assets/decks/adventure-11.webp",
-                  "text": ""
+                  "img": "modules/dragonbane-coreset/assets/decks/adventure-11.webp"
                 }
               ]
             }
