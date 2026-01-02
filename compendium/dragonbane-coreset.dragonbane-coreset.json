@@ -9,7 +9,7 @@
       "notes": "system.notes"
     },
     "items": {
-        "description": "system.description",
+        "description": "system.itemDescription",
         "requirement": "system.requirement",
         "wp": "system.wp",
         "boons": "system.boons",
@@ -2746,7 +2746,7 @@
             "Evade": {
               "name": "Sfuggire"
             },
-            "Healing": {
+            "": {
               "name": "Guarire"
             },
             "Hunting & Fishing": {
@@ -11267,7 +11267,7 @@
           "description": "<p>Un tuo colpo con un’arma da mischia a due mani infligge D8 danni aggiuntivi, ma non puoi muoverti nello stesso round. Puoi attivare questa capacità dopo il tiro per colpire, ma non se ti sei già mosso</p>",
           "requirement": "Una qualunque abilità con armi da mischia basata su FOR e di livello 12"
         },
-        "Master Blacksmith": {
+        "suJlrH1fFuRlOzlk": {
           "name": "Mastro Fabbro",
           "description": "<p>Questa capacità richiede gli attrezzi da fabbro. Durante un intervallo, puoi affilare un’arma con lama o punta al costo di 3 PV. Contro un’arma affilata, il valore di armatura di un oggetto è ridotto di 1. L’effetto termina dopo un combattimento in cui l’arma è stata usata per attaccare o parare.</p><p>In un periodo completo, puoi creare un’arma di metallo o un’armatura di metallo a tua scelta dalle liste @UUID[JournalEntry.mlykiHMVIbZ00vLD.JournalEntryPage.Pn6JvfhmadVzIOKI]{Armature e Elmi}, @UUID[JournalEntry.mlykiHMVIbZ00vLD.JournalEntryPage.unZDN4qPEzHSgRdr]{Armi da Mischia} e @UUID[JournalEntry.mlykiHMVIbZ00vLD.JournalEntryPage.2DMSjttCdZhkXage]{Armi a Distanza}. Questo richiede una forgia, un’incudine e del ferro (peso 1). Il costo in PV è pari al prezzo in oro dell’oggetto (arrotondato per eccesso). Se non hai abbastanza PV, puoi suddividere il lavoro in più periodi.</p>",
           "requirement": "Artigianato 12"
@@ -11286,7 +11286,7 @@
           "description": "<p>Se attivi questa capacità nel tuo turno di combattimento, puoi lanciare due incantesimi con una singola azione. Devono essere due incantesimi differenti. Puoi tirare per il primo e poi attivare questa capacità eroica.</p>",
           "requirement": "Una qualunque scuola di magia di livello 12"
         },
-        "Master Tanner": {
+        "miTVL0ITML2zycx0": {
           "name": "Mastro Conciatore",
           "description": "<p>Questa capacità richiede gli attrezzi da conciatore. Puoi creare un set di armatura di cuoio dalla pelle di un animale o di un mostro. L’armatura ottiene metà del valore di armatura della bestia (arrotondato per eccesso), con un minimo di 1. Impieghi un periodo completo e il costo in PV è pari al valore di armatura dell’oggetto.</p>",
           "requirement": "Artigianato 12"
@@ -11774,7 +11774,7 @@
           "cost": "2 arg.",
           "description": "Guarisce una condizione a scelta in un Intervallo, ma può essere eseguito solo una volta alla settimana."
         },
-        "Healing": {
+        "iIS6h5eIQgobiSdp": {
           "name": "Cure Mediche",
           "cost": "5 oro",
           "description": "I tiri di GUARIRE hanno successo automatico."
@@ -12103,8 +12103,7 @@
         "Artisan": {
           "name": "Artigiano",
           "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#artisan]{Artigiano}</p><p>Scegli uno tra @UUID[Item.suJlrH1fFuRlOzlk]{Mastro Fabbro}, @UUID[Item.J0QAE0wDNse8scng]{Mastro Carpentiere} o @UUID[Item.miTVL0ITML2zycx0]{Mastro Conciatore} come Capacità Eroica delle professione.</p><p></p>",
-          "skills": "Artigianato, Asce, Coltelli, Localizzare, Martelli, Rapidità di Mano, Rissa, Spade",
-          "abilities": "Mastro Carpentiere, Mastro Conciatore oppure Mastro Fabbro"
+          "skills": "Artigianato, Asce, Coltelli, Localizzare, Martelli, Rapidità di Mano, Rissa, Spade"
         },
         "Bard": {
           "name": "Bardo",
@@ -12190,6 +12189,10 @@
         "Evade": {
           "name": "Sfuggire",
           "description": "<p>Usa questa abilità quando vuoi schivare un attacco o fuggire da un combattimento. Per ulteriori dettagli, vedi il @UUID[JournalEntry.SbbSMsuvWeo3HaID]{Capitolo 4. Combattimento e Danno}.</p>"
+        },
+        "9eqlftEiOMq9HmDP": {
+          "name": "Guarire",
+          "description": "<p>Essendo avventurieri, il rischio che prima o poi tu o i tuoi amici veniate feriti è elevato. A questo serve l’abilità GUA￾RIRE: ti permette di far  rialzare i tuoi compagni o persino salvare loro la vita.</p>"
         },
         "Hunting & Fishing": {
           "name": "Caccia e Pesca",
@@ -12923,7 +12926,7 @@
         },
         "Mentalist": {
           "name": "Mentalista",
-          "abilities": "Mentalismo, Acrobazia, Consapevolezza, Guarire, Linguaggi, Miti e Leggende, Rissa, Sfuggire",
+          "skills": "Mentalismo, Acrobazia, Consapevolezza, Guarire, Linguaggi, Miti e Leggende, Rissa, Sfuggire",
           "description":"@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mage]{Mago}"
         },
         "Chalice": {
