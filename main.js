@@ -38,6 +38,7 @@ Hooks.once("ready", async () => {
                 <li> Traduzione del modulo <a href="https://foundryvtt.com/packages/dragonbane-item-browser" target="_blank"> Dragonbane - Item Browser </a></li>
                 <li> Traduzione del modulo <a href="https://foundryvtt.com/packages/dragonbane-status-effects" target="_blank"> Dragonbane Status Effects </a></li>
                 <li> Traduzione del modulo <a href="https://foundryvtt.com/packages/token-action-hud-dragonbane" target="_blank"> Token Action HUD for Dragonbane </a></li>
+                <li> Traduzione del modulo <a href="https://foundryvtt.com/packages/dragonbane-campaign-assistant" target="_blank"> Dragonbane Campaign Assistant </a></li>
                 </ul>
                 <p>Per maggiori dettagli visita il nostro <a href="https://github.com/LuckyFrico/dragonbane-translation-ita" target="_blank"> GitHub </a>.</p><p></p>
                 <p><em>Attualmente in lavorazione la traduzione del <a href="https://foundryvtt.com/packages/dragonbane-bestiary" target="_blank">Bestiario</a>!</em></p><p></p>

@@ -2,7 +2,7 @@
   "id": "dragonbane-translation-ita",
   "title": "Traduzione Italiana Dragonbane",
   "description": "Modulo di traduzione in italiano per il manuale base di Dragonbane in Foundry VTT e di alcuni moduli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
@@ -46,6 +46,12 @@
     "name": "Italian",
     "path": "./lang/token-action-hud-dragonbane_it.json",
     "module": "token-action-hud-dragonbane"
+    },
+    {
+    "lang": "it",
+    "name": "Italian",
+    "path": "./lang/dragonbane-campaign-assistant_it.json",
+    "module": "dragonbane-campaign-assistant"
     }
   ],
   "relationships": {
@@ -67,6 +73,6 @@
  ]
  },
   "manifest": "https://github.com/LuckyFrico/dragonbane-translation-ita/releases/latest/download/module.json",
-  "download": "https://github.com/LuckyFrico/dragonbane-translation-ita/releases/download/v0.2.0/module.zip",
+  "download": "https://github.com/LuckyFrico/dragonbane-translation-ita/releases/download/v0.2.1/module.zip",
   "url": "https://github.com/LuckyFrico/dragonbane-translation-ita"
 }
