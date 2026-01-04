@@ -18,6 +18,7 @@ Traduzione in italiano dei manuali di Dragonbane in Foundry VTT e di alcuni modu
 * [Dragonbane - Item Browser](https://foundryvtt.com/packages/dragonbane-item-browser)
 * [Dragonbane Status Effects](https://foundryvtt.com/packages/dragonbane-status-effects)
 * [Token Action HUD for Dragonbane](https://foundryvtt.com/packages/token-action-hud-dragonbane)
+* [Dragonbane Campaign Assistant](https://foundryvtt.com/packages/dragonbane-campaign-assistant)
 
 _Attualmente in lavorazione anche la traduzione del [Dragonbane - Bestiary](https://foundryvtt.com/packages/dragonbane-bestiary)!_
 
