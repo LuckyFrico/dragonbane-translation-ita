@@ -12097,64 +12097,64 @@
         },
         "Animist": {
           "name": "Animista",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mage]{Mago}</p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mago]{Mago}</p>",
           "skills": "Animismo, Bastoni, Caccia e Pesca, Guarire, Sapienza Animale, Sfuggire, Sgattaiolare, Sopravvivenza"
         },
         "Artisan": {
           "name": "Artigiano",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#artisan]{Artigiano}</p><p>Scegli uno tra @UUID[Item.suJlrH1fFuRlOzlk]{Mastro Fabbro}, @UUID[Item.J0QAE0wDNse8scng]{Mastro Carpentiere} o @UUID[Item.miTVL0ITML2zycx0]{Mastro Conciatore} come Capacità Eroica delle professione.</p><p></p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#artigiano]{Artigiano}</p><p>Scegli uno tra @UUID[Item.suJlrH1fFuRlOzlk]{Mastro Fabbro}, @UUID[Item.J0QAE0wDNse8scng]{Mastro Carpentiere} o @UUID[Item.miTVL0ITML2zycx0]{Mastro Conciatore} come Capacità Eroica delle professione.</p><p></p>",
           "skills": "Artigianato, Asce, Coltelli, Localizzare, Martelli, Rapidità di Mano, Rissa, Spade"
         },
         "Bard": {
           "name": "Bardo",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#bard]{Bardo}</p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#bardo]{Bardo}</p>",
           "skills": "Acrobazia, Coltelli, Esibirsi, Imbrogliare, Linguaggi, Miti e Leggende, Persuadere, Sfuggire",
           "abilities": "Musicista"
         },
         "Elementalist": {
           "name": "Elementalista",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mage]{Mago}</p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mago]{Mago}</p>",
           "skills": "Elementalismo, Bastoni, Consapevolezza, Guarire, Linguaggi, Localizzare, Miti e Leggende, Sfuggire"
         },
         "Fighter": {
           "name": "Guerriero",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#fighter]{Guerriero}</p><p></p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#guerriero]{Guerriero}</p><p></p>",
           "skills": "Archi, Asce, Balestre, Lance, Martelli, Rissa, Sfuggire, Spade",
           "abilities": "Veterano"
         },
         "Hunter": {
           "name": "Cacciatore",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#hunter]{Cacciatore}</p><p></p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#cacciatore]{Cacciatore}</p><p></p>",
           "skills": "Acrobazia, Archi, Caccia e Pesca, Coltelli, Consapevolezza, Frombole, Sgattaiolare, Sopravvivenza",
           "abilities": "Compagno"
         },
         "Knight": {
           "name": "Cavaliere",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#knight]{Cavaliere}</p><p></p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#cavaliere]{Cavaliere}</p><p></p>",
           "skills": "Cavalcare, Esibirsi, Lance, Martelli, Miti e Leggende, Persuadere, Sapienza Animale, Spade",
           "abilities": "Protettore"
         },
         "Mariner": {
           "name": "Marinaio",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mariner]{Marinaio}</p><p></p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#marinaio]{Marinaio}</p><p></p>",
           "skills": "Acrobazia, Caccia e Pesca, Coltelli, Consapevolezza, Linguaggi, Navigare, Nuotare, Spade",
           "abilities": "Gambe da Marinaio"
         },
         "Merchant": {
           "name": "Mercante",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#merchant]{Mercante}</p><p></p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mercante]{Mercante}</p><p></p>",
           "skills": "Coltelli, Consapevolezza, Contrattare, Imbrogliare, Localizzare, Persuadere, Rapidità di Mano, Sfuggire",
           "abilities": "Cacciatore di Tesori"
         },
         "Scholar": {
           "name": "Studioso",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#scholar]{Studioso}</p><p></p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#studioso]{Studioso}</p><p></p>",
           "skills": "Consapevolezza, Guarire, Linguaggi, Localizzare, Miti e Leggende, Sapienza Animale, Sfuggire, Sopravvivenza",
           "abilities": "Intuizione"
         },
         "Thief": {
           "name": "Ladro",
-          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#thief]{Ladro}</p><p></p>",
+          "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#ladro]{Ladro}</p><p></p>",
           "skills": "Acrobazia, Coltelli, Consapevolezza, Imbrogliare, Localizzare, Rapidità di Mano, Sfuggire, Sgattaiolare",
           "abilities": "Pugnalata alle Spalle"
         },
@@ -12274,8 +12274,8 @@
           "name": "Frombole",
           "description":"Usa questa abilità quando attacchi con una frombola."
         },
-        "Spears": {
-          "name": "Lancia da Cavalleria",
+        "ux7b09CzWXxE36KN": {
+          "name": "Lance",
           "description":"Un’abilità usata per combattere con lance e tridenti, anche quando vengono lanciate. Comprende anche le lance da cavalleria."
         },
         "Staves": {
@@ -12927,7 +12927,7 @@
         "Mentalist": {
           "name": "Mentalista",
           "skills": "Mentalismo, Acrobazia, Consapevolezza, Guarire, Linguaggi, Miti e Leggende, Rissa, Sfuggire",
-          "description":"@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mage]{Mago}"
+          "description":"@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mago]{Mago}"
         },
         "Chalice": {
           "name": "Calice",
