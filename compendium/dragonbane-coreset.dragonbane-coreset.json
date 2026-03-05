@@ -10,6 +10,7 @@
     },
     "items": {
         "description": "system.itemDescription",
+        "gmDescription": "system.gmDescription",
         "requirement": "system.requirement",
         "wp": "system.wp",
         "boons": "system.boons",
@@ -1708,6 +1709,7 @@
         "Thorendil": {
           "name": "Thorendil",
           "tokenName": "Thorendil",
+          "description": "<p>Thorendil è un uomo ambizioso che, essendosi offerto volontario per la ricerca dei pezzi della statuetta, spera di compensare la sua poca pazienza nello studio serio della magia nera. È alto e magro, con la pelle ingiallita dal danno al fegato causato dal suo soggiorno a Crestanera. La sua natura irrequieta è torturata dalle condizioni all’interno della sfera temporale e i suoi episodi maniacali peggiorano a ogni ciclo e a seconda di quanto tempo è passato dall’ultima volta che ha dormito. Durante questi episodi, scoppia spesso in risate isteriche che presto diventano incantesimi piangenti.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -1834,6 +1836,7 @@
         "Ukka": {
           "name": "Ukka",
           "tokenName": "Ukka",
+          "description": "<p>Ukka guida la sua tribù sotto Maladûk e ha accettato la missione per rafforzare la sua posizione nella gerarchia degli orchi. Il suo sogno è guadagnare abbastanza sostegno da sfidare a duello la capoguerra, ma ora è caduta in una profonda disperazione, certa che il mondo esterno stia proseguendo senza di lei e che le sue ambizioni non siano giunte a nulla. È alta, muscolosa e in pessime condizioni mentali. Verso la fine del ciclo, diventa ciarliera e sentimentale se qualcuno dei personaggi vuole stare ad ascoltarla.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -2033,8 +2036,10 @@
           }
         },
         "Bone Shambler": {
-          "name": "Bone Shambler",
-          "tokenName": "Bone Shambler",
+          "name": "Ammasso d'ossa",
+          "tokenName": "Ammasso d'ossa",
+          "description": "<p>Scheletri danneggiati che si trascinano su ossa rotte. Queste mostruosità non-morte prosperano in rovine umide, possono scalare silenziosamente i muri e appendersi ai soffitti per tendere imboscate alle loro vittime.</p>",
+          "traits": "<p><strong>Resistenza</strong>: Gli ammassi d’ossa subiscono metà dei danni da armi perforanti.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -2141,8 +2146,10 @@
           }
         },
         "Stare": {
-          "name": "Stare",
-          "tokenName": "Stare",
+          "name": "Malocchio",
+          "tokenName": "Malocchio",
+          "description": "<p>I personaggi possono vedere soltanto gli occhi scavati di Malocchio e quelli che potrebbero essere generosamente chiamati denti. È incatenata al muro, ma può raggiungere ogni punto della stanza.</p>",
+          "traits": "<p><strong>Ferocia</strong>: Num. di PG − 1 (min. 1)</p><p><strong>La Bambola</strong>: Se i personaggi hanno portato la bambola dalla @UUID[JournalEntry.UIaxNXdFEvThzjNv.JournalEntryPage.OqwEawIQsjQ9PaeT]{Stanza dei Giochi}, la Ferocia di Malocchio aumenta di uno.</p><p><strong>Immunità</strong>: Tutto il fuoco si spegne nella stanza dove è imprigionata Malocchio.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -2150,8 +2157,8 @@
           }
         },
         "Stig Stonehilt": {
-          "name": "Stig Stonehilt",
-          "tokenName": "Stig Stonehilt",
+          "name": "Stig Elsarocciosa",
+          "tokenName": "Stig Elsarocciosa",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -2249,8 +2256,9 @@
           }
         },
         "Witch Hound": {
-          "name": "Witch Hound",
-          "tokenName": "Witch Hound",
+          "name": "Mastino Stregato",
+          "tokenName": "Mastino Stregato",
+          "description": "<p>Queste bestie schiumanti, dagli occhi gialli iniettati di sangue, non si fermano finché la loro vittima non è fatta a pezzi. Sono i vecchi cani di Malocchio, senza i quali non poteva stare, nemmeno dopo la morte.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -2258,8 +2266,10 @@
           }
         },
         "Azrael Koth": {
-          "name": "Azrael Koth",
-          "tokenName": "Azrael Koth",
+          "name": "Azrahel Koth",
+          "tokenName": "Azrahel Koth",
+          "description": "<p>Lo stregone demoniaco Azrahel Koth è il più potente servitore di Sathmog nella Valle Nebbiosa, riportato in vita dal suo signore per diffondere il culto demoniaco nel mondo.</p>",
+          "traits": "<p><strong>Ferocia</strong>: Num. di PG</p><p><strong>Legato al Labirinto</strong>: Azrahel Koth è legato al labirinto finché non impugna Um-Durman.</p><p><strong>Resistenza</strong>: Subisce metà dei danni da armi non magiche. Solo la magia e le armi magiche gli infliggono danno pieno.</p><p><strong>Teletrasporto</strong>: Quando combatte fuori dal @UUID[JournalEntry.3rr6Om232dTkr2X8.JournalEntryPage.2cgXTAYdBOmtRxKK]{Mausoleo}, Azrahel Koth può usare un’azione per teletrasportarsi lì. Se subisce danni, lo farà alla prima occasione (al posto di un attacco mostruoso).</p><p><strong>Rigenerazione</strong>: Dentro al mausoleo, Azrahel Koth guarisce completamente in un intervallo.</p><p><strong>Um-Durman</strong>: Azrahel Koth muore se un attacco con Um-Durman lo riduce a zero PF. Il suo corpo collassa su sé stesso come un mantice vuoto, finché non rimane solo un guscio raggrinzito. Se è ridotto a zero PF da un’altra arma, si risveglia al massimo dei PF dopo un intervallo. Il colpo di grazia può essere inflitto con Um-Durman anche se è stato abbattuto con altri attacchi. Azrahel Koth non è un demone, quindi non subisce l’effetto speciale di Um-Durman contro draghi e demoni, ma la spada conta comunque come arma magica.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -2267,8 +2277,10 @@
           }
         },
         "Cadal's Ghost": {
-          "name": "Cadal's Ghost",
-          "tokenName": "Cadal's Ghost",
+          "name": "Fantasma di Cadal",
+          "tokenName": "Fantasma di Cadal",
+          "description": "<p>Il fantasma di un giovane uomo affascinante emerge dallo scheletro e parla ai personaggi:</p><p><em>“Il mio nome è Cadal, dei Custodi della Fiamma Immacolata. Sono giunto fino a qui per liberare la mia amata Tuviel e sconfiggere il malvagio stregone Azrahel Koth. In queste caverne, però, ho incontrato il mio tormento, il maleodorante demone marino Akrae. Deve morire perché io trovi pace. Date il mio anello al vostro combattente migliore e uccidete il demone. Questo è il mio ultimo desiderio.”</em></p><p>Se i personaggi accettano la sua richiesta, li benedice in nome di Eledain, permettendo loro di usare il suo anello. Se rifiutano, il fantasma torna nello scheletro.</p>",
+          "traits": "<p><strong>Immunità</strong>: I fantasmi sono esseri immateriali e immuni a qualsiasi danno eccetto quelli da magia e da fuoco. Un fantasma sconfitto viene bandito soltanto fino al termine del periodo, dopo il quale farà ritorno. L’unico modo per bandire permanentemente un fantasma è lanciare PURIFICARE o risolvere qualunque problema lo tenga legato al mondo dei vivi.</p><p><strong>Persuasibili</strong>: A differenza della maggior parte dei mostri, di solito è possibile PERSUADERE i fantasmi, ma con una sciagura al tiro.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -2278,6 +2290,8 @@
         "Emrys": {
           "name": "Emrys",
           "tokenName": "Emrys",
+          "description": "<p>Emrys è un cavaliere al servizio dei @UUID[JournalEntry.PAMgObFsFBOGo4qb.JournalEntryPage.R2aO3v0kURd5DGk2#the-keepers-of-the-immaculate-flame]{Custodi della Fiamma Immacolata}. È agonizzante a causa degli interrogatori ripetuti. Entro un intervallo, qualcuno deve superare un tiro di GUARIRE o Emrys esalerà il suo ultimo respiro. È permesso un solo tentativo.</p><p>Il malandato Emrys alterna preghiere a Eledain e maledizioni ad Azrahel Koth. Se i personaggi si fanno notare, spiega di essere giunto sull’isola per salvare sua sorella Tuviel, anche lei un cavaliere drago, rapita dai servitori di Sathmog.</p><p>Prima di partire, ha avvisato Cadal, il promesso sposo di sua sorella, nella speranza che si unisse a lui. Emrys chiede ai personaggi di salvare Tuviel. Se apprende @UUID[JournalEntry.3rr6Om232dTkr2X8.JournalEntryPage.UPTHMjkCcPZjlMSP]{cosa le è capitato}, va su tutte le furie ed esige che Azrahel Koth venga ucciso a ogni costo.</p><p>Ha sentito le guardie non-morte sibilare la parola d’ordine della porta est della @UUID[JournalEntry.3rr6Om232dTkr2X8.JournalEntryPage.tUGrzxGhzwFC2hpL]{Stanza a Quattro Vie}, ma ricorda solo l’inizio: “Eugnil Ert Ellad Erotarebil Ortson, Gomhtas…” Potrebbe bastare questo indizio per far scoprire la frase al gruppo, se non la ottengono da Kretscha.</p><p>Se i personaggi salvano la vita a Emrys, lui si unirà a loro, ma sarà poco utile a causa delle sue gravi ferite. Potrebbe sacrificarsi in un momento cruciale se il gruppo dovesse trovarsi in difficoltà.</p>",
+          "traits": "<p><strong>Ferite profonde</strong>: Castigo a tutte le abilità basate su FOR o AGI, e ogni tiro contro tali abilità infligge [[/damage D6]]. Tempo di guarigione: [[/roll 2D6]] giorni.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -2375,8 +2389,10 @@
           }
         },
         "Khaa the Fire Demon": {
-          "name": "Khaa the Fire Demon",
-          "tokenName": "Khaa the Fire Demon",
+          "name": "Khaa il Demone del Fuoco",
+          "tokenName": "Khaa il Demone del Fuoco",
+          "description": "<p>Khaa è stato evocato da Azrahel Koth per stare a guardia della sua cripta, ma si è rivelato una delusione in quanto sembra più interessato a discutere i misteri della vita che a combattere. Khaa appare come un umanoide fatto di fuoco sempre ardente, scoppiettante e fumante, anche quando sta fermo. La sua voce sibila come il vapore che esce dal legno bagnato in un grande falò.</p>",
+          "traits": "<p><strong>Ferocia</strong>: Num. di PG − 1 (min. 1)</p><p><strong>Resistenza</strong>: Subisce metà dei danni da attacchi perforanti e contundenti.</p><p><strong>Immunità</strong>: Khaa è completamente immune a ogni tipo di fuoco, incluso quello magico. Anzi, recupera tanti PF quanti sono i danni dell’attacco con il fuoco.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -2386,6 +2402,7 @@
         "Kretscha": {
           "name": "Kretscha",
           "tokenName": "Kretscha",
+          "description": "<p>Kretscha è stata catturata dalle guardie di Azrahel Koth vicino al Lago Specchiato. Lo stregone la sta tenendo in vita per ottenere informazioni su Um-Durman.</p><p>Se i personaggi hanno incontrato @UUID[Actor.dESAouUNSB7OHgi0]{Maladûk} e hanno formato un’alleanza con lei, Kretscha ne è a conoscenza. Se la liberano, dirà loro che Azrahel Koth non può lasciare il labirinto senza la spada, e non può nemmeno essere ucciso senza che si usi quell’arma leggendaria. Se n’è vantato durante i lunghi interrogatori. Se i personaggi chiedono la parola d’ordine per la porta est della @UUID[JournalEntry.3rr6Om232dTkr2X8.JournalEntryPage.tUGrzxGhzwFC2hpL]{Stanza a Quattro Vie}, dice di aver sentito le guardie non-morte sibilare una frase, e la ripete parola per parola. Se il gruppo non ha stretto un’alleanza con Maladûk, servirà un tiro di PERSUADERE per ottenere questa informazione.</p><p>Kretscha non intende restare a combattere al fianco dei personaggi e preferisce andarsene per riferire tutto a Maladûk, ma può essere convinta a restare superando un tiro di PERSUADERE. Puoi anche farla arrivare a salvarli se i personaggi dovessero trovarsi alle strette.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -2482,6 +2499,8 @@
         "Okvid the Troll": {
           "name": "Okvid the Troll",
           "tokenName": "Okvid the Troll",
+          "description": "<p>Okvid è un vecchio troll brontolone che lavora come custode delle caverne, sotto un accordo con Azrahel Koth. Come pagamento, può tenersi tutti i tesori che raccoglie dagli avventurieri abbattuti. La sua abilità rigenerativa gli permette di vivere nella nebbia corrosiva. Ha una voce tonante come una frana ed emana una puzza che fa lacrimare gli occhi. Okvid ha le statistiche di un troll (Manuale Base, pag. 98), ma con un’aggiunta:</p><p><strong>Mal di Denti</strong>: Chiunque superi un tiro di GUARIRE si accorge che il troll soffre di un terribile mal di denti. Serve superare un tiro di PERSUADERE o IMBROGLIARE per far sì che il troll accetti di sottoporsi a un’operazione. Rimuovere il dente cariato richiede un altro tiro di GUARIRE; se fallisce, il troll attacca. Se l’operazione ha successo, Okvid permette ai personaggi di passare e offre loro del cibo avariato.</p>",
+          "traits": "<p><strong>Rigenerazione</strong>: I troll recuperano automaticamente [[/roll D6]] PF a ogni loro turno di combattimento.</p><p><strong>Sensibilità Solare</strong>: Sotto la luce solare diretta, i troll subiscono [[/damage D6]] danni a ogni round e non possono rigenerarsi. Un troll che scende a zero PF in questo modo diventa pietra. Uno spesso strato di nuvole o dei vestiti che li coprano completamente sono sufficienti a evitare questo effetto.</p><p><strong>Persuasibili</strong>: A differenza della maggior parte degli altri mostri, di solito è possibile PERSUADERE i troll, ma con una sciagura al tiro.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -2489,8 +2508,10 @@
           }
         },
         "The Demon Akrae": {
-          "name": "The Demon Akrae",
-          "tokenName": "The Demon Akrae",
+          "name": "Il Demone Akrae",
+          "tokenName": "Il Demone Akrae",
+          "description": "<p>Akrae sembra un umano, ma ha la testa e le chele di un granchio. Emette un gorgoglio e puzza di alghe marce. È legato alla roccia con il pentagramma e non può lasciarla.</p>",
+          "traits": "<p><strong>Ferocia:</strong> Num. di PG−1 (min. 1)</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -2498,8 +2519,10 @@
           }
         },
         "Undead Guards": {
-          "name": "Undead Guards",
-          "tokenName": "Undead Guards",
+          "name": "Guardia Non-Morta",
+          "tokenName": "Guardia Non-Morta",
+          "descripion": "<p>Ottocento anni fa, l’imperatore drago rinchiuse una banda di guerrieri nella cripta di Azrahel Koth, perché facesse la guardia allo stregone demoniaco fino alla fine dei tempi. Le loro vite sono state allungate da incantesimi necromantici, che però non hanno fermato il loro decadimento fisico e mentale.</p><p>Ora, questi grandi guerrieri del passato sono ridotti a scheletri erranti con teschi ridenti. Azrahel Koth ha preso il controllo delle loro menti indebolite e li ha resi i suoi docili pupazzi.</p><p>I personaggi possono incontrare le guardie non-morte come @UUID[JournalEntry.3rr6Om232dTkr2X8.JournalEntryPage.Hv28lpNXoZEuzvMV#random-events]{evento casuale} e nel suo @UUID[JournalEntry.3rr6Om232dTkr2X8.JournalEntryPage.2cgXTAYdBOmtRxKK]{Mausoleo}. Puoi anche fare in modo che una pattuglia arrivi se i personaggi fanno troppo rumore o quando vuoi offrire loro una sfida in più.</p><p>Le guardie si muovono per tutto il complesso di caverne. Dei giocatori svegli possono SGATTAIOLARE seguendo una pattuglia per scoprire come evitare le numerose trappole del labirinto. Questo richiede un successo nel tiro a ogni stanza.</p>",
+          "traits": "<p><strong>Resistenza</strong>: Subiscono metà dei danni da attacchi perforanti (arrotondato per eccesso).</p><p><strong>Immunità</strong>: Le guardie non-morte sono immuni alla paura e a PERSUADERE.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -2600,8 +2623,10 @@
           }
         },
         "Verkon's Ghost": {
-          "name": "Verkon's Ghost",
-          "tokenName": "Verkon's Ghost",
+          "name": "Fantasma di Verkon",
+          "tokenName": "Fantasma di Verkon",
+          "description": "<p>L’adoratore demoniaco Verkon ha servito Sathmog quando dominava sulla Valle Nebbiosa, ma ha perso la vita in un rituale andato storto. Il suo spirito inquieto attacca chiunque prenda il medaglione dalle sue spoglie terrene. È un’ombra azzurra della sua forma passata, avvolta in una tunica, con occhi penetranti e il marchio nero di Sathmog impresso a fuoco sulla fronte.</p><p>Sibila <em>“Potere a Sathmog, nostro liberatore dalle tre lingue”</em> al gruppo, ma serve superare un tiro di LINGUAGGI per comprenderlo. Se i personaggi lasciano cadere il medaglione, lo spirito li lascerà in pace.</p>",
+          "traits": "<p><strong>Immunità</strong>: I fantasmi sono esseri immateriali e immuni a qualsiasi danno eccetto quelli da magia e da fuoco. Un fantasma sconfitto viene bandito soltanto fino al termine del periodo, dopo il quale farà ritorno. L’unico modo per bandire permanentemente un fantasma è lanciare PURIFICARE o risolvere qualunque problema lo tenga legato al mondo dei vivi.</p><p><strong>Persuasibili</strong>: A differenza della maggior parte dei mostri, di solito è possibile PERSUADERE i fantasmi, ma con una sciagura al tiro.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -4565,7 +4590,7 @@
           "tokenName": "Tylos",
           "items": {
             "Combat Trained Horse": {
-              "name": "Combat Trained Horse"
+              "name": "Cavallo da Guerra"
             },
             "Sleeping Fur": {
               "name": "Sacco a Pelo"
@@ -4681,8 +4706,10 @@
           }
         },
         "Undead Guard Patrol": {
-          "name": "Undead Guard Patrol",
-          "tokenName": "Undead Guard Patrol",
+          "name": "Pattuglia di Guardie Non-Morte",
+          "tokenName": "Pattuglia di Guardie Non-Morte",
+          "description": "<p>Gli scheletri sono resti di umanoidi rianimati tramite una potente magia. Si tratta di non-morti inferiori, privi di volontà e di una vera consapevolezza. Sono impiegati principalmente in ruoli semplici, come guardie, fanti o servitori. Alcuni potenti stregoni li utilizzano anche per scavare gallerie, smuovere terra e rocce pesanti o svolgere altri incarichi di costruzione. Faticano a comprendere istruzioni complesse, ma sono economici e lavorano senza lamentarsi, finché non vengono interrotti da qualche avventuriero ficcanaso.</p>",
+          "traits": "<p><strong>Non-Mostri</strong>: In combattimento, gli scheletri non contano come mostri, ma come normali PNG.</p><p><strong>Resistenza</strong>: Tutti i danni perforanti sono dimezzati (arrotondando per eccesso).</p><p><strong>Immunità</strong>: Gli scheletri sono immuni alla paura e a PERSUADERE.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -4785,6 +4812,7 @@
         "Grub": {
           "name": "Grub",
           "tokenName": "Grub",
+          "description": "<p>Il goblin Grub è una vista pietosa: sporco, stralunato e terribilmente ansimante. Indossa un’armatura di cuoio malconcia ed emana un odore pungente di paura e fluidi corporei goblin.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -4888,8 +4916,10 @@
           }
         },
         "The Lady": {
-          "name": "The Lady",
-          "tokenName": "The Lady",
+          "name": "La Signora",
+          "tokenName": "La Signora",
+          "descripion": "<p>La Signora è il fantasma traslucido, azzurro scintillante di un’alta fanciulla guerriera che indossa una lunga cotta di maglia e un cerchietto dorato. Il suo volto appare triste e solenne ma, quando attacca, si contorce in una terrificante maschera di morte dalle orbite vuote. La Signora ha le statistiche di un @UUID[JournalEntry.RSi75ZLYMyFhBqPi.JournalEntryPage.L1r6VCNUGJG4s4YF]{fantasma}.</p>",
+          "traits": "<p><strong>Immunità</strong>: I fantasmi sono esseri immateriali e immuni a qualsiasi danno eccetto quelli da magia e da fuoco. Un fantasma sconfitto viene bandito soltanto fino al termine del periodo, dopo il quale farà ritorno. L’unico modo per bandire permanentemente un fantasma è lanciare PURIFICARE o risolvere qualunque problema lo tenga legato al mondo dei vivi.</p><p><strong>Persuasibili</strong>: A differenza della maggior parte dei mostri, di solito è possibile PERSUADERE i fantasmi, ma con una sciagura al tiro.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -4897,8 +4927,10 @@
           }
         },
         "The Wight": {
-          "name": "The Wight",
-          "tokenName": "The Wight",
+          "name": "Il Wight",
+          "tokenName": "Il Wight",
+          "description": "<p>Il wight è un enorme guerriero in un’antica armatura a piastre con un grande elmo cornuto. La visiera aperta rivela un tetro volto scheletrico dalle orbite vuote. Si muove lentamente e pesantemente all’interno del tumulo, accompagnato da un terribile stridio di metallo.</p><p>Vedi anche @UUID[JournalEntry.RSi75ZLYMyFhBqPi.JournalEntryPage.sTK9kRoXjGcyWo8p]{Wight}.</p>",
+          "traits": "<p><strong>Resistenza</strong>: Subisce metà dei danni da armi non magiche, tranne il fuoco che infligge danno normalmente.</p><p>All’interno del tumulo è protetto da un’antica magia draconica. Subisce danni come da Manuale Base, ma se viene sconfitto entro il portone dell’@UUID[JournalEntry.x7niLkijdgURlA2h.JournalEntryPage.pFg9ubSbbCw6NIgJ]{Anticamera}, risorgerà nella @UUID[JournalEntry.x7niLkijdgURlA2h.JournalEntryPage.QtqSaHPNUQc0oFsk]{Tomba del Cavaliere Drago} entro un intervallo (decidi tu esattamente quando).</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -4918,8 +4950,10 @@
           }
         },
         "Bothild´s Ghost": {
-          "name": "Bothild´s Ghost",
-          "tokenName": "Bothild´s Ghost",
+          "name": "Fantasma di Bothild",
+          "tokenName": "Fantasma di Bothild",
+          "description": "<p>Il fantasma è un ricordo sfocato del momento in cui Bothild è morta tra le fauci della Morte Bianca. L’enorme ferita tra il collo e la spalla distrae dagli altri dettagli, come i capelli corti e trasandati, la frangetta e le trecce simili a code di ratto che scendono dalle tempie. Per un effetto più drammatico, ha anche adottato una voce più roca e sibilante. Odia troppo orchi e goblin per condividere con loro il suo segreto.</p>",
+          "traits": "<p><strong>Immunità</strong>: I fantasmi sono esseri immateriali e immuni a qualsiasi danno eccetto quelli da magia e da fuoco. Un fantasma sconfitto viene bandito soltanto fino al termine del periodo, dopo il quale farà ritorno. L’unico modo per bandire permanentemente un fantasma è lanciare PURIFICARE o risolvere qualunque problema lo tenga legato al mondo dei vivi.</p><p><strong>Persuasibili</strong>: A differenza della maggior parte dei mostri, di solito è possibile PERSUADERE i fantasmi, ma con una sciagura al tiro.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -4929,6 +4963,7 @@
         "Maladûk": {
           "name": "Maladûk",
           "tokenName": "Maladûk",
+          "description": "<p>Maladûk, un’orchessa dall’ampia mascella e dalle spalle ancora più ampie, è una vista impressionante, con le sue grandi zanne e i numerosi trofei di nemici sconfitti che le ricoprono il corpo. Una pittura di guerra rosso scuro le colora la pelle, e parla con una calma che nasconde la sua determinazione e la sua brutalità esplosiva.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -5038,8 +5073,9 @@
           }
         },
         "The Goblins": {
-          "name": "The Goblins",
-          "tokenName": "The Goblins",
+          "name": "Goblin",
+          "tokenName": "Goblin",
+          "description": "<p>I goblin ricognitori sono creature sgradevoli e rumorose, con l’alito puzzolente e armature di cuoio raffazzonate. Ciascuno di loro porta il marchio nero di Maladûk sulla spalla destra.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -5143,8 +5179,10 @@
           }
         },
         "The White Death": {
-          "name": "The White Death",
-          "tokenName": "The White Death",
+          "name": "La Morte Bianca",
+          "tokenName": "La Morte Bianca",
+          "description": "<p>Un serpente marino pallido, con ruvide squame, un corpo spesso e largo e una testa piatta con occhi lattiginosi e tre corna ricurve. La bestia emerge silenziosa dall’acqua prima di emettere un terribile ruggito gutturale che puzza di secoli di morte mentre attacca. La Morte Bianca può essere attirata in superficie calando in acqua una preda adatta.</p><p>Nella sua pancia giace la <em>Fortascia di Bothild</em>, l’ascia da battaglia di fattura magistrale appartenuta a Bothild, decorata con rune che narrano le imprese della sua proprietaria. L’oggetto corrisponde a @UUID[Item.lhaDK4nj9FB6UBoZ]{Fortascia di Bothild}.</p>",
+          "traits": "<p><strong>Coda</strong>: Se un attacco diretto contro la coda della Morte Bianca (tirato con un castigo) la fa sanguinare (infligge almeno 1 danno perforante o tagliente), tira [[/roll D6]] ogni volta che il serpente sta per attaccare. Se il risultato è 4–6, la bestia colpisce sé stessa invece di un personaggio. Un tiro di SAPIENZA ANIMALE può rivelare al gruppo questo punto debole tipico dei serpenti marini.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -5152,8 +5190,8 @@
           }
         },
         "Worgs": {
-          "name": "Worgs",
-          "tokenName": "Worgs",
+          "name": "Warg",
+          "tokenName": "Warg",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -5161,8 +5199,9 @@
           }
         },
         "Demon Cultists (Temple of the Purple Flame)": {
-          "name": "Demon Cultists (Temple of the Purple Flame)",
-          "tokenName": "Demon Cultists (Temple of the Purple Flame)",
+          "name": "Cultisti Demoniaci (Tempio della Fiamma Purpurea)",
+          "tokenName": "Cultisti Demoniaci (Tempio della Fiamma Purpurea)",
+          "description": "<p>Un gruppo di cultisti, tanti quanti i personaggi, sta scappando dal tempio. Ce n’erano altri cinque: uno è morto a causa della botola nella @UUID[JournalEntry.lu7UUIY9ELV7qgy4.JournalEntryPage.lLGnjVSgTaW5VAyI]{Sala dell’Altare}, tre hanno attraversato il @UUID[JournalEntry.lu7UUIY9ELV7qgy4.JournalEntryPage.mYcFSpNpUxEuN6co]{Portale}, ma uno non è mai tornato mentre gli altri due sono tornati corrotti e hanno ucciso un compagno prima di fuggire. I sopravvissuti sono feriti, terrorizzati e disperati. Hanno perso molte torce e razioni di cibo e vogliono soltanto uscire dal tempio. Tutti indossano tuniche nere.</p><p>Uno di loro ha la chiave che apre la porta verso la scalinata nella @UUID[JournalEntry.lu7UUIY9ELV7qgy4.JournalEntryPage.RqY0ztomlRo7ExKC]{Sala delle Guardie}. I cultisti sanno che, da qualche parte nel tempio, dovrebbe esserci una maschera d’osso che protegge chi la indossa dall’influenza demoniaca. La considerano una reliquia sacra, ma non sono riusciti a trovarla.</p><p>Non sono necessariamente ostili verso i personaggi, soprattutto se questi si mostrano amichevoli e li aiutano. La loro fedeltà a Sathmog e al culto ha vacillato nel corso della missione, e potrebbero rivelare che anche Annabella, a Orlo, è un membro del culto.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -5265,6 +5304,7 @@
         "Hafarmal": {
           "name": "Hafarmal",
           "tokenName": "Hafarmal",
+          "description": "<p>È vestito con abiti dai colori della natura, compresi tunica e mantello. Ha una voce roca e fuma la pipa in continuazione. Senza saperlo, i suoi occhi sono diventati completamente neri a causa della vicinanza al portale. Può guarire i personaggi feriti e conosce il passaggio segreto nel muro nord del @UUID[JournalEntry.lu7UUIY9ELV7qgy4.JournalEntryPage.6yKVZA97bQ9ZFmL4]{Giardino}.</p><p>Hafarmal ha incontrato i cultisti e non apprezza che disturbino la sua pace. È a conoscenza del @UUID[JournalEntry.lu7UUIY9ELV7qgy4.JournalEntryPage.mYcFSpNpUxEuN6co]{Portale} nel sotterraneo e sa come chiuderlo, ma desidera che resti aperto. Puoi fargli cambiare idea superando un tiro di PERSUADERE.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -5401,8 +5441,10 @@
           }
         },
         "Murderous Briars": {
-          "name": "Murderous Briars",
-          "tokenName": "Murderous Briars",
+          "name": "Rovo Assassino",
+          "tokenName": "Rovo Assassino",
+          "description": "<p>L’energia demoniaca che filtra dal portale ha causato l’enorme crescita dei rovi attorno al tempio, che hanno sviluppato un appetito per la carne fresca. Chiunque si avvicini troppo rischia di essere attaccato. Non hanno una coscienza e agiscono semplicemente d’istinto.</p>",
+          "traits": "<p><strong>Infiammabili</strong>: Subiscono danni doppi dal fuoco.</p><p><strong>Resistenza</strong>: Subiscono metà dei danni da armi perforanti e contundenti.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -5410,8 +5452,10 @@
           }
         },
         "Skeletons": {
-          "name": "Skeletons",
-          "tokenName": "Skeletons",
+          "name": "Scheletri",
+          "tokenName": "Scheletri",
+          "descripion": "<p>Come gli @UUID[Actor.QE4KNkZw8aym9rEY]{scheletri} nel Manuale Base, ma coscienti e disarmati.</p>",
+          "traits": "<p><strong>Non-Mostri</strong>: In combattimento, gli scheletri non contano come mostri, ma come normali PNG.</p> <p><strong>Resistenza</strong>: Tutti i danni perforanti sono dimezzati (arrotondando per eccesso).</p> <p><strong>Immunità</strong>: Gli scheletri sono immuni alla paura e a PERSUADERE.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -5509,8 +5553,10 @@
           }
         },
         "The Manticore": {
-          "name": "The Manticore",
-          "tokenName": "The Manticore",
+          "name": "Manticora",
+          "tokenName": "Manticora",
+          "description": "<p>La manticora ha le statistiche indicate nel @UUID[JournalEntry.RSi75ZLYMyFhBqPi.JournalEntryPage.Drdw9gUguGT2tzsN]{Manuale Base}, ma possiede 56 PF e una Ferocia pari al numero di personaggi meno uno (minimo 1).</p>",
+          "traits": "<p><strong>Ferocia</strong>: La manticora ha una Ferocia pari al numero di personaggi meno uno (minimo 1).</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -5518,11 +5564,13 @@
           }
         },
         "Twisted Cultists": {
-          "name": "Twisted Cultists",
-          "tokenName": "Twisted Cultists",
+          "name": "Cultista Corrotto",
+          "tokenName": "Cultista Corrotto",
+          "description": "<p>I cultisti corrotti sono alti più di due metri, estremamente magri e con le armature fuse ai loro corpi. Sono avvolti da un’aura purpurea e hanno gli occhi completamente neri.</p>",
+          "traits": "<p><strong>Robustezza Demoniaca</strong>: Quando un cultista corrotto scende a zero PF per la prima volta, si rialza nuovamente nel suo turno successivo con [[/roll D6]] PF e una rabbia demoniaca che aumenta il suo bonus ai danni a +D6.</p>",
           "items": {
             "Iron Armor": {
-              "name": "Iron Armor"
+              "name": "Cotta di Maglia"
             },
             "Acrobatics": {
               "name": "Acrobazia"
@@ -5725,8 +5773,10 @@
           }
         },
         "Glam-Glam the Giant": {
-          "name": "Glam-Glam the Giant",
-          "tokenName": "Glam-Glam the Giant",
+          "name": "Glam-Glam il Gigante",
+          "tokenName": "Glam-Glam il Gigante",
+          "description": "<p>Il gigante è completamente concentrato sulla propria sopravvivenza, consapevole che questa diventerà sempre più difficile man mano che nuovi coloni arriveranno nella valle. Lavora nella torre con una potente lancia, che usa anche come arma.</p><p>Se i personaggi lo disturbano, si arrabbia e li scaccia, ma non desidera davvero combattere. Superare un tiro di PERSUADERE, IMBROGLIARE o CONTRATTARE lo convince a parlare. È stanco dei banditi e suggerisce che i personaggi prendano il loro posto. Si offre di aprire la via verso il sotterraneo e il tesoro, se prima catturano un cinghiale per lui.</p><p>Il piano del gigante è di tirarla per le lunghe il più possibile, assegnando al gruppo varie faccende al posto suo. Per farlo cedere e convincerlo a liberare l’accesso, i personaggi devono offrirgli qualcosa di importante in cambio, come un lavoro e una casa a Orlo.</p>",
+          "traits": "<p><strong>Armi</strong>: Il gigante brandisce una potente lancia. Se perde la sua arma, gli attacchi mostruosi <em>Colpo DEvastante!</em> e <em>Colpo a Spazzata!</em> vengono ritirati.</p><p><strong>Punto Debole</strong>: Gli attacchi contro il punto debole sulla sommità della testa di un gigante infliggono il doppio dei danni. Per colpire la parte superiore della testa è necessario effettuare un attacco a distanza da una posizione elevata con una sciagura, oppure arrampicarsi prima sul gigante. Arrampicarsi richiede un tiro di ACROBAZIA con una sciagura. Una volta in cima, il personaggio deve superare un tiro di ACROBAZIA (non è un’azione) a ogni turno per evitare di cadere e subire [[/damage 2D6]] danni da caduta.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -5839,8 +5889,9 @@
           }
         },
         "Ursic One-Ear": {
-          "name": "Ursic One-Ear",
-          "tokenName": "Ursic One-Ear",
+          "name": "Ursic Un-Orecchio",
+          "tokenName": "Ursic Un-Orecchio",
+          "description": "<p>Ursic è una donna alta sulla quarantina con i capelli rossi. Le manca l’orecchio sinistro e ha una brutta cicatrice sul collo, come se fosse scampata per un pelo alla forca. Se i personaggi sono disposti ad affrontare Glam‑Glam, Ursic negozierà con loro, ma intende tradirli per non dover condividere il tesoro.</p><p>Se i personaggi ignorano i banditi, li farà alloggiare nella torre per poi attaccarli non appena usciranno. Ulteriori dettagli in @UUID[JournalEntry.CiIcciLwBgYzDWEV.JournalEntryPage.ivTH9ZRFz0TRuNb3]{Conseguenze}.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -5953,8 +6004,9 @@
           }
         },
         "Ursic's Bandits": {
-          "name": "Ursic's Bandits",
-          "tokenName": "Ursic's Bantits",
+          "name": "Bandito di Ursic",
+          "tokenName": "Bandito di Ursic",
+          "description": "<p>I banditi di Ursic sono un gruppo spossato, spaventato e nervoso a causa della lunga permanenza sull’Isola dei Sospiri. Si stanno stancando dell’ossessione di Ursic per il tesoro e il morale è molto basso.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -6060,6 +6112,7 @@
         "Agra": {
           "name": "Agra",
           "tokenName": "Agra",
+          "description": "<p>Agra è una grossa orchessa muscolosa, coperta di cicatrici. Ha passato la maggior parte della sua vita a combattere ed è estremamente leale a Maladûk. Spera di dimostrare la sua determinazione e competenza trovando la statuetta dell’imperatore drago.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -6160,8 +6213,8 @@
           }
         },
         "Orc Warriors": {
-          "name": "Orc Warriors",
-          "tokenName": "Orc Warriors",
+          "name": "Orco Guerriero",
+          "tokenName": "Orco Guerriero",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -6262,8 +6315,9 @@
           }
         },
         "Spiderlings": {
-          "name": "Spiderlings",
-          "tokenName": "Spiderlings",
+          "name": "Ragnetto",
+          "tokenName": "Ragnetto",
+          "tratis": "<p><strong>Ferocia</strong>: Numero di PG − 1 (minimo 1).</p><p><strong>Resistenza</strong>: I ragnetti attaccano come uno sciame e vengono gestiti come un singolo mostro. Lo sciame subisce danni dimezzati (arrotondati per eccesso) dagli attacchi con armi fisiche, incluse quelle magiche. Il fuoco infligge danni normali.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -6271,8 +6325,9 @@
           }
         },
         "The Eel Beast": {
-          "name": "The Eel Beast",
-          "tokenName": "The Eel Beast",
+          "name": "L'Anguilla Bestiale",
+          "tokenName": "L'Anguilla Bestiale",
+          "description": "<p>Il serpente marino del lago sotterraneo assomiglia a una grande anguilla pallida. Il suo corpo luccicante è rapido e potente, e non desidera altro che avvolgersi attorno alle gambe dei personaggi per trascinarli a fondo.</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -6280,8 +6335,10 @@
           }
         },
         "The She-Spider Saak´Shal": {
-          "name": "The She-Spider Saak´Shal",
-          "tokenName": "The She-Spider Saak´Shal",
+          "name": "Il Ragno Matriarca Saak'Shal",
+          "tokenName": "Il Ragno Matriarca Saak'Shal",
+          "description": "<p>Saak’Shal è un antico ragno dagli occhi grigi e annebbiati, circondati da croste di vecchio pus e sporcizia (è possibile SGATTAIOLARE per superarlo). Si muove a scatti ma è estremamente veloce, ed è grande quasi il doppio dei normali ragni giganti. Utilizza i loro stessi attacchi mostruosi ma con un dado di danno aggiuntivo.</p>",
+          "traits": "<p><strong>Ferocia</strong>: Numero di PG − 1 (minimo 1).</p>",
           "items": {
             "Evade": {
               "name": "Sfuggire"
@@ -6289,8 +6346,8 @@
           }
         },
         "Officers": {
-          "name": "Officers",
-          "tokenName": "Officers",
+          "name": "Ufficiale",
+          "tokenName": "Ufficiale",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -6397,7 +6454,7 @@
           "descritpion": "<p>Conferisce la capacità di vedere nel buio (il portatore può ignorare tutti gli effetti di @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#darkness]{OSCURITÀ}) e protegge dalla nebbia maligna dell’isola, a patto che il portatore riceva prima la benedizione di Eledain. @UUID[Actor.sKqlbQLQ2ntcgvIR]{Cadal} può concederla, ma solo se i personaggi accettano la sua richiesta.</p>"
         },
         "Bothild’s Broadaxe": {
-          "name": "Ascia Larga di Bothild",
+          "name": "Fortascia di Bothild",
           "cost": "100 oro",
           "itemabilites": "Asce",
           "description": "<p>L’ascia da battaglia magistrale di Bothild è adornata da rune che narrano le imprese del suo proprietario.</p>"
@@ -6413,31 +6470,42 @@
           "description": "<p><span style=\"font-family: QTFrizQuad\">Un’arma magistrale con splendidi ornamenti e un’elsa tempestata di gemme.</span></p><section class=\"secret\" id=\"secret-jXkSu03dRCvI2Sec\"><p><span style=\"font-family: QTFrizQuad\">Um-Durman è una spada a due mani con una versione speciale di INCANTARE ARMA con PERMANENZA – ogni volta che colpisce un drago o un demone, l’attacco conta automaticamente come un DRAGO.</span></p></section><img src=\"modules/dragonbane-coreset/assets/artwork/adventure/um-durman-horizontal.webp\">"
         },
         "Gilded Chainmail": {
-          "name": "Gilded Chainmail"
+          "name": "Cotta di Maglia Dorata",
+          "description": "<p>La Cotta di Maglia Dorata è leggera e flessibile (protezione 4, impone una sciagura solo ai tiri di SGATTAIOLARE).</p>",
+          "banes": "Sgattaiolare"
         },
         "Strange Ornate Dagger": {
-          "name": "Strange Ornate Dagger"
+          "name": "Pugnale Stranamento Ornato",
+          "itemabilites": "Coltelli",
+          "cost": "1 oro",
+          "gmDescription": "<p>Infligge <strong>2D8 danni</strong> contro @UUID[Actor.B09NjI2lS60bVVfe]{Malocchio}, danni normali contro chiunque altro.</p>"
         },
         "Curved Goblin Dagger": {
-          "name": "Curved Goblin Dagger"
+          "name": "Pugnale Ricurvo Goblin",
+          "itemabilites": "Coltelli",
+          "cost": "1 oro",
+          "description": "<p>Un pugnale ricurvo di origine goblin</p>",
+          "gmDescription": "<p>La lama è ricoperta di un letale veleno di vipera con potenza 9.</p>"
         },
         "Map": {
           "name": "Mappa"
         },
         "Statuette Piece #1": {
-          "name": "Statuette Piece #1"
+          "name": "Pezzo di Statuetta #1"
         },
         "Statuette Piece #3": {
-          "name": "Statuette Piece #3"
+          "name": "Pezzo di Statuetta #3"
         },
         "Statuette Piece #2": {
-          "name": "Statuette Piece #2"
+          "name": "Pezzo di Statuetta #2"
         },
         "Statuette Piece #4": {
-          "name": "Statuette Piece #4"
+          "name": "Pezzo di Statuetta #4"
         },
         "Gilded Crown": {
-          "name": "Gilded Crown"
+          "name": "Corona d'Oro",
+          "description": "<p>Una corona dorata incisa con rune.</p>",
+          "gmDescription": "<p>La corona è intrisa di un incantesimo che dimezza tutti i danni provenienti da attacchi dei demoni (arrotondando per eccesso). Questo effetto è spiegato dalle rune incise sulla corona, che possono essere lette con un tiro riuscito di LINGUAGGI.</p>"
         }
       },
       "tables": {
@@ -6474,9 +6542,9 @@
         "Leaving the Mound": {
           "name": "Lasciare il Tumulo",
           "results": {
-            "1-3": "Non accade nulla.",
-            "4-5": "Arriva una pattuglia di goblin pari al doppio del numero dei personaggi e con le statistiche di @UUID[Actor.gwFbDqFlJJrjeM3a]{Grub}, che attacca immediatamente.",
-            "6-6": "@UUID[Actor.u0wT8X6QMWzu9wkX]{Il Wight} appare all’accampamento e attacca i personaggi, ma scompare non appena subisce danno."
+            "1-2": "Non accade nulla.",
+            "3-4": "Arriva una pattuglia di goblin pari al doppio del numero dei personaggi e con le statistiche di @UUID[Actor.gwFbDqFlJJrjeM3a]{Grub}, che attacca immediatamente.",
+            "5-6": "@UUID[Actor.u0wT8X6QMWzu9wkX]{Il Wight} appare all’accampamento e attacca i personaggi, ma scompare non appena subisce danno."
 
           }
         },
@@ -6611,9 +6679,17 @@
           "results": {}
         },
         "Random Events - Riddermound": {
-          "name": "Random Events - Riddermound",
+          "name": "Eventi Casuali - La Cripta del Cavaliere",
           "description": "",
-          "results": {}
+          "results": {
+            "1-1": "<p><strong>Goblin all’Attacco!</strong> Dopo essere stati rimproverati dal loro comandante, una pattuglia di goblin è tornata nel tumulo per recuperare i tesori e (se possibile) salvare i compagni. Sono due in più rispetto al numero dei personaggi e attaccano immediatamente, ma fuggono se la metà di loro viene sconfitta. I goblin hanno le statistiche di @UUID[Actor.gwFbDqFlJJrjeM3a]{Grub}. Se catturati, rivelano di servire Maladûk.</p>",
+            "2-2": "<p><strong>Goblin Massacrato.</strong> I personaggi trovano i tristi resti di un goblin morto. Il corpo è gravemente straziato e chi supera un tiro di GUARIRE capisce che non è morto da molto.</p>",
+            "3-3": "<p><strong>Ragno Gigante.</strong> I personaggi vengono attaccati da un @UUID[Actor.yqvaDFsdDOKuEtmL]{ragno gigante} che dimora in una cavità in uno dei muri. Questo evento può accadere solo una volta.</p>",
+            "4-4": "<p><strong>Il Wight.</strong> Il @UUID[Actor.u0wT8X6QMWzu9wkX]{wight}, disturbato dai personaggi, attacca. Essendo parzialmente immateriale, può attraversare inferriate e porte chiuse, ma deve spendere un’azione per farlo. Fugge verso la sua @UUID[JournalEntry.x7niLkijdgURlA2h.JournalEntryPage.QtqSaHPNUQc0oFsk]{tomba} se perde metà dei suoi PF e lì recupera completamente nel corso di un intervallo.</p>",
+            "5-5": "<p><strong>Spiriti Inquieti.</strong> Delle figure semitrasparenti dai volti contorti fluttuano verso il gruppo emergendo dalle ombre e assalendo chiunque con urla terrificanti. I personaggi devono superare un tiro di VOL per resistere alla paura. Gli spiriti, un tempo servitori della famiglia del cavaliere drago, attirano il loro padrone, il @UUID[Actor.u0wT8X6QMWzu9wkX]{wight del tumulo}, che arriva dopo [[/roll D3]] round (vedi evento #4).</p>",
+            "6-6": "<p><strong>Visione Draconica.</strong> Un lontano ricordo assale uno dei personaggi, che improvvisamente vede una strana città fortificata piena di torri e guglie simili a corna. Qualcosa vola verso di lui: un enorme drago cavalcato da un cavaliere rivestito di un’armatura a piastre dorata e un grande elmo cornuto. Il personaggio deve eseguire un tiro di VOL con un castigo per resistere alla paura. Questo evento può accadere solo una volta.</p>",
+            "7-12": "<p><strong>Non accade nulla.</strong></p>"
+          }
         },
         "Random Events - Temple of the Purple Flame": {
           "name": "Random Events - Temple of the Purple Flame",
@@ -6642,14 +6718,30 @@
           "results": {}
         },
         "Random Events - Haunted Marshes": {
-          "name": "Random Events - Haunted Marshes",
+          "name": "Eventi Casuali - Paludi Infestate",
           "description": "",
-          "results": {}
+          "results": {
+            "1-6": "<p><strong>Non accade nulla.</strong> I personaggi sguazzano instancabilmente attraverso la palude puzzolente.</p>",
+            "7-7": "<p><strong>Sanguisughe.</strong> Una parte allagata del sentiero è piena di sanguisughe. Chiunque attraversi l’acqua deve superare un tiro di SOPRAVVIVENZA o subire [[/damage D3]] danni e una condizione a sua scelta. L’armatura non ha effetto.</p>",
+            "8-8": "<p><strong>Trappola da Caccia.</strong> Una tagliola arrugginita è nascosta sotto un mucchio di foglie. Ogni personaggio deve eseguire un tiro di CONSAPEVOLEZZA secondo l’ordine di marcia. Il primo che fallisce fa scattare la trappola e subisce [[/damage D6 piercing]].</p>",
+            "9-9": "<p><strong>Ragno Gigante.</strong> Un famelico @UUID[Actor.yqvaDFsdDOKuEtmL]{ragno gigante} ha teso la sua tela sul sentiero. Tutti i personaggi devono eseguire un tiro di CONSAPEVOLEZZA: chi fallisce resta bloccato nella ragnatela (attacco mostruoso #5, <em>Ragnatela</em>) e il ragno attacca nel round successivo. I personaggi intrappolati devono eseguire un tiro di FOR con un castigo per potersi liberare.</p>",
+            "10-10": "<p><strong>Spiriti Inquieti.</strong> Sagome luminose di orchi con armature infrante vagano per la palude. I personaggi devono eseguire un tiro di VOL per resistere alla paura. Questi sono gli spiriti degli orchi morti nella battaglia attorno alla Torre dei Sospiri.</p>",
+            "11-11": "<p><strong>L’Erborista.</strong> I personaggi incontrano una vecchia erborista di nome Elmina, che vive in una capanna nella palude. Può indicare loro la direzione verso la Torre dei Sospiri e avvisarli di un gigante e di un gruppo di banditi che abitano quel luogo. Per poche monete d’oro, Elmina può anche offrire al gruppo i suoi servizi da guaritrice o persino insegnare le sue abilità. Elmina ha GUARIRE 16, ANIMISMO 15 e conosce gli incantesimi CUCINARE, PULIRE, BANDIRE, GUARIRE FERITE, TRAPPOLA DI RADICI e SUSSURRI ANIMALI.</p>",
+            "12-12": "<p><strong>Luci Fantasma.</strong> La vegetazione della palude cresce alta e densa. Nell’oscurità sotto gli alberi, delle luci fantasma illuminano il terreno. Ogni personaggio deve eseguire un tiro di VOL per non essere attirato nell’acquitrino. Chi fallisce resta ben presto bloccato nel fango e deve eseguire un tiro di SFUGGIRE con un castigo per non affondare e iniziare a @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#swimming-and-drowning]{annegare}. Un altro personaggio può salvare la vittima superando un tiro di ACROBAZIA; se fallisce, inizia anche lui ad affondare.</p>"
+          }
         },
         "Random Events - Iron Forest": {
-          "name": "Random Events - Iron Forest",
+          "name": "Eventi Casuali - Foresta di Ferr",
           "description": "",
-          "results": {}
+          "results": {
+            "1-6": "<p><strong>Non accade nulla.</strong> La camminata sotto le fronde scure avviene senza incidenti.</p>",
+            "7-7": "<p><strong>Tana del Troll.</strong> Un fetore nauseante colpisce improvvisamente i personaggi, che notano l’ingresso di una tana sotterranea dietro a dei grandi massi. Impronte di piedi artigliati si perdono nell’oscurità. La tana è piena di frammenti di ossa di animali e umanoidi. Se i personaggi frugano nella tana per un intervallo e superano un tiro di LOCALIZZARE, possono tirare [[/treasure 2]]. Dopo un intervallo, il @UUID[Actor.9hXYTV2fbOckrKRy]{troll} appare, infuriato.</p>",
+            "8-8": "<p><strong>Trappola Goblin.</strong> Un gruppo di astuti goblin ha piazzato una trappola in mezzo al sentiero. I personaggi devono eseguire un tiro di LOCALIZZARE: chi fallisce cade in una fossa profonda quattro metri, subendo danni da caduta. Dopodiché, i goblin attaccano. Sono il doppio dei personaggi e hanno le statistiche degli @UUID[Actor.1etayg5XJhNzCjdC]{Esploratori}.</p><p>I goblin possono essere comprati per fermare l’attacco dando loro D12 monete d’oro e superando un tiro di PERSUADERE. Se viene chiesto loro, ammettono di servire la capoguerra orchesca Maladûk e possono rivelare che attualmente si trova alla Vena di Bothild.</p>",
+            "9-9": "<p><strong>Il Cavaliere Drago.</strong> I personaggi sentono un suono di zoccoli in rapido avvicinamento. Chi supera un tiro di CONSAPEVOLEZZA può nascondersi se vuole; gli altri vengono fermati da un cavaliere in armatura. Il suo nome è @UUID[Actor.rq5pglptOyEaMhRU]{Tylos} ed è un membro dei Custodi della Fiamma Immacolata, il cui marchio è visibile sulla sua armatura.</p><p>Tylos chiede ai personaggi dove siano diretti. A prescindere da ciò che rispondono, devono superare un tiro di PERSUADERE perché lui creda alla loro storia, poiché sospetta che siano cultisti di Sathmog diretti a Forte Malus per liberare un loro compagno imprigionato. Se il tiro fallisce, Tylos attacca, a meno che i personaggi non dichiarino di essere alleati di Alfilia Fogliombrosa.</p><p>Se riescono a calmarlo, Tylos ordina loro di seguirlo e li conduce a Forte Malus per “una missione importante” (risolvere l’enigma sulla porta del sotterraneo o sfondare il pavimento, anche se non lo rivela subito). Se i personaggi sono già stati a Forte Malus, Tylos non ne è al corrente. Se si rifiutano di seguirlo, devono superare un altro tiro di PERSUADERE o verranno attaccati. Tylos cavalca un cavallo da guerra.</p>",
+            "10-10": "<p><strong>Manticora Furtiva.</strong> Una @UUID[Actor.TPqR08Hk5sh4MTmY]{manticora} affamata dà la caccia ai personaggi tra gli alberi. Fai eseguire ai personaggi un tiro di CONSAPEVOLEZZA con un castigo: se tutti falliscono, l’attacco della manticora li coglie di sorpresa, il che le concede le carte iniziativa #1 e #2 nel primo round. Il mostro scappa dopo aver perso metà dei PF.</p>",
+            "11-11": "<p><strong>Elfi a Caccia.</strong> I due cacciatori elfici @UUID[Actor.5Ctt026cDag4bkXx]{Aldonil} e @UUID[Actor.NKuWMkwyzF0BzbpK]{Orifin} sono in agguato. Fai fare a tutti un tiro di CONSAPEVOLEZZA con un castigo: chi fallisce viene colto di sorpresa dagli elfi, che appaiono improvvisamente sul sentiero con gli archi tesi. Stanno cercando la loro amica Iliel, che è stata rapita da un cavaliere a cavallo (vedi incontro casuale #9 e Forte Malus). Aldonil e Orifin sospettano che i personaggi siano coinvolti, ma possono essere placati superando un tiro di PERSUADERE.</p><p>Se i personaggi li aiutano in modo concreto, ciascuno di loro sarà ricompensato con un’arma elfica di fattura magistrale al loro prossimo incontro. Se Iliel è già stata liberata quando avviene questo incontro, è insieme ai due cacciatori, e il gruppo viene invitato ad accamparsi con i tre elfi.</p>",
+            "12-12": "<p><strong>Rituale del Culto.</strong> I personaggi sentono una cantilena provenire da una tetra radura. Avvicinandosi, vedono delle figure incappucciate, tante quante loro, con torce accese in mano. Chi supera un tiro di LINGUAGGI sente le parole <em>“Sathmog, nostro signore dalle tre lingue.”</em></p><p>Se il rituale viene interrotto, i @UUID[Actor.0Eu3NjSMUgpr89vw]{cultisti} attaccano e combattono fino alla morte. Se riescono a continuare per un intervallo, i cultisti svaniscono in un fumo nero e appare un @UUID[Actor.fvWV6boEXbPPSYdr]{demone} che attacca.</p>"
+          }
         },
         "Random Events - Magna Woods": {
           "name": "Eventi Casuali - Boscomagno",
@@ -6677,9 +6769,17 @@
           }
         },
         "Random Events - Foot of the Mountains": {
-          "name": "Random Events - Foot of the Mountains",
+          "name": "Eventi Casuali - Ai Piedi dei Monti",
           "description": "",
-          "results": {}
+          "results": {
+            "1-6": "<p><strong>Non accade nulla.</strong> Il vento ulula tra le nude discese montane e l’arduo cammino prosegue senza ritardi.</p>",
+            "7-7": "<p><strong>La Sagoma della Morte.</strong> I personaggi sono colti da un’ansia improvvisa e si sentono piccoli, innocui e vulnerabili. Qualche istante dopo, il mondo si oscura mentre un’enorme ombra attraversa il cielo. Tutti i personaggi che alzano lo sguardo devono effettuare un tiro di VOL per resistere alla paura. Superando un tiro di SAPIENZA ANIMALE, riconoscono che l’ombra alata — con escrescenze appuntite e un muso allungato — è un drago.</p>",
+            "8-8":"<p><strong>Orchi Nervosi.</strong> Il gruppo viene circondato da @UUID[Actor.fQqAOZoHW7oi39cS]{orchi minacciosi} che spuntano all’improvviso da ogni direzione. Sono in due più dei personaggi e hanno le statistiche e l’equipaggiamento degli orchi guerrieri.</p><p>Gli orchi sono diffidenti e osservano i personaggi con sospetto, ma vogliono soltanto sapere cosa ci facciano nella zona. Servono Maladûk e temono che gli intrusi siano cultisti di Sathmog in cerca della loro capoguerra.</p><p>Il rischio di combattere è elevato, ma può essere evitato dai personaggi più eloquenti che superano un tiro di PERSUADERE.</p>",
+            "9-9": "<p><strong>Gigante Arrabbiato.</strong> Un @UUID[Actor.mO8hZ1PJzBI0dgvV]{gigante} infuriato carica i personaggi, urlando furiosamente e agitando la sua enorme clava di legno. Li raggiunge in due round. Superare un tiro di SAPIENZA ANIMALE rivela che i giganti sono creature estremamente territoriali.</p><p>Il gigante interrompe l’assalto se i personaggi si allontanano rapidamente dalla zona, cosa che richiede un tiro di SFUGGIRE e consuma tutto il movimento del periodo. In alternativa, un personaggio può tentare un tiro di SGATTAIOLARE per nascondersi oppure di PERSUADERE per convincere il gigante che non rappresentano una minaccia per la sua caverna. I fallimenti possono portare al combattimento, ma è opportuno offrire ai giocatori più occasioni per evitarlo.</p>",
+            "10-10": "<p><strong>Maestra dei Venti.</strong> I venti di una forte tempesta ululano tra le cime dei monti. All’improvviso, su un picco più avanti, i personaggi vedono una figura incappucciata che agita le braccia verso il cielo. È Sephyra, una maga elementalista che sta cercando di conquistare il vento occidentale.</p><p>Conosce molto bene queste montagne e ha familiarità con le storie della regina dei nani Bothild. Se i personaggi si guadagnano la sua fiducia (tiro di PERSUADERE), può mostrare loro la via per la Vena di Bothild o persino insegnare al gruppo ciò che sa. Ha un livello di abilità 15 in ELEMENTALISMO e conosce gli incantesimi GELATA, RAFFICA DI VENTO e TURBINE.</p>",
+            "11-11": "<p><strong>L’Uovo di Drago.</strong> Sotto una roccia sporgente si trova una pietra con striature rosse, grande quanto un umano. Osservandola più da vicino, i personaggi si accorgono che lo strano oggetto è un uovo, chiaramente deposto da una bestia enorme. Chi supera un tiro di SAPIENZA ANIMALE lo identifica come un uovo di drago e ricorda anche che il guscio è velenoso. Chi lo tocca è afflitto da un veleno letale di potenza 7.</p>",
+            "12-12": "<p><strong>Morte dall’Alto.</strong> Un @UUID[Actor.g6IcDV9k0hEYqeUg]{grifone} affamato individua i personaggi dal suo nido in cima a un enorme albero e li attacca lanciando uno strillo agghiacciante. Fai eseguire a tutti un tiro di CONSAPEVOLEZZA con un castigo. Se tutti falliscono, l’attacco del grifone li coglie di sorpresa e la bestia ottiene le carte iniziativa #1 e #2 nel primo round. Il grifone fugge dopo aver perso metà dei suoi PF.</p>"
+          }
         },
         "Monster Attacks - Saak'Shal": {
           "name": "Monster Attacks - Saak'Shal",
@@ -7643,7 +7743,7 @@
       }
     },
     "Dragonbane - Rules": {
-      "name": "Dragonbane - Regole",
+      "name": "Dragonbane - Manuale Base",
       "description": "<img style=\"display:block;margin:auto;border:0px solid transparent\" src=\"systems/dragonbane/art/ui/logo-en.webp\" /><p>Questo importerà tutti i contenuti dal manuale nel tuo mondo.</p><p>Nota che le versioni esistenti dei contenuti verranno sovrascritte!</p><p>Se desideri mantenere le impostazioni di proprietà sui contenuti già esistenti, vai su Impostazioni di Gioco &gt; Configura Impostazioni e seleziona la casella corrispondente.</p><p></p><hr /><p style=\"font-size:smaller\">Nessuna parte di questa pubblicazione può essere riprodotta, distribuita o trasmessa in qualsiasi forma o con qualsiasi mezzo, inclusa la fotocopiatura, la registrazione o altri metodi elettronici o meccanici, senza il previo consenso scritto dell’editore.</p><p>Dragonbane è un marchio registrato di Fria Ligan AB.</p><p>©2023 Fria Ligan AB</p><hr /><p>Pubblicato da: <a href=\"http://freeleaguepublishing.com/\">Fria Ligan AB</a></p><p>Versione Foundry VTT a cura di: <a href=\"http://patrikp.com/\">Patrik Påfvelsson (PatrikP)</a></p><p><a href=\"mailto:info@frialigan.se\">info@frialigan.se</a></p>",
       "scenes": {
         "Dragonbane": {
@@ -16137,8 +16237,8 @@
       }
     },
     "Dragonbane - Solo Adventure": {
-      "name": "Dragonbane - Avventura in solitario",
-      "description": "<img style=\"display:block;margin:auto;border:0px solid transparent\" src=\"systems/dragonbane/art/ui/logo-en.webp\" /><p>This will import the solo adventure book into your world.</p><p>Note that existing versions of the content will be overwritten!</p><p>If you want to keep ownership settings on existing content, go to Game Settings &gt; Configure Settings and check the corresponding checkbox.</p><p></p><hr /><p style=\"font-size:smaller\">No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher.</p><p>Dragonbane is a registered trademark by Fria Ligan AB.</p><p>©2023 Fria Ligan AB</p><hr /><p>Published by: <a href=\"http://freeleaguepublishing.com/\">Fria Ligan AB</a></p><p>Foundry VTT version by: <a href=\"http://patrikp.com/\">Patrik Påfvelsson (PatrikP)</a></p><p><a href=\"mailto:info@frialigan.se\">info@frialigan.se</a></p>",
+      "name": "Dragonbane - Tutto Solo a Breccia Bucaprofonda",
+      "description": "<img style=\"display:block;margin:auto;border:0px solid transparent\" src=\"systems/dragonbane/art/ui/logo-en.webp\" /><p>Questo importerà il libro dell’avventura in solitaria nel tuo mondo.</p><p>Nota che le versioni esistenti del contenuto verranno sovrascritte!</p><p>Se vuoi mantenere le impostazioni di proprietà sul contenuto già presente, vai su Impostazioni di Gioco &gt; Configura Impostazioni e seleziona la casella corrispondente.</p><p></p><hr /><p style=\"font-size:smaller\">Nessuna parte di questa pubblicazione può essere riprodotta, distribuita o trasmessa in qualsiasi forma o con qualsiasi mezzo, inclusi fotocopie, registrazioni o altri metodi elettronici o meccanici, senza il previo permesso scritto dell’editore.</p><p>Dragonbane è un marchio registrato di Fria Ligan AB.</p><p>©2023 Fria Ligan AB</p><hr /><p>Pubblicato da: <a href=\"http://freeleaguepublishing.com/\">Fria Ligan AB</a></p><p>Versione Foundry VTT di: <a href=\"http://patrikp.com/\">Patrik Påfvelsson (PatrikP)</a></p><p><a href=\"mailto:info@frialigan.se\">info@frialigan.se</a></p>",
       "actors": {
         "Boss": {
           "name": "Boss",
@@ -16243,11 +16343,11 @@
           }
         },
         "Ingolfr Stone-Gaze": {
-          "name": "Ingolfr Stone-Gaze",
-          "tokenName": "Ingolfr Stone-Gaze",
+          "name": "Ingolfr Sguardo di Pietra",
+          "tokenName": "Ingolfr Sguardo di Pietra",
           "items": {
             "Fiendbreaker": {
-              "name": "Fiendbreaker"
+              "name": "Spaccademoni"
             },
             "Acrobatics": {
               "name": "Acrobazia"
