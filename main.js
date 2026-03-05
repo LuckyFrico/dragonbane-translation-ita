@@ -12,7 +12,6 @@ Hooks.once("ready", async () => {
   const MODULE_ID = "dragonbane-translation-ita";
   const VERSION_KEY = "shownVersion";
 
-  // Registra un'impostazione nascosta che memorizza l'ultima versione per cui è stato mostrato il messaggio
   game.settings.register(MODULE_ID, VERSION_KEY, {
     scope: "world",
     config: false,
@@ -24,7 +23,6 @@ Hooks.once("ready", async () => {
   const currentVersion = module?.version ?? "unknown";
   const lastShownVersion = game.settings.get(MODULE_ID, VERSION_KEY);
 
-  // Se la versione è nuova (mai mostrata), crea il messaggio
   if (currentVersion !== lastShownVersion) {
     ChatMessage.create({
       user: game.user.id,
@@ -44,7 +42,7 @@ Hooks.once("ready", async () => {
                 <p><em>Attualmente in lavorazione la traduzione del <a href="https://foundryvtt.com/packages/dragonbane-bestiary" target="_blank">Bestiario</a>!</em></p><p></p>
                 <p>Percentuale di completamento traduzioni:</p>
                 <ul>
-                <li> Dragonbane Core Rules: 85% </li>
+                <li> Dragonbane Core Rules: 92% </li>
                 <li> Dragonbane Bestiary: 0% </li>
                 </ul>`
     });
