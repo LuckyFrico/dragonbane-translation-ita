@@ -42,9 +42,10 @@ Hooks.once("ready", async () => {
                 <p><em>Attualmente in lavorazione la traduzione del <a href="https://foundryvtt.com/packages/dragonbane-bestiary" target="_blank">Bestiario</a>!</em></p><p></p>
                 <p>Percentuale di completamento traduzioni:</p>
                 <ul>
-                <li> Dragonbane Core Rules: 92% </li>
+                <li> Dragonbane Core Rules: 97% </li>
                 <li> Dragonbane Bestiary: 0% </li>
-                </ul>`
+                </ul>
+                <p><em>Nota: è consigliabile importare nuovamente tutti i compendi ad ogni aggiornamento per validare le modifiche.</em></p>`
     });
 
     await game.settings.set(MODULE_ID, VERSION_KEY, currentVersion);
