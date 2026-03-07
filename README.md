@@ -39,7 +39,7 @@ Con la partecipazione ed il supporto di [Academy GDR](https://discord.gg/gEvHQ2P
 
 ## Stato avanzamento traduzione
 ### Dragonbane Core Rules
-**Totale voci completate: _784 su 851_**
+**Totale voci completate: _824 su 851_**
 | Voci                | Rules | Adventures | Solo Adventure |
 |:----------|:---:|:---:|:----:|
 | Scenes              | 🟢 100%       | 🟢 100%                 | -                           |
