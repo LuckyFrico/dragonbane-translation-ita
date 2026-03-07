@@ -44,14 +44,14 @@ Con la partecipazione ed il supporto di [Academy GDR](https://discord.gg/gEvHQ2P
 |:----------|:---:|:---:|:----:|
 | Scenes              | 🟢 100%       | 🟢 100%                 | -                           |
 | Actors              | 🟢 100%             | 🟢 100%                   | 🟡 33%                       |
-| Items               | 🟢 100%            | 🟢 100%                   | 🔴 0%                       |
-| Tables              | 🟢 100%            | 🟡 37%                   | 🔴 0%                       |
-| Journals            | 🟢 100%             | 🟡 28%                   | 🔴 0%                       |
+| Items               | 🟢 100%            | 🟢 100%                   | 🟢 100%                      |
+| Tables              | 🟢 100%            | 🟢 100%                  | 🔴 0%                       |
+| Journals            | 🟢 100%             | 🟢 100%                  | 🟢 100%                       |
 | Cards               | 🟢 100%              | 🟢 100%                   | -                           |
 | Macros              | 🟢 100%            | -                       | -                           |
 | Folders             | 🟢 100%            | 🟢 100%                 | 🟢 100%                     |
 |||||
-| **Totale completamento** | 🟢 **100%**        | 🟡 **81%**              | 🔴 **6%**                   |
+| **Totale completamento** | 🟢 **100%**        | 🟢 **100%**             | 🟡 **16%**                   |
 
 
 ### Bestiary
