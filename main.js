@@ -42,10 +42,14 @@ Hooks.once("ready", async () => {
                 <p><em>Attualmente in lavorazione la traduzione del <a href="https://foundryvtt.com/packages/dragonbane-bestiary" target="_blank">Bestiario</a>!</em></p><p></p>
                 <p>Percentuale di completamento traduzioni:</p>
                 <ul>
-                <li> Dragonbane Core Rules: 97% </li>
+                <li> Dragonbane Core Rules: <strong> ultimata! </strong> </li>
                 <li> Dragonbane Bestiary: 0% </li>
                 </ul>
-                <p><em>Nota: è consigliabile importare nuovamente tutti i compendi ad ogni aggiornamento per validare le modifiche.</em></p>`
+                <p><em>Nota: è consigliabile importare nuovamente tutti i compendi ad ogni aggiornamento per validare le modifiche.</em></p>
+                <p></p>
+                <p>Se ti piace questo modulo e vuoi supportarmi</p>
+                <a href="https://www.buymeacoffee.com/LuckyFrico"><img src="https://img.buymeacoffee.com/button-api/?text=Support&emoji=&slug=LuckyFrico&button_colour=FF5F5F&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
+                <p></p>`
     });
 
     await game.settings.set(MODULE_ID, VERSION_KEY, currentVersion);
