@@ -3,6 +3,10 @@ Traduzione in italiano dei manuali di Dragonbane in Foundry VTT e di alcuni modu
 
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FLuckyFrico%2Fdragonbane-translation-ita%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=version&style=for-the-badge&logo=databricks&logoColor=violet&label=Latest%20version%20available&color=violet)
 
+Se vuoi supportare il mio lavoro
+
+<a href="buymeacoffee.com/LuckyFrico" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 ## Installazione
 1. All'interno di Foundry, selezionare la scheda Moduli Aggiuntivi.
 2. Clicca su Installa modulo e incolla il seguente indirizzo: https://github.com/LuckyFrico/dragonbane-translation-ita/releases/latest/download/module.json
