@@ -16387,6 +16387,7 @@
         "Boss": {
           "name": "Boss",
           "tokenName": "Boss",
+          "description": "<p>Attributi: 14<br>Danno: 2D8<br>Abilità rilevanti: 15<br>Alte abilità: 8</p><p>Togli la spunta dalla casella “Hide” dell’abilità per farla comparire tra le Abilità Addestrate.</p>",
           "items": {
             "Acrobatics": {
               "name": "Acrobazia"
@@ -16489,6 +16490,7 @@
         "Ingolfr Stone-Gaze": {
           "name": "Ingolfr Sguardo di Pietra",
           "tokenName": "Ingolfr Sguardo di Pietra",
+          "description": "<p>Sguardo di Pietra non ha sempre sorvegliato Breccia Bucaprofonda. Un tempo era Ingolfr, un tenace cacciatore di demoni la cui grande mazza, Spaccademoni, abbatteva innumerevoli demoni minori. La sua interminabile crociata lo portò nella Valle Nebbiosa, dove ora risiede in una cappella abbandonata e senza nome, vegliando sulla Breccia con il suo occhio incantato.</p>",
           "items": {
             "Fiendbreaker": {
               "name": "Spaccademoni"
@@ -16592,8 +16594,9 @@
           }
         },
         "Minion": {
-          "name": "Minion",
-          "tokenName": "Minion",
+          "name": "Scagnozzo",
+          "tokenName": "Scagnozzo",
+          "description": "<p>Attributi: 10<br>Danno: 2D6<br>Abilità rilevanti: 12<br>Altre abilità: 6</p><p>Togli la spunta dalla casella “Hide” dell’abilità per farla comparire tra le Abilità Addestrate.</p>",
           "items": {
             "Broadsword": {
               "name": "Spada"
@@ -16703,129 +16706,381 @@
       },
       "tables": {
         "Demon Effects": {
-          "name": "Demon Effects",
-          "description": "",
-          "results": {}
+          "name": "Effetti del Demone",
+          "results": {
+            "1-1": "Un oggetto importante si rompe o va perso",
+            "2-2": "Subisci un pericoloso ritardo",
+            "3-3": "Attiri attenzioni indesiderate",
+            "4-4": "Ti imbatti in un nuovo pericolo",
+            "5-5": "Attivi una reazione inaspettata o una trappola", 
+            "6-6": "Causi un danno collaterale o ti ferisci"
+          }
         },
         "Dragon Effects": {
-          "name": "Dragon Effects",
-          "description": "",
-          "results": {}
+          "name": "Effetti del Drago",
+          "results": {
+            "1-1": "Trovi un oggetto o risorsa utile ",
+            "2-2": "L’azione è eseguita più velocemente del solito",
+            "3-3": "Fai colpo sugli altri o crei una distrazione",
+            "4-4": "Scopri un nuovo indizio o opportunità",
+            "5-5": "Attivi un effetto vantaggioso inaspettato ", 
+            "6-6": "L’azione produce risultati migliori del solito"
+          }
         },
         "Traps": {
-          "name": "Traps",
-          "description": "",
-          "results": {}
+          "name": "Trappole",
+          "results": {
+            "1-1": "<p>Spruzzo acido</p>",
+            "2-2": "<p>Esplosione arcana</p>",
+            "3-3": "<p>Botola (nuovo punto di interesse)</p>",
+            "4-4": "<p>Botola (fossa)</p>",
+            "5-5": "<p>Pareti schiaccianti</p>",
+            "6-6": "<p>Trappola avvolgente</p>",
+            "7-7": "<p>Bocca fiammeggiante</p>",
+            "8-8": "<p>Camera allagata</p>",
+            "9-9": "<p>Spuntoni perforanti</p>",
+            "10-10": "<p>Dardo velenoso</p>",
+            "11-11": "<p>Gas velenoso</p>",
+            "12-12": "<p>Allarme</p>",
+            "13-13": "<p>Macigno rotolante</p>",
+            "14-14": "<p>Freccia</p>",
+            "15-15": "<p>Lame rotanti</p>",
+            "16-16": "<p>Sigillo di teletrasporto (nuovo punto di interesse)</p>",
+            "17-17": "<p>Nemico liberato</p>",
+            "18-20": "<p>Tira due volte, ignorando questo risultato</p>"
+          }
         },
         "Threat": {
-          "name": "Threat",
-          "description": "",
-          "results": {}
+          "name": "Minaccia",
+          "results": {
+            "1-1": "Una terribile creatura segue il tuo odore. Quando la minaccia si innesca, ti attacca!",
+            "2-2": "Quest’area è soggetta a scosse e crolli. Quando la minaccia si innesca, affronti un terremoto catastrofico!",
+            "3-3": "Un nemico che conosci ti cerca. Quando la minaccia si innesca, ti raggiunge!",
+            "4-4": "Una malvagia corruzione pervade questo luogo. Quando la minaccia si innesca, sei esposto a essa!",
+            "5-5": "La tua via è costellata di trappole. Quando la minaccia si innesca, ne fai scattare una!",
+            "6-6": "Sussurri spettrali ti seguono. Quando la minaccia si innesca, affronti una manifestazione spaventosa!"
+          }
         },
         "Inspiration Table - Attribute": {
-          "name": "Inspiration Table - Attribute",
-          "description": "",
-          "results": {}
+          "name": "Tabella dell'Ispirazione - Attributo",
+          "results": {
+            "1-1": "Antico",
+            "2-2": "Arcano",
+            "3-3": "Bloccato",
+            "4-4": "Corrotto",
+            "5-5": "Maledetto",
+            "6-6": "Danneggiato",
+            "7-7": "Pericoloso",
+            "8-8": "Decadente",
+            "9-9": "Distrutto",
+            "10-10": "Allagato",
+            "11-11": "Dimenticato",
+            "12-12": "Segreto",
+            "13-13": "Perduto",
+            "14-14": "Potente",
+            "15-15": "Mobile",
+            "16-16": "Pacifico",
+            "17-17": "Protetto",
+            "18-18": "Sacro",
+            "19-19": "Trasformato",
+            "20-20": "Violento"
+          }
         },
         "Inspiration Table - Action": {
-          "name": "Inspiration Table - Action",
-          "description": "",
-          "results": {}
+          "name": "Tabella dell'Ispirazione - Azione",
+          "results": {
+            "1-1": "Vendica",
+            "2-2": "Controlla",
+            "3-3": "Crea",
+            "4-4": "Consegna",
+            "5-5": "Distruggi",
+            "6-6": "Scappa",
+            "7-7": "Trova",
+            "8-8": "Custodisci",
+            "9-9": "Caccia",
+            "10-10": "Infiltra",
+            "11-11": "Proteggi",
+            "12-12": "Salva",
+            "13-13": "Ripristina",
+            "14-14": "Rovista",
+            "15-15": "Cerca",
+            "16-16": "Prendi",
+            "17-17": "Ferma",
+            "18-18": "Rafforza",
+            "19-19": "Evoca",
+            "20-20": "Indebolisci"
+          }
         },
         "Inspiration Table - Thing": {
-          "name": "Inspiration Table - Thing",
-          "description": "",
-          "results": {}
+          "name": "Tabella dell'Ispirazione - Oggetto",
+          "results": {
+            "1-1": "Barriera",
+            "2-2": "Prigionia",
+            "3-3": "Conflitto",
+            "4-4": "Creatura",
+            "5-5": "Morte",
+            "6-6": "Difesa",
+            "7-7": "Dispositivo",
+            "8-8": "Gruppo",
+            "9-9": "Storia",
+            "10-10": "Conoscenza",
+            "11-11": "Capo",
+            "12-12": "Messaggio",
+            "13-13": "Sentiero",
+            "14-14": "Persona",
+            "15-15": "Potere",
+            "16-16": "Rifugio",
+            "17-17": "Risorsa",
+            "18-18": "Trappola",
+            "19-19": "Tesoro",
+            "20-20": "Arma"
+          }
         },
         "Inhabitants": {
-          "name": "Inhabitants",
-          "description": "",
-          "results": {}
+          "name": "Abitanti",
+          "results": {
+            "1-1": "Draghi",
+            "2-6": "Orchi",
+            "7-7": "Avventurieri",
+            "8-8": "Fantasmi",
+            "9-9": "Ragni giganti",
+            "10-10": "Goblin",
+            "11-11": "Arpie",
+            "12-12": "Scheletri",
+            "13-13": "Troll",
+            "14-14": "Pipistrelli vampiro",
+            "15-19": "Cultisti",
+            "20-20": "Demoni"
+          }
         },
         "Area Table": {
-          "name": "Area Table",
-          "description": "",
-          "results": {}
+          "name": "Tabella dell'Area",
+          "results": {
+            "1-1": "Avamposto abbandonato",
+            "2-2": "Antica tomba",
+            "3-3": "Galleria scavata",
+            "4-4": "Intercapedine claustrofobica",
+            "5-5": "Labirinto ingannevole",
+            "6-6": "Camera angusta",
+            "7-7": "Miniera dissotterrata",
+            "8-8": "Ampia sala",
+            "9-9": "Biblioteca dimenticata",
+            "10-10": "Bottega inattiva",
+            "11-11": "Avamposto abitato",
+            "12-12": "Ponte elevato",
+            "13-13": "Stretta scalinata",
+            "14-14": "Caverna naturale",
+            "15-15": "Pozzo profondo",
+            "16-16": "Scaletta instabile",
+            "17-17": "Fiume sotterraneo",
+            "18-18": "Passaggio tortuoso",
+            "19-19": "Tempio malvagio",
+            "20-20": "Abisso spalancato"
+          }
         },
         "Location Details": {
-          "name": "Location Details",
-          "description": "",
-          "results": {}
+          "name": "Dettagli sul Luogo"
         },
         "Location Details - Oddity": {
-          "name": "Location Details - Oddity",
-          "description": "",
-          "results": {}
+          "name": "Dettagli sul Luogo - Stranezza",
+          "results": {
+            "1-1": "Simboli arcani",
+            "2-2": "Rompicapo ingarbugliato",
+            "3-3": "Meccanismi enigmatici",
+            "4-4": "Architettura esoterica",
+            "5-5": "Terreno carnoso",
+            "6-6": "Albero rigoglioso",
+            "7-7": "Apparizione spettrale",
+            "8-8": "Cadavere gigantesco",
+            "9-9": "Sfera fluttuante",
+            "10-10": "Obelisco mormorante",
+            "11-11": "Specchio magico",
+            "12-12": "Luce mistica",
+            "13-13": "Gravità inversa",
+            "14-14": "Porta senziente",
+            "15-15": "Architettura mutevole",
+            "16-16": "Teschi canterini",
+            "17-17": "Portale vorticoso",
+            "18-18": "Statua parlante",
+            "19-19": "Oscurità innaturale",
+            "20-20": "Risata inquietante"
+          }
         },
         "Location Details - Danger": {
-          "name": "Location Details - Danger",
-          "description": "",
-          "results": {}
+          "name": "Dettagli sul Luogo - Pericolo",
+          "results": {
+            "1-1": "Pozze acide",
+            "2-2": "Nemico appostato",
+            "3-3": "Nemico in arrivo",
+            "4-4": "Inganno magico",
+            "5-5": "Sentiero interrotto",
+            "6-6": "Terreno pericolante",
+            "7-7": "Altare spaventoso",
+            "8-8": "Ambiente infuocato",
+            "9-9": "Spazio allagato",
+            "10-10": "Magma fluido",
+            "11-11": "Trappola nascosta",
+            "12-12": "Superfici ghiacciate",
+            "13-13": "Crollo imminente",
+            "14-14": "Avventuriero in pericolo",
+            "15-15": "Tana abitata",
+            "16-16": "Tamburi di guerra minacciosi",
+            "17-17": "Vapore ustionante",
+            "18-18": "Avvertimento scarabocchiato",
+            "19-19": "Entrata sigillata",
+            "20-20": "Fumi tossici"
+          }
         },
         "Location Details - Contents": {
-          "name": "Location Details - Contents",
-          "description": "",
-          "results": {}
+          "name": "Dettagli sul Luogo - Contenuti",
+          "results": {
+            "1-1": "Provviste abbandonate",
+            "2-2": "Traccia insanguinata",
+            "3-3": "Porta sfondata",
+            "4-4": "Terreno crepato",
+            "5-5": "Santuario fatiscente",
+            "6-6": "Pozzo profondo",
+            "7-7": "Tomi impolverati",
+            "8-8": "Bracieri fiammeggianti",
+            "9-9": "Nido sudicio",
+            "10-10": "Cadaveri freschi",
+            "11-11": "Barricata improvvisata",
+            "12-12": "Arazzi ammuffiti",
+            "13-13": "Corpi mummificati",
+            "14-14": "Sarcofaghi decorati",
+            "15-15": "Accampamento remoto",
+            "16-16": "Ossa sparpagliate",
+            "17-17": "Anticamera sigillata",
+            "18-18": "Colonne crollate",
+            "19-19": "Statue torreggianti",
+            "20-20": "Avventuriero errante"
+          }
         },
         "Location Details - Environment": {
-          "name": "Location Details - Environment",
-          "description": "",
-          "results": {}
+          "name": "Dettagli sul Luogo - Ambiente",
+          "results": {
+            "1-1": "Pozza gorgogliante",
+            "2-2": "Freddo gelido",
+            "3-3": "Ragnatele appiccicose",
+            "4-4": "Nebbia fitta",
+            "5-5": "Superfici corrose",
+            "6-6": "Rampicanti insidiosi",
+            "7-7": "Acqua gocciolante",
+            "8-8": "Aria polverosa",
+            "9-9": "Funghi rigogliosi",
+            "10-10": "Superfici trasparenti",
+            "11-11": "Cristalli brillanti",
+            "12-12": "Spore luminescenti",
+            "13-13": "Ronzio meccanico",
+            "14-14": "Caldo opprimente",
+            "15-15": "Graffi irregolari",
+            "16-16": "Fetore putrescente",
+            "17-17": "Suoni in avvicinamento",
+            "18-18": "Superfici melmose",
+            "19-19": "Aria piena di fumo",
+            "20-20": "Pozza stagnante"
+          }
         },
         "Scavenge": {
-          "name": "Scavenge",
-          "description": "",
-          "results": {}
+          "name": "Rovistare",
+          "results": {
+            "2-4": "Niente degno di nota",
+            "7-9": "<p><strong>Un tesoro</strong></p>",
+            "10-10": "<p><strong>Un tesoro</strong> e tira di nuovo</p>"
+          }
         },
         "Scavenge - Supplies": {
-          "name": "Scavenge - Supplies",
-          "description": "",
-          "results": {}
+          "name": "Rovistare - Provviste",
+          "results": {
+            "1-1": "Bende",
+            "2-2": "Razione",
+            "3-3": "Abiti eleganti",
+            "4-4": "Grimaldelli",
+            "5-5": "Faretra con frecce",
+            "6-6": "Torcia"
+          }
         },
         "Scavenge - Interesting Item": {
-          "name": "Scavenge - Interesting Item",
-          "description": "",
-          "results": {}
+          "name": "Rovistare - Oggetto interessante",
+          "results": {
+            "1-1": "Chiave",
+            "2-2": "Mappa",
+            "3-3": "Strano dispositivo",
+            "4-4": "Messaggio scritto"
+          }
         },
         "Scavenge - Unexpected Danger": {
-          "name": "Scavenge - Unexpected Danger",
-          "description": "",
-          "results": {}
+          "name": "Rovistare - Pericolo inaspettato",
+          "results": {
+            "1-1": "Creatura",
+            "2-2": "Oggetto maledetto",
+            "3-3": "Spore nocive",
+            "4-4": "Trappola"
+          }
         },
         "NPC Attack Table - Ranged": {
-          "name": "NPC Attack Table - Ranged",
-          "description": "",
-          "results": {}
+          "name": "Tabella degli attacchi degli NPC - Distanza",
+          "results": {
+            "1-3": "<p><strong>Sparo!</strong> Il PNG esegue un attacco a distanza.</p>",
+            "4-4": "<p><strong>Posizionamento!</strong> Il PNG usa la sua azione per muoversi in una posizione migliore o preparare un colpo. Nel turno successivo colpisce automaticamente (a meno che non schivi o pari con successo).</p>",
+            "5-5": "<p><strong>Raffica!</strong> Il PNG attacca due volte nel suo turno, sempre con un castigo.</p>",
+            "6-6": "<p><strong>Colpo Mortale!</strong> Il PNG attacca con un castigo, infliggendo [[/damage 2D6]] aggiuntivi se colpisce.</p>"
+          }
         },
         "NPC Attack Table - Magic": {
-          "name": "NPC Attack Table - Magic",
-          "description": "",
-          "results": {}
+          "name": "Tabella degli attacchi degli NPC - Magico",
+          "results": {
+            "1-3": "<p><strong>Dardo Magico!</strong> Il PNG lancia un incantesimo di attacco che infligge [[/damage 2D6]] a un singolo bersaglio.</p>",
+            "4-4": "<p><strong>Esplosione Magica!</strong> Il PNG lancia un incantesimo di attacco che infligge [[/damage 3D6]] a tutti i bersagli entro 10 metri.</p>",
+            "5-5": "<p><strong>Scudo Arcano!</strong> Il PNG evoca uno scudo che riduce il danno di [[/roll 2D6]]. Per mantenerlo, deve superare un tiro di abilità a ogni round successivo (azione gratuita). Ulteriori usi di questa azione aggiungono un D6 alla protezione dello scudo.</p>",
+            "6-6": "<p><strong>Misteri Mistici!</strong> Il PNG lancia un incantesimo di origine sconosciuta. Tira su Azione e Oggetto nella Tabella dell’Ispirazione e interpreta l’effetto della magia.</p>"
+          }
         },
         "NPC Attack Table - Melee": {
-          "name": "NPC Attack Table - Melee",
-          "description": "",
-          "results": {}
+          "name": "Tabella degli attacchi degli NPC - Mischia",
+          "results": {
+            "1-3": "<p><strong>Colpo!</strong> Il PNG esegue un attacco in mischia.</p>",
+            "4-4": "<p><strong>Posa Difensiva!</strong> Se non hai agito in questo round, il PNG scambia la sua carta iniziativa con la tua e schiva o para con un favore. Se non lo attacchi o hai già attaccato, il PNG usa la sua azione per attaccare con un castigo.</p>",
+            "5-5": "<p><strong>Attacco Selvaggio!</strong> Il PNG attacca con un favore. Se l’attacco ha successo, infligge [[/damage D6]] aggiuntivi e ti butta a terra. Se lo attacchi prima del suo turno successivo, anche tu hai un favore.</p>",
+            "6-6": "<p><strong>Rabbia Intimidatrice!</strong> Il PNG si infuria o urla. Tira su VOL per resistere alla paura.</p>"
+          }
         },
         "NPC Attack Table - Sneaky": {
-          "name": "NPC Attack Table - Sneaky",
-          "description": "",
-          "results": {}
+          "name": "Tabella degli attacchi degli NPC - Furtivo",
+          "results": {
+            "1-3": "<p><strong>Colpo Scaltro!</strong> Il PNG attacca con la sua arma.</p>",
+            "4-4": "<p><strong>In Movimento!</strong> Il PNG usa la sua azione per cambiare approccio o arma, da mischia a distanza o viceversa. Nel suo prossimo turno, attacca con un favore.</p>",
+            "5-5": "<p><strong>Finta Subdola!</strong> Il PNG prepara l’attacco con una distrazione. Devi tirare su INT (azione gratuita): se hai successo, puoi parare o schivare con un favore; se fallisci, il PNG colpisce automaticamente (non puoi parare o schivare), infliggendo [[/damage D6]] aggiuntivi.</p>",
+            "6-6": "<p><strong>Attacco Furtivo!</strong> Il PNG usa la sua azione per nascondersi. Puoi tirare su CONSAPEVOLEZZA (azione gratuita): se fallisci, ti colpisce automaticamente nel suo prossimo turno (non puoi parare o schivare), infliggendo [[/damage 2D6]] aggiuntivi.</p>"
+          }
         },
         "Search Table": {
-          "name": "Search Table",
-          "description": "",
-          "results": {}
+          "name": "Tabella di Ricerca",
+          "results": {
+            "1-1": "<p><strong>Nemico nascosto:</strong> te ne accorgi in tempo e ottieni un favore alla tua prima azione contro di lui.</p>",
+            "2-2": "<p><strong>Trappola:</strong> per disattivarla, tira su RAPIDITÀ DI MANO con un favore, poi tira di nuovo su questa tabella ignorando questo risultato.</p>",
+            "3-3": "<p><strong>Sentiero segreto:</strong> devia verso [[/roll D4]] nuovi punti di interesse.</p>",
+            "4-5": "<p><strong>Anticamera nascosta:</strong> tira per i dettagli sul luogo.</p>",
+            "6-8": "<p><strong>Tesoro nascosto:</strong> un tesoro.</p>",
+            "9-10": "<p><strong>Sala del tesoro nascosta:</strong> due tesori e tira di nuovo.</p>"
+          }
         },
         "Suffer Damage": {
-          "name": "Suffer Damage",
-          "description": "",
-          "results": {}
+          "name": "Subire Danno",
+          "results": {
+            "1-1": "Lieve [[/damage D6]]",
+            "2-2": "Moderato [[/damage 2D6]]",
+            "3-3": "Grave [[/damage 2D10]]"
+          }
         },
         "Fortune Chart": {
-          "name": "Fortune Chart",
-          "description": "",
-          "results": {}
+          "name": "Tabella della Fortuna",
+          "results": {
+            "1-1": "<p><strong>Sì/No: </strong>Assolutamente no<br><strong>Numero: </strong>Nessuno / uno<br><strong>Scala: </strong>Piccola<br><strong>Potenza: </strong>Debole<br><strong>Qualità: </strong>Imperfetta<br><strong>Reazione: </strong>Ostile</p>",
+            "2-3": "<p><strong>Sì/No: </strong>No<br><strong>Numero: </strong>Pochi<br><strong>Scala: </strong>Moderata<br><strong>Potenza: </strong>Minore<br><strong>Qualità: </strong>Ordinaria<br><strong>Reazione: </strong>Cauta</p>",
+            "4-5": "<p><strong>Sì/No: </strong>Sì<br><strong>Numero: </strong>Diversi<br><strong>Scala: </strong>Grande<br><strong>Potenza: </strong>Formidabile<br><strong>Qualità: </strong>Raffinata<br><strong>Reazione: </strong>Aperta</p>",
+            "6-6": "<p><strong>Sì/No: </strong>Assolutamente sì<br><strong>Numero: </strong>Numerosi<br><strong>Scala: </strong>Immensa<br><strong>Potenza: </strong>Incredibile<br><strong>Qualità: </strong>Preziosa<br><strong>Reazione: </strong>Amichevole</p>"
+          }
         }
       },
       "folders": {
