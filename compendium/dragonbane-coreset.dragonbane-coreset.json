@@ -22,8 +22,7 @@
         "cost": "system.cost",
         "prerequisite": "system.prerequisite",
         "school": "system.school",
-        "banes": "system.banes",
-        "range": "system.range"
+        "banes": "system.banes"
     }
   },
   "folders": {},
@@ -13083,14 +13082,12 @@
         "Dagger": {
           "name": "Pugnale",
           "cost": "1 oro",
-          "itemabilites": "Coltelli",
-          "range": "FOR"
+          "itemabilites": "Coltelli"
         },
         "Handaxe": {
           "name": "Accetta",
           "cost": "2 oro",
-          "itemabilites": "Asce",
-          "range": "FOR"
+          "itemabilites": "Asce"
         },
         "Halberd": {
           "name": "Alabarda",
@@ -13100,14 +13097,12 @@
         "Knife": {
           "name": "Coltello",
           "cost": "5 arg.",
-          "itemabilites": "Coltelli",
-          "range": "FOR"
+          "itemabilites": "Coltelli"
         },
         "Short Spear": {
           "name": "Lancia Corta",
           "cost": "5 arg.",
-          "itemabilites": "Lance",
-          "range": "FOR×2"
+          "itemabilites": "Lance"
         },
         "Short Sword": {
           "name": "Spada Corta",
@@ -13183,8 +13178,7 @@
         },
         "Light Blunt Object": {
           "name": "Oggetto Contundente Leggero",
-          "itemabilites": "Rissa",
-          "range": "FOR"
+          "itemabilites": "Rissa"
         },
         "Heavy Blunt Object": {
           "name": "Oggetto Contundente Pesante",
@@ -13193,8 +13187,7 @@
         "Trident": {
           "name": "Tridente",
           "cost": "5 oro",
-          "itemabilites": "Lance",
-          "range": "FOR"
+          "itemabilites": "Lance"
         },
         "Small Wooden Club": {
           "name": "Clava Piccola",
@@ -13308,7 +13301,6 @@
           "name": "Pugnale Avvelenato",
           "cost": "1 oro",
           "itemabilites": "Coltelli",
-          "range": "FOR",
           "description": "<p>Tira su SFUGGIRE. Se fallisci, ti tagli da solo, subendo un veleno di potenza 12. Tira un [[/roll D3]] per il tipo.</p><ol><li><p>letale</p></li><li><p>paralizzante</p></li><li><p>soporifero</p></li></ol>"
         },
         "Silver Bracelet": {
